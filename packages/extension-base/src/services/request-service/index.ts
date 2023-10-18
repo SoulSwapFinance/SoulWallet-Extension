@@ -7,7 +7,7 @@ import { ChainService } from '@subwallet/extension-base/services/chain-service';
 import { KeyringService } from '@subwallet/extension-base/services/keyring-service';
 import SettingService from '@subwallet/extension-base/services/setting-service/SettingService';
 import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
-import { MetadataDef } from '@subwallet/extension-inject/types';
+import { MetadataDef } from '@soul-wallet/extension-inject/types';
 import { BehaviorSubject } from 'rxjs';
 
 import { SignerPayloadJSON } from '@polkadot/types/types/extrinsic';

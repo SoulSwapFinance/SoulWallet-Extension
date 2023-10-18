@@ -5628,6 +5628,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@soul-wallet/extension-inject@workspace:packages/extension-inject":
+  version: 0.0.0-use.local
+  resolution: "@soul-wallet/extension-inject@workspace:packages/extension-inject"
+  dependencies:
+    "@babel/runtime": ^7.20.6
+    "@polkadot/rpc-provider": ^10.9.1
+    "@polkadot/types": ^10.9.1
+    "@polkadot/util": ^12.3.2
+    "@polkadot/util-crypto": ^12.3.2
+    "@polkadot/x-global": ^12.2.1
+    "@types/chrome": ^0.0.197
+    "@types/firefox-webext-browser": ^94.0.1
+    web3-core: ^1.10.0
+  peerDependencies:
+    "@polkadot/api": "*"
+  languageName: unknown
+  linkType: soft
+
 "@stablelib/aead@npm:^1.0.1":
   version: 1.0.1
   resolution: "@stablelib/aead@npm:1.0.1"
@@ -5985,9 +6003,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@subwallet/extension-inject@^1.1.17-0, @subwallet/extension-inject@workspace:packages/extension-inject":
-  version: 0.0.0-use.local
-  resolution: "@subwallet/extension-inject@workspace:packages/extension-inject"
+"@subwallet/extension-inject@npm:^1.1.17-0":
+  version: 1.1.17-0
+  resolution: "@subwallet/extension-inject@npm:1.1.17-0"
   dependencies:
     "@babel/runtime": ^7.20.6
     "@polkadot/rpc-provider": ^10.9.1
@@ -5995,13 +6013,12 @@ __metadata:
     "@polkadot/util": ^12.3.2
     "@polkadot/util-crypto": ^12.3.2
     "@polkadot/x-global": ^12.2.1
-    "@types/chrome": ^0.0.197
-    "@types/firefox-webext-browser": ^94.0.1
     web3-core: ^1.10.0
   peerDependencies:
     "@polkadot/api": "*"
-  languageName: unknown
-  linkType: soft
+  checksum: d9c90edba4a9aa4917ecc661d19ae0859093c00b148ef913d891426aa8b2643a797fb6e8162b11404fdb4512e90572e2a21b6f0960faa02d180ae4c9210da9c6
+  languageName: node
+  linkType: hard
 
 "@subwallet/extension-koni-ui@^1.1.17-0, @subwallet/extension-koni-ui@workspace:packages/extension-koni-ui":
   version: 0.0.0-use.local

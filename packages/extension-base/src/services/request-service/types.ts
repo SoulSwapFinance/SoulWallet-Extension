@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AccountAuthType, AccountJson, RequestSign, Resolver, ResponseSigning } from '@subwallet/extension-base/background/types';
-import { MetadataDef } from '@subwallet/extension-inject/types';
+import { MetadataDef } from '@soul-wallet/extension-inject/types';
 
 export interface SignRequest extends Resolver<ResponseSigning> {
   account: AccountJson;

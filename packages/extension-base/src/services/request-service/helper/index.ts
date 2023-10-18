@@ -3,7 +3,7 @@
 
 import { MetadataStore } from '@subwallet/extension-base/stores';
 import { addMetadata } from '@subwallet/extension-chains';
-import { MetadataDef } from '@subwallet/extension-inject/types';
+import { MetadataDef } from '@soul-wallet/extension-inject/types';
 
 import { knownGenesis } from '@polkadot/networks/defaults';
 import { HexString } from '@polkadot/util/types';

@@ -5,7 +5,7 @@ import { CurrentAccountInfo, KeyringState } from '@subwallet/extension-base/back
 import { ALL_ACCOUNT_KEY } from '@subwallet/extension-base/constants';
 import { EventService } from '@subwallet/extension-base/services/event-service';
 import { CurrentAccountStore } from '@subwallet/extension-base/stores';
-import { InjectedAccountWithMeta } from '@subwallet/extension-inject/types';
+import { InjectedAccountWithMeta } from '@soul-wallet/extension-inject/types';
 import { keyring } from '@subwallet/ui-keyring';
 import { SubjectInfo } from '@subwallet/ui-keyring/observable/types';
 import { BehaviorSubject } from 'rxjs';

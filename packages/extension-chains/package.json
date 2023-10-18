@@ -24,7 +24,7 @@
     "@polkadot/networks": "^12.3.2",
     "@polkadot/util": "^12.3.2",
     "@polkadot/util-crypto": "^12.3.2",
-    "@subwallet/extension-inject": "^1.1.17-0"
+    "@soul-wallet/extension-inject": "^1.0.0"
   },
   "peerDependencies": {
     "@polkadot/api": "*",

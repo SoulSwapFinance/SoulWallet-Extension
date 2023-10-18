@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { InjectedAccount } from '@subwallet/extension-inject/types';
+import type { InjectedAccount } from '@soul-wallet/extension-inject/types';
 
 import { _AssetType } from '@subwallet/chain-list/types';
 import { EvmProviderError } from '@subwallet/extension-base/background/errors/EvmProviderError';
@@ -21,7 +21,7 @@ import { _generateCustomProviderKey } from '@subwallet/extension-base/services/c
 import { AuthUrls } from '@subwallet/extension-base/services/request-service/types';
 import { DEFAULT_CHAIN_PATROL_ENABLE } from '@subwallet/extension-base/services/setting-service/constants';
 import { canDerive, stripUrl } from '@subwallet/extension-base/utils';
-import { InjectedMetadataKnown, MetadataDef, ProviderMeta } from '@subwallet/extension-inject/types';
+import { InjectedMetadataKnown, MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/types';
 import { KeyringPair } from '@subwallet/keyring/types';
 import keyring from '@subwallet/ui-keyring';
 import { SingleAddress, SubjectInfo } from '@subwallet/ui-keyring/observable/types';

@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { EvmProvider } from '@subwallet/extension-inject/types';
+import type { EvmProvider } from '@soul-wallet/extension-inject/types';
 
 import SafeEventEmitter from '@metamask/safe-event-emitter';
 import { EvmProviderError } from '@subwallet/extension-base/background/errors/EvmProviderError';

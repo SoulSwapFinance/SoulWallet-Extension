@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/web-runner authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import '@subwallet/extension-inject/crossenv';
+import '@soul-wallet/extension-inject/crossenv';
 
 import { state as koniState } from '@subwallet/extension-base/koni/background/handlers';
 import { AccountsStore } from '@subwallet/extension-base/stores';

@@ -100,7 +100,7 @@ export interface Injected {
 export interface EvmProvider {
   provider?: EvmProvider,
   isMetaMask: boolean,
-  isSubWallet: boolean,
+  isSoulWallet: boolean,
   version: string,
   isConnected(): boolean,
 }
@@ -113,7 +113,7 @@ export interface InjectedWindowProvider {
 export interface InjectedWindow extends This {
   injectedWeb3: Record<string, InjectedWindowProvider>;
   ethereum: EvmProvider;
-  SubWallet: EvmProvider;
+  SoulWallet: EvmProvider;
 }
 
 export type InjectedExtension = InjectedExtensionInfo & Injected;

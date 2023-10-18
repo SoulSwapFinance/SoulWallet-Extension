@@ -3,6 +3,6 @@
 
 import { packageInfo as chainsInfo } from '@subwallet/extension-chains/packageInfo';
 import { packageInfo as dappInfo } from '@subwallet/extension-dapp/packageInfo';
-import { packageInfo as injectInfo } from '@subwallet/extension-inject/packageInfo';
+import { packageInfo as injectInfo } from '@soul-wallet/extension-inject/packageInfo';
 
 export default [chainsInfo, dappInfo, injectInfo];

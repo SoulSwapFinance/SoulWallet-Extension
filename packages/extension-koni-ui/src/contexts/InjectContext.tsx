@@ -3,7 +3,7 @@
 
 import { SubWalletEvmProvider } from '@subwallet/extension-base/page/SubWalleEvmProvider';
 import { addLazy } from '@subwallet/extension-base/utils';
-import { EvmProvider, Injected, InjectedAccountWithMeta, InjectedWindowProvider, Unsubcall } from '@subwallet/extension-inject/types';
+import { EvmProvider, Injected, InjectedAccountWithMeta, InjectedWindowProvider, Unsubcall } from '@soul-wallet/extension-inject/types';
 import { DisconnectExtensionModal } from '@subwallet/extension-koni-ui/components';
 import { ENABLE_INJECT } from '@subwallet/extension-koni-ui/constants';
 import { useNotification, useTranslation } from '@subwallet/extension-koni-ui/hooks';

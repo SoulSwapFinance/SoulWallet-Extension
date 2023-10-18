@@ -31,15 +31,15 @@ export function injectEvmExtension (evmProvider: EvmProvider): void {
   const windowInject = window as Window & InjectedWindow;
 
   // add our enable function
-  if (windowInject.SubWallet) {
+  if (windowInject.SoulWallet) {
     // Provider has been initialized in proxy mode
-    windowInject.SubWallet.provider = evmProvider;
+    windowInject.SoulWallet.provider = evmProvider;
   } else {
     // Provider has been initialized in direct mode
-    windowInject.SubWallet = evmProvider;
+    windowInject.SoulWallet = evmProvider;
   }
 
-  windowInject.dispatchEvent(new Event('subwallet#initialized'));
+  windowInject.dispatchEvent(new Event('soulwallet#initialized'));
 
   // Publish to global if window.ethereum is not available
   windowInject.addEventListener('load', () => {
@@ -49,7 +49,7 @@ export function injectEvmExtension (evmProvider: EvmProvider): void {
     }
   });
 
-  // Todo: Need more discuss to make SubWallet as global before window load because it can be conflict with MetaMask
+  // Todo: Need more discuss to make SoulWallet as global before window load because it can be conflict with MetaMask
   // windowInject.ethereum = evmProvider;
   // windowInject.dispatchEvent(new Event('ethereum#initialized'));
 }

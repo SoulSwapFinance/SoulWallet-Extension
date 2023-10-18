@@ -4,7 +4,7 @@
 import '@subwallet/extension-mocks/chrome';
 
 import type { ResponseSigning } from '@subwallet/extension-base/background/types';
-import type { MetadataDef } from '@subwallet/extension-inject/types';
+import type { MetadataDef } from '@soul-wallet/extension-inject/types';
 import type { KeyringPair } from '@subwallet/keyring/types';
 import type { ExtDef } from '@polkadot/types/extrinsic/signedExtensions/types';
 import type { SignerPayloadJSON } from '@polkadot/types/types';

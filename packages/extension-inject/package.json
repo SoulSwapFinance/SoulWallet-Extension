@@ -1,21 +1,22 @@
 {
-  "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/Koniverse/Subwallet-V2/issues",
-  "contributors": [],
+  "name": "@soul-wallet/extension-inject",
+  "version": "1.0.0",
+  "author": "Buns Enchantress <buns@soulswap.finance>",
+  "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "description": "A generic injector (usable to any extension), that populates the base exposed interfaces to be used by dapps.",
-  "homepage": "https://github.com/Koniverse/Subwallet-V2/tree/master/packages/extension-inject#readme",
+  "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-inject#readme",
   "license": "Apache-2.0",
-  "maintainers": [],
-  "name": "@subwallet/extension-inject",
   "repository": {
     "directory": "packages/extension-inject",
     "type": "git",
-    "url": "https://github.com/Koniverse/Subwallet-V2.git"
+    "url": "https://github.com/SoulSwapFinance/SoulWallet-Extension.git"
   },
   "sideEffects": true,
   "type": "module",
-  "version": "1.1.17-0",
   "main": "index.js",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@polkadot/rpc-provider": "^10.9.1",

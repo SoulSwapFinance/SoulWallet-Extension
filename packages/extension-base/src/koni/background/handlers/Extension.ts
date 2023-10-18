@@ -38,7 +38,7 @@ import { convertSubjectInfoToAddresses } from '@subwallet/extension-base/utils/a
 import { createTransactionFromRLP, signatureToHex, Transaction as QrTransaction } from '@subwallet/extension-base/utils/eth';
 import { parseContractInput, parseEvmRlp } from '@subwallet/extension-base/utils/eth/parseTransaction';
 import { balanceFormatter, formatNumber } from '@subwallet/extension-base/utils/number';
-import { MetadataDef } from '@subwallet/extension-inject/types';
+import { MetadataDef } from '@soul-wallet/extension-inject/types';
 import { createPair } from '@subwallet/keyring';
 import { KeyringPair, KeyringPair$Json, KeyringPair$Meta } from '@subwallet/keyring/types';
 import { keyring } from '@subwallet/ui-keyring';

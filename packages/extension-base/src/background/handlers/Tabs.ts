@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { InjectedAccount, InjectedMetadataKnown, MetadataDef, ProviderMeta } from '@subwallet/extension-inject/types';
+import type { InjectedAccount, InjectedMetadataKnown, MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/types';
 import type { KeyringPair } from '@subwallet/keyring/types';
 import type { SubjectInfo } from '@subwallet/ui-keyring/observable/types';
 import type { JsonRpcResponse } from '@polkadot/rpc-provider/types';

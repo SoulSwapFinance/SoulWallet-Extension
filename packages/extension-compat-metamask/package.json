@@ -24,7 +24,7 @@
     "@metamask/detect-provider": "^1.2.0",
     "@polkadot/types": "^10.9.1",
     "@polkadot/util": "^12.3.2",
-    "@subwallet/extension-inject": "^1.1.17-0",
+    "@soul-wallet/extension-inject": "^1.0.0",
     "web3": "^1.10.0"
   },
   "peerDependencies": {

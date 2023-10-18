@@ -6,7 +6,7 @@ import type { Message } from '@subwallet/extension-base/types';
 import { TransportRequestMessage } from '@subwallet/extension-base/background/types';
 import { MESSAGE_ORIGIN_CONTENT, MESSAGE_ORIGIN_PAGE, PORT_CONTENT } from '@subwallet/extension-base/defaults';
 import { getId } from '@subwallet/extension-base/utils/getId';
-import { chrome } from '@subwallet/extension-inject/chrome';
+import { chrome } from '@soul-wallet/extension-inject/chrome';
 
 // connect to the extension
 const port = chrome.runtime.connect({ name: PORT_CONTENT });

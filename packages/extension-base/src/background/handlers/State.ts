@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-bg authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { MetadataDef, ProviderMeta } from '@subwallet/extension-inject/types';
+import type { MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/types';
 import type { JsonRpcResponse, ProviderInterface, ProviderInterfaceCallback } from '@polkadot/rpc-provider/types';
 import type { AccountAuthType, AccountJson, AuthorizeRequest, MetadataRequest, RequestAuthorizeTab, RequestRpcSend, RequestRpcSubscribe, RequestRpcUnsubscribe, RequestSign, ResponseRpcListProviders, ResponseSigning, SigningRequest } from '../types';
 

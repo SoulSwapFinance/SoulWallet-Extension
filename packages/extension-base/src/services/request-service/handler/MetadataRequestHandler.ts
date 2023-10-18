@@ -8,7 +8,7 @@ import { MetaRequest } from '@subwallet/extension-base/services/request-service/
 import { MetadataStore } from '@subwallet/extension-base/stores';
 import { getId } from '@subwallet/extension-base/utils/getId';
 import { addMetadata, knownMetadata } from '@subwallet/extension-chains';
-import { MetadataDef } from '@subwallet/extension-inject/types';
+import { MetadataDef } from '@soul-wallet/extension-inject/types';
 import { BehaviorSubject } from 'rxjs';
 
 export default class MetadataRequestHandler {

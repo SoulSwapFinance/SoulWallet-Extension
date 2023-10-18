@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Runs in the extension background, handling all keyring access
-import '@subwallet/extension-inject/crossenv';
+import '@soul-wallet/extension-inject/crossenv';
 
 import type { RequestSignatures, TransportRequestMessage } from '@subwallet/extension-base/background/types';
 

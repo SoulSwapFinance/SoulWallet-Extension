@@ -6,7 +6,7 @@ import type { Message } from '@subwallet/extension-base/types';
 
 import { MESSAGE_ORIGIN_CONTENT } from '@subwallet/extension-base/defaults';
 import { enable, handleResponse, initEvmProvider } from '@subwallet/extension-base/page';
-import { injectEvmExtension, injectExtension } from '@subwallet/extension-inject';
+import { injectEvmExtension, injectExtension } from '@soul-wallet/extension-inject';
 
 const version = process.env.PKG_VERSION as string;
 

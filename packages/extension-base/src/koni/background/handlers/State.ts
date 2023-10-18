@@ -34,7 +34,7 @@ import AccountRefStore from '@subwallet/extension-base/stores/AccountRef';
 import { stripUrl } from '@subwallet/extension-base/utils';
 import { isContractAddress, parseContractInput } from '@subwallet/extension-base/utils/eth/parseTransaction';
 import { createPromiseHandler } from '@subwallet/extension-base/utils/promise';
-import { MetadataDef, ProviderMeta } from '@subwallet/extension-inject/types';
+import { MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/types';
 import { decodePair } from '@subwallet/keyring/pair/decode';
 import { keyring } from '@subwallet/ui-keyring';
 import { Subscription } from 'dexie';

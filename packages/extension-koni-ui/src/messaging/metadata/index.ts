@@ -6,7 +6,7 @@ import { _getChainNativeTokenBasicInfo } from '@subwallet/extension-base/service
 import { createRegistry } from '@subwallet/extension-base/utils';
 import { metadataExpand } from '@subwallet/extension-chains';
 import { Chain } from '@subwallet/extension-chains/types';
-import { MetadataDef } from '@subwallet/extension-inject/types';
+import { MetadataDef } from '@soul-wallet/extension-inject/types';
 import { sendMessage } from '@subwallet/extension-koni-ui/messaging/base';
 import { _getKnownHashes, _getKnownNetworks, findChainInfoByGenesisHash } from '@subwallet/extension-koni-ui/utils';
 
