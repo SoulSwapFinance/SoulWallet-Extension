@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { _AssetRef, _ChainAsset, _MultiChainAsset } from '@subwallet/chain-list/types';
+import { _AssetRef, _ChainAsset, _MultiChainAsset } from '@soul-wallet/chain-list/types';
 import { AssetSetting } from '@subwallet/extension-base/background/KoniTypes';
 import { AssetRegistryStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
 

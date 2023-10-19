@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainInfo } from '@subwallet/chain-list/types';
+import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { NetworkEmptyList } from '@subwallet/extension-koni-ui/components';
 import ChainItemFooter from '@subwallet/extension-koni-ui/components/ChainItemFooter';
 import { CUSTOMIZE_MODAL } from '@subwallet/extension-koni-ui/constants';

@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainInfo } from '@subwallet/chain-list/types';
+import { _ChainInfo } from '@soul-wallet/chain-list/src/types';
 import Web3 from 'web3';
 
 import { WsProvider } from '@polkadot/api';

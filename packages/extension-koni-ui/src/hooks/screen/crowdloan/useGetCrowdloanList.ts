@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainInfo } from '@subwallet/chain-list/types';
+import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { APIItemState, CrowdloanItem } from '@subwallet/extension-base/background/KoniTypes';
 import { _getChainNativeTokenBasicInfo, _getCrowdloanUrlFromChain, _getSubstrateParaId, _getSubstrateRelayParent } from '@subwallet/extension-base/services/chain-service/utils';
 import { BN_ZERO } from '@subwallet/extension-koni-ui/constants/number';

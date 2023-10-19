@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @subwallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { COMMON_CHAIN_SLUGS } from '@subwallet/chain-list';
-import { _ChainInfo } from '@subwallet/chain-list/types';
+import { COMMON_CHAIN_SLUGS } from '@soul-wallet/chain-list';
+import { _ChainInfo } from '@soul-wallet/chain-list/src/types';
 import { APIItemState, CrowdloanItem, CrowdloanParaState } from '@subwallet/extension-base/background/KoniTypes';
 import { ACALA_REFRESH_CROWDLOAN_INTERVAL } from '@subwallet/extension-base/constants';
 import registry from '@subwallet/extension-base/koni/api/dotsama/typeRegistry';

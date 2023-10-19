@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainInfo, _ChainStatus } from '@subwallet/chain-list/types';
+import { _ChainInfo, _ChainStatus } from '@soul-wallet/chain-list/types';
 import { _ChainState } from '@subwallet/extension-base/services/chain-service/types';
 import { RootState } from '@subwallet/extension-koni-ui/stores';
 import { useMemo } from 'react';

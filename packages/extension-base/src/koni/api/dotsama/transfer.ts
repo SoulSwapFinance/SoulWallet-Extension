@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainAsset, _ChainInfo } from '@subwallet/chain-list/types';
+import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/src/types';
 import { SupportTransferResponse } from '@subwallet/extension-base/background/KoniTypes';
 import { getPSP22ContractPromise } from '@subwallet/extension-base/koni/api/tokens/wasm';
 import { getWasmContractGasLimit } from '@subwallet/extension-base/koni/api/tokens/wasm/utils';

@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainInfo } from '@subwallet/chain-list/types';
+import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { LedgerNetwork } from '@subwallet/extension-base/background/KoniTypes';
 import { _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
 import { EVMLedger, SubstrateLedger } from '@subwallet/extension-koni-ui/connector';

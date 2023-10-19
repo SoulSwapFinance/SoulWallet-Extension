@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _AssetType } from '@subwallet/chain-list/types';
+import { _AssetType } from '@soul-wallet/chain-list/src/types';
 import { ChainService } from '@subwallet/extension-base/services/chain-service';
 import { AbstractChainHandler } from '@subwallet/extension-base/services/chain-service/handler/AbstractChainHandler';
 import { EvmApi } from '@subwallet/extension-base/services/chain-service/handler/EvmApi';

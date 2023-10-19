@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @subwallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { COMMON_CHAIN_SLUGS } from '@subwallet/chain-list';
-import { _ChainAsset, _ChainInfo } from '@subwallet/chain-list/types';
+import { COMMON_CHAIN_SLUGS } from '@soul-wallet/chain-list';
+import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/src/types';
 import { _getSubstrateParaId, _getXcmAssetMultilocation, _isChainEvmCompatible, _isNativeToken, _isSubstrateParaChain, _isSubstrateRelayChain } from '@subwallet/extension-base/services/chain-service/utils';
 
 import { decodeAddress, evmToAddress } from '@polkadot/util-crypto';

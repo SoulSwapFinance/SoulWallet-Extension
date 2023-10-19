@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ChainLogoMap } from '@subwallet/chain-list';
+import { ChainLogoMap } from '@soul-wallet/chain-list';
 import { ConfirmationDefinitions, ConfirmationResult } from '@subwallet/extension-base/background/KoniTypes';
 import { ConfirmationGeneralInfo } from '@subwallet/extension-koni-ui/components';
 import { useCopy } from '@subwallet/extension-koni-ui/hooks';

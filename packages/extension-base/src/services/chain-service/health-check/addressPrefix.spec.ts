@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ChainInfoMap } from '@subwallet/chain-list';
+import { ChainInfoMap } from '@soul-wallet/chain-list';
 import { SubstrateChainHandler } from '@subwallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
 import { _SubstrateApi } from '@subwallet/extension-base/services/chain-service/types';
 

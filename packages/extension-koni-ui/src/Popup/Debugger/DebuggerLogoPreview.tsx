@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AssetLogoMap, ChainLogoMap } from '@subwallet/chain-list';
+import { AssetLogoMap, ChainLogoMap } from '@soul-wallet/chain-list';
 import { ThemeProps } from '@subwallet/extension-koni-ui/types';
 import { Button, Logo, SwList } from '@subwallet/react-ui';
 import CN from 'classnames';

@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _AssetType } from '@subwallet/chain-list/types';
+import { _AssetType } from '@soul-wallet/chain-list/src/types';
 import BaseMigrationJob from '@subwallet/extension-base/services/migration-service/Base';
 
 interface OldTokenType {
