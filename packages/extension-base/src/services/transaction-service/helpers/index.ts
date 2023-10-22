@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { ExtrinsicType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { SWTransaction } from '@soul-wallet/extension-base/services/transaction-service/types';
+import { ExtrinsicType } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { SWTransaction } from '@soul-wallet/extension-base/src/services/transaction-service/types';
 
 import { SubmittableExtrinsic } from '@polkadot/api/promise/types';
 

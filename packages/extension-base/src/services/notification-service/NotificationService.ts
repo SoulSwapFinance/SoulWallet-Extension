@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Notification, NotificationParams } from '@soul-wallet/extension-base/background/KoniTypes';
+import { Notification, NotificationParams } from '@soul-wallet/extension-base/src/background/KoniTypes';
 import { BehaviorSubject } from 'rxjs';
 
 export default class NotificationService {

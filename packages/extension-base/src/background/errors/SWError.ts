@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SWError as SWErrorType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { SWError as SWErrorType } from '@soul-wallet/extension-base/src/background/KoniTypes';
 
 export class SWError extends Error implements SWErrorType {
   errorType: string;

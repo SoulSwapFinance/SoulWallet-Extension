@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _isCustomAsset } from '@soul-wallet/extension-base/services/chain-service/utils';
-import BaseMigrationJob from '@soul-wallet/extension-base/services/migration-service/Base';
+import { _isCustomAsset } from '@soul-wallet/extension-base/src/services/chain-service/utils';
+import BaseMigrationJob from '@soul-wallet/extension-base/src/services/migration-service/Base';
 
 export default class MigrateTokenDecimals extends BaseMigrationJob {
   public override async run (): Promise<void> {

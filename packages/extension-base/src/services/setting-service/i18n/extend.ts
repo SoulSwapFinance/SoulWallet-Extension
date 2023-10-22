@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { detectTranslate } from '@soul-wallet/extension-base/utils';
+import { detectTranslate } from '@soul-wallet/extension-base/src/utils';
 
 export const ExternalTranslation: string[] = [
   // Case change password

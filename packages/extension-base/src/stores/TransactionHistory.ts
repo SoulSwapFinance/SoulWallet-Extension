@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TxHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
-import { EXTENSION_PREFIX } from '@soul-wallet/extension-base/defaults';
-import SubscribableStore from '@soul-wallet/extension-base/stores/SubscribableStore';
+import { TxHistoryItem } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { EXTENSION_PREFIX } from '@soul-wallet/extension-base/src/defaults';
+import SubscribableStore from '@soul-wallet/extension-base/src/stores/SubscribableStore';
 
 const lastError = (type: string): void => {
   const error = chrome.runtime.lastError;

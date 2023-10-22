@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetType, _ChainAsset } from '@soul-wallet/chain-list/types';
-import { NftCollection, NftItem } from '@soul-wallet/extension-base/background/KoniTypes';
-import { getRandomIpfsGateway } from '@soul-wallet/extension-base/koni/api/nft/config';
-import { BaseNftApi, HandleNftParams } from '@soul-wallet/extension-base/koni/api/nft/nft';
-import { _ERC721_ABI } from '@soul-wallet/extension-base/services/chain-service/helper';
-import { _EvmApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { _getContractAddressOfToken } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { isUrl } from '@soul-wallet/extension-base/utils';
+import { NftCollection, NftItem } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { getRandomIpfsGateway } from '@soul-wallet/extension-base/src/koni/api/nft/config';
+import { BaseNftApi, HandleNftParams } from '@soul-wallet/extension-base/src/koni/api/nft/nft';
+import { _ERC721_ABI } from '@soul-wallet/extension-base/src/services/chain-service/helper';
+import { _EvmApi } from '@soul-wallet/extension-base/src/services/chain-service/types';
+import { _getContractAddressOfToken } from '@soul-wallet/extension-base/src/services/chain-service/utils';
+import { isUrl } from '@soul-wallet/extension-base/src/utils';
 import fetch from 'cross-fetch';
 
 import { isEthereumAddress } from '@polkadot/util-crypto';

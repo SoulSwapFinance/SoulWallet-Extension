@@ -8,8 +8,8 @@ import type { JsonRpcResponse } from '@polkadot/rpc-provider/types';
 import type { SignerPayloadJSON, SignerPayloadRaw } from '@polkadot/types/types';
 import type { MessageTypes, RequestAccountList, RequestAuthorizeTab, RequestRpcSend, RequestRpcSubscribe, RequestRpcUnsubscribe, RequestTypes, ResponseRpcListProviders, ResponseSigning, ResponseTypes, SubscriptionMessageTypes } from '../types';
 
-import { PHISHING_PAGE_REDIRECT } from '@soul-wallet/extension-base/defaults';
-import { canDerive } from '@soul-wallet/extension-base/utils';
+import { PHISHING_PAGE_REDIRECT } from '@soul-wallet/extension-base/src/defaults';
+import { canDerive } from '@soul-wallet/extension-base/src/utils';
 import keyring from '@subwallet/ui-keyring';
 import { accounts as accountsObservable } from '@subwallet/ui-keyring/observable/accounts';
 

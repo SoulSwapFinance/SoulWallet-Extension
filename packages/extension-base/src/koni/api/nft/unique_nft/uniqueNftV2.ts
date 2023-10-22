@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { UNIQUE_SCAN_ENDPOINT } from '@soul-wallet/extension-base/koni/api/nft/config';
-import { BaseNftApi, HandleNftParams } from '@soul-wallet/extension-base/koni/api/nft/nft';
+import { UNIQUE_SCAN_ENDPOINT } from '@soul-wallet/extension-base/src/koni/api/nft/config';
+import { BaseNftApi, HandleNftParams } from '@soul-wallet/extension-base/src/koni/api/nft/nft';
 import fetch from 'cross-fetch';
 
 interface NftData {

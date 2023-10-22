@@ -2,17 +2,17 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { AuthRequestV2, ResultResolver } from '@soul-wallet/extension-base/background/KoniTypes';
-import { AccountAuthType, AuthorizeRequest, RequestAuthorizeTab, Resolver } from '@soul-wallet/extension-base/background/types';
-import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
-import { _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { KeyringService } from '@soul-wallet/extension-base/services/keyring-service';
-import RequestService from '@soul-wallet/extension-base/services/request-service';
-import { PREDEFINED_CHAIN_DAPP_CHAIN_MAP, WEB_APP_URL } from '@soul-wallet/extension-base/services/request-service/constants';
-import { AuthUrls } from '@soul-wallet/extension-base/services/request-service/types';
-import AuthorizeStore from '@soul-wallet/extension-base/stores/Authorize';
-import { getDomainFromUrl, stripUrl } from '@soul-wallet/extension-base/utils';
-import { getId } from '@soul-wallet/extension-base/utils/getId';
+import { AuthRequestV2, ResultResolver } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { AccountAuthType, AuthorizeRequest, RequestAuthorizeTab, Resolver } from '@soul-wallet/extension-base/src/background/types';
+import { ChainService } from '@soul-wallet/extension-base/src/services/chain-service';
+import { _isChainEvmCompatible } from '@soul-wallet/extension-base/src/services/chain-service/utils';
+import { KeyringService } from '@soul-wallet/extension-base/src/services/keyring-service';
+import RequestService from '@soul-wallet/extension-base/src/services/request-service';
+import { PREDEFINED_CHAIN_DAPP_CHAIN_MAP, WEB_APP_URL } from '@soul-wallet/extension-base/src/services/request-service/constants';
+import { AuthUrls } from '@soul-wallet/extension-base/src/services/request-service/types';
+import AuthorizeStore from '@soul-wallet/extension-base/src/stores/Authorize';
+import { getDomainFromUrl, stripUrl } from '@soul-wallet/extension-base/src/utils';
+import { getId } from '@soul-wallet/extension-base/src/utils/getId';
 import { BehaviorSubject } from 'rxjs';
 
 import { assert } from '@polkadot/util';

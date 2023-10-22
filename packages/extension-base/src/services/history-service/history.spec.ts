@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { isSameAddress } from '@soul-wallet/extension-base/utils';
+import { isSameAddress } from '@soul-wallet/extension-base/src/utils';
 import Web3 from 'web3';
 
 import { ApiPromise, WsProvider } from '@polkadot/api';

@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import BaseMigrationJob from '@soul-wallet/extension-base/services/migration-service/Base';
-import { AccountsStore } from '@soul-wallet/extension-base/stores';
+import BaseMigrationJob from '@soul-wallet/extension-base/src/services/migration-service/Base';
+import { AccountsStore } from '@soul-wallet/extension-base/src/stores';
 import { KeyringJson } from '@subwallet/ui-keyring/types';
 
 import { isString } from '@polkadot/util';

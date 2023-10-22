@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SUPPORTED_TRANSFER_SUBSTRATE_CHAIN_NAME } from '@soul-wallet/extension-base/koni/api/nft/config';
-import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { reformatAddress } from '@soul-wallet/extension-base/utils';
+import { SUPPORTED_TRANSFER_SUBSTRATE_CHAIN_NAME } from '@soul-wallet/extension-base/src/koni/api/nft/config';
+import { _SubstrateApi } from '@soul-wallet/extension-base/src/services/chain-service/types';
+import { reformatAddress } from '@soul-wallet/extension-base/src/utils';
 
 export function isRecipientSelf (currentAddress: string, recipientAddress: string) {
   return reformatAddress(currentAddress, 1) === reformatAddress(recipientAddress, 1);

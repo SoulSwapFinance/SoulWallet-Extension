@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { ExternalRequestPromise, ExternalRequestPromiseStatus, HandleBasicTx, TransactionResponse } from '@soul-wallet/extension-base/background/KoniTypes';
-import { getERC20Contract } from '@soul-wallet/extension-base/koni/api/tokens/evm/web3';
-import { _BALANCE_PARSING_CHAIN_GROUP, EVM_REFORMAT_DECIMALS } from '@soul-wallet/extension-base/services/chain-service/constants';
-import { _ERC721_ABI } from '@soul-wallet/extension-base/services/chain-service/helper';
-import { _EvmApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { ExternalRequestPromise, ExternalRequestPromiseStatus, HandleBasicTx, TransactionResponse } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { getERC20Contract } from '@soul-wallet/extension-base/src/koni/api/tokens/evm/web3';
+import { _BALANCE_PARSING_CHAIN_GROUP, EVM_REFORMAT_DECIMALS } from '@soul-wallet/extension-base/src/services/chain-service/constants';
+import { _ERC721_ABI } from '@soul-wallet/extension-base/src/services/chain-service/helper';
+import { _EvmApi } from '@soul-wallet/extension-base/src/services/chain-service/types';
 import { TransactionConfig, TransactionReceipt } from 'web3-core';
 
 import { BN, hexToBn } from '@polkadot/util';

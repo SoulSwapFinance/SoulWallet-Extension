@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { SWError } from '@soul-wallet/extension-base/background/errors/SWError';
-import SUBSCAN_CHAIN_MAP from '@soul-wallet/extension-base/services/subscan-service/subscan-chain-map';
-import { IMultiChainBalance, SubscanRequest, SubscanResponse } from '@soul-wallet/extension-base/services/subscan-service/types';
+import { SWError } from '@soul-wallet/extension-base/src/background/errors/SWError';
+import SUBSCAN_CHAIN_MAP from '@soul-wallet/extension-base/src/services/subscan-service/subscan-chain-map';
+import { IMultiChainBalance, SubscanRequest, SubscanResponse } from '@soul-wallet/extension-base/src/services/subscan-service/types';
 import fetch from 'cross-fetch';
 
 export class SubscanService {

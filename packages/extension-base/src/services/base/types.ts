@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // 'init' | 'started' | 'starting' | 'stopped' | 'stopping'
-import { PromiseHandler } from '@soul-wallet/extension-base/utils/promise';
+import { PromiseHandler } from '@soul-wallet/extension-base/src/utils/promise';
 
 export enum ServiceStatus {
   NOT_INITIALIZED = 'not_initialized',

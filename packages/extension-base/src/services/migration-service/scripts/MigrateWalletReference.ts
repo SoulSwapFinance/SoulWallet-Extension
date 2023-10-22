@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import BaseMigrationJob from '@soul-wallet/extension-base/services/migration-service/Base';
+import BaseMigrationJob from '@soul-wallet/extension-base/src/services/migration-service/Base';
 import { v4 as uuidv4 } from 'uuid';
 
 export default class MigrateWalletReference extends BaseMigrationJob {

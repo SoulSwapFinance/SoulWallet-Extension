@@ -1,14 +1,14 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { PriceJson } from '@soul-wallet/extension-base/background/KoniTypes';
-import { CRON_REFRESH_PRICE_INTERVAL } from '@soul-wallet/extension-base/constants';
-import { CronServiceInterface, PersistDataServiceInterface, ServiceStatus, StoppableServiceInterface } from '@soul-wallet/extension-base/services/base/types';
-import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
-import { EventService } from '@soul-wallet/extension-base/services/event-service';
-import { getTokenPrice } from '@soul-wallet/extension-base/services/price-service/coingecko';
-import DatabaseService from '@soul-wallet/extension-base/services/storage-service/DatabaseService';
-import { createPromiseHandler } from '@soul-wallet/extension-base/utils/promise';
+import { PriceJson } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { CRON_REFRESH_PRICE_INTERVAL } from '@soul-wallet/extension-base/src/constants';
+import { CronServiceInterface, PersistDataServiceInterface, ServiceStatus, StoppableServiceInterface } from '@soul-wallet/extension-base/src/services/base/types';
+import { ChainService } from '@soul-wallet/extension-base/src/services/chain-service';
+import { EventService } from '@soul-wallet/extension-base/src/services/event-service';
+import { getTokenPrice } from '@soul-wallet/extension-base/src/services/price-service/coingecko';
+import DatabaseService from '@soul-wallet/extension-base/src/services/storage-service/DatabaseService';
+import { createPromiseHandler } from '@soul-wallet/extension-base/src/utils/promise';
 import { BehaviorSubject } from 'rxjs';
 
 const DEFAULT_PRICE_SUBJECT: PriceJson = { ready: false, currency: 'usd', priceMap: {}, price24hMap: {} };

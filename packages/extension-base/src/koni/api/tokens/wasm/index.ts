@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { getWasmContractGasLimit } from '@soul-wallet/extension-base/koni/api/tokens/wasm/utils';
-import { _AZERO_DOMAIN_REGISTRY_ABI, _NEUROGUNS_PSP34_ABI, _PINK_PSP34_ABI, _PSP22_ABI, _PSP34_ABI } from '@soul-wallet/extension-base/services/chain-service/helper';
-import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { getWasmContractGasLimit } from '@soul-wallet/extension-base/src/koni/api/tokens/wasm/utils';
+import { _AZERO_DOMAIN_REGISTRY_ABI, _NEUROGUNS_PSP34_ABI, _PINK_PSP34_ABI, _PSP22_ABI, _PSP34_ABI } from '@soul-wallet/extension-base/src/services/chain-service/helper';
+import { _SubstrateApi } from '@soul-wallet/extension-base/src/services/chain-service/types';
 
 import { ApiPromise } from '@polkadot/api';
 import { ContractPromise } from '@polkadot/api-contract';

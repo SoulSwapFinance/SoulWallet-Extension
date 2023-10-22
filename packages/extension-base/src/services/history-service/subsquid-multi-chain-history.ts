@@ -3,8 +3,8 @@
 
 import { ApolloClient, createHttpLink, gql, InMemoryCache } from '@apollo/client';
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { ChainType, ExtrinsicStatus, ExtrinsicType, TransactionDirection, TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
-import { MAX_FETCH_PAGE_PER_SESSION, MIN__NUM_HISTORY_PER_ACCOUNT } from '@soul-wallet/extension-base/services/history-service/constants';
+import { ChainType, ExtrinsicStatus, ExtrinsicType, TransactionDirection, TransactionHistoryItem } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { MAX_FETCH_PAGE_PER_SESSION, MIN__NUM_HISTORY_PER_ACCOUNT } from '@soul-wallet/extension-base/src/services/history-service/constants';
 import fetch from 'cross-fetch';
 
 import { isArray } from '@polkadot/util';

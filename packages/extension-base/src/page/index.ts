@@ -3,9 +3,9 @@
 
 import type { MessageTypes, MessageTypesWithNoSubscriptions, MessageTypesWithNullRequest, MessageTypesWithSubscriptions, RequestTypes, ResponseTypes, SubscriptionMessageTypes, TransportRequestMessage, TransportResponseMessage } from '../background/types';
 
-import { ProviderError } from '@soul-wallet/extension-base/background/errors/ProviderError';
-import { ProviderErrorType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { SubWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
+import { ProviderError } from '@soul-wallet/extension-base/src/background/errors/ProviderError';
+import { ProviderErrorType } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { SubWalletEvmProvider } from '@soul-wallet/extension-base/src/page/SubWalleEvmProvider';
 import { EvmProvider } from '@soul-wallet/extension-inject/types';
 
 import { MESSAGE_ORIGIN_PAGE } from '../defaults';
