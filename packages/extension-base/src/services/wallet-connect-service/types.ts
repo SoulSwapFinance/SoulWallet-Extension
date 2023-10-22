@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { EvmSendTransactionParams } from '../../background/KoniTypes';
-import { ConfirmationRequestBase, Resolver } from '@soul-wallet/extension-base/background/types';
+import { ConfirmationRequestBase, Resolver } from '../../background/types';
 import { EngineTypes, SignClientTypes } from '@walletconnect/types';
 
 import { SignerPayloadJSON } from '@polkadot/types/types';

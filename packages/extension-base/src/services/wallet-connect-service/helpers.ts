@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { findChainInfoByChainId, findChainInfoByHalfGenesisHash } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { findChainInfoByChainId, findChainInfoByHalfGenesisHash } from '../chain-service/utils';
 import { SignClientTypes } from '@walletconnect/types';
 import { ProposalTypes } from '@walletconnect/types/dist/types/sign-client/proposal';
 

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { EIP155_SIGNING_METHODS, POLKADOT_SIGNING_METHODS, WalletConnectSigningMethod } from '../../services/wallet-connect-service/types';
-import { isMobile } from '@soul-wallet/extension-base/utils';
+import { isMobile } from '../../utils';
 import { SignClientTypes } from '@walletconnect/types';
 
 export const PROJECT_ID_EXTENSION = '6da34c0b48164d27681924dd9a46d6be';
