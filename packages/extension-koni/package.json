@@ -1,12 +1,10 @@
 {
+  "name": "@subwallet/extension-koni",
   "author": "Koni Studio",
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
-  "contributors": [],
   "description": "A sample signer extension for the @polkadot/api",
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-koni#readme",
   "license": "Apache-2.0",
-  "maintainers": [],
-  "name": "@subwallet/extension-koni",
   "repository": {
     "directory": "packages/extension-koni",
     "type": "git",
@@ -17,7 +15,7 @@
   "version": "1.1.17-0",
   "dependencies": {
     "@babel/runtime": "^7.20.6",
-    "@soul-wallet/extension-inject": "^1.0.0",
+    "@soul-wallet/extension-inject": "^1.0.1",
     "@subwallet/extension-base": "^1.1.17-0",
     "@subwallet/extension-koni-ui": "^1.1.17-0"
   },

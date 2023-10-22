@@ -49,7 +49,7 @@
     "@soul-wallet/chain-list": "1.0.4",
     "@soul-wallet/extension-base": "*",
     "@soul-wallet/extension-dapp": "^1.0.0",
-    "@soul-wallet/extension-inject": "^1.0.0",
+    "@soul-wallet/extension-inject": "^1.0.1",
     "@substrate/connect": "^0.7.26",
     "@subwallet/extension-chains": "^1.1.17-0",
     "@subwallet/keyring": "^0.1.1",
