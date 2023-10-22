@@ -6,7 +6,7 @@ import { ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus,
 import { BlockHeader, getBondedValidators, getStakingStatusByNominations, isUnstakeAll, PalletIdentityRegistration, ParachainStakingStakeOption, parseIdentity } from '../../staking/bonding/utils';
 import { _STAKING_ERA_LENGTH_MAP } from '../../../../services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { parseRawNumber, reformatAddress } from '@soul-wallet/extension-base/utils';
+import { parseRawNumber, reformatAddress } from '../../../../utils';
 
 import { Codec } from '@polkadot/types/types';
 import { BN, BN_ZERO } from '@polkadot/util';

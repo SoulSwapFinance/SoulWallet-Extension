@@ -3,7 +3,7 @@
 
 import { ChainInfoMap } from '@soul-wallet/chain-list';
 import { SubstrateChainHandler } from '@soul-wallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
-import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _SubstrateApi } from '../../../services/chain-service/types';
 
 import { cryptoWaitReady } from '@polkadot/util-crypto';
 

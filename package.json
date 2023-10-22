@@ -1,17 +1,17 @@
 {
-  "name": "soulwallet-extension",
-  "version": "1.0.0",
   "author": "Buns Enchantress <buns@soulswap.finance>",
-  "private": true,
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension#readme",
   "license": "Apache-2.0",
+  "name": "soulwallet-extension",
   "packageManager": "yarn@3.0.1",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/SoulSwapFinance/SoulWallet-Extension.git"
   },
   "sideEffects": false,
+  "version": "1.0.0",
   "workspaces": [
     "packages/*"
   ],

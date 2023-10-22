@@ -7,8 +7,8 @@ import { ChainStakingMetadata, NominationInfo, NominationPoolInfo, NominatorMeta
 import { calculateAlephZeroValidatorReturn, calculateChainStakedReturn, calculateInflation, calculateTernoaValidatorReturn, calculateValidatorStakedReturn, getCommission, getExistUnstakeErrorMessage, getMaxValidatorErrorMessage, getMinStakeErrorMessage, PalletIdentityRegistration, PalletNominationPoolsPoolMember, PalletStakingExposure, parseIdentity, parsePoolStashAddress, TernoaStakingRewardsStakingRewardsData, transformPoolName, ValidatorExtraInfo } from '../bonding/utils';
 import { _STAKING_CHAIN_GROUP, _STAKING_ERA_LENGTH_MAP } from '../../../../services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { _getChainSubstrateAddressPrefix } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { reformatAddress } from '@soul-wallet/extension-base/utils';
+import { _getChainSubstrateAddressPrefix } from '../../../../services/chain-service/utils';
+import { reformatAddress } from '../../../../utils';
 import { t } from 'i18next';
 
 import { Bytes } from '@polkadot/types';

@@ -2,15 +2,15 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { APIItemState, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { subscribeAmplitudeNominatorMetadata } from '@soul-wallet/extension-base/koni/api/staking/bonding/amplitude';
-import { subscribeAstarNominatorMetadata } from '@soul-wallet/extension-base/koni/api/staking/bonding/astar';
-import { subscribeParaChainNominatorMetadata } from '@soul-wallet/extension-base/koni/api/staking/bonding/paraChain';
-import { PalletDappsStakingAccountLedger, PalletParachainStakingDelegator, ParachainStakingStakeOption } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
-import { _STAKING_CHAIN_GROUP } from '@soul-wallet/extension-base/services/chain-service/constants';
-import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { reformatAddress } from '@soul-wallet/extension-base/utils';
+import { APIItemState, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType } from '../../../background/KoniTypes';
+import { subscribeAmplitudeNominatorMetadata } from '../../../koni/api/staking/bonding/amplitude';
+import { subscribeAstarNominatorMetadata } from '../../../koni/api/staking/bonding/astar';
+import { subscribeParaChainNominatorMetadata } from '../../../koni/api/staking/bonding/paraChain';
+import { PalletDappsStakingAccountLedger, PalletParachainStakingDelegator, ParachainStakingStakeOption } from '../../../koni/api/staking/bonding/utils';
+import { _STAKING_CHAIN_GROUP } from '../../../services/chain-service/constants';
+import { _SubstrateApi } from '../../../services/chain-service/types';
+import { _getChainNativeTokenBasicInfo } from '../../../services/chain-service/utils';
+import { reformatAddress } from '../../../utils';
 
 import { Codec } from '@polkadot/types/types';
 import { BN, BN_ZERO } from '@polkadot/util';

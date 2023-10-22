@@ -8,8 +8,8 @@ import { getNominationPoolReward, getRelayPoolingOnChain, getRelayStakingOnChain
 import { getAllSubsquidStaking } from '@soul-wallet/extension-base/koni/api/staking/subsquidStaking';
 import { _PURE_EVM_CHAINS, _STAKING_CHAIN_GROUP } from '@soul-wallet/extension-base/services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { _isChainEvmCompatible, _isChainSupportSubstrateStaking, _isSubstrateRelayChain } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { categoryAddresses } from '@soul-wallet/extension-base/utils';
+import { _isChainEvmCompatible, _isChainSupportSubstrateStaking, _isSubstrateRelayChain } from '../../../services/chain-service/utils';
+import { categoryAddresses } from '../../../utils';
 
 interface PromiseMapping {
   api: _SubstrateApi,

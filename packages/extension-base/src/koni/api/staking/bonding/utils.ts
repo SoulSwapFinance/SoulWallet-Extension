@@ -3,10 +3,10 @@
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { NominationInfo, NominatorMetadata, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus } from '../../../../background/KoniTypes';
-import { getAstarWithdrawable } from '@soul-wallet/extension-base/koni/api/staking/bonding/astar';
+import { getAstarWithdrawable } from '../../../../koni/api/staking/bonding/astar';
 import { _KNOWN_CHAIN_INFLATION_PARAMS, _STAKING_CHAIN_GROUP, _SUBSTRATE_DEFAULT_INFLATION_PARAMS, _SubstrateInflationParams } from '../../../../services/chain-service/constants';
-import { _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { detectTranslate, parseRawNumber, reformatAddress } from '@soul-wallet/extension-base/utils';
+import { _getChainNativeTokenBasicInfo } from '../../../../services/chain-service/utils';
+import { detectTranslate, parseRawNumber, reformatAddress } from '../../../../utils';
 import { balanceFormatter, formatNumber } from '../../../../utils/number';
 import { t } from 'i18next';
 

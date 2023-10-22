@@ -3,7 +3,7 @@
 
 import '@polkadot/types-augment';
 
-import { EVM_PASS_CONNECT_STATUS } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { EVM_PASS_CONNECT_STATUS } from '../../../services/chain-service/constants';
 import { _ApiOptions } from '@soul-wallet/extension-base/services/chain-service/handler/types';
 import { _ChainConnectionStatus, _EvmApi } from '@soul-wallet/extension-base/services/chain-service/types';
 import { createPromiseHandler, PromiseHandler } from '@soul-wallet/extension-base/utils/promise';

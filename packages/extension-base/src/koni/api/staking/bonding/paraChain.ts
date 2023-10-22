@@ -7,8 +7,8 @@ import { BasicTxErrorType, ChainStakingMetadata, NominationInfo, NominatorMetada
 import { getBondedValidators, getExistUnstakeErrorMessage, getMaxValidatorErrorMessage, getMinStakeErrorMessage, getParaCurrentInflation, getStakingStatusByNominations, InflationConfig, isUnstakeAll, PalletIdentityRegistration, PalletParachainStakingDelegationRequestsScheduledRequest, PalletParachainStakingDelegator, ParachainStakingCandidateMetadata, parseIdentity, TuringOptimalCompoundFormat } from '../bonding/utils';
 import { _STAKING_ERA_LENGTH_MAP } from '../../../../services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { isSameAddress, parseRawNumber, reformatAddress } from '@soul-wallet/extension-base/utils';
+import { _isChainEvmCompatible } from '../../../../services/chain-service/utils';
+import { isSameAddress, parseRawNumber, reformatAddress } from '../../../../utils';
 
 import { Codec } from '@polkadot/types/types';
 import { BN, BN_ZERO } from '@polkadot/util';

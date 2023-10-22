@@ -5,8 +5,8 @@ import '@polkadot/types-augment';
 
 import { options as acalaOptions } from '@acala-network/api';
 import { rpc as oakRpc, types as oakTypes } from '@oak-foundation/types';
-import { MetadataItem } from '@soul-wallet/extension-base/background/KoniTypes';
-import { _API_OPTIONS_CHAIN_GROUP, API_AUTO_CONNECT_MS, API_CONNECT_TIMEOUT } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { MetadataItem } from '../../../background/KoniTypes';
+import { _API_OPTIONS_CHAIN_GROUP, API_AUTO_CONNECT_MS, API_CONNECT_TIMEOUT } from '../../../services/chain-service/constants';
 import { getSubstrateConnectProvider } from '@soul-wallet/extension-base/services/chain-service/handler/light-client';
 import { DEFAULT_AUX } from '@soul-wallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
 import { _ApiOptions } from '@soul-wallet/extension-base/services/chain-service/handler/types';

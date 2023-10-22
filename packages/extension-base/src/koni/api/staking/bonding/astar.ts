@@ -6,7 +6,7 @@ import { ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus,
 import { getStakingStatusByNominations, PalletDappsStakingAccountLedger, PalletDappsStakingDappInfo } from '../bonding/utils';
 import { _STAKING_ERA_LENGTH_MAP } from '../../../../services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { isUrl, parseRawNumber } from '@soul-wallet/extension-base/utils';
+import { isUrl, parseRawNumber } from '../../../../utils';
 import fetch from 'cross-fetch';
 
 import { SubmittableExtrinsic } from '@polkadot/api/promise/types';

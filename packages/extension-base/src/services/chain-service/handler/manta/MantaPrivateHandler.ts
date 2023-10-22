@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { MantaAuthorizationContext, MantaPayConfig, MantaPaySyncState } from '@soul-wallet/extension-base/background/KoniTypes';
+import { MantaAuthorizationContext, MantaPayConfig, MantaPaySyncState } from '../../../../background/KoniTypes';
 import DatabaseService from '@soul-wallet/extension-base/services/storage-service/DatabaseService';
 import { BaseWallet, interfaces, MantaPayWallet } from 'manta-extension-sdk';
 import { Subject } from 'rxjs';

@@ -3,7 +3,7 @@
 
 import { _DEFAULT_CHAINS } from '@soul-wallet/chain-list';
 import { _SubstrateChainType } from '@soul-wallet/chain-list/types';
-import { SingleModeJson, ThemeNames } from '@soul-wallet/extension-base/background/KoniTypes';
+import { SingleModeJson, ThemeNames } from '../../background/KoniTypes';
 
 export const API_AUTO_CONNECT_MS = 3000;
 export const API_CONNECT_TIMEOUT = 30000;
