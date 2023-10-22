@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Resolver } from '@soul-wallet/extension-base/background/types';
-import RequestService from '@soul-wallet/extension-base/services/request-service';
-import { RequestWalletConnectNotSupport, WalletConnectNotSupportRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { Resolver } from 'background/types';
+import RequestService from 'services/request-service';
+import { RequestWalletConnectNotSupport, WalletConnectNotSupportRequest } from 'services/wallet-connect-service/types';
 import { BehaviorSubject } from 'rxjs';
 
 // WC = WalletConnect

@@ -1,15 +1,15 @@
 // Copyright 2019-2022 @polkadot/extension-bg authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/types';
+import type { MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/src/types';
 import type { JsonRpcResponse, ProviderInterface, ProviderInterfaceCallback } from '@polkadot/rpc-provider/types';
 import type { AccountAuthType, AccountJson, AuthorizeRequest, MetadataRequest, RequestAuthorizeTab, RequestRpcSend, RequestRpcSubscribe, RequestRpcUnsubscribe, RequestSign, ResponseRpcListProviders, ResponseSigning, SigningRequest } from '../types';
 
-import { RequestSettingsType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { DEFAULT_SETTING } from '@soul-wallet/extension-base/services/setting-service/constants';
-import SettingsStore from '@soul-wallet/extension-base/stores/Settings';
-import { stripUrl } from '@soul-wallet/extension-base/utils';
-import { getId } from '@soul-wallet/extension-base/utils/getId';
+import { RequestSettingsType } from 'background/KoniTypes';
+import { DEFAULT_SETTING } from 'services/setting-service/constants';
+import SettingsStore from 'stores/Settings';
+import { stripUrl } from 'utils';
+import { getId } from 'utils/getId';
 import { addMetadata, knownMetadata } from '@soul-wallet/extension-chains';
 import { BehaviorSubject } from 'rxjs';
 

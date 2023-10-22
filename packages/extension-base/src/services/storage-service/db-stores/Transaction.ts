@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import BaseStoreWithAddressAndChain from '@soul-wallet/extension-base/services/storage-service/db-stores/BaseStoreWithAddressAndChain';
+import BaseStoreWithAddressAndChain from 'services/storage-service/db-stores/BaseStoreWithAddressAndChain';
 
 import { ITransactionHistoryItem } from '../databases';
 

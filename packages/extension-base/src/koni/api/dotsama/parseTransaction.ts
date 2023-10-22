@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ArgInfo, EraInfo, FormattedMethod, ResponseParseTransactionSubstrate } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ArgInfo, EraInfo, FormattedMethod, ResponseParseTransactionSubstrate } from 'background/KoniTypes';
 import { t } from 'i18next';
 
 import { ApiPromise } from '@polkadot/api';

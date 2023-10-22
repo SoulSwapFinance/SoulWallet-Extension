@@ -2,16 +2,16 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
-import { APIItemState, BalanceItem, ChainStakingMetadata, CrowdloanItem, MantaPayConfig, NftCollection, NftItem, NominatorMetadata, PriceJson, StakingItem, StakingType, TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
-import { EventService } from '@soul-wallet/extension-base/services/event-service';
-import KoniDatabase, { IBalance, IChain, ICrowdloanItem, INft } from '@soul-wallet/extension-base/services/storage-service/databases';
-import { AssetStore, BalanceStore, ChainStore, CrowdloanStore, MetadataStore, MigrationStore, NftCollectionStore, NftStore, PriceStore, StakingStore, TransactionStore } from '@soul-wallet/extension-base/services/storage-service/db-stores';
-import BaseStore from '@soul-wallet/extension-base/services/storage-service/db-stores/BaseStore';
-import ChainStakingMetadataStore from '@soul-wallet/extension-base/services/storage-service/db-stores/ChainStakingMetadata';
-import MantaPayStore from '@soul-wallet/extension-base/services/storage-service/db-stores/MantaPay';
-import NominatorMetadataStore from '@soul-wallet/extension-base/services/storage-service/db-stores/NominatorMetadata';
-import { HistoryQuery } from '@soul-wallet/extension-base/services/storage-service/db-stores/Transaction';
-import { reformatAddress } from '@soul-wallet/extension-base/utils';
+import { APIItemState, BalanceItem, ChainStakingMetadata, CrowdloanItem, MantaPayConfig, NftCollection, NftItem, NominatorMetadata, PriceJson, StakingItem, StakingType, TransactionHistoryItem } from 'background/KoniTypes';
+import { EventService } from 'services/event-service';
+import KoniDatabase, { IBalance, IChain, ICrowdloanItem, INft } from 'services/storage-service/databases';
+import { AssetStore, BalanceStore, ChainStore, CrowdloanStore, MetadataStore, MigrationStore, NftCollectionStore, NftStore, PriceStore, StakingStore, TransactionStore } from 'services/storage-service/db-stores';
+import BaseStore from 'services/storage-service/db-stores/BaseStore';
+import ChainStakingMetadataStore from 'services/storage-service/db-stores/ChainStakingMetadata';
+import MantaPayStore from 'services/storage-service/db-stores/MantaPay';
+import NominatorMetadataStore from 'services/storage-service/db-stores/NominatorMetadata';
+import { HistoryQuery } from 'services/storage-service/db-stores/Transaction';
+import { reformatAddress } from 'utils';
 import { Subscription } from 'dexie';
 
 import { logger as createLogger } from '@polkadot/util';

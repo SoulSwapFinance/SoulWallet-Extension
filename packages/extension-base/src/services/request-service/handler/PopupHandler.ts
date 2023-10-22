@@ -1,11 +1,11 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { withErrorLog } from '@soul-wallet/extension-base/background/handlers/helpers';
-import { BrowserConfirmationType, RequestSettingsType } from '@soul-wallet/extension-base/background/KoniTypes';
-import RequestService from '@soul-wallet/extension-base/services/request-service';
-import { DEFAULT_NOTIFICATION_TYPE } from '@soul-wallet/extension-base/services/setting-service/constants';
-import { getOS } from '@soul-wallet/extension-base/utils';
+import { withErrorLog } from 'background/handlers/helpers';
+import { BrowserConfirmationType, RequestSettingsType } from 'background/KoniTypes';
+import RequestService from 'services/request-service';
+import { DEFAULT_NOTIFICATION_TYPE } from 'services/setting-service/constants';
+import { getOS } from 'utils';
 
 const NOTIFICATION_URL = chrome.extension.getURL('notification.html');
 

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import BaseStore from '@soul-wallet/extension-base/stores/Base';
+import BaseStore from 'stores/Base';
 import { Subject } from 'rxjs';
 
 export default abstract class SubscribableStore<T> extends BaseStore<T> {

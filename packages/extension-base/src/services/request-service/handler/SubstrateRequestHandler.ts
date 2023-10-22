@@ -1,12 +1,12 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import RequestExtrinsicSign from '@soul-wallet/extension-base/background/RequestExtrinsicSign';
-import { AccountJson, RequestSign, Resolver, ResponseSigning, SigningRequest } from '@soul-wallet/extension-base/background/types';
-import RequestService from '@soul-wallet/extension-base/services/request-service';
-import { SignRequest } from '@soul-wallet/extension-base/services/request-service/types';
-import { getId } from '@soul-wallet/extension-base/utils/getId';
-import { isInternalRequest } from '@soul-wallet/extension-base/utils/request';
+import RequestExtrinsicSign from 'background/RequestExtrinsicSign';
+import { AccountJson, RequestSign, Resolver, ResponseSigning, SigningRequest } from 'background/types';
+import RequestService from 'services/request-service';
+import { SignRequest } from 'services/request-service/types';
+import { getId } from 'utils/getId';
+import { isInternalRequest } from 'utils/request';
 import keyring from '@subwallet/ui-keyring';
 import { BehaviorSubject } from 'rxjs';
 

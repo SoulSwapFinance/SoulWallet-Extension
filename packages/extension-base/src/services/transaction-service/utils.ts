@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { ExtrinsicDataTypeMap, ExtrinsicType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { _getBlockExplorerFromChain, _isPureEvmChain } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { ExtrinsicDataTypeMap, ExtrinsicType } from 'background/KoniTypes';
+import { _getBlockExplorerFromChain, _isPureEvmChain } from 'services/chain-service/utils';
 
 // @ts-ignore
 export function parseTransactionData<T extends ExtrinsicType> (data: unknown): ExtrinsicDataTypeMap[T] {

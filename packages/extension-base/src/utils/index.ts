@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { CrowdloanParaState, MobileOS, NetworkJson } from '@soul-wallet/extension-base/background/KoniTypes';
-import { AccountAuthType, AccountJson } from '@soul-wallet/extension-base/background/types';
-import { ALL_ACCOUNT_KEY } from '@soul-wallet/extension-base/constants';
-import { getOS } from '@soul-wallet/extension-base/utils/environment';
+import { CrowdloanParaState, MobileOS, NetworkJson } from 'background/KoniTypes';
+import { AccountAuthType, AccountJson } from 'background/types';
+import { ALL_ACCOUNT_KEY } from 'constants';
+import { getOS } from 'utils/environment';
 import { t } from 'i18next';
 
 import { assert, BN, hexToU8a, isHex } from '@polkadot/util';

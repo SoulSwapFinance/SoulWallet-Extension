@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { NftCollection, NftItem } from '@soul-wallet/extension-base/background/KoniTypes';
-import { BaseNftApi, HandleNftParams } from '@soul-wallet/extension-base/koni/api/nft/nft';
-import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
-import { hexToStr, hexToUTF16, parseIpfsLink, utf16ToString } from '@soul-wallet/extension-base/utils';
+import { NftCollection, NftItem } from 'background/KoniTypes';
+import { BaseNftApi, HandleNftParams } from 'koni/api/nft/nft';
+import { _SubstrateApi } from 'services/chain-service/types';
+import { hexToStr, hexToUTF16, parseIpfsLink, utf16ToString } from 'utils';
 
 import { deserializeNft } from './protobuf';
 

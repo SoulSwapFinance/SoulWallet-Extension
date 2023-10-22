@@ -1,10 +1,10 @@
 // Copyright 2019-2022 @polkadot/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { InjectedMetadata, InjectedMetadataKnown, MetadataDef } from '@soul-wallet/extension-inject/types';
+import type { InjectedMetadata, InjectedMetadataKnown, MetadataDef } from '@soul-wallet/extension-inject/src/types';
 import type { SendRequest } from './types';
 
-import { RequestAddPspToken } from '@soul-wallet/extension-base/background/KoniTypes';
+import { RequestAddPspToken } from 'background/KoniTypes';
 
 // External to class, this.# is not private enough (yet)
 let sendRequest: SendRequest;

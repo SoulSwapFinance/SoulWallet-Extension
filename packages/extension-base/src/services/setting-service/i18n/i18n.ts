@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { LANGUAGE } from '@soul-wallet/extension-base/constants';
+import { LANGUAGE } from 'constants';
 import i18next from 'i18next';
 
 import Backend from './Backend';

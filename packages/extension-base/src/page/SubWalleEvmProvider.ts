@@ -1,11 +1,11 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { EvmProvider } from '@soul-wallet/extension-inject/types';
+import type { EvmProvider } from '@soul-wallet/extension-inject/src/types';
 
 import SafeEventEmitter from '@metamask/safe-event-emitter';
-import { EvmProviderError } from '@soul-wallet/extension-base/background/errors/EvmProviderError';
-import { SendRequest } from '@soul-wallet/extension-base/page/types';
+import { EvmProviderError } from 'background/errors/EvmProviderError';
+import { SendRequest } from 'page/types';
 import { JsonRpcRequest, JsonRpcResponse, JsonRpcSuccess } from 'json-rpc-engine';
 import { RequestArguments } from 'web3-core';
 

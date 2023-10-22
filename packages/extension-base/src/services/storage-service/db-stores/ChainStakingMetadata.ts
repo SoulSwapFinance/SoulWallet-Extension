@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ChainStakingMetadata, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
-import BaseStoreWithChain from '@soul-wallet/extension-base/services/storage-service/db-stores/BaseStoreWithChain';
+import { ChainStakingMetadata, StakingType } from 'background/KoniTypes';
+import BaseStoreWithChain from 'services/storage-service/db-stores/BaseStoreWithChain';
 import { liveQuery } from 'dexie';
 
 export default class ChainStakingMetadataStore extends BaseStoreWithChain<ChainStakingMetadata> {

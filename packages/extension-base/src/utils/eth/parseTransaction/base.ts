@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { FunctionFragment, JsonFragment, Result } from '@ethersproject/abi';
-import { NestedArray } from '@soul-wallet/extension-base/background/KoniTypes';
+import { NestedArray } from 'background/KoniTypes';
 import { Buffer } from 'buffer';
 import { ethers } from 'ethers';
 import isBuffer from 'is-buffer';

@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetType } from '@soul-wallet/chain-list/types';
-import { getDefaultWeightV2 } from '@soul-wallet/extension-base/koni/api/tokens/wasm/utils';
-import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
-import { AbstractChainHandler } from '@soul-wallet/extension-base/services/chain-service/handler/AbstractChainHandler';
-import { SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/handler/SubstrateApi';
-import { _ApiOptions, _SubstrateChainSpec } from '@soul-wallet/extension-base/services/chain-service/handler/types';
-import { _SmartContractTokenInfo, _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { getDefaultWeightV2 } from 'koni/api/tokens/wasm/utils';
+import { ChainService } from 'services/chain-service';
+import { AbstractChainHandler } from 'services/chain-service/handler/AbstractChainHandler';
+import { SubstrateApi } from 'services/chain-service/handler/SubstrateApi';
+import { _ApiOptions, _SubstrateChainSpec } from 'services/chain-service/handler/types';
+import { _SmartContractTokenInfo, _SubstrateApi } from 'services/chain-service/types';
 
 import { ContractPromise } from '@polkadot/api-contract';
 import { BN } from '@polkadot/util';

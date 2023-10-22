@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SWError } from '@soul-wallet/extension-base/background/errors/SWError';
-import { BalanceErrorType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { detectTranslate } from '@soul-wallet/extension-base/utils';
+import { SWError } from 'background/errors/SWError';
+import { BalanceErrorType } from 'background/KoniTypes';
+import { detectTranslate } from 'utils';
 import { t } from 'i18next';
 
 // Todo: finish this map in the future
