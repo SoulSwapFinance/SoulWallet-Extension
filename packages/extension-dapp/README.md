@@ -1,3 +1,3 @@
-# @subwallet/extension-dapp
+# @soul-wallet/extension-dapp
 
 Documentation available [in the polkadot-js doc](https://polkadot.js.org/docs/extension).

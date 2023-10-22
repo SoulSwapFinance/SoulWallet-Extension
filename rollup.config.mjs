@@ -69,7 +69,7 @@ export function createBundle ({ entries = {}, external, globals = {}, index, inj
 
 
 const pkgs = [
-  '@subwallet/extension-dapp'
+  '@soul-wallet/extension-dapp'
 ];
 
 const external = [
