@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
-import { ApiMap, ServiceInfo } from '@soul-wallet/extension-base/background/KoniTypes';
-import { CRON_REFRESH_NFT_INTERVAL, CRON_REFRESH_STAKING_REWARD_FAST_INTERVAL, CRON_REFRESH_STAKING_REWARD_INTERVAL, CRON_SYNC_MANTA_PAY } from '@soul-wallet/extension-base/constants';
+import { ApiMap, ServiceInfo } from '../../background/KoniTypes';
+import { CRON_REFRESH_NFT_INTERVAL, CRON_REFRESH_STAKING_REWARD_FAST_INTERVAL, CRON_REFRESH_STAKING_REWARD_INTERVAL, CRON_SYNC_MANTA_PAY } from '../../constants';
 import { KoniSubscription } from '@soul-wallet/extension-base/koni/background/subscription';
-import { _isChainSupportEvmNft, _isChainSupportNativeNft, _isChainSupportWasmNft } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { EventItem, EventType } from '@soul-wallet/extension-base/services/event-service/types';
-import DatabaseService from '@soul-wallet/extension-base/services/storage-service/DatabaseService';
+import { _isChainSupportEvmNft, _isChainSupportNativeNft, _isChainSupportWasmNft } from '../../services/chain-service/utils';
+import { EventItem, EventType } from '../../services/event-service/types';
+import DatabaseService from '../../services/storage-service/DatabaseService';
 import { waitTimeout } from '@soul-wallet/extension-base/utils';
 import { Subject, Subscription } from 'rxjs';
 

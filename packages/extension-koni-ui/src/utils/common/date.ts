@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { LanguageType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { LanguageType } from '@subwallet/extension-base/background/KoniTypes';
 
 interface MonthDefine {
   full: string[];

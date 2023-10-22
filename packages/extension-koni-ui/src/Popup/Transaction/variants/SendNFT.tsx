@@ -1,9 +1,9 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicType, NftCollection, NftItem } from '@soul-wallet/extension-base/background/KoniTypes';
-import { SWTransactionResponse } from '@soul-wallet/extension-base/services/transaction-service/types';
-import { isSameAddress } from '@soul-wallet/extension-base/utils';
+import { ExtrinsicType, NftCollection, NftItem } from '@subwallet/extension-base/background/KoniTypes';
+import { SWTransactionResponse } from '@subwallet/extension-base/services/transaction-service/types';
+import { isSameAddress } from '@subwallet/extension-base/utils';
 import { AddressInput, ChainSelector, HiddenInput, PageWrapper } from '@subwallet/extension-koni-ui/components';
 import { DEFAULT_MODEL_VIEWER_PROPS, SHOW_3D_MODELS_CHAIN } from '@subwallet/extension-koni-ui/constants';
 import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';

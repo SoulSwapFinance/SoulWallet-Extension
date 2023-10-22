@@ -15,7 +15,7 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "main": "./src/index.ts",
+  "main": "index.js",
   "scripts": {
     "publish": "npm publish --access public"
   },

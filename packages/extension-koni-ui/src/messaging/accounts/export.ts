@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ResponseAccountExportPrivateKey } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ResponseAccountExportPrivateKey } from '@subwallet/extension-base/background/KoniTypes';
 import { sendMessage } from '@subwallet/extension-koni-ui/messaging';
 import { KeyringPair$Json } from '@subwallet/keyring/types';
 import { KeyringPairs$Json } from '@subwallet/ui-keyring/types';

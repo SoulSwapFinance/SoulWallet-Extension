@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SubWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
-import { addLazy } from '@soul-wallet/extension-base/utils';
+import { SubWalletEvmProvider } from '@subwallet/extension-base/page/SubWalleEvmProvider';
+import { addLazy } from '@subwallet/extension-base/utils';
 import { EvmProvider, Injected, InjectedAccountWithMeta, InjectedWindowProvider, Unsubcall } from '@soul-wallet/extension-inject/types';
 import { DisconnectExtensionModal } from '@subwallet/extension-koni-ui/components';
 import { ENABLE_INJECT } from '@subwallet/extension-koni-ui/constants';

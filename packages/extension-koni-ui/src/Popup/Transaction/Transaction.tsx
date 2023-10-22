@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
 import { InfoIcon, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
 import { StakingNetworkDetailModalId } from '@subwallet/extension-koni-ui/components/Modal/Staking/StakingNetworkDetailModal';
 import { DEFAULT_TRANSACTION_PARAMS, TRANSACTION_TITLE_MAP } from '@subwallet/extension-koni-ui/constants';

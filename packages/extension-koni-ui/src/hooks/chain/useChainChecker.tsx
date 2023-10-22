@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { NotificationType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { _ChainConnectionStatus } from '@soul-wallet/extension-base/services/chain-service/types';
+import { NotificationType } from '@subwallet/extension-base/background/KoniTypes';
+import { _ChainConnectionStatus } from '@subwallet/extension-base/services/chain-service/types';
 import useNotification from '@subwallet/extension-koni-ui/hooks/common/useNotification';
 import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
 import { enableChain } from '@subwallet/extension-koni-ui/messaging';

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { _getSubstrateGenesisHash } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { _getSubstrateGenesisHash } from '@subwallet/extension-base/services/chain-service/utils';
 
 export const findChainInfoByGenesisHash = (chainMap: Record<string, _ChainInfo>, genesisHash?: string): _ChainInfo | null => {
   if (!genesisHash) {

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { PHISHING_PAGE_REDIRECT } from '@soul-wallet/extension-base/defaults';
+import { PHISHING_PAGE_REDIRECT } from '@subwallet/extension-base/defaults';
 import { PageWrapper } from '@subwallet/extension-koni-ui/components';
 import ErrorFallback from '@subwallet/extension-koni-ui/Popup/ErrorFallback';
 import { Root } from '@subwallet/extension-koni-ui/Popup/Root';

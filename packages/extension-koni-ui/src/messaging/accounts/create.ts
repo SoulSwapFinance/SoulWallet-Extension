@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AccountExternalError, RequestAccountCreateExternalV2, RequestAccountCreateHardwareMultiple, RequestAccountCreateHardwareV2, RequestAccountCreateSuriV2, RequestAccountCreateWithSecretKey, ResponseAccountCreateSuriV2, ResponseAccountCreateWithSecretKey, ResponseSeedCreateV2 } from '@soul-wallet/extension-base/background/KoniTypes';
-import { SeedLengths } from '@soul-wallet/extension-base/background/types';
+import { AccountExternalError, RequestAccountCreateExternalV2, RequestAccountCreateHardwareMultiple, RequestAccountCreateHardwareV2, RequestAccountCreateSuriV2, RequestAccountCreateWithSecretKey, ResponseAccountCreateSuriV2, ResponseAccountCreateWithSecretKey, ResponseSeedCreateV2 } from '@subwallet/extension-base/background/KoniTypes';
+import { SeedLengths } from '@subwallet/extension-base/background/types';
 import { sendMessage } from '@subwallet/extension-koni-ui/messaging/base';
 
 import { KeypairType } from '@polkadot/util-crypto/types';

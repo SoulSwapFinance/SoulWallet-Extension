@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainConnectionStatus } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _ChainConnectionStatus } from '@subwallet/extension-base/services/chain-service/types';
 
 export const DefaultLogosMap: Record<string, string> = {
   subwallet: './images/projects/subwallet.png',

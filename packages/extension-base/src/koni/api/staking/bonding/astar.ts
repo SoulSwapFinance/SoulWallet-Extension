@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from '../../../..//background/KoniTypes';
 import { getStakingStatusByNominations, PalletDappsStakingAccountLedger, PalletDappsStakingDappInfo } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
 import { _STAKING_ERA_LENGTH_MAP } from '@soul-wallet/extension-base/services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';

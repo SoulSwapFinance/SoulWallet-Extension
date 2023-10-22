@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
-import { _isAssetFungibleToken } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { _isAssetFungibleToken } from '@subwallet/extension-base/services/chain-service/utils';
 import { BasicInputWrapper } from '@subwallet/extension-koni-ui/components/Field/Base';
 import { useSelector } from '@subwallet/extension-koni-ui/hooks';
 import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
-import { AssetSetting } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AssetSetting } from '@subwallet/extension-base/background/KoniTypes';
 import TokenItemFooter from '@subwallet/extension-koni-ui/Popup/Settings/Tokens/component/TokenItemFooter';
 import { ThemeProps } from '@subwallet/extension-koni-ui/types';
 import TokenItem from '@subwallet/react-ui/es/web3-block/token-item';

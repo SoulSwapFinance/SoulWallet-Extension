@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetType } from '@soul-wallet/chain-list/types';
-import { NftItem } from '@soul-wallet/extension-base/background/KoniTypes';
-import { _NFT_CHAIN_GROUP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { NftItem } from '@subwallet/extension-base/background/KoniTypes';
+import { _NFT_CHAIN_GROUP } from '@subwallet/extension-base/services/chain-service/constants';
 
 const RMRK_PREFIX = 'RMRK';
 const RMRK_OP_TYPE = 'SEND';

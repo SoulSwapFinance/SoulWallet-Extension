@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BrowserConfirmationType, LanguageType, ThemeNames } from '@soul-wallet/extension-base/background/KoniTypes';
-import { ENABLE_LANGUAGES, languageOptions } from '@soul-wallet/extension-base/constants/i18n';
+import { BrowserConfirmationType, LanguageType, ThemeNames } from '@subwallet/extension-base/background/KoniTypes';
+import { ENABLE_LANGUAGES, languageOptions } from '@subwallet/extension-base/constants/i18n';
 import { Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
 import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
 import { saveBrowserConfirmationType, saveLanguage, saveTheme } from '@subwallet/extension-koni-ui/messaging';

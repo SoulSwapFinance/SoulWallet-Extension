@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit/dist';
-import { CrowdloanItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { CrowdloanItem } from '@subwallet/extension-base/background/KoniTypes';
 import { CrowdloanStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
 
 const initialState: CrowdloanStore = {

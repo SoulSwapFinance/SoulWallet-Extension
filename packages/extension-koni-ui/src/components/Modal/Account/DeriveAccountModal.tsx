@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AccountJson } from '@soul-wallet/extension-base/background/types';
-import { canDerive } from '@soul-wallet/extension-base/utils';
+import { AccountJson } from '@subwallet/extension-base/background/types';
+import { canDerive } from '@subwallet/extension-base/utils';
 import AccountItemWithName from '@subwallet/extension-koni-ui/components/Account/Item/AccountItemWithName';
 import BackIcon from '@subwallet/extension-koni-ui/components/Icon/BackIcon';
 import { EVM_ACCOUNT_TYPE } from '@subwallet/extension-koni-ui/constants/account';

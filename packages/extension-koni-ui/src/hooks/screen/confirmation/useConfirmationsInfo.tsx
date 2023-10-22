@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ConfirmationRequestBase } from '@soul-wallet/extension-base/background/types';
+import { ConfirmationRequestBase } from '@subwallet/extension-base/background/types';
 import { RootState } from '@subwallet/extension-koni-ui/stores';
 import { ConfirmationQueueItem, CONFIRMATIONS_FIELDS } from '@subwallet/extension-koni-ui/stores/base/RequestState';
 import { useSelector } from 'react-redux';

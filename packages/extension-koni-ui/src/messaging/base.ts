@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { MessageTypes, MessageTypesWithNoSubscriptions, MessageTypesWithNullRequest, MessageTypesWithSubscriptions, RequestTypes, ResponseTypes, SubscriptionMessageTypes } from '@soul-wallet/extension-base/background/types';
-import { PORT_EXTENSION } from '@soul-wallet/extension-base/defaults';
-import { Message } from '@soul-wallet/extension-base/types';
-import { getId } from '@soul-wallet/extension-base/utils/getId';
+import { MessageTypes, MessageTypesWithNoSubscriptions, MessageTypesWithNullRequest, MessageTypesWithSubscriptions, RequestTypes, ResponseTypes, SubscriptionMessageTypes } from '@subwallet/extension-base/background/types';
+import { PORT_EXTENSION } from '@subwallet/extension-base/defaults';
+import { Message } from '@subwallet/extension-base/types';
+import { getId } from '@subwallet/extension-base/utils/getId';
 
 interface Handler {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

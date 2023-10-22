@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AbstractAddressJson } from '@soul-wallet/extension-base/background/types';
-import { stripUrl } from '@soul-wallet/extension-base/utils';
+import { AbstractAddressJson } from '@subwallet/extension-base/background/types';
+import { stripUrl } from '@subwallet/extension-base/utils';
 import { useSelector } from '@subwallet/extension-koni-ui/hooks';
 import { ThemeProps } from '@subwallet/extension-koni-ui/types';
 import { getWCAccountList } from '@subwallet/extension-koni-ui/utils';

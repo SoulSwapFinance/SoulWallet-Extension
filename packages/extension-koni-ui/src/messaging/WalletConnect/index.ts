@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { RequestApproveConnectWalletSession, RequestApproveWalletConnectNotSupport, RequestConnectWalletConnect, RequestRejectConnectWalletSession, RequestRejectWalletConnectNotSupport } from '@soul-wallet/extension-base/background/KoniTypes';
+import { RequestApproveConnectWalletSession, RequestApproveWalletConnectNotSupport, RequestConnectWalletConnect, RequestRejectConnectWalletSession, RequestRejectWalletConnectNotSupport } from '@subwallet/extension-base/background/KoniTypes';
 import { sendMessage } from '@subwallet/extension-koni-ui/messaging';
 
 export async function addConnection (request: RequestConnectWalletConnect): Promise<boolean> {

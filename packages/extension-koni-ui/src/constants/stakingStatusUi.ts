@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { detectTranslate } from '@soul-wallet/extension-base/utils';
+import { detectTranslate } from '@subwallet/extension-base/utils';
 import { InfoItemBase } from '@subwallet/extension-koni-ui/components/MetaInfo/parts/types';
 import { PhosphorIcon } from '@subwallet/extension-koni-ui/types';
 import { CheckCircle, ListChecks, XCircle } from 'phosphor-react';

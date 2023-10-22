@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { MessageTypesWithSubscriptions } from '@soul-wallet/extension-base/background/types';
+import { MessageTypesWithSubscriptions } from '@subwallet/extension-base/background/types';
 import { subscribeMessage } from '@subwallet/extension-koni-ui/messaging';
 import { ThemeProps } from '@subwallet/extension-koni-ui/types';
 import { Button, Form, Input, Select } from '@subwallet/react-ui';

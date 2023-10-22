@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { _ChainState } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _ChainState } from '@subwallet/extension-base/services/chain-service/types';
 import { ChainStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
 
 const initialState: ChainStore = {

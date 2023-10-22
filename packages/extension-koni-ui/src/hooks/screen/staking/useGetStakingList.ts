@@ -1,9 +1,9 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { APIItemState, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { ALL_ACCOUNT_KEY } from '@soul-wallet/extension-base/constants';
-import { _getChainNativeTokenBasicInfo, _getChainNativeTokenSlug } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { APIItemState, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType } from '@subwallet/extension-base/background/KoniTypes';
+import { ALL_ACCOUNT_KEY } from '@subwallet/extension-base/constants';
+import { _getChainNativeTokenBasicInfo, _getChainNativeTokenSlug } from '@subwallet/extension-base/services/chain-service/utils';
 import { RootState } from '@subwallet/extension-koni-ui/stores';
 import { StakingData, StakingDataType } from '@subwallet/extension-koni-ui/types/staking';
 import { isAccountAll } from '@subwallet/extension-koni-ui/utils';

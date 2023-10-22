@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AccountAuthType, AccountJson } from '@soul-wallet/extension-base/background/types';
-import { WALLET_CONNECT_EIP155_NAMESPACE, WALLET_CONNECT_SUPPORT_NAMESPACES } from '@soul-wallet/extension-base/services/wallet-connect-service/constants';
-import { isProposalExpired, isSupportWalletConnectChain, isSupportWalletConnectNamespace } from '@soul-wallet/extension-base/services/wallet-connect-service/helpers';
-import { isSameAddress, uniqueStringArray } from '@soul-wallet/extension-base/utils';
+import { AccountAuthType, AccountJson } from '@subwallet/extension-base/background/types';
+import { WALLET_CONNECT_EIP155_NAMESPACE, WALLET_CONNECT_SUPPORT_NAMESPACES } from '@subwallet/extension-base/services/wallet-connect-service/constants';
+import { isProposalExpired, isSupportWalletConnectChain, isSupportWalletConnectNamespace } from '@subwallet/extension-base/services/wallet-connect-service/helpers';
+import { isSameAddress, uniqueStringArray } from '@subwallet/extension-base/utils';
 import { WalletConnectChainInfo } from '@subwallet/extension-koni-ui/types';
 import { chainsToWalletConnectChainInfos, isAccountAll, reformatAddress } from '@subwallet/extension-koni-ui/utils';
 import { ProposalTypes } from '@walletconnect/types';

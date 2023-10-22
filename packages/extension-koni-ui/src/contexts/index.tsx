@@ -1,10 +1,10 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AccountsContext, AuthorizeRequest, MetadataRequest, SigningRequest } from '@soul-wallet/extension-base/background/types';
+import type { AccountsContext, AuthorizeRequest, MetadataRequest, SigningRequest } from '@subwallet/extension-base/background/types';
 import type { SettingsStruct } from '@polkadot/ui-settings/types';
 
-import { ConfirmationsQueue } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ConfirmationsQueue } from '@subwallet/extension-base/background/KoniTypes';
 import React from 'react';
 
 import settings from '@polkadot/ui-settings';

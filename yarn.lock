@@ -6015,6 +6015,135 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@subwallet/chain-list@npm:^0.2.4":
+  version: 0.2.18
+  resolution: "@subwallet/chain-list@npm:0.2.18"
+  dependencies:
+    "@polkadot/dev": 0.67.167
+    "@polkadot/util": ^12.5.1
+    eventemitter3: ^5.0.1
+  checksum: a0ec06fff3127d710bc55981def1082304e831d4f37cd1b14339e528fe131e7991dffaeadccb58d3cff0ca93df347dbb5f5626996059a63b83d2c384f8dba887
+  languageName: node
+  linkType: hard
+
+"@subwallet/extension-base@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@subwallet/extension-base@npm:1.1.1"
+  dependencies:
+    "@acala-network/api": ^5.0.2
+    "@apollo/client": ^3.7.14
+    "@equilab/api": ^1.14.25
+    "@ethereumjs/common": ^2.6.5
+    "@ethereumjs/tx": ^4.0.2
+    "@ethersproject/abi": ^5.7.0
+    "@json-rpc-tools/utils": ^1.7.6
+    "@metamask/safe-event-emitter": ^2.0.0
+    "@metaverse-network-sdk/type-definitions": ^0.0.1-13
+    "@oak-foundation/types": ^0.0.23
+    "@polkadot/api": ^10.9.1
+    "@polkadot/api-contract": ^10.9.1
+    "@polkadot/api-derive": ^10.9.1
+    "@polkadot/apps-config": ^0.132.1
+    "@polkadot/hw-ledger": ^12.3.2
+    "@polkadot/networks": ^12.3.2
+    "@polkadot/phishing": ^0.21.5
+    "@polkadot/rpc-provider": ^10.9.1
+    "@polkadot/types": ^10.9.1
+    "@polkadot/types-augment": ^10.9.1
+    "@polkadot/ui-settings": ^3.5.1
+    "@polkadot/util": ^12.3.2
+    "@polkadot/util-crypto": ^12.3.2
+    "@reduxjs/toolkit": ^1.9.1
+    "@sora-substrate/type-definitions": ^1.17.7
+    "@substrate/connect": ^0.7.26
+    "@subwallet/chain-list": ^0.2.4
+    "@subwallet/extension-base": ^1.1.1
+    "@subwallet/extension-chains": ^1.1.1
+    "@subwallet/extension-dapp": ^1.1.1
+    "@subwallet/extension-inject": ^1.1.1
+    "@subwallet/keyring": ^0.0.10
+    "@subwallet/ui-keyring": ^0.0.10
+    "@walletconnect/sign-client": ^2.8.4
+    "@walletconnect/types": ^2.8.4
+    "@walletconnect/utils": ^2.8.4
+    axios: ^1.2.1
+    bignumber.js: ^9.1.1
+    bn.js: ^5.2.1
+    browser-passworder: ^2.0.3
+    buffer: ^6.0.3
+    cross-fetch: ^3.1.5
+    dexie: ^3.2.2
+    eth-simple-keyring: ^4.2.0
+    ethereumjs-tx: ^2.1.2
+    ethereumjs-util: ^7.1.5
+    ethers: ^6.4.2
+    eventemitter3: ^5.0.0
+    graphql: ^16.6.0
+    i18next: ^21.9.2
+    is-buffer: ^2.0.5
+    json-rpc-engine: ^6.1.0
+    manta-extension-sdk: ^1.1.0
+    moment: ^2.29.4
+    protobufjs: ^7.1.2
+    rxjs: ^7.8.1
+    web3: ^1.10.0
+    web3-core: ^1.10.0
+    web3-core-helpers: ^1.10.0
+    web3-eth-contract: ^1.10.0
+    web3-utils: ^1.10.0
+  checksum: 2f152064f391ff5b4cbe0cb6680b5d4dba486043e79c6bea50a14af2c6aabfc76f1f239590cda6015534876b834bf1fc07d94b2d809da1c347c3ce35bc7a0ebf
+  languageName: node
+  linkType: hard
+
+"@subwallet/extension-chains@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@subwallet/extension-chains@npm:1.1.1"
+  dependencies:
+    "@babel/runtime": ^7.20.6
+    "@polkadot/networks": ^12.3.2
+    "@polkadot/util": ^12.3.2
+    "@polkadot/util-crypto": ^12.3.2
+    "@subwallet/extension-inject": ^1.1.1
+  peerDependencies:
+    "@polkadot/api": "*"
+    "@polkadot/types": "*"
+  checksum: 00a4d0f6d427c6bcddf5d76f9c2331bef4563cb1bc3afbad674f1a9628173eee7cad93e63dd94781a27e01289b7bb4b933b5e76be2e151e70668603f10ef2173
+  languageName: node
+  linkType: hard
+
+"@subwallet/extension-dapp@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@subwallet/extension-dapp@npm:1.1.1"
+  dependencies:
+    "@babel/runtime": ^7.20.6
+    "@polkadot/util": ^12.3.2
+    "@polkadot/util-crypto": ^12.3.2
+    "@subwallet/extension-inject": ^1.1.1
+  peerDependencies:
+    "@polkadot/api": "*"
+    "@polkadot/util": "*"
+    "@polkadot/util-crypto": "*"
+  checksum: 4d75be7e49a2f5d1138f48b8a419f11bc1b73f991f7fd7a575c934205535e3e6c4f49d177d00cd5eafa5b8c25b0379b04c74219881e023daa2a9c815bf2b26a7
+  languageName: node
+  linkType: hard
+
+"@subwallet/extension-inject@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@subwallet/extension-inject@npm:1.1.1"
+  dependencies:
+    "@babel/runtime": ^7.20.6
+    "@polkadot/rpc-provider": ^10.9.1
+    "@polkadot/types": ^10.9.1
+    "@polkadot/util": ^12.3.2
+    "@polkadot/util-crypto": ^12.3.2
+    "@polkadot/x-global": ^12.2.1
+    web3-core: ^1.10.0
+  peerDependencies:
+    "@polkadot/api": "*"
+  checksum: 2d33ba3f81705f7647084d50eecc0b5047b42ceaed2d0e99bfd5712c37c5d8d62e4efd2e550cd44cf5804f72704a4d6af5ccb8551265c8452c1c8da873c69279
+  languageName: node
+  linkType: hard
+
 "@subwallet/extension-koni-ui@^1.1.17-0, @subwallet/extension-koni-ui@workspace:packages/extension-koni-ui":
   version: 0.0.0-use.local
   resolution: "@subwallet/extension-koni-ui@workspace:packages/extension-koni-ui"
@@ -6042,6 +6171,7 @@ __metadata:
     "@soul-wallet/extension-chains": ^1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
     "@soul-wallet/extension-inject": ^1.0.1
+    "@subwallet/extension-base": ^1.1.1
     "@subwallet/extension-mocks": ^1.1.17-0
     "@subwallet/keyring": ^0.1.1
     "@subwallet/react-ui": 5.1.2-b72
@@ -14412,7 +14542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:^16.8.1":
+"graphql@npm:^16.6.0, graphql@npm:^16.8.1":
   version: 16.8.1
   resolution: "graphql@npm:16.8.1"
   checksum: 8d304b7b6f708c8c5cc164b06e92467dfe36aff6d4f2cf31dd19c4c2905a0e7b89edac4b7e225871131fd24e21460836b369de0c06532644d15b461d55b1ccc0
@@ -20156,6 +20286,26 @@ __metadata:
   version: 2.0.1
   resolution: "propagate@npm:2.0.1"
   checksum: c4febaee2be0979e82fb6b3727878fd122a98d64a7fa3c9d09b0576751b88514a9e9275b1b92e76b364d488f508e223bd7e1dcdc616be4cdda876072fbc2a96c
+  languageName: node
+  linkType: hard
+
+"protobufjs@npm:^7.1.2":
+  version: 7.2.5
+  resolution: "protobufjs@npm:7.2.5"
+  dependencies:
+    "@protobufjs/aspromise": ^1.1.2
+    "@protobufjs/base64": ^1.1.2
+    "@protobufjs/codegen": ^2.0.4
+    "@protobufjs/eventemitter": ^1.1.0
+    "@protobufjs/fetch": ^1.1.0
+    "@protobufjs/float": ^1.0.2
+    "@protobufjs/inquire": ^1.1.0
+    "@protobufjs/path": ^1.1.2
+    "@protobufjs/pool": ^1.1.0
+    "@protobufjs/utf8": ^1.1.0
+    "@types/node": ">=13.7.0"
+    long: ^5.0.0
+  checksum: 3770a072114061faebbb17cfd135bc4e187b66bc6f40cd8bac624368b0270871ec0cfb43a02b9fb4f029c8335808a840f1afba3c2e7ede7063b98ae6b98a703f
   languageName: node
   linkType: hard
 

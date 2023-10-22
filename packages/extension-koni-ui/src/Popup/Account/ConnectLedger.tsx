@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { LedgerNetwork } from '@soul-wallet/extension-base/background/KoniTypes';
-import { reformatAddress } from '@soul-wallet/extension-base/utils';
+import { LedgerNetwork } from '@subwallet/extension-base/background/KoniTypes';
+import { reformatAddress } from '@subwallet/extension-base/utils';
 import { AccountItemWithName, AccountWithNameSkeleton, BasicOnChangeFunction, ChainSelector, CloseIcon, DualLogo, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
 import { ATTACH_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants';
 import { useAutoNavigateToCreatePassword, useCompleteCreateAccount, useDefaultNavigate, useGetSupportedLedger, useGoBackFromCreateAccount, useLedger } from '@subwallet/extension-koni-ui/hooks';

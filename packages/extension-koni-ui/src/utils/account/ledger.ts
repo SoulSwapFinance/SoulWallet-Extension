@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { LedgerNetwork } from '@soul-wallet/extension-base/background/KoniTypes';
-import { _ChainState } from '@soul-wallet/extension-base/services/chain-service/types';
-import { _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { LedgerNetwork } from '@subwallet/extension-base/background/KoniTypes';
+import { _ChainState } from '@subwallet/extension-base/services/chain-service/types';
+import { _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
 import { PredefinedLedgerNetwork } from '@subwallet/extension-koni-ui/constants/ledger';
 
 interface ChainItem extends _ChainState {

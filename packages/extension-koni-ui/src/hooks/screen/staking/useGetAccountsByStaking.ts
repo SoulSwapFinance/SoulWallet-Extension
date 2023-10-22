@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { StakingType } from '@subwallet/extension-base/background/KoniTypes';
 import { BaseAccountInfo } from '@subwallet/extension-koni-ui/components/Account/Info/AvatarGroup';
 import { RootState } from '@subwallet/extension-koni-ui/stores';
 import { findAccountByAddress } from '@subwallet/extension-koni-ui/utils';

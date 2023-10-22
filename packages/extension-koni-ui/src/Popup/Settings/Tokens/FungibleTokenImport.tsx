@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetType, _ChainInfo } from '@soul-wallet/chain-list/types';
-import { _getTokenTypesSupportedByChain, _isChainTestNet, _parseMetadataForSmartContractAsset } from '@soul-wallet/extension-base/services/chain-service/utils';
-import { isValidSubstrateAddress } from '@soul-wallet/extension-base/utils';
+import { _getTokenTypesSupportedByChain, _isChainTestNet, _parseMetadataForSmartContractAsset } from '@subwallet/extension-base/services/chain-service/utils';
+import { isValidSubstrateAddress } from '@subwallet/extension-base/utils';
 import { AddressInput, GeneralEmptyList, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
 import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
 import { useChainChecker, useDefaultNavigate, useGetChainPrefixBySlug, useGetContractSupportedChains, useNotification, useTranslation } from '@subwallet/extension-koni-ui/hooks';

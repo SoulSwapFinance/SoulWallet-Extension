@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetRef, _ChainAsset, _ChainInfo, _MultiChainAsset } from '@soul-wallet/chain-list/types';
-import { AuthUrlInfo } from '@soul-wallet/extension-base/background/handlers/State';
-import { AddressBookState, AllLogoMap, AssetSetting, BalanceItem, ChainStakingMetadata, ConfirmationDefinitions, ConfirmationsQueue, ConfirmationType, CrowdloanItem, KeyringState, LanguageType, MantaPayConfig, NftCollection, NftItem, NominationPoolInfo, NominatorMetadata, PriceJson, StakingItem, StakingRewardItem, TransactionHistoryItem, UiSettings, ValidatorInfo } from '@soul-wallet/extension-base/background/KoniTypes';
-import { AccountJson, AccountsContext, AuthorizeRequest, MetadataRequest, SigningRequest } from '@soul-wallet/extension-base/background/types';
-import { _ChainState } from '@soul-wallet/extension-base/services/chain-service/types';
-import { SWTransactionResult } from '@soul-wallet/extension-base/services/transaction-service/types';
-import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { AuthUrlInfo } from '@subwallet/extension-base/background/handlers/State';
+import { AddressBookState, AllLogoMap, AssetSetting, BalanceItem, ChainStakingMetadata, ConfirmationDefinitions, ConfirmationsQueue, ConfirmationType, CrowdloanItem, KeyringState, LanguageType, MantaPayConfig, NftCollection, NftItem, NominationPoolInfo, NominatorMetadata, PriceJson, StakingItem, StakingRewardItem, TransactionHistoryItem, UiSettings, ValidatorInfo } from '@subwallet/extension-base/background/KoniTypes';
+import { AccountJson, AccountsContext, AuthorizeRequest, MetadataRequest, SigningRequest } from '@subwallet/extension-base/background/types';
+import { _ChainState } from '@subwallet/extension-base/services/chain-service/types';
+import { SWTransactionResult } from '@subwallet/extension-base/services/transaction-service/types';
+import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
 import { SessionTypes } from '@walletconnect/types';
 
 import { SettingsStruct } from '@polkadot/ui-settings/types';

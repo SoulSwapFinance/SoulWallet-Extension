@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { canDerive } from '@soul-wallet/extension-base/utils';
+import { canDerive } from '@subwallet/extension-base/utils';
 import BackIcon from '@subwallet/extension-koni-ui/components/Icon/BackIcon';
 import CloseIcon from '@subwallet/extension-koni-ui/components/Icon/CloseIcon';
 import { SettingItemSelection } from '@subwallet/extension-koni-ui/components/Setting/SettingItemSelection';

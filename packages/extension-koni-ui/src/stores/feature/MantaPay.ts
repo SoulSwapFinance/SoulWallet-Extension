@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit/dist';
-import { MantaPayConfig, MantaPaySyncState } from '@soul-wallet/extension-base/background/KoniTypes';
+import { MantaPayConfig, MantaPaySyncState } from '@subwallet/extension-base/background/KoniTypes';
 import { MantaPayStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
 
 const initialState: MantaPayStore = {

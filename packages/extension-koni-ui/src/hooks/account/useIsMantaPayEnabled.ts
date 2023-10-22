@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { MantaPayConfig } from '@soul-wallet/extension-base/background/KoniTypes';
+import { MantaPayConfig } from '@subwallet/extension-base/background/KoniTypes';
 import { RootState } from '@subwallet/extension-koni-ui/stores';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';

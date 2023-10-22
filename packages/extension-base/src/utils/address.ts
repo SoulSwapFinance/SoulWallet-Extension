@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AddressJson } from '@soul-wallet/extension-base/background/types';
-import { reformatAddress } from '@soul-wallet/extension-base/utils/index';
+import { reformatAddress } from '.';
 import { SubjectInfo } from '@subwallet/ui-keyring/observable/types';
 
 import { decodeAddress, encodeAddress, isAddress, isEthereumAddress } from '@polkadot/util-crypto';

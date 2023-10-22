@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { TransactionHistoryItem } from '@subwallet/extension-base/background/KoniTypes';
 import { TransactionHistoryReducerType } from '@subwallet/extension-koni-ui/stores/types';
 
 const initialState = { historyList: [] } as TransactionHistoryReducerType;

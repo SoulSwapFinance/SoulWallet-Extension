@@ -3,7 +3,7 @@
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { TransactionError } from '@soul-wallet/extension-base/background/errors/TransactionError';
-import { BasicTxErrorType, ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus, StakingTxErrorType, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from '@soul-wallet/extension-base/background/KoniTypes';
+import { BasicTxErrorType, ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus, StakingTxErrorType, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from '../../../../background/KoniTypes';
 import { getBondedValidators, getExistUnstakeErrorMessage, getMaxValidatorErrorMessage, getMinStakeErrorMessage, getParaCurrentInflation, getStakingStatusByNominations, InflationConfig, isUnstakeAll, PalletIdentityRegistration, PalletParachainStakingDelegationRequestsScheduledRequest, PalletParachainStakingDelegator, ParachainStakingCandidateMetadata, parseIdentity, TuringOptimalCompoundFormat } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
 import { _STAKING_ERA_LENGTH_MAP } from '@soul-wallet/extension-base/services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';

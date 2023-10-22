@@ -3,7 +3,7 @@
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { TransactionError } from '@soul-wallet/extension-base/background/errors/TransactionError';
-import { ChainStakingMetadata, NominatorMetadata, StakingType, UnstakingInfo, ValidatorInfo } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ChainStakingMetadata, NominatorMetadata, StakingType, UnstakingInfo, ValidatorInfo } from '../../../../background/KoniTypes';
 import { getAmplitudeBondingExtrinsic, getAmplitudeClaimRewardExtrinsic, getAmplitudeCollatorsInfo, getAmplitudeNominatorMetadata, getAmplitudeStakingMetadata, getAmplitudeUnbondingExtrinsic, getAmplitudeWithdrawalExtrinsic, subscribeAmplitudeStakingMetadata } from '@soul-wallet/extension-base/koni/api/staking/bonding/amplitude';
 import { getAstarBondingExtrinsic, getAstarClaimRewardExtrinsic, getAstarDappsInfo, getAstarNominatorMetadata, getAstarStakingMetadata, getAstarUnbondingExtrinsic, getAstarWithdrawalExtrinsic, subscribeAstarStakingMetadata } from '@soul-wallet/extension-base/koni/api/staking/bonding/astar';
 import { getParaBondingExtrinsic, getParaCancelWithdrawalExtrinsic, getParachainCollatorsInfo, getParaChainNominatorMetadata, getParaChainStakingMetadata, getParaUnbondingExtrinsic, getParaWithdrawalExtrinsic, subscribeParaChainStakingMetadata, validateParaChainBondingCondition, validateParaChainUnbondingCondition } from '@soul-wallet/extension-base/koni/api/staking/bonding/paraChain';
