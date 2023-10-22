@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainInfo } from '@soul-wallet/chain-list/src/types';
+import { _ChainInfo } from '@soul-wallet/chain-list/types';
 
 export const TEST_CHAIN_LIST = [{
   slug: 'acala',

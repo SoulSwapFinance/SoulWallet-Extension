@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/src/types';
+import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
 import { ApiMap, ServiceInfo } from '@subwallet/extension-base/background/KoniTypes';
 import { CRON_REFRESH_NFT_INTERVAL, CRON_REFRESH_STAKING_REWARD_FAST_INTERVAL, CRON_REFRESH_STAKING_REWARD_INTERVAL, CRON_SYNC_MANTA_PAY } from '@subwallet/extension-base/constants';
 import { KoniSubscription } from '@subwallet/extension-base/koni/background/subscription';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainInfo } from '@soul-wallet/chain-list/src/types';
+import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
 import { SWTransaction } from '@subwallet/extension-base/services/transaction-service/types';
 

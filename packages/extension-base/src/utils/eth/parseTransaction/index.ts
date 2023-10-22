@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainInfo } from '@soul-wallet/chain-list/src/types';
+import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { EvmTransactionArg, NestedArray, ParseEvmTransactionData, ResponseParseEvmContractInput, ResponseQrParseRLP } from '@subwallet/extension-base/background/KoniTypes';
 import { _ERC20_ABI, _ERC721_ABI } from '@subwallet/extension-base/services/chain-service/helper';
 import { _EvmApi } from '@subwallet/extension-base/services/chain-service/types';

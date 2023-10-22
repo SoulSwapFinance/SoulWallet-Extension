@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ChainAssetMap, ChainInfoMap } from '@soul-wallet/chain-list';
-import { _AssetType, _ChainAsset } from '@soul-wallet/chain-list/src/types';
+import { _AssetType, _ChainAsset } from '@soul-wallet/chain-list/types';
 import { createTransferExtrinsic } from '@subwallet/extension-base/koni/api/dotsama/transfer';
 import { getERC20TransactionObject, getEVMTransactionObject } from '@subwallet/extension-base/koni/api/tokens/evm/transfer';
 import { EvmChainHandler } from '@subwallet/extension-base/services/chain-service/handler/EvmChainHandler';

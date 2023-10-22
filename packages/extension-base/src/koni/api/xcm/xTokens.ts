@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/src/types';
+import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
 import { FOUR_INSTRUCTIONS_WEIGHT, getDestMultilocation, getDestWeight } from '@subwallet/extension-base/koni/api/xcm/utils';
 import { _getTokenOnChainAssetId, _getTokenOnChainInfo, _getXcmAssetId, _getXcmAssetMultilocation, _getXcmAssetType, _isNativeToken } from '@subwallet/extension-base/services/chain-service/utils';
 

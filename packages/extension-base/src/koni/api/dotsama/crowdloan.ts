@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { COMMON_CHAIN_SLUGS } from '@soul-wallet/chain-list';
-import { _ChainInfo } from '@soul-wallet/chain-list/src/types';
+import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { APIItemState, CrowdloanItem, CrowdloanParaState } from '@subwallet/extension-base/background/KoniTypes';
 import { ACALA_REFRESH_CROWDLOAN_INTERVAL } from '@subwallet/extension-base/constants';
 import registry from '@subwallet/extension-base/koni/api/dotsama/typeRegistry';

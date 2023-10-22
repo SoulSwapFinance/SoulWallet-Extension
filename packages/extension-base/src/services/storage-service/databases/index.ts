@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/src/types';
+import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
 import { BalanceItem, ChainStakingMetadata, CrowdloanItem, MetadataItem, NftCollection, NftItem, NominatorMetadata, PriceJson, StakingItem, TransactionHistoryItem } from '@subwallet/extension-base/background/KoniTypes';
 import Dexie, { Table, Transaction } from 'dexie';
 

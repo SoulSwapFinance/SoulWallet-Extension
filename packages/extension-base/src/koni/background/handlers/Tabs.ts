@@ -3,7 +3,7 @@
 
 import type { InjectedAccount } from '@soul-wallet/extension-inject/types';
 
-import { _AssetType } from '@soul-wallet/chain-list/src/types';
+import { _AssetType } from '@soul-wallet/chain-list/types';
 import { EvmProviderError } from '@subwallet/extension-base/background/errors/EvmProviderError';
 import { withErrorLog } from '@subwallet/extension-base/background/handlers/helpers';
 import { AuthUrlInfo } from '@subwallet/extension-base/background/handlers/State';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/src/types';
+import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
 import { NftCollection, NftItem } from '@subwallet/extension-base/background/KoniTypes';
 import { AcalaNftApi } from '@subwallet/extension-base/koni/api/nft/acala_nft';
 import { BitCountryNftApi } from '@subwallet/extension-base/koni/api/nft/bit.country';

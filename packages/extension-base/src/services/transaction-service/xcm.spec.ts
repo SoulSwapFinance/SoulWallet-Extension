@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AssetRefMap, ChainAssetMap, ChainInfoMap } from '@soul-wallet/chain-list';
-import { _AssetRef } from '@soul-wallet/chain-list/src/types';
+import { _AssetRef } from '@soul-wallet/chain-list/types';
 import { createXcmExtrinsic } from '@subwallet/extension-base/koni/api/xcm';
 import { SubstrateChainHandler } from '@subwallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
 import { _SubstrateApi } from '@subwallet/extension-base/services/chain-service/types';

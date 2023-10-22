@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _DEFAULT_CHAINS } from '@soul-wallet/chain-list';
-import { _SubstrateChainType } from '@soul-wallet/chain-list/src/types';
+import { _SubstrateChainType } from '@soul-wallet/chain-list/types';
 import { SingleModeJson, ThemeNames } from '@subwallet/extension-base/background/KoniTypes';
 
 export const API_AUTO_CONNECT_MS = 3000;
