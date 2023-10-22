@@ -4,7 +4,7 @@
       "composite": true,
       "paths": {
         "@soul-wallet/extension-base": ["extension-base/src"],
-        "@subwallet/extension-base/*": ["extension-base/src/*"],
+        "@soul-wallet/extension-base/*": ["extension-base/src/*"],
         "@subwallet/extension-chains": ["extension-chains/src"],
         "@subwallet/extension-chains/*": ["extension-chains/src/*"],
         "@subwallet/extension-compat-metamask": ["extension-compat-metamask/src"],
