@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { CurrentAccountInfo, KeyringState } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { ALL_ACCOUNT_KEY } from '@soul-wallet/extension-base/src/constants';
-import { EventService } from '@soul-wallet/extension-base/src/services/event-service';
-import { CurrentAccountStore } from '@soul-wallet/extension-base/src/stores';
+import { CurrentAccountInfo, KeyringState } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ALL_ACCOUNT_KEY } from '@soul-wallet/extension-base/constants';
+import { EventService } from '@soul-wallet/extension-base/services/event-service';
+import { CurrentAccountStore } from '@soul-wallet/extension-base/stores';
 import { InjectedAccountWithMeta } from '@soul-wallet/extension-inject/types';
 import { keyring } from '@subwallet/ui-keyring';
 import { SubjectInfo } from '@subwallet/ui-keyring/observable/types';

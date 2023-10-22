@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
-import { SupportTransferResponse } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { getPSP22ContractPromise } from '@soul-wallet/extension-base/src/koni/api/tokens/wasm';
-import { getWasmContractGasLimit } from '@soul-wallet/extension-base/src/koni/api/tokens/wasm/utils';
-import { _BALANCE_TOKEN_GROUP, _MANTA_ZK_CHAIN_GROUP, _TRANSFER_CHAIN_GROUP, _TRANSFER_NOT_SUPPORTED_CHAINS, _ZK_ASSET_PREFIX } from '@soul-wallet/extension-base/src/services/chain-service/constants';
-import { _SubstrateApi } from '@soul-wallet/extension-base/src/services/chain-service/types';
-import { _getContractAddressOfToken, _getTokenOnChainAssetId, _getTokenOnChainInfo, _isChainEvmCompatible, _isNativeToken, _isTokenWasmSmartContract } from '@soul-wallet/extension-base/src/services/chain-service/utils';
+import { SupportTransferResponse } from '@soul-wallet/extension-base/background/KoniTypes';
+import { getPSP22ContractPromise } from '@soul-wallet/extension-base/koni/api/tokens/wasm';
+import { getWasmContractGasLimit } from '@soul-wallet/extension-base/koni/api/tokens/wasm/utils';
+import { _BALANCE_TOKEN_GROUP, _MANTA_ZK_CHAIN_GROUP, _TRANSFER_CHAIN_GROUP, _TRANSFER_NOT_SUPPORTED_CHAINS, _ZK_ASSET_PREFIX } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _getContractAddressOfToken, _getTokenOnChainAssetId, _getTokenOnChainInfo, _isChainEvmCompatible, _isNativeToken, _isTokenWasmSmartContract } from '@soul-wallet/extension-base/services/chain-service/utils';
 
 import { SubmittableExtrinsic } from '@polkadot/api/promise/types';
 import { AccountInfoWithProviders, AccountInfoWithRefCount } from '@polkadot/types/interfaces';

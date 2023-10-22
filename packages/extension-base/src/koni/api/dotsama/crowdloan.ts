@@ -3,12 +3,12 @@
 
 import { COMMON_CHAIN_SLUGS } from '@soul-wallet/chain-list';
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { APIItemState, CrowdloanItem, CrowdloanParaState } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { ACALA_REFRESH_CROWDLOAN_INTERVAL } from '@soul-wallet/extension-base/src/constants';
-import registry from '@soul-wallet/extension-base/src/koni/api/dotsama/typeRegistry';
-import { _SubstrateApi } from '@soul-wallet/extension-base/src/services/chain-service/types';
-import { _getChainSubstrateAddressPrefix, _getSubstrateParaId, _getSubstrateRelayParent, _isChainEvmCompatible, _isSubstrateParaChain } from '@soul-wallet/extension-base/src/services/chain-service/utils';
-import { categoryAddresses, reformatAddress } from '@soul-wallet/extension-base/src/utils';
+import { APIItemState, CrowdloanItem, CrowdloanParaState } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ACALA_REFRESH_CROWDLOAN_INTERVAL } from '@soul-wallet/extension-base/constants';
+import registry from '@soul-wallet/extension-base/koni/api/dotsama/typeRegistry';
+import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _getChainSubstrateAddressPrefix, _getSubstrateParaId, _getSubstrateRelayParent, _isChainEvmCompatible, _isSubstrateParaChain } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { categoryAddresses, reformatAddress } from '@soul-wallet/extension-base/utils';
 import axios from 'axios';
 
 import { ApiPromise } from '@polkadot/api';

@@ -1,12 +1,12 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AuthRequestV2, ConfirmationDefinitions, ConfirmationsQueue, ConfirmationsQueueItemOptions, ConfirmationType, RequestConfirmationComplete } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { AccountAuthType, AccountJson, AuthorizeRequest, MetadataRequest, RequestAuthorizeTab, RequestSign, ResponseSigning, SigningRequest } from '@soul-wallet/extension-base/src/background/types';
-import { ChainService } from '@soul-wallet/extension-base/src/services/chain-service';
-import { KeyringService } from '@soul-wallet/extension-base/src/services/keyring-service';
-import SettingService from '@soul-wallet/extension-base/src/services/setting-service/SettingService';
-import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/src/services/wallet-connect-service/types';
+import { AuthRequestV2, ConfirmationDefinitions, ConfirmationsQueue, ConfirmationsQueueItemOptions, ConfirmationType, RequestConfirmationComplete } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountAuthType, AccountJson, AuthorizeRequest, MetadataRequest, RequestAuthorizeTab, RequestSign, ResponseSigning, SigningRequest } from '@soul-wallet/extension-base/background/types';
+import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
+import { KeyringService } from '@soul-wallet/extension-base/services/keyring-service';
+import SettingService from '@soul-wallet/extension-base/services/setting-service/SettingService';
+import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
 import { MetadataDef } from '@soul-wallet/extension-inject/types';
 import { BehaviorSubject } from 'rxjs';
 

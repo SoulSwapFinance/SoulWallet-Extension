@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { APIItemState, StakingRewardItem, StakingType } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { INDEXER_SUPPORTED_STAKING_CHAINS, SUBSQUID_ENDPOINTS } from '@soul-wallet/extension-base/src/koni/api/staking/config';
-import { _getChainSubstrateAddressPrefix, _isChainEvmCompatible } from '@soul-wallet/extension-base/src/services/chain-service/utils';
-import { reformatAddress } from '@soul-wallet/extension-base/src/utils';
+import { APIItemState, StakingRewardItem, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { INDEXER_SUPPORTED_STAKING_CHAINS, SUBSQUID_ENDPOINTS } from '@soul-wallet/extension-base/koni/api/staking/config';
+import { _getChainSubstrateAddressPrefix, _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { reformatAddress } from '@soul-wallet/extension-base/utils';
 import axios from 'axios';
 
 import { isEthereumAddress } from '@polkadot/util-crypto';

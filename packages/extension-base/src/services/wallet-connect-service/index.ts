@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { formatJsonRpcError } from '@json-rpc-tools/utils';
-import KoniState from '@soul-wallet/extension-base/src/koni/background/handlers/State';
-import RequestService from '@soul-wallet/extension-base/src/services/request-service';
-import Eip155RequestHandler from '@soul-wallet/extension-base/src/services/wallet-connect-service/handler/Eip155RequestHandler';
+import KoniState from '@soul-wallet/extension-base/koni/background/handlers/State';
+import RequestService from '@soul-wallet/extension-base/services/request-service';
+import Eip155RequestHandler from '@soul-wallet/extension-base/services/wallet-connect-service/handler/Eip155RequestHandler';
 import SignClient from '@walletconnect/sign-client';
 import { EngineTypes, SessionTypes, SignClientTypes } from '@walletconnect/types';
 import { getInternalError, getSdkError } from '@walletconnect/utils';

@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { CurrentAccountInfo } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { SWTransaction } from '@soul-wallet/extension-base/src/services/transaction-service/types';
+import { CurrentAccountInfo } from '@soul-wallet/extension-base/background/KoniTypes';
+import { SWTransaction } from '@soul-wallet/extension-base/services/transaction-service/types';
 
 export interface EventRegistry {
   'general.sleep': [boolean],

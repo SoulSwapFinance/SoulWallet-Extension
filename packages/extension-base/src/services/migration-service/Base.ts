@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import State from '@soul-wallet/extension-base/src/koni/background/handlers/State';
+import State from '@soul-wallet/extension-base/koni/background/handlers/State';
 
 import { logger as createLogger } from '@polkadot/util';
 import { Logger } from '@polkadot/util/types';

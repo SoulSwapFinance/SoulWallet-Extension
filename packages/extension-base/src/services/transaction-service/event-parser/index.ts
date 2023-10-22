@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
-import { TransactionHistoryItem } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { _getAssetDecimals, _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/src/services/chain-service/utils';
+import { TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _getAssetDecimals, _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/services/chain-service/utils';
 
 import { EventRecord } from '@polkadot/types/interfaces';
 

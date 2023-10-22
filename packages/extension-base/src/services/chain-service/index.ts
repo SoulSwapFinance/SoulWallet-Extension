@@ -3,19 +3,19 @@
 
 import { AssetLogoMap, AssetRefMap, ChainAssetMap, ChainInfoMap, ChainLogoMap, MultiChainAssetMap } from '@soul-wallet/chain-list';
 import { _AssetRef, _AssetRefPath, _AssetType, _ChainAsset, _ChainInfo, _ChainStatus, _EvmInfo, _MultiChainAsset, _SubstrateChainType, _SubstrateInfo } from '@soul-wallet/chain-list/types';
-import { AssetSetting, ValidateNetworkResponse } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { _ASSET_LOGO_MAP_SRC, _ASSET_REF_SRC, _CHAIN_ASSET_SRC, _CHAIN_INFO_SRC, _CHAIN_LOGO_MAP_SRC, _DEFAULT_ACTIVE_CHAINS, _MANTA_ZK_CHAIN_GROUP, _MULTI_CHAIN_ASSET_SRC, _ZK_ASSET_PREFIX } from '@soul-wallet/extension-base/src/services/chain-service/constants';
-import { EvmChainHandler } from '@soul-wallet/extension-base/src/services/chain-service/handler/EvmChainHandler';
-import { MantaPrivateHandler } from '@soul-wallet/extension-base/src/services/chain-service/handler/manta/MantaPrivateHandler';
-import { SubstrateChainHandler } from '@soul-wallet/extension-base/src/services/chain-service/handler/SubstrateChainHandler';
-import { _CHAIN_VALIDATION_ERROR } from '@soul-wallet/extension-base/src/services/chain-service/handler/types';
-import { _ChainConnectionStatus, _ChainState, _CUSTOM_PREFIX, _DataMap, _EvmApi, _NetworkUpsertParams, _NFT_CONTRACT_STANDARDS, _SMART_CONTRACT_STANDARDS, _SmartContractTokenInfo, _SubstrateApi, _ValidateCustomAssetRequest, _ValidateCustomAssetResponse } from '@soul-wallet/extension-base/src/services/chain-service/types';
-import { _isAssetFungibleToken, _isChainEnabled, _isCustomAsset, _isCustomChain, _isEqualContractAddress, _isEqualSmartContractAsset, _isMantaZkAsset, _isPureEvmChain, _isPureSubstrateChain, _parseAssetRefKey } from '@soul-wallet/extension-base/src/services/chain-service/utils';
-import { EventService } from '@soul-wallet/extension-base/src/services/event-service';
-import { IChain, IMetadataItem } from '@soul-wallet/extension-base/src/services/storage-service/databases';
-import DatabaseService from '@soul-wallet/extension-base/src/services/storage-service/DatabaseService';
-import AssetSettingStore from '@soul-wallet/extension-base/src/stores/AssetSetting';
-import { MODULE_SUPPORT } from '@soul-wallet/extension-base/src/utils';
+import { AssetSetting, ValidateNetworkResponse } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _ASSET_LOGO_MAP_SRC, _ASSET_REF_SRC, _CHAIN_ASSET_SRC, _CHAIN_INFO_SRC, _CHAIN_LOGO_MAP_SRC, _DEFAULT_ACTIVE_CHAINS, _MANTA_ZK_CHAIN_GROUP, _MULTI_CHAIN_ASSET_SRC, _ZK_ASSET_PREFIX } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { EvmChainHandler } from '@soul-wallet/extension-base/services/chain-service/handler/EvmChainHandler';
+import { MantaPrivateHandler } from '@soul-wallet/extension-base/services/chain-service/handler/manta/MantaPrivateHandler';
+import { SubstrateChainHandler } from '@soul-wallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
+import { _CHAIN_VALIDATION_ERROR } from '@soul-wallet/extension-base/services/chain-service/handler/types';
+import { _ChainConnectionStatus, _ChainState, _CUSTOM_PREFIX, _DataMap, _EvmApi, _NetworkUpsertParams, _NFT_CONTRACT_STANDARDS, _SMART_CONTRACT_STANDARDS, _SmartContractTokenInfo, _SubstrateApi, _ValidateCustomAssetRequest, _ValidateCustomAssetResponse } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _isAssetFungibleToken, _isChainEnabled, _isCustomAsset, _isCustomChain, _isEqualContractAddress, _isEqualSmartContractAsset, _isMantaZkAsset, _isPureEvmChain, _isPureSubstrateChain, _parseAssetRefKey } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { EventService } from '@soul-wallet/extension-base/services/event-service';
+import { IChain, IMetadataItem } from '@soul-wallet/extension-base/services/storage-service/databases';
+import DatabaseService from '@soul-wallet/extension-base/services/storage-service/DatabaseService';
+import AssetSettingStore from '@soul-wallet/extension-base/stores/AssetSetting';
+import { MODULE_SUPPORT } from '@soul-wallet/extension-base/utils';
 import { BehaviorSubject, Subject } from 'rxjs';
 import Web3 from 'web3';
 

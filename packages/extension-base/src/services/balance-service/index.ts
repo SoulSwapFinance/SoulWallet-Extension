@@ -1,14 +1,14 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BalanceError } from '@soul-wallet/extension-base/src/background/errors/BalanceError';
-import { AmountData, BalanceErrorType, BalanceItem } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { subscribeEVMBalance, subscribeSubstrateBalance } from '@soul-wallet/extension-base/src/koni/api/dotsama/balance';
-import { state } from '@soul-wallet/extension-base/src/koni/background/handlers';
-import { ChainService } from '@soul-wallet/extension-base/src/services/chain-service';
-import { _PURE_EVM_CHAINS } from '@soul-wallet/extension-base/src/services/chain-service/constants';
-import { _getChainNativeTokenSlug, _isChainEvmCompatible, _isPureEvmChain } from '@soul-wallet/extension-base/src/services/chain-service/utils';
-import { categoryAddresses } from '@soul-wallet/extension-base/src/utils';
+import { BalanceError } from '@soul-wallet/extension-base/background/errors/BalanceError';
+import { AmountData, BalanceErrorType, BalanceItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { subscribeEVMBalance, subscribeSubstrateBalance } from '@soul-wallet/extension-base/koni/api/dotsama/balance';
+import { state } from '@soul-wallet/extension-base/koni/background/handlers';
+import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
+import { _PURE_EVM_CHAINS } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _getChainNativeTokenSlug, _isChainEvmCompatible, _isPureEvmChain } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { categoryAddresses } from '@soul-wallet/extension-base/utils';
 import { t } from 'i18next';
 
 export class BalanceService {

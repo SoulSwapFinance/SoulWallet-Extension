@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
-import BaseStore from '@soul-wallet/extension-base/src/services/storage-service/db-stores/BaseStore';
+import BaseStore from '@soul-wallet/extension-base/services/storage-service/db-stores/BaseStore';
 
 export default class AssetStore extends BaseStore<_ChainAsset> {
   async getAll () {

@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { APIItemState, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { PalletStakingStakingLedger, subscribeRelayChainNominatorMetadata, subscribeRelayChainPoolMemberMetadata } from '@soul-wallet/extension-base/src/koni/api/staking/bonding/relayChain';
-import { PalletNominationPoolsPoolMember } from '@soul-wallet/extension-base/src/koni/api/staking/bonding/utils';
-import { _SubstrateApi } from '@soul-wallet/extension-base/src/services/chain-service/types';
-import { _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/src/services/chain-service/utils';
-import { reformatAddress } from '@soul-wallet/extension-base/src/utils';
+import { APIItemState, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { PalletStakingStakingLedger, subscribeRelayChainNominatorMetadata, subscribeRelayChainPoolMemberMetadata } from '@soul-wallet/extension-base/koni/api/staking/bonding/relayChain';
+import { PalletNominationPoolsPoolMember } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
+import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { reformatAddress } from '@soul-wallet/extension-base/utils';
 
 import { Codec } from '@polkadot/types/types';
 import { BN } from '@polkadot/util';

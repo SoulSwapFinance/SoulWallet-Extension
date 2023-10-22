@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
-import { FOUR_INSTRUCTIONS_WEIGHT, getDestMultilocation, getDestWeight } from '@soul-wallet/extension-base/src/koni/api/xcm/utils';
-import { _getTokenOnChainAssetId, _getTokenOnChainInfo, _getXcmAssetId, _getXcmAssetMultilocation, _getXcmAssetType, _isNativeToken } from '@soul-wallet/extension-base/src/services/chain-service/utils';
+import { FOUR_INSTRUCTIONS_WEIGHT, getDestMultilocation, getDestWeight } from '@soul-wallet/extension-base/koni/api/xcm/utils';
+import { _getTokenOnChainAssetId, _getTokenOnChainInfo, _getXcmAssetId, _getXcmAssetMultilocation, _getXcmAssetType, _isNativeToken } from '@soul-wallet/extension-base/services/chain-service/utils';
 
 import { ApiPromise } from '@polkadot/api';
 

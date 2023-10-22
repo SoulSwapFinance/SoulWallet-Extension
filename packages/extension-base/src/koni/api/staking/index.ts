@@ -2,14 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { NominatorMetadata, StakingItem, StakingRewardItem } from '@soul-wallet/extension-base/src/background/KoniTypes';
-import { getAmplitudeStakingOnChain, getAstarStakingOnChain, getParaStakingOnChain } from '@soul-wallet/extension-base/src/koni/api/staking/paraChain';
-import { getNominationPoolReward, getRelayPoolingOnChain, getRelayStakingOnChain } from '@soul-wallet/extension-base/src/koni/api/staking/relayChain';
-import { getAllSubsquidStaking } from '@soul-wallet/extension-base/src/koni/api/staking/subsquidStaking';
-import { _PURE_EVM_CHAINS, _STAKING_CHAIN_GROUP } from '@soul-wallet/extension-base/src/services/chain-service/constants';
-import { _SubstrateApi } from '@soul-wallet/extension-base/src/services/chain-service/types';
-import { _isChainEvmCompatible, _isChainSupportSubstrateStaking, _isSubstrateRelayChain } from '@soul-wallet/extension-base/src/services/chain-service/utils';
-import { categoryAddresses } from '@soul-wallet/extension-base/src/utils';
+import { NominatorMetadata, StakingItem, StakingRewardItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { getAmplitudeStakingOnChain, getAstarStakingOnChain, getParaStakingOnChain } from '@soul-wallet/extension-base/koni/api/staking/paraChain';
+import { getNominationPoolReward, getRelayPoolingOnChain, getRelayStakingOnChain } from '@soul-wallet/extension-base/koni/api/staking/relayChain';
+import { getAllSubsquidStaking } from '@soul-wallet/extension-base/koni/api/staking/subsquidStaking';
+import { _PURE_EVM_CHAINS, _STAKING_CHAIN_GROUP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _isChainEvmCompatible, _isChainSupportSubstrateStaking, _isSubstrateRelayChain } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { categoryAddresses } from '@soul-wallet/extension-base/utils';
 
 interface PromiseMapping {
   api: _SubstrateApi,

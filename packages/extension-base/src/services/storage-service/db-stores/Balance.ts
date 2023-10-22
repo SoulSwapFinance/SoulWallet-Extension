@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BalanceItem } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { BalanceItem } from '@soul-wallet/extension-base/background/KoniTypes';
 
 import { IBalance } from '../databases';
 import BaseStoreWithAddress from '../db-stores/BaseStoreWithAddress';

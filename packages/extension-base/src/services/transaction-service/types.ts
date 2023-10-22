@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AmountData, BaseRequestSign, ChainType, ExtrinsicDataTypeMap, ExtrinsicStatus, ExtrinsicType, ValidateTransactionResponse } from '@soul-wallet/extension-base/src/background/KoniTypes';
+import { AmountData, BaseRequestSign, ChainType, ExtrinsicDataTypeMap, ExtrinsicStatus, ExtrinsicType, ValidateTransactionResponse } from '@soul-wallet/extension-base/background/KoniTypes';
 import EventEmitter from 'eventemitter3';
 import { TransactionConfig } from 'web3-core';
 

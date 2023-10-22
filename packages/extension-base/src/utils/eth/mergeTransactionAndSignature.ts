@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Web3Transaction } from '@soul-wallet/extension-base/src/signers/types';
+import { Web3Transaction } from '@soul-wallet/extension-base/signers/types';
 import { addHexPrefix } from 'ethereumjs-util';
 import { ethers, SignatureLike, TransactionLike } from 'ethers';
 

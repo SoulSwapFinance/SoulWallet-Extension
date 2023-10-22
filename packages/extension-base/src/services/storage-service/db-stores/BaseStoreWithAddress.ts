@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import BaseStore from '@soul-wallet/extension-base/src/services/storage-service/db-stores/BaseStore';
+import BaseStore from '@soul-wallet/extension-base/services/storage-service/db-stores/BaseStore';
 
 import { DefaultAddressDoc } from '../databases';
 

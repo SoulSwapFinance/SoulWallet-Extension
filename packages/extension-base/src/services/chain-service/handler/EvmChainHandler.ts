@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetType } from '@soul-wallet/chain-list/types';
-import { ChainService } from '@soul-wallet/extension-base/src/services/chain-service';
-import { AbstractChainHandler } from '@soul-wallet/extension-base/src/services/chain-service/handler/AbstractChainHandler';
-import { EvmApi } from '@soul-wallet/extension-base/src/services/chain-service/handler/EvmApi';
-import { _ApiOptions, _EvmChainSpec } from '@soul-wallet/extension-base/src/services/chain-service/handler/types';
-import { _ERC20_ABI, _ERC721_ABI } from '@soul-wallet/extension-base/src/services/chain-service/helper';
-import { _EvmApi, _SmartContractTokenInfo } from '@soul-wallet/extension-base/src/services/chain-service/types';
+import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
+import { AbstractChainHandler } from '@soul-wallet/extension-base/services/chain-service/handler/AbstractChainHandler';
+import { EvmApi } from '@soul-wallet/extension-base/services/chain-service/handler/EvmApi';
+import { _ApiOptions, _EvmChainSpec } from '@soul-wallet/extension-base/services/chain-service/handler/types';
+import { _ERC20_ABI, _ERC721_ABI } from '@soul-wallet/extension-base/services/chain-service/helper';
+import { _EvmApi, _SmartContractTokenInfo } from '@soul-wallet/extension-base/services/chain-service/types';
 import BigN from 'bignumber.js';
 import { Contract } from 'web3-eth-contract';
 

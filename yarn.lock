@@ -5628,7 +5628,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@soul-wallet/chain-list@npm:1.0.4, @soul-wallet/chain-list@npm:^1.0.4":
+"@soul-wallet/chain-list@npm:1.0.5":
+  version: 1.0.5
+  resolution: "@soul-wallet/chain-list@npm:1.0.5"
+  dependencies:
+    "@polkadot/dev": 0.67.167
+    "@polkadot/util": ^12.5.1
+    eventemitter3: ^5.0.1
+  checksum: f92306f6ba5a3c6e187b8f3ddff0e703eb06ec74757669ce079a8d96385e814963ed565c393ac576912ddea3ed2fe472e5b72842867b58dc6027fbb7ca057d57
+  languageName: node
+  linkType: hard
+
+"@soul-wallet/chain-list@npm:^1.0.4":
   version: 1.0.4
   resolution: "@soul-wallet/chain-list@npm:1.0.4"
   dependencies:
@@ -5639,7 +5650,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@soul-wallet/extension-base@*, @soul-wallet/extension-base@^1.0.4, @soul-wallet/extension-base@workspace:packages/extension-base":
+"@soul-wallet/extension-base@*, @soul-wallet/extension-base@^1.0.6, @soul-wallet/extension-base@workspace:packages/extension-base":
   version: 0.0.0-use.local
   resolution: "@soul-wallet/extension-base@workspace:packages/extension-base"
   dependencies:
@@ -5669,7 +5680,7 @@ __metadata:
     "@polkadot/util-crypto": ^12.3.2
     "@reduxjs/toolkit": ^1.9.1
     "@sora-substrate/type-definitions": ^1.17.7
-    "@soul-wallet/chain-list": 1.0.4
+    "@soul-wallet/chain-list": 1.0.5
     "@soul-wallet/extension-base": "*"
     "@soul-wallet/extension-chains": 1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
@@ -5713,80 +5724,6 @@ __metadata:
     web3-utils: ^1.10.0
   languageName: unknown
   linkType: soft
-
-"@soul-wallet/extension-base@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@soul-wallet/extension-base@npm:1.0.5"
-  dependencies:
-    "@acala-network/api": ^5.0.2
-    "@apollo/client": ^3.7.14
-    "@azns/resolver-core": ^1.4.0
-    "@equilab/api": ^1.14.25
-    "@ethereumjs/common": ^2.6.5
-    "@ethereumjs/tx": ^4.0.2
-    "@ethersproject/abi": ^5.7.0
-    "@json-rpc-tools/utils": ^1.7.6
-    "@metamask/safe-event-emitter": ^2.0.0
-    "@metaverse-network-sdk/type-definitions": ^0.0.1-13
-    "@oak-foundation/types": ^0.0.23
-    "@polkadot/api": ^10.9.1
-    "@polkadot/api-contract": ^10.9.1
-    "@polkadot/api-derive": ^10.9.1
-    "@polkadot/apps-config": ^0.132.1
-    "@polkadot/hw-ledger": ^12.3.2
-    "@polkadot/networks": ^12.3.2
-    "@polkadot/phishing": ^0.21.5
-    "@polkadot/rpc-provider": ^10.9.1
-    "@polkadot/types": ^10.9.1
-    "@polkadot/types-augment": ^10.9.1
-    "@polkadot/ui-settings": ^3.5.1
-    "@polkadot/util": ^12.3.2
-    "@polkadot/util-crypto": ^12.3.2
-    "@reduxjs/toolkit": ^1.9.1
-    "@sora-substrate/type-definitions": ^1.17.7
-    "@soul-wallet/chain-list": 1.0.4
-    "@soul-wallet/extension-base": "*"
-    "@soul-wallet/extension-chains": 1.0.0
-    "@soul-wallet/extension-dapp": ^1.0.0
-    "@soul-wallet/extension-inject": ^1.0.1
-    "@substrate/connect": ^0.7.26
-    "@subwallet/keyring": ^0.1.1
-    "@subwallet/ui-keyring": ^0.1.1
-    "@walletconnect/sign-client": ^2.8.4
-    "@walletconnect/types": ^2.8.4
-    "@walletconnect/utils": ^2.8.4
-    avail-js-sdk: ^0.0.10
-    axios: ^1.2.1
-    bignumber.js: ^9.1.1
-    bn.js: ^5.2.1
-    browser-passworder: ^2.0.3
-    buffer: ^6.0.3
-    cross-fetch: ^3.1.5
-    dexie: ^3.2.2
-    eth-simple-keyring: ^4.2.0
-    ethereumjs-tx: ^2.1.2
-    ethereumjs-util: ^7.1.5
-    ethers: ^6.4.2
-    eventemitter3: ^5.0.0
-    graphql: ^16.8.1
-    i18next: ^21.9.2
-    is-buffer: ^2.0.5
-    json-rpc-engine: ^6.1.0
-    manta-extension-sdk: ^1.1.0
-    moment: ^2.29.4
-    protobufjs: ^7.2.4
-    rxjs: ^7.8.1
-    uuid: ^9.0.0
-    web3: ^1.10.0
-    web3-core: ^1.10.0
-    web3-core-helpers: ^1.10.0
-    web3-core-subscriptions: 1.10.0
-    web3-eth: 1.10.0
-    web3-eth-contract: ^1.10.0
-    web3-utils: ^1.10.0
-  checksum: 2a9c03ac5d4c41f68847bfeaffa1813e547b08640f1c2268d3295d9f5533ac5e51eee7b409f17b252723f95df467712aaf0fd413abd01948d86c51f0382d1990
-  languageName: node
-  linkType: hard
 
 "@soul-wallet/extension-chains@1.0.0, @soul-wallet/extension-chains@^1.0.0, @soul-wallet/extension-chains@workspace:packages/extension-chains":
   version: 0.0.0-use.local
@@ -6100,8 +6037,8 @@ __metadata:
     "@polkadot/util-crypto": ^12.3.2
     "@ramonak/react-progress-bar": ^5.0.3
     "@reduxjs/toolkit": ^1.9.1
-    "@soul-wallet/chain-list": 1.0.4
-    "@soul-wallet/extension-base": ^1.0.5
+    "@soul-wallet/chain-list": 1.0.5
+    "@soul-wallet/extension-base": ^1.0.6
     "@soul-wallet/extension-chains": ^1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
     "@soul-wallet/extension-inject": ^1.0.1
@@ -6169,7 +6106,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.20.6
     "@polkadot/dev": ^0.65.23
-    "@soul-wallet/extension-base": ^1.0.4
+    "@soul-wallet/extension-base": ^1.0.6
     "@soul-wallet/extension-inject": ^1.0.1
     "@subwallet/extension-koni-ui": ^1.1.17-0
     assert: ^2.0.0
@@ -6321,7 +6258,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.20.6
     "@polkadot/dev": ^0.65.23
-    "@soul-wallet/extension-base": ^1.0.4
+    "@soul-wallet/extension-base": ^1.0.6
     "@soul-wallet/extension-inject": ^1.0.1
     "@subwallet/extension-koni-ui": ^1.1.17-0
     assert: ^2.0.0
