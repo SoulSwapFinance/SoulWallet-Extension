@@ -17,11 +17,14 @@
   ],
   "type": "module",
   "main": "./src/index.ts",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@polkadot/util": "^12.3.2",
     "@polkadot/util-crypto": "^12.3.2",
-    "@soul-wallet/extension-inject": "^1.0.0"
+    "@soul-wallet/extension-inject": "^1.0.1"
   },
   "peerDependencies": {
     "@polkadot/api": "*",

@@ -7,7 +7,7 @@
         "@soul-wallet/extension-base/*": ["extension-base/src/*"],
         "@subwallet/extension-chains": ["extension-chains/src"],
         "@subwallet/extension-chains/*": ["extension-chains/src/*"],
-        "@subwallet/extension-compat-metamask": ["extension-compat-metamask/src"],
+        "@soul-wallet/extension-compat-metamask": ["extension-compat-metamask/src"],
         "@soul-wallet/extension-dapp": ["extension-dapp/src"],
         "@soul-wallet/extension-dapp/*": ["extension-dapp/src/*"],
         "@soul-wallet/extension-inject": ["extension-inject/src"],
