@@ -8,7 +8,7 @@ import { AccountAuthType, AccountJson, AddressJson, AuthorizeRequest, Confirmati
 import { _CHAIN_VALIDATION_ERROR } from '@soul-wallet/extension-base/services/chain-service/handler/types';
 import { _ChainState, _EvmApi, _NetworkUpsertParams, _SubstrateApi, _ValidateCustomAssetRequest, _ValidateCustomAssetResponse, EnableChainParams, EnableMultiChainParams } from '@soul-wallet/extension-base/services/chain-service/types';
 import { SWTransactionResponse, SWTransactionResult } from '@soul-wallet/extension-base/services/transaction-service/types';
-import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '../services/wallet-connect-service/types';
 import { InjectedAccount, InjectedAccountWithMeta, MetadataDefBase } from '@soul-wallet/extension-inject/types';
 import { KeyringPair$Json, KeyringPair$Meta } from '@subwallet/keyring/types';
 import { KeyringOptions } from '@subwallet/ui-keyring/options/types';

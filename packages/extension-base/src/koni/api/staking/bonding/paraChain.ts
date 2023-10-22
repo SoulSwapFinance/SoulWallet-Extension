@@ -4,8 +4,8 @@
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { TransactionError } from '@soul-wallet/extension-base/background/errors/TransactionError';
 import { BasicTxErrorType, ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus, StakingTxErrorType, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from '../../../../background/KoniTypes';
-import { getBondedValidators, getExistUnstakeErrorMessage, getMaxValidatorErrorMessage, getMinStakeErrorMessage, getParaCurrentInflation, getStakingStatusByNominations, InflationConfig, isUnstakeAll, PalletIdentityRegistration, PalletParachainStakingDelegationRequestsScheduledRequest, PalletParachainStakingDelegator, ParachainStakingCandidateMetadata, parseIdentity, TuringOptimalCompoundFormat } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
-import { _STAKING_ERA_LENGTH_MAP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { getBondedValidators, getExistUnstakeErrorMessage, getMaxValidatorErrorMessage, getMinStakeErrorMessage, getParaCurrentInflation, getStakingStatusByNominations, InflationConfig, isUnstakeAll, PalletIdentityRegistration, PalletParachainStakingDelegationRequestsScheduledRequest, PalletParachainStakingDelegator, ParachainStakingCandidateMetadata, parseIdentity, TuringOptimalCompoundFormat } from '../bonding/utils';
+import { _STAKING_ERA_LENGTH_MAP } from '../../../../services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
 import { _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
 import { isSameAddress, parseRawNumber, reformatAddress } from '@soul-wallet/extension-base/utils';

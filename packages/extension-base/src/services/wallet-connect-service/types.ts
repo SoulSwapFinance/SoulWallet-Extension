@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { EvmSendTransactionParams } from '@soul-wallet/extension-base/background/KoniTypes';
+import { EvmSendTransactionParams } from '../../background/KoniTypes';
 import { ConfirmationRequestBase, Resolver } from '@soul-wallet/extension-base/background/types';
 import { EngineTypes, SignClientTypes } from '@walletconnect/types';
 

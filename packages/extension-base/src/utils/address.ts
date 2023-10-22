@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AddressJson } from '@soul-wallet/extension-base/background/types';
+import { AddressJson } from '../background/types';
 import { reformatAddress } from '.';
 import { SubjectInfo } from '@subwallet/ui-keyring/observable/types';
 

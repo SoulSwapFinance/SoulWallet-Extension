@@ -3,8 +3,8 @@
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from '../../../../background/KoniTypes';
-import { BlockHeader, getBondedValidators, getStakingStatusByNominations, isUnstakeAll, PalletIdentityRegistration, ParachainStakingStakeOption, parseIdentity } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
-import { _STAKING_ERA_LENGTH_MAP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { BlockHeader, getBondedValidators, getStakingStatusByNominations, isUnstakeAll, PalletIdentityRegistration, ParachainStakingStakeOption, parseIdentity } from '../../staking/bonding/utils';
+import { _STAKING_ERA_LENGTH_MAP } from '../../../../services/chain-service/constants';
 import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
 import { parseRawNumber, reformatAddress } from '@soul-wallet/extension-base/utils';
 

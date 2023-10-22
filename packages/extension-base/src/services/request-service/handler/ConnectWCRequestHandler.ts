@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { Resolver } from '@soul-wallet/extension-base/background/types';
-import RequestService from '@soul-wallet/extension-base/services/request-service';
-import { RequestWalletConnectSession, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import RequestService from '../../../services/request-service';
+import { RequestWalletConnectSession, WalletConnectSessionRequest } from '../../../services/wallet-connect-service/types';
 import { BehaviorSubject } from 'rxjs';
 
 // WC = WalletConnect

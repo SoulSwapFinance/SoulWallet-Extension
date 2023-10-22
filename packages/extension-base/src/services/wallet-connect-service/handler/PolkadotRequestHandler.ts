@@ -3,11 +3,11 @@
 
 import { formatJsonRpcError, formatJsonRpcResult } from '@json-rpc-tools/utils';
 import RequestBytesSign from '@soul-wallet/extension-base/background/RequestBytesSign';
-import RequestExtrinsicSign from '@soul-wallet/extension-base/background/RequestExtrinsicSign';
-import RequestService from '@soul-wallet/extension-base/services/request-service';
-import WalletConnectService from '@soul-wallet/extension-base/services/wallet-connect-service';
-import { getWCId, parseRequestParams } from '@soul-wallet/extension-base/services/wallet-connect-service/helpers';
-import { POLKADOT_SIGNING_METHODS } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import RequestExtrinsicSign from '../../../background/RequestExtrinsicSign';
+import RequestService from '../../../services/request-service';
+import WalletConnectService from '../../../services/wallet-connect-service';
+import { getWCId, parseRequestParams } from '../../../services/wallet-connect-service/helpers';
+import { POLKADOT_SIGNING_METHODS } from '../../../services/wallet-connect-service/types';
 import { isSameAddress } from '@soul-wallet/extension-base/utils';
 import keyring from '@subwallet/ui-keyring';
 import { SignClientTypes } from '@walletconnect/types';

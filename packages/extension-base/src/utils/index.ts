@@ -3,7 +3,7 @@
 
 import { CrowdloanParaState, MobileOS, NetworkJson } from '../background/KoniTypes'
 import { AccountAuthType, AccountJson } from '@soul-wallet/extension-base/background/types'
-import { ALL_ACCOUNT_KEY } from '@soul-wallet/extension-base/constants'
+import { ALL_ACCOUNT_KEY } from '../constants'
 import { getOS } from '../utils/environment'
 import { t } from 'i18next'
 

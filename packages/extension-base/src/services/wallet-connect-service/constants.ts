@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { EIP155_SIGNING_METHODS, POLKADOT_SIGNING_METHODS, WalletConnectSigningMethod } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { EIP155_SIGNING_METHODS, POLKADOT_SIGNING_METHODS, WalletConnectSigningMethod } from '../../services/wallet-connect-service/types';
 import { isMobile } from '@soul-wallet/extension-base/utils';
 import { SignClientTypes } from '@walletconnect/types';
 
@@ -14,10 +14,10 @@ export const DEFAULT_WALLET_CONNECT_OPTIONS: SignClientTypes.Options = {
   projectId: !isMobile ? PROJECT_ID_EXTENSION : PROJECT_ID_MOBILE,
   relayUrl: RELAY_URL,
   metadata: {
-    name: 'SubWallet',
+    name: 'SoulWallet',
     description: 'React Wallet for WalletConnect',
-    url: 'https://www.subwallet.app/',
-    icons: ['https://raw.githubusercontent.com/Koniverse/SubWallet-Extension/master/packages/extension-koni/public/images/icon-128.png']
+    url: 'https://app.soulswap.finance/',
+    icons: ['https://raw.githubusercontent.com/soulswapfinance/assets/prod/blockchains/fantom/assets/0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07/logo.png']
   }
 };
 

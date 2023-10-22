@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BrowserConfirmationType, LanguageType, ThemeNames, UiSettings, WalletUnlockType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { BrowserConfirmationType, LanguageType, ThemeNames, UiSettings, WalletUnlockType } from '../../background/KoniTypes';
 import { TARGET_ENV } from '@soul-wallet/extension-base/utils';
 
 export const DEFAULT_THEME: ThemeNames = ThemeNames.DARK;

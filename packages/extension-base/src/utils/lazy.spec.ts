@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { addLazy } from '@soul-wallet/extension-base/utils/lazy';
+import { addLazy } from '../utils/lazy';
 
 // Increase timeout to 20s
 jest.setTimeout(20000);

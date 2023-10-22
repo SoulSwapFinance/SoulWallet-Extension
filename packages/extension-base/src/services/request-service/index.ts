@@ -3,10 +3,10 @@
 
 import { AuthRequestV2, ConfirmationDefinitions, ConfirmationsQueue, ConfirmationsQueueItemOptions, ConfirmationType, RequestConfirmationComplete } from '@soul-wallet/extension-base/background/KoniTypes';
 import { AccountAuthType, AccountJson, AuthorizeRequest, MetadataRequest, RequestAuthorizeTab, RequestSign, ResponseSigning, SigningRequest } from '@soul-wallet/extension-base/background/types';
-import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
-import { KeyringService } from '@soul-wallet/extension-base/services/keyring-service';
-import SettingService from '@soul-wallet/extension-base/services/setting-service/SettingService';
-import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { ChainService } from '../../services/chain-service';
+import { KeyringService } from '../../services/keyring-service';
+import SettingService from '../../services/setting-service/SettingService';
+import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '../wallet-connect-service/types';
 import { MetadataDef } from '@soul-wallet/extension-inject/types';
 import { BehaviorSubject } from 'rxjs';
 
