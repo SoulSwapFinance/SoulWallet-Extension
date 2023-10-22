@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TransactionHistoryItem } from 'background/KoniTypes';
-import { ChainService } from 'services/chain-service';
-import { isSameAddress } from 'utils';
+import { TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
+import { isSameAddress } from '@soul-wallet/extension-base/utils';
 
 import { Vec } from '@polkadot/types';
 import { EventRecord } from '@polkadot/types/interfaces';

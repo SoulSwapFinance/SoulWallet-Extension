@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { PriceJson } from 'background/KoniTypes';
+import { PriceJson } from '@soul-wallet/extension-base/background/KoniTypes';
 import axios from 'axios';
 
 interface GeckoItem {

@@ -1,16 +1,16 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ProviderError } from 'background/errors/ProviderError';
-import { MessageTypes, TransportRequestMessage } from 'background/types';
-import { PORT_EXTENSION, PORT_MOBILE } from 'defaults';
-import { NftHandler } from 'koni/api/nft';
-import KoniExtension from 'koni/background/handlers/Extension';
-import Mobile from 'koni/background/handlers/Mobile';
-import KoniState from 'koni/background/handlers/State';
-import KoniTabs from 'koni/background/handlers/Tabs';
+import { ProviderError } from '@soul-wallet/extension-base/background/errors/ProviderError';
+import { MessageTypes, TransportRequestMessage } from '@soul-wallet/extension-base/background/types';
+import { PORT_EXTENSION, PORT_MOBILE } from '@soul-wallet/extension-base/defaults';
+import { NftHandler } from '@soul-wallet/extension-base/koni/api/nft';
+import KoniExtension from '@soul-wallet/extension-base/koni/background/handlers/Extension';
+import Mobile from '@soul-wallet/extension-base/koni/background/handlers/Mobile';
+import KoniState from '@soul-wallet/extension-base/koni/background/handlers/State';
+import KoniTabs from '@soul-wallet/extension-base/koni/background/handlers/Tabs';
 
-// import Migration from 'koni/migration';
+// import Migration from '@soul-wallet/extension-base/koni/migration';
 import { assert } from '@polkadot/util';
 
 export const state = new KoniState();

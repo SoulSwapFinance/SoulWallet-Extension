@@ -4,8 +4,8 @@
 import type { Signer, SignerResult } from '@polkadot/api/types';
 import type { Registry, SignerPayloadJSON } from '@polkadot/types/types';
 
-import { ExternalRequestPromise, ExternalRequestPromiseStatus } from '../../background/KoniTypes';
-import { LedgerState } from '../types';
+import { ExternalRequestPromise, ExternalRequestPromiseStatus } from '@soul-wallet/extension-base/background/KoniTypes';
+import { LedgerState } from '@soul-wallet/extension-base/signers/types';
 
 import { u8aToHex } from '@polkadot/util';
 

@@ -3,7 +3,7 @@
 
 import { COMMON_CHAIN_SLUGS } from '@soul-wallet/chain-list';
 import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
-import { _getSubstrateParaId, _getXcmAssetMultilocation, _isChainEvmCompatible, _isNativeToken, _isSubstrateParaChain, _isSubstrateRelayChain } from 'services/chain-service/utils';
+import { _getSubstrateParaId, _getXcmAssetMultilocation, _isChainEvmCompatible, _isNativeToken, _isSubstrateParaChain, _isSubstrateRelayChain } from '@soul-wallet/extension-base/services/chain-service/utils';
 
 import { decodeAddress, evmToAddress } from '@polkadot/util-crypto';
 

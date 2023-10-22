@@ -1,15 +1,15 @@
 // Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicStatus, TransactionHistoryItem } from 'background/KoniTypes';
-import { CRON_RECOVER_HISTORY_INTERVAL, CRON_REFRESH_HISTORY_INTERVAL } from 'constants';
-import { CronServiceInterface, PersistDataServiceInterface, ServiceStatus, StoppableServiceInterface } from 'services/base/types';
-import { ChainService } from 'services/chain-service';
-import { EventService } from 'services/event-service';
-import { historyRecover, HistoryRecoverStatus } from 'services/history-service/helpers/recoverHistoryStatus';
-import { KeyringService } from 'services/keyring-service';
-import DatabaseService from 'services/storage-service/DatabaseService';
-import { createPromiseHandler } from 'utils/promise';
+import { ExtrinsicStatus, TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { CRON_RECOVER_HISTORY_INTERVAL, CRON_REFRESH_HISTORY_INTERVAL } from '@soul-wallet/extension-base/constants';
+import { CronServiceInterface, PersistDataServiceInterface, ServiceStatus, StoppableServiceInterface } from '@soul-wallet/extension-base/services/base/types';
+import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
+import { EventService } from '@soul-wallet/extension-base/services/event-service';
+import { historyRecover, HistoryRecoverStatus } from '@soul-wallet/extension-base/services/history-service/helpers/recoverHistoryStatus';
+import { KeyringService } from '@soul-wallet/extension-base/services/keyring-service';
+import DatabaseService from '@soul-wallet/extension-base/services/storage-service/DatabaseService';
+import { createPromiseHandler } from '@soul-wallet/extension-base/utils/promise';
 import { keyring } from '@subwallet/ui-keyring';
 import { BehaviorSubject } from 'rxjs';
 

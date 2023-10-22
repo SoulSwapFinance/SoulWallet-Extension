@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import DeleteChain from 'services/migration-service/scripts/DeleteChain';
+import DeleteChain from '@soul-wallet/extension-base/services/migration-service/scripts/DeleteChain';
 
 import BaseMigrationJob from '../Base';
 import AutoEnableChainsTokens from './AutoEnableChainsTokens';

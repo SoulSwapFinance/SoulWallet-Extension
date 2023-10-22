@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BasicTxWarningCode, TransactionWarningType } from 'background/KoniTypes';
-import { SWWarning } from 'background/warnings/SWWarning';
-import { detectTranslate } from 'utils';
+import { BasicTxWarningCode, TransactionWarningType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { SWWarning } from '@soul-wallet/extension-base/background/warnings/SWWarning';
+import { detectTranslate } from '@soul-wallet/extension-base/utils';
 import { t } from 'i18next';
 
 const defaultWarningMap: Record<TransactionWarningType, { message: string, code?: number }> = {

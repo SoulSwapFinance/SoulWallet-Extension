@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from 'background/KoniTypes';
-import { getStakingStatusByNominations, PalletDappsStakingAccountLedger, PalletDappsStakingDappInfo } from 'koni/api/staking/bonding/utils';
-import { _STAKING_ERA_LENGTH_MAP } from 'services/chain-service/constants';
-import { _SubstrateApi } from 'services/chain-service/types';
-import { isUrl, parseRawNumber } from 'utils';
+import { ChainStakingMetadata, NominationInfo, NominatorMetadata, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from '@soul-wallet/extension-base/background/KoniTypes';
+import { getStakingStatusByNominations, PalletDappsStakingAccountLedger, PalletDappsStakingDappInfo } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
+import { _STAKING_ERA_LENGTH_MAP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { isUrl, parseRawNumber } from '@soul-wallet/extension-base/utils';
 import fetch from 'cross-fetch';
 
 import { SubmittableExtrinsic } from '@polkadot/api/promise/types';

@@ -1,27 +1,27 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { InjectedAccount } from '@soul-wallet/extension-inject/src/types';
+import type { InjectedAccount } from '@soul-wallet/extension-inject/types';
 
 import { _AssetType } from '@soul-wallet/chain-list/types';
-import { EvmProviderError } from 'background/errors/EvmProviderError';
-import { withErrorLog } from 'background/handlers/helpers';
-import { AuthUrlInfo } from 'background/handlers/State';
-import { createSubscription, unsubscribe } from 'background/handlers/subscriptions';
-import { AddNetworkRequestExternal, AddTokenRequestExternal, EvmAppState, EvmEventType, EvmProviderErrorType, EvmSendTransactionParams, PassPhishing, RequestAddPspToken, RequestEvmProviderSend, RequestSettingsType, ValidateNetworkResponse } from 'background/KoniTypes';
-import RequestBytesSign from 'background/RequestBytesSign';
-import RequestExtrinsicSign from 'background/RequestExtrinsicSign';
-import { AccountAuthType, MessageTypes, RequestAccountList, RequestAccountSubscribe, RequestAccountUnsubscribe, RequestAuthorizeTab, RequestRpcSend, RequestRpcSubscribe, RequestRpcUnsubscribe, RequestTypes, ResponseRpcListProviders, ResponseSigning, ResponseTypes, SubscriptionMessageTypes } from 'background/types';
-import { ALL_ACCOUNT_KEY, CRON_GET_API_MAP_STATUS } from 'constants';
-import { PHISHING_PAGE_REDIRECT } from 'defaults';
-import KoniState from 'koni/background/handlers/State';
-import { _CHAIN_VALIDATION_ERROR } from 'services/chain-service/handler/types';
-import { _NetworkUpsertParams } from 'services/chain-service/types';
-import { _generateCustomProviderKey } from 'services/chain-service/utils';
-import { AuthUrls } from 'services/request-service/types';
-import { DEFAULT_CHAIN_PATROL_ENABLE } from 'services/setting-service/constants';
-import { canDerive, stripUrl } from 'utils';
-import { InjectedMetadataKnown, MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/src/types';
+import { EvmProviderError } from '@soul-wallet/extension-base/background/errors/EvmProviderError';
+import { withErrorLog } from '@soul-wallet/extension-base/background/handlers/helpers';
+import { AuthUrlInfo } from '@soul-wallet/extension-base/background/handlers/State';
+import { createSubscription, unsubscribe } from '@soul-wallet/extension-base/background/handlers/subscriptions';
+import { AddNetworkRequestExternal, AddTokenRequestExternal, EvmAppState, EvmEventType, EvmProviderErrorType, EvmSendTransactionParams, PassPhishing, RequestAddPspToken, RequestEvmProviderSend, RequestSettingsType, ValidateNetworkResponse } from '@soul-wallet/extension-base/background/KoniTypes';
+import RequestBytesSign from '@soul-wallet/extension-base/background/RequestBytesSign';
+import RequestExtrinsicSign from '@soul-wallet/extension-base/background/RequestExtrinsicSign';
+import { AccountAuthType, MessageTypes, RequestAccountList, RequestAccountSubscribe, RequestAccountUnsubscribe, RequestAuthorizeTab, RequestRpcSend, RequestRpcSubscribe, RequestRpcUnsubscribe, RequestTypes, ResponseRpcListProviders, ResponseSigning, ResponseTypes, SubscriptionMessageTypes } from '@soul-wallet/extension-base/background/types';
+import { ALL_ACCOUNT_KEY, CRON_GET_API_MAP_STATUS } from '@soul-wallet/extension-base/constants';
+import { PHISHING_PAGE_REDIRECT } from '@soul-wallet/extension-base/defaults';
+import KoniState from '@soul-wallet/extension-base/koni/background/handlers/State';
+import { _CHAIN_VALIDATION_ERROR } from '@soul-wallet/extension-base/services/chain-service/handler/types';
+import { _NetworkUpsertParams } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _generateCustomProviderKey } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { AuthUrls } from '@soul-wallet/extension-base/services/request-service/types';
+import { DEFAULT_CHAIN_PATROL_ENABLE } from '@soul-wallet/extension-base/services/setting-service/constants';
+import { canDerive, stripUrl } from '@soul-wallet/extension-base/utils';
+import { InjectedMetadataKnown, MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/types';
 import { KeyringPair } from '@subwallet/keyring/types';
 import keyring from '@subwallet/ui-keyring';
 import { SingleAddress, SubjectInfo } from '@subwallet/ui-keyring/observable/types';

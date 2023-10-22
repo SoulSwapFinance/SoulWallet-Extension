@@ -2,14 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetRef, _AssetType, _ChainAsset, _ChainInfo, _MultiChainAsset } from '@soul-wallet/chain-list/types';
-import { TransactionError } from './errors/TransactionError';
-import { AuthUrls, Resolver } from './handlers/State';
-import { AccountAuthType, AccountJson, AddressJson, AuthorizeRequest, ConfirmationRequestBase, RequestAccountList, RequestAccountSubscribe, RequestAccountUnsubscribe, RequestAuthorizeCancel, RequestAuthorizeReject, RequestAuthorizeSubscribe, RequestAuthorizeTab, RequestCurrentAccountAddress, ResponseAuthorizeList, ResponseJsonGetAccountInfo, SeedLengths } from '../background/types';
-import { _CHAIN_VALIDATION_ERROR } from '../services/chain-service/handler/types';
-import { _ChainState, _EvmApi, _NetworkUpsertParams, _SubstrateApi, _ValidateCustomAssetRequest, _ValidateCustomAssetResponse, EnableChainParams, EnableMultiChainParams } from '../services/chain-service/types';
-import { SWTransactionResponse, SWTransactionResult } from '../services/transaction-service/types';
-import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '../services/wallet-connect-service/types';
-import { InjectedAccount, InjectedAccountWithMeta, MetadataDefBase } from '@soul-wallet/extension-inject/src/types';
+import { TransactionError } from '@soul-wallet/extension-base/background/errors/TransactionError';
+import { AuthUrls, Resolver } from '@soul-wallet/extension-base/background/handlers/State';
+import { AccountAuthType, AccountJson, AddressJson, AuthorizeRequest, ConfirmationRequestBase, RequestAccountList, RequestAccountSubscribe, RequestAccountUnsubscribe, RequestAuthorizeCancel, RequestAuthorizeReject, RequestAuthorizeSubscribe, RequestAuthorizeTab, RequestCurrentAccountAddress, ResponseAuthorizeList, ResponseJsonGetAccountInfo, SeedLengths } from '@soul-wallet/extension-base/background/types';
+import { _CHAIN_VALIDATION_ERROR } from '@soul-wallet/extension-base/services/chain-service/handler/types';
+import { _ChainState, _EvmApi, _NetworkUpsertParams, _SubstrateApi, _ValidateCustomAssetRequest, _ValidateCustomAssetResponse, EnableChainParams, EnableMultiChainParams } from '@soul-wallet/extension-base/services/chain-service/types';
+import { SWTransactionResponse, SWTransactionResult } from '@soul-wallet/extension-base/services/transaction-service/types';
+import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { InjectedAccount, InjectedAccountWithMeta, MetadataDefBase } from '@soul-wallet/extension-inject/types';
 import { KeyringPair$Json, KeyringPair$Meta } from '@subwallet/keyring/types';
 import { KeyringOptions } from '@subwallet/ui-keyring/options/types';
 import { KeyringAddress, KeyringPairs$Json } from '@subwallet/ui-keyring/types';

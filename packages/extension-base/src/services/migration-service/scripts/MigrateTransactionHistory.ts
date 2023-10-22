@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ChainType, ExtrinsicStatus, ExtrinsicType, TransactionDirection, TransactionHistoryItem } from 'background/KoniTypes';
-import { _getChainNativeTokenBasicInfo } from 'services/chain-service/utils';
-import BaseMigrationJob from 'services/migration-service/Base';
+import { ChainType, ExtrinsicStatus, ExtrinsicType, TransactionDirection, TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/services/chain-service/utils';
+import BaseMigrationJob from '@soul-wallet/extension-base/services/migration-service/Base';
 import Dexie from 'dexie';
 
 import { isEthereumAddress } from '@polkadot/util-crypto';

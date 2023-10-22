@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { TransactionError } from 'background/errors/TransactionError';
-import { ChainStakingMetadata, NominationInfo, NominationPoolInfo, NominatorMetadata, PalletNominationPoolsBondedPoolInner, StakingStatus, StakingTxErrorType, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from 'background/KoniTypes';
-import { calculateAlephZeroValidatorReturn, calculateChainStakedReturn, calculateInflation, calculateTernoaValidatorReturn, calculateValidatorStakedReturn, getCommission, getExistUnstakeErrorMessage, getMaxValidatorErrorMessage, getMinStakeErrorMessage, PalletIdentityRegistration, PalletNominationPoolsPoolMember, PalletStakingExposure, parseIdentity, parsePoolStashAddress, TernoaStakingRewardsStakingRewardsData, transformPoolName, ValidatorExtraInfo } from 'koni/api/staking/bonding/utils';
-import { _STAKING_CHAIN_GROUP, _STAKING_ERA_LENGTH_MAP } from 'services/chain-service/constants';
-import { _SubstrateApi } from 'services/chain-service/types';
-import { _getChainSubstrateAddressPrefix } from 'services/chain-service/utils';
-import { reformatAddress } from 'utils';
+import { TransactionError } from '@soul-wallet/extension-base/background/errors/TransactionError';
+import { ChainStakingMetadata, NominationInfo, NominationPoolInfo, NominatorMetadata, PalletNominationPoolsBondedPoolInner, StakingStatus, StakingTxErrorType, StakingType, UnstakingInfo, UnstakingStatus, ValidatorInfo } from '@soul-wallet/extension-base/background/KoniTypes';
+import { calculateAlephZeroValidatorReturn, calculateChainStakedReturn, calculateInflation, calculateTernoaValidatorReturn, calculateValidatorStakedReturn, getCommission, getExistUnstakeErrorMessage, getMaxValidatorErrorMessage, getMinStakeErrorMessage, PalletIdentityRegistration, PalletNominationPoolsPoolMember, PalletStakingExposure, parseIdentity, parsePoolStashAddress, TernoaStakingRewardsStakingRewardsData, transformPoolName, ValidatorExtraInfo } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
+import { _STAKING_CHAIN_GROUP, _STAKING_ERA_LENGTH_MAP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _getChainSubstrateAddressPrefix } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { reformatAddress } from '@soul-wallet/extension-base/utils';
 import { t } from 'i18next';
 
 import { Bytes } from '@polkadot/types';

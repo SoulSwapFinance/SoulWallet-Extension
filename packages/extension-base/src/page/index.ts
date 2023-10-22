@@ -3,10 +3,10 @@
 
 import type { MessageTypes, MessageTypesWithNoSubscriptions, MessageTypesWithNullRequest, MessageTypesWithSubscriptions, RequestTypes, ResponseTypes, SubscriptionMessageTypes, TransportRequestMessage, TransportResponseMessage } from '../background/types';
 
-import { ProviderError } from 'background/errors/ProviderError';
-import { ProviderErrorType } from 'background/KoniTypes';
-import { SubWalletEvmProvider } from 'page/SubWalleEvmProvider';
-import { EvmProvider } from '@soul-wallet/extension-inject/src/types';
+import { ProviderError } from '@soul-wallet/extension-base/background/errors/ProviderError';
+import { ProviderErrorType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { SubWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
+import { EvmProvider } from '@soul-wallet/extension-inject/types';
 
 import { MESSAGE_ORIGIN_PAGE } from '../defaults';
 import { getId } from '../utils/getId';

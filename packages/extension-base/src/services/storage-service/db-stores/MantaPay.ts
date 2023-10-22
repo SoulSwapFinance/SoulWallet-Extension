@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { IMantaPayLedger } from 'services/storage-service/databases';
-import BaseStore from 'services/storage-service/db-stores/BaseStore';
+import { IMantaPayLedger } from '@soul-wallet/extension-base/services/storage-service/databases';
+import BaseStore from '@soul-wallet/extension-base/services/storage-service/db-stores/BaseStore';
 import { liveQuery } from 'dexie';
 
 export default class MantaPayStore extends BaseStore<IMantaPayLedger> {

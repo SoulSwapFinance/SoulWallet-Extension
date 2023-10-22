@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ChainInfoMap } from '@soul-wallet/chain-list';
-import { SubstrateChainHandler } from 'services/chain-service/handler/SubstrateChainHandler';
-import { _SubstrateApi } from 'services/chain-service/types';
+import { SubstrateChainHandler } from '@soul-wallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
+import { _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
 
 import { cryptoWaitReady } from '@polkadot/util-crypto';
 

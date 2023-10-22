@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SWError } from 'background/errors/SWError';
-import { EvmProviderErrorType } from 'background/KoniTypes';
-import { detectTranslate } from 'utils';
+import { SWError } from '@soul-wallet/extension-base/background/errors/SWError';
+import { EvmProviderErrorType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { detectTranslate } from '@soul-wallet/extension-base/utils';
 import { t } from 'i18next';
 
 const defaultErrorMap: Record<EvmProviderErrorType, { message: string, code?: number }> = {

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetType } from '@soul-wallet/chain-list/types';
-import BaseMigrationJob from 'services/migration-service/Base';
+import BaseMigrationJob from '@soul-wallet/extension-base/services/migration-service/Base';
 
 interface OldTokenType {
   chain: string,

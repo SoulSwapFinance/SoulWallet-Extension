@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ChainService } from 'services/chain-service';
-import { _ApiOptions } from 'services/chain-service/handler/types';
-import { _ChainBaseApi, _ChainConnectionStatus } from 'services/chain-service/types';
+import { ChainService } from '@soul-wallet/extension-base/services/chain-service';
+import { _ApiOptions } from '@soul-wallet/extension-base/services/chain-service/handler/types';
+import { _ChainBaseApi, _ChainConnectionStatus } from '@soul-wallet/extension-base/services/chain-service/types';
 import { BehaviorSubject } from 'rxjs';
 
 const MAX_RECOVER_RETRY = 6;

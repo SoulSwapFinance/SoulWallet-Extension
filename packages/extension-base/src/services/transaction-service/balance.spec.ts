@@ -3,11 +3,11 @@
 
 import { ChainAssetMap, ChainInfoMap } from '@soul-wallet/chain-list';
 import { _AssetType, _ChainAsset } from '@soul-wallet/chain-list/types';
-import { createTransferExtrinsic } from 'koni/api/dotsama/transfer';
-import { getERC20TransactionObject, getEVMTransactionObject } from 'koni/api/tokens/evm/transfer';
-import { EvmChainHandler } from 'services/chain-service/handler/EvmChainHandler';
-import { SubstrateChainHandler } from 'services/chain-service/handler/SubstrateChainHandler';
-import { _getContractAddressOfToken, _isLocalToken, _isTokenEvmSmartContract } from 'services/chain-service/utils';
+import { createTransferExtrinsic } from '@soul-wallet/extension-base/koni/api/dotsama/transfer';
+import { getERC20TransactionObject, getEVMTransactionObject } from '@soul-wallet/extension-base/koni/api/tokens/evm/transfer';
+import { EvmChainHandler } from '@soul-wallet/extension-base/services/chain-service/handler/EvmChainHandler';
+import { SubstrateChainHandler } from '@soul-wallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
+import { _getContractAddressOfToken, _isLocalToken, _isTokenEvmSmartContract } from '@soul-wallet/extension-base/services/chain-service/utils';
 import BigN from 'bignumber.js';
 import fs from 'fs';
 import { TransactionConfig } from 'web3-core';

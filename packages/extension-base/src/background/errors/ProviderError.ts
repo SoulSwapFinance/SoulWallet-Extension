@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SWError } from './SWError';
-import { ProviderErrorType } from '../KoniTypes';
-import { detectTranslate } from '../../utils';
+import { SWError } from '@soul-wallet/extension-base/background/errors/SWError';
+import { ProviderErrorType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { detectTranslate } from '@soul-wallet/extension-base/utils';
 
 const defaultErrorMap: Record<ProviderErrorType, { message: string, code?: number }> = {
   CHAIN_DISCONNECTED: {

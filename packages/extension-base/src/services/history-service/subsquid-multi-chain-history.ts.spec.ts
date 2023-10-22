@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TransactionHistoryItem } from 'background/KoniTypes';
-import { fetchMultiChainHistories } from 'services/history-service/subsquid-multi-chain-history';
-import { TEST_CHAIN_MAP } from 'services/history-service/testChainMap';
+import { TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { fetchMultiChainHistories } from '@soul-wallet/extension-base/services/history-service/subsquid-multi-chain-history';
+import { TEST_CHAIN_MAP } from '@soul-wallet/extension-base/services/history-service/testChainMap';
 
 jest.setTimeout(50000);
 

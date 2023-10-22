@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
-import { convertToEvmAddress, filterAddressByNetworkKey } from 'utils/index';
+import { convertToEvmAddress, filterAddressByNetworkKey } from '@soul-wallet/extension-base/utils/index';
 
 describe('test extension base utils', () => {
   test('test extension base utils SS58 to H160', () => {

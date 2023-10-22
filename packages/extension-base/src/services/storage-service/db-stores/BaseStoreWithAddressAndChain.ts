@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { DefaultDocWithAddressAndChain } from 'services/storage-service/databases';
-import BaseStore from 'services/storage-service/db-stores/BaseStore';
+import { DefaultDocWithAddressAndChain } from '@soul-wallet/extension-base/services/storage-service/databases';
+import BaseStore from '@soul-wallet/extension-base/services/storage-service/db-stores/BaseStore';
 
 export default class BaseStoreWithAddressAndChain<T extends DefaultDocWithAddressAndChain> extends BaseStore<T> {
   public convertToJsonObject (items: T[]): Record<string, T> {

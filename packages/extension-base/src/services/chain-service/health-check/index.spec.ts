@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { checkEvmEndpoint, checkProviders, checkSubstrateEndpoint } from 'services/chain-service/health-check/index';
+import { checkEvmEndpoint, checkProviders, checkSubstrateEndpoint } from '@soul-wallet/extension-base/services/chain-service/health-check/index';
 
 jest.setTimeout(10000);
 
