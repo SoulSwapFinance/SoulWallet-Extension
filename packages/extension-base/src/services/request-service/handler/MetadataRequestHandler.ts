@@ -7,7 +7,7 @@ import { extractMetadata } from '@subwallet/extension-base/services/request-serv
 import { MetaRequest } from '@subwallet/extension-base/services/request-service/types';
 import { MetadataStore } from '@subwallet/extension-base/stores';
 import { getId } from '@subwallet/extension-base/utils/getId';
-import { addMetadata, knownMetadata } from '@subwallet/extension-chains';
+import { addMetadata, knownMetadata } from '@soul-wallet/extension-chains';
 import { MetadataDef } from '@soul-wallet/extension-inject/types';
 import { BehaviorSubject } from 'rxjs';
 

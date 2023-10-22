@@ -51,7 +51,7 @@
     "@soul-wallet/extension-dapp": "^1.0.0",
     "@soul-wallet/extension-inject": "^1.0.1",
     "@substrate/connect": "^0.7.26",
-    "@subwallet/extension-chains": "^1.1.17-0",
+    "@soul-wallet/extension-chains": "1.0.0",
     "@subwallet/keyring": "^0.1.1",
     "@subwallet/ui-keyring": "^0.1.1",
     "@walletconnect/sign-client": "^2.8.4",

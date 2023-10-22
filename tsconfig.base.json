@@ -5,8 +5,8 @@
       "paths": {
         "@soul-wallet/extension-base": ["extension-base/src"],
         "@soul-wallet/extension-base/*": ["extension-base/src/*"],
-        "@subwallet/extension-chains": ["extension-chains/src"],
-        "@subwallet/extension-chains/*": ["extension-chains/src/*"],
+        "@soul-wallet/extension-chains": ["extension-chains/src"],
+        "@soul-wallet/extension-chains/*": ["extension-chains/src/*"],
         "@soul-wallet/extension-compat-metamask": ["extension-compat-metamask/src"],
         "@soul-wallet/extension-dapp": ["extension-dapp/src"],
         "@soul-wallet/extension-dapp/*": ["extension-dapp/src/*"],

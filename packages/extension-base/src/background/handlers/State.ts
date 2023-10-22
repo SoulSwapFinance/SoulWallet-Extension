@@ -10,7 +10,7 @@ import { DEFAULT_SETTING } from '@subwallet/extension-base/services/setting-serv
 import SettingsStore from '@subwallet/extension-base/stores/Settings';
 import { stripUrl } from '@subwallet/extension-base/utils';
 import { getId } from '@subwallet/extension-base/utils/getId';
-import { addMetadata, knownMetadata } from '@subwallet/extension-chains';
+import { addMetadata, knownMetadata } from '@soul-wallet/extension-chains';
 import { BehaviorSubject } from 'rxjs';
 
 import { knownGenesis } from '@polkadot/networks/defaults';
