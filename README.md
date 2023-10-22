@@ -137,7 +137,7 @@ Subwallet run test with [jest](https://jestjs.io/). Create new file with name `f
     - Github Action will auto generate version file of each package.
 
 ## Deployment Order (Levels)
-0. [ √ ] **extension-inject** - A convenience wrapper that allows extension developers to inject their extension for use by any dapp.
+0. [ **1.0.0** ] **extension-inject** - A convenience wrapper that allows extension developers to inject their extension for use by any dapp.
 1. **extension-dapp** - A convenience wrapper to work with the injected objects, simplifying data extraction for any dapp that wishes to integrate the extension (or any extension that supports the interface).
 1. **extension-chains** - Definitions for chains that are supported by this extension. It contains the bare definitions as well as a stripped-down (call-only) metadata format.
 1. **extension-compat-metamask**: Compitable with metamask

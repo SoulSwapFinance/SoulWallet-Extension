@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/extension authors & contributors
+// Copyright 2019-2022 @soul-wallet/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 const base = require('@polkadot/dev/config/eslint.cjs');

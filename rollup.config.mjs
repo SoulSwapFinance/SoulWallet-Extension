@@ -1,4 +1,4 @@
-// Copyright 2017-2022 @subwallet/extension authors & contributors
+// Copyright 2017-2022 @soul-wallet/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import pluginAlias from '@rollup/plugin-alias';

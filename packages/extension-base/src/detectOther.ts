@@ -1,4 +1,4 @@
-// Copyright 2017-2022 @subwallet/extension-base authors & contributors
+// Copyright 2023@soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import { packageInfo as chainsInfo } from '@subwallet/extension-chains/packageInfo';

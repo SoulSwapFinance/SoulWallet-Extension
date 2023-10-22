@@ -1,16 +1,16 @@
 {
-  "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/Koniverse/Subwallet-V2/issues",
+  "author": "Buns Enchantress <buns@soulswap.finance>",
+  "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "contributors": [],
   "description": "Metamask compatibility layer",
-  "homepage": "https://github.com/Koniverse/Subwallet-V2/tree/master/packages/extension-compat-metamask#readme",
+  "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-compat-metamask#readme",
   "license": "Apache-2.0",
   "maintainers": [],
   "name": "@subwallet/extension-compat-metamask",
   "repository": {
     "directory": "packages/extension-compat-metamask",
     "type": "git",
-    "url": "https://github.com/Koniverse/Subwallet-V2.git"
+    "url": "https://github.com/SoulSwapFinance/SoulWallet-Extension.git"
   },
   "sideEffects": [
     "./detectPackage.js",

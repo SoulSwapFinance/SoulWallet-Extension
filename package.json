@@ -1,16 +1,17 @@
 {
-  "author": "Koni Studio",
-  "bugs": "https://github.com/Koniverse/Subwallet-V2/issues",
-  "homepage": "https://github.com/Koniverse/Subwallet-V2#readme",
+  "name": "soulwallet-extension",
+  "version": "1.0.0",
+  "author": "Buns Enchantress <buns@soulswap.finance>",
+  "private": true,
+  "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
+  "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.0.1",
-  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Koniverse/Subwallet-V2.git"
+    "url": "https://github.com/SoulSwapFinance/SoulWallet-Extension.git"
   },
   "sideEffects": false,
-  "version": "1.1.17",
   "workspaces": [
     "packages/*"
   ],
@@ -48,6 +49,7 @@
     "web-runner:watch": "cd packages/web-runner && yarn webpack-dev-server --config webpack.config.cjs --mode development"
   },
   "dependencies": {
+    "@soul-wallet/chain-list": "^1.0.4",
     "@types/node": "^17.0.10",
     "dexie": "^3.2.2",
     "loglevel": "^1.8.1",
@@ -75,7 +77,6 @@
     "@polkadot/types": "^10.9.1",
     "@polkadot/util": "^12.3.2",
     "@polkadot/util-crypto": "^12.3.2",
-    "@soul-wallet/chain-list": "1.0.1",
     "@subwallet/keyring": "^0.1.1",
     "@subwallet/ui-keyring": "^0.1.1",
     "babel-core": "^7.0.0-bridge.0",
