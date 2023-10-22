@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { AccountJson } from '@subwallet/extension-base/background/types';
-import { _ChainState } from '@subwallet/extension-base/services/chain-service/types';
-import { _isChainEnabled, _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
-import { createTransactionFromRLP } from '@subwallet/extension-base/utils/eth';
+import { AccountJson } from '@soul-wallet/extension-base/background/types';
+import { _ChainState } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _isChainEnabled, _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { createTransactionFromRLP } from '@soul-wallet/extension-base/utils/eth';
 import { EthereumParsedData, ParsedData, SubstrateCompletedParsedData, SubstrateMultiParsedData } from '@subwallet/extension-koni-ui/types/scanner';
 import { findAccountByAddress } from '@subwallet/extension-koni-ui/utils/account/account';
 import { findNetworkJsonByGenesisHash, getNetworkJsonByInfo } from '@subwallet/extension-koni-ui/utils/chain/getNetworkJsonByGenesisHash';

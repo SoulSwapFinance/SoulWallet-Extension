@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
-import { _MANTA_ZK_CHAIN_GROUP, _ZK_ASSET_PREFIX } from '@subwallet/extension-base/services/chain-service/constants';
-import { _getMultiChainAsset, _isNativeTokenBySlug } from '@subwallet/extension-base/services/chain-service/utils';
+import { _MANTA_ZK_CHAIN_GROUP, _ZK_ASSET_PREFIX } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _getMultiChainAsset, _isNativeTokenBySlug } from '@soul-wallet/extension-base/services/chain-service/utils';
 import { useIsMantaPayEnabled } from '@subwallet/extension-koni-ui/hooks/account/useIsMantaPayEnabled';
 import { RootState } from '@subwallet/extension-koni-ui/stores';
 import { AssetRegistryStore } from '@subwallet/extension-koni-ui/stores/types';

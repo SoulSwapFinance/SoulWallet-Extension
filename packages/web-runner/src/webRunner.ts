@@ -3,9 +3,9 @@
 
 import '@soul-wallet/extension-inject/crossenv';
 
-import { state as koniState } from '@subwallet/extension-base/koni/background/handlers';
-import { AccountsStore } from '@subwallet/extension-base/stores';
-import KeyringStore from '@subwallet/extension-base/stores/Keyring';
+import { state as koniState } from '@soul-wallet/extension-base/koni/background/handlers';
+import { AccountsStore } from '@soul-wallet/extension-base/stores';
+import KeyringStore from '@soul-wallet/extension-base/stores/Keyring';
 import keyring from '@subwallet/ui-keyring';
 
 import { cryptoWaitReady } from '@polkadot/util-crypto';

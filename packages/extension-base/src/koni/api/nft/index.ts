@@ -2,21 +2,21 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
-import { NftCollection, NftItem } from '@subwallet/extension-base/background/KoniTypes';
-import { AcalaNftApi } from '@subwallet/extension-base/koni/api/nft/acala_nft';
-import { BitCountryNftApi } from '@subwallet/extension-base/koni/api/nft/bit.country';
-import { EvmNftApi } from '@subwallet/extension-base/koni/api/nft/evm_nft';
-import { KaruraNftApi } from '@subwallet/extension-base/koni/api/nft/karura_nft';
-import { BaseNftApi } from '@subwallet/extension-base/koni/api/nft/nft';
-import { RmrkNftApi } from '@subwallet/extension-base/koni/api/nft/rmrk_nft';
-import StatemineNftApi from '@subwallet/extension-base/koni/api/nft/statemine_nft';
-import UniqueNftApi from '@subwallet/extension-base/koni/api/nft/unique_nft';
-import { VaraNftApi } from '@subwallet/extension-base/koni/api/nft/vara_nft';
-import { WasmNftApi } from '@subwallet/extension-base/koni/api/nft/wasm_nft';
-import { _NFT_CHAIN_GROUP } from '@subwallet/extension-base/services/chain-service/constants';
-import { _EvmApi, _SubstrateApi } from '@subwallet/extension-base/services/chain-service/types';
-import { _isChainSupportEvmNft, _isChainSupportNativeNft, _isChainSupportWasmNft } from '@subwallet/extension-base/services/chain-service/utils';
-import { categoryAddresses } from '@subwallet/extension-base/utils';
+import { NftCollection, NftItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AcalaNftApi } from '@soul-wallet/extension-base/koni/api/nft/acala_nft';
+import { BitCountryNftApi } from '@soul-wallet/extension-base/koni/api/nft/bit.country';
+import { EvmNftApi } from '@soul-wallet/extension-base/koni/api/nft/evm_nft';
+import { KaruraNftApi } from '@soul-wallet/extension-base/koni/api/nft/karura_nft';
+import { BaseNftApi } from '@soul-wallet/extension-base/koni/api/nft/nft';
+import { RmrkNftApi } from '@soul-wallet/extension-base/koni/api/nft/rmrk_nft';
+import StatemineNftApi from '@soul-wallet/extension-base/koni/api/nft/statemine_nft';
+import UniqueNftApi from '@soul-wallet/extension-base/koni/api/nft/unique_nft';
+import { VaraNftApi } from '@soul-wallet/extension-base/koni/api/nft/vara_nft';
+import { WasmNftApi } from '@soul-wallet/extension-base/koni/api/nft/wasm_nft';
+import { _NFT_CHAIN_GROUP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _EvmApi, _SubstrateApi } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _isChainSupportEvmNft, _isChainSupportNativeNft, _isChainSupportWasmNft } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { categoryAddresses } from '@soul-wallet/extension-base/utils';
 
 import StatemintNftApi from './statemint_nft';
 

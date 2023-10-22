@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AccountJson } from '@subwallet/extension-base/background/types';
+import { AccountJson } from '@soul-wallet/extension-base/background/types';
 import { Icon as _PhosphorIcon } from 'phosphor-react';
 
 import { Theme as _Theme } from '../themes';

@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { NominatorMetadata, StakingStatus } from '@subwallet/extension-base/background/KoniTypes';
-import BaseStoreWithAddressAndChain from '@subwallet/extension-base/services/storage-service/db-stores/BaseStoreWithAddressAndChain';
+import { NominatorMetadata, StakingStatus } from '@soul-wallet/extension-base/background/KoniTypes';
+import BaseStoreWithAddressAndChain from '@soul-wallet/extension-base/services/storage-service/db-stores/BaseStoreWithAddressAndChain';
 import { liveQuery } from 'dexie';
 
 export default class NominatorMetadataStore extends BaseStoreWithAddressAndChain<NominatorMetadata> {

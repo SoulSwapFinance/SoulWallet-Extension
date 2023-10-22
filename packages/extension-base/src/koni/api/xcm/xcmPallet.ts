@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset, _ChainInfo } from '@soul-wallet/chain-list/types';
-import { getBeneficiary, getDestinationChainLocation, getDestWeight, getTokenLocation } from '@subwallet/extension-base/koni/api/xcm/utils';
+import { getBeneficiary, getDestinationChainLocation, getDestWeight, getTokenLocation } from '@soul-wallet/extension-base/koni/api/xcm/utils';
 
 import { ApiPromise } from '@polkadot/api';
 

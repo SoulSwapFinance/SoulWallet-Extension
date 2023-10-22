@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import Common from '@ethereumjs/common';
-import { EvmProviderError } from '@subwallet/extension-base/background/errors/EvmProviderError';
-import { ConfirmationDefinitions, ConfirmationsQueue, ConfirmationsQueueItemOptions, ConfirmationType, EvmProviderErrorType, RequestConfirmationComplete } from '@subwallet/extension-base/background/KoniTypes';
-import { ConfirmationRequestBase, Resolver } from '@subwallet/extension-base/background/types';
-import RequestService from '@subwallet/extension-base/services/request-service';
-import { anyNumberToBN } from '@subwallet/extension-base/utils/eth';
-import { isInternalRequest } from '@subwallet/extension-base/utils/request';
+import { EvmProviderError } from '@soul-wallet/extension-base/background/errors/EvmProviderError';
+import { ConfirmationDefinitions, ConfirmationsQueue, ConfirmationsQueueItemOptions, ConfirmationType, EvmProviderErrorType, RequestConfirmationComplete } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ConfirmationRequestBase, Resolver } from '@soul-wallet/extension-base/background/types';
+import RequestService from '@soul-wallet/extension-base/services/request-service';
+import { anyNumberToBN } from '@soul-wallet/extension-base/utils/eth';
+import { isInternalRequest } from '@soul-wallet/extension-base/utils/request';
 import keyring from '@subwallet/ui-keyring';
 import BN from 'bn.js';
 import { Transaction } from 'ethereumjs-tx';

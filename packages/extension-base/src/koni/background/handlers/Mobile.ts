@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ActiveCronAndSubscriptionMap, CronServiceType, RequestCronAndSubscriptionAction, RequestInitCronAndSubscription, SubscriptionServiceType } from '@subwallet/extension-base/background/KoniTypes';
-import { MessageTypes, RequestTypes, ResponseType } from '@subwallet/extension-base/background/types';
-import KoniState from '@subwallet/extension-base/koni/background/handlers/State';
+import { ActiveCronAndSubscriptionMap, CronServiceType, RequestCronAndSubscriptionAction, RequestInitCronAndSubscription, SubscriptionServiceType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { MessageTypes, RequestTypes, ResponseType } from '@soul-wallet/extension-base/background/types';
+import KoniState from '@soul-wallet/extension-base/koni/background/handlers/State';
 
 const DEFAULT_SERVICE_MAP = {
   subscription: {

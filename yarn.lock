@@ -5671,10 +5671,10 @@ __metadata:
     "@sora-substrate/type-definitions": ^1.17.7
     "@soul-wallet/chain-list": 1.0.4
     "@soul-wallet/extension-base": "*"
+    "@soul-wallet/extension-chains": 1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
     "@soul-wallet/extension-inject": ^1.0.1
     "@substrate/connect": ^0.7.26
-    "@subwallet/extension-chains": ^1.1.17-0
     "@subwallet/extension-mocks": ^1.1.17-0
     "@subwallet/keyring": ^0.1.1
     "@subwallet/ui-keyring": ^0.1.1
@@ -5711,6 +5711,21 @@ __metadata:
     web3-eth: 1.10.0
     web3-eth-contract: ^1.10.0
     web3-utils: ^1.10.0
+  languageName: unknown
+  linkType: soft
+
+"@soul-wallet/extension-chains@1.0.0, @soul-wallet/extension-chains@^1.0.0, @soul-wallet/extension-chains@workspace:packages/extension-chains":
+  version: 0.0.0-use.local
+  resolution: "@soul-wallet/extension-chains@workspace:packages/extension-chains"
+  dependencies:
+    "@babel/runtime": ^7.20.6
+    "@polkadot/networks": ^12.3.2
+    "@polkadot/util": ^12.3.2
+    "@polkadot/util-crypto": ^12.3.2
+    "@soul-wallet/extension-inject": ^1.0.1
+  peerDependencies:
+    "@polkadot/api": "*"
+    "@polkadot/types": "*"
   languageName: unknown
   linkType: soft
 
@@ -6074,20 +6089,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@subwallet/extension-chains@^1.1.17-0, @subwallet/extension-chains@workspace:packages/extension-chains":
-  version: 0.0.0-use.local
-  resolution: "@subwallet/extension-chains@workspace:packages/extension-chains"
+"@subwallet/extension-chains@npm:^1.1.17-0":
+  version: 1.1.17-0
+  resolution: "@subwallet/extension-chains@npm:1.1.17-0"
   dependencies:
     "@babel/runtime": ^7.20.6
     "@polkadot/networks": ^12.3.2
     "@polkadot/util": ^12.3.2
     "@polkadot/util-crypto": ^12.3.2
-    "@soul-wallet/extension-inject": ^1.0.1
+    "@subwallet/extension-inject": ^1.1.17-0
   peerDependencies:
     "@polkadot/api": "*"
     "@polkadot/types": "*"
-  languageName: unknown
-  linkType: soft
+  checksum: ba414bfa42d0cd57f9351f2812212ef94f4927804de03a2e5adb6a171cbd976128c86bafbee0fcde78f5473a962954797ad3e532386438fc6b225720fefda4a3
+  languageName: node
+  linkType: hard
 
 "@subwallet/extension-dapp@npm:^1.1.17-0":
   version: 1.1.17-0
@@ -6145,10 +6161,10 @@ __metadata:
     "@ramonak/react-progress-bar": ^5.0.3
     "@reduxjs/toolkit": ^1.9.1
     "@soul-wallet/chain-list": 1.0.4
+    "@soul-wallet/extension-chains": ^1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
     "@soul-wallet/extension-inject": ^1.0.1
     "@subwallet/extension-base": ^1.1.17-0
-    "@subwallet/extension-chains": ^1.1.17-0
     "@subwallet/extension-mocks": ^1.1.17-0
     "@subwallet/keyring": ^0.1.1
     "@subwallet/react-ui": 5.1.2-b72

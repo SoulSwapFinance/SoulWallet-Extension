@@ -21,7 +21,7 @@ All data requests must be called and processed in the background. Extension Page
 - **extension-chains** - Definitions for chains that are supported by this extension. It contains the bare definitions as well as a stripped-down (call-only) metadata format.
 - **extension-dapp** - The actual in-depth technical breakdown is given in the next section for any dapp developer wishing to work with the raw objects injected into the window. However, convenience wrappers are provided that allows for any dapp to use this extension (or any other extension that conforms to the interface) without having to manage any additional info.
 - **extension-mocks** - Mock data for testing.
-- **extension-compat-metamask**: Compitable with metamask
+- **extension-compat-metamask**: Compatable with Metamask
 - **extension-koni-base**: Custom package, extension extension base
 - **extension-koni-ui** *(replace extension-ui)*: The UI components for the extension, to build up the popup
 - **extension-koni** *(replace extension)*: All the injection and background processing logic (the main entry)
@@ -139,5 +139,6 @@ Subwallet run test with [jest](https://jestjs.io/). Create new file with name `f
 ## Deployment Order (Levels)
 0. [ **1.0.1** ] **extension-inject** - A convenience wrapper that allows extension developers to inject their extension for use by any dapp.
 1. [ **1.0.0** ] **extension-dapp** - A convenience wrapper to work with the injected objects, simplifying data extraction for any dapp that wishes to integrate the extension (or any extension that supports the interface).
-1. **extension-chains** - Definitions for chains that are supported by this extension. It contains the bare definitions as well as a stripped-down (call-only) metadata format.
-1. **extension-compat-metamask**: Compatable with metamask
+1. [ **1.0.0** ] **extension-chains** - Definitions for chains that are supported by this extension. It contains the bare definitions as well as a stripped-down (call-only) metadata format.
+1. [ **1.0.0** ] **extension-compat-metamask**: Compatable with Metamask
+2. - **extension-base** - Contain main features run in background, call api, persist data into chrome store and inject script.

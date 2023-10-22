@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
-import { _isAssetFungibleToken } from '@subwallet/extension-base/services/chain-service/utils';
+import { _isAssetFungibleToken } from '@soul-wallet/extension-base/services/chain-service/utils';
 import { useGetChainSlugsByAccountType } from '@subwallet/extension-koni-ui/hooks/screen/home/useGetChainSlugsByAccountType';
 import { RootState } from '@subwallet/extension-koni-ui/stores';
 import { useMemo } from 'react';

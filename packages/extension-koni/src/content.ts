@@ -1,11 +1,11 @@
 // Copyright 2019-2022 @polkadot/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Message } from '@subwallet/extension-base/types';
+import type { Message } from '@soul-wallet/extension-base/types';
 
-import { TransportRequestMessage } from '@subwallet/extension-base/background/types';
-import { MESSAGE_ORIGIN_CONTENT, MESSAGE_ORIGIN_PAGE, PORT_CONTENT } from '@subwallet/extension-base/defaults';
-import { getId } from '@subwallet/extension-base/utils/getId';
+import { TransportRequestMessage } from '@soul-wallet/extension-base/background/types';
+import { MESSAGE_ORIGIN_CONTENT, MESSAGE_ORIGIN_PAGE, PORT_CONTENT } from '@soul-wallet/extension-base/defaults';
+import { getId } from '@soul-wallet/extension-base/utils/getId';
 import { chrome } from '@soul-wallet/extension-inject/chrome';
 
 // connect to the extension

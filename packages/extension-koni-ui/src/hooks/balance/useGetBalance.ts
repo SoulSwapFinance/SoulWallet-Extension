@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { AmountData } from '@subwallet/extension-base/background/KoniTypes';
-import { _getChainNativeTokenSlug } from '@subwallet/extension-base/services/chain-service/utils';
+import { AmountData } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _getChainNativeTokenSlug } from '@soul-wallet/extension-base/services/chain-service/utils';
 import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
 import { getFreeBalance, updateAssetSetting } from '@subwallet/extension-koni-ui/messaging';
 import { useCallback, useEffect, useMemo, useState } from 'react';

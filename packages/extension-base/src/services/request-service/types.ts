@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AccountAuthType, AccountJson, RequestSign, Resolver, ResponseSigning } from '@subwallet/extension-base/background/types';
+import { AccountAuthType, AccountJson, RequestSign, Resolver, ResponseSigning } from '@soul-wallet/extension-base/background/types';
 import { MetadataDef } from '@soul-wallet/extension-inject/types';
 
 export interface SignRequest extends Resolver<ResponseSigning> {

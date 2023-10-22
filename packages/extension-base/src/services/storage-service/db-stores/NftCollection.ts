@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { NftCollection } from '@subwallet/extension-base/background/KoniTypes';
+import { NftCollection } from '@soul-wallet/extension-base/background/KoniTypes';
 import { liveQuery } from 'dexie';
 
 import BaseStoreWithChain from './BaseStoreWithChain';

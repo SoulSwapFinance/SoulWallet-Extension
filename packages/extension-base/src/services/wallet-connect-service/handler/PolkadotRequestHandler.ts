@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { formatJsonRpcError, formatJsonRpcResult } from '@json-rpc-tools/utils';
-import RequestBytesSign from '@subwallet/extension-base/background/RequestBytesSign';
-import RequestExtrinsicSign from '@subwallet/extension-base/background/RequestExtrinsicSign';
-import RequestService from '@subwallet/extension-base/services/request-service';
-import WalletConnectService from '@subwallet/extension-base/services/wallet-connect-service';
-import { getWCId, parseRequestParams } from '@subwallet/extension-base/services/wallet-connect-service/helpers';
-import { POLKADOT_SIGNING_METHODS } from '@subwallet/extension-base/services/wallet-connect-service/types';
-import { isSameAddress } from '@subwallet/extension-base/utils';
+import RequestBytesSign from '@soul-wallet/extension-base/background/RequestBytesSign';
+import RequestExtrinsicSign from '@soul-wallet/extension-base/background/RequestExtrinsicSign';
+import RequestService from '@soul-wallet/extension-base/services/request-service';
+import WalletConnectService from '@soul-wallet/extension-base/services/wallet-connect-service';
+import { getWCId, parseRequestParams } from '@soul-wallet/extension-base/services/wallet-connect-service/helpers';
+import { POLKADOT_SIGNING_METHODS } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { isSameAddress } from '@soul-wallet/extension-base/utils';
 import keyring from '@subwallet/ui-keyring';
 import { SignClientTypes } from '@walletconnect/types';
 import { getSdkError } from '@walletconnect/utils';

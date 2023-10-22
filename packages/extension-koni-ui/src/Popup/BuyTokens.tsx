@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AccountJson, Resolver } from '@subwallet/extension-base/background/types';
-import { detectTranslate, isAccountAll } from '@subwallet/extension-base/utils';
+import { AccountJson, Resolver } from '@soul-wallet/extension-base/background/types';
+import { detectTranslate, isAccountAll } from '@soul-wallet/extension-base/utils';
 import { baseServiceItems, Layout, PageWrapper, ServiceItem } from '@subwallet/extension-koni-ui/components';
 import { AccountSelector } from '@subwallet/extension-koni-ui/components/Field/AccountSelector';
 import { ServiceSelector } from '@subwallet/extension-koni-ui/components/Field/BuyTokens/ServiceSelector';

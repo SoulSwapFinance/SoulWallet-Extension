@@ -1,11 +1,11 @@
 // Copyright 2019-2022 @polkadot/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { RequestSignatures, TransportRequestMessage } from '@subwallet/extension-base/background/types';
-import type { Message } from '@subwallet/extension-base/types';
+import type { RequestSignatures, TransportRequestMessage } from '@soul-wallet/extension-base/background/types';
+import type { Message } from '@soul-wallet/extension-base/types';
 
-import { MESSAGE_ORIGIN_CONTENT } from '@subwallet/extension-base/defaults';
-import { enable, handleResponse, initEvmProvider } from '@subwallet/extension-base/page';
+import { MESSAGE_ORIGIN_CONTENT } from '@soul-wallet/extension-base/defaults';
+import { enable, handleResponse, initEvmProvider } from '@soul-wallet/extension-base/page';
 import { injectEvmExtension, injectExtension } from '@soul-wallet/extension-inject';
 
 const version = process.env.PKG_VERSION as string;

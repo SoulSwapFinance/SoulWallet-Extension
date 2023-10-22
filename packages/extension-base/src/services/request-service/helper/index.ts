@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { MetadataStore } from '@subwallet/extension-base/stores';
+import { MetadataStore } from '@soul-wallet/extension-base/stores';
 import { addMetadata } from '@soul-wallet/extension-chains';
 import { MetadataDef } from '@soul-wallet/extension-inject/types';
 

@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExternalRequestPromise, ExternalRequestPromiseStatus } from '@subwallet/extension-base/background/KoniTypes';
-import { QrState, Web3Transaction } from '@subwallet/extension-base/signers/types';
+import { ExternalRequestPromise, ExternalRequestPromiseStatus } from '@soul-wallet/extension-base/background/KoniTypes';
+import { QrState, Web3Transaction } from '@soul-wallet/extension-base/signers/types';
 import { addHexPrefix } from 'ethereumjs-util';
 import { ethers, TransactionLike } from 'ethers';
 

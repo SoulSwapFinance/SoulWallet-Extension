@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { WalletConnectNotSupportRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
+import { WalletConnectNotSupportRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
 import { AlertBox, ConfirmationGeneralInfo } from '@subwallet/extension-koni-ui/components';
 import { rejectWalletConnectNotSupport } from '@subwallet/extension-koni-ui/messaging';
 import { ThemeProps } from '@subwallet/extension-koni-ui/types';

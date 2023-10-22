@@ -11,7 +11,7 @@ import type { SignerPayloadJSON, SignerPayloadRaw } from '@polkadot/types/types'
 import type { HexString } from '@polkadot/util/types';
 import type { KeypairType } from '@polkadot/util-crypto/types';
 
-import { CurrentNetworkInfo, KoniRequestSignatures, NetworkJson } from '@subwallet/extension-base/background/KoniTypes';
+import { CurrentNetworkInfo, KoniRequestSignatures, NetworkJson } from '@soul-wallet/extension-base/background/KoniTypes';
 
 import { TypeRegistry } from '@polkadot/types';
 

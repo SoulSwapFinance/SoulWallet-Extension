@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Transaction } from '@subwallet/extension-base/utils/eth';
+import { Transaction } from '@soul-wallet/extension-base/utils/eth';
 
 import { GenericExtrinsicPayload } from '@polkadot/types';
 

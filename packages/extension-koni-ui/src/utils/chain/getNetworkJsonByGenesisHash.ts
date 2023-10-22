@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { NetworkJson } from '@subwallet/extension-base/background/KoniTypes';
-import { _getEvmChainId, _getSubstrateGenesisHash, _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
+import { NetworkJson } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _getEvmChainId, _getSubstrateGenesisHash, _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
 
 export const getNetworkJsonByGenesisHash = (networkMap: Record<string, NetworkJson>, hash?: string | null): NetworkJson | null => {
   if (!hash) {

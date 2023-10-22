@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/web-runner authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { RequestSignatures, TransportRequestMessage, TransportResponseMessage } from '@subwallet/extension-base/background/types';
-import { ID_PREFIX, PORT_CONTENT, PORT_EXTENSION, PORT_MOBILE } from '@subwallet/extension-base/defaults';
-import handlers from '@subwallet/extension-base/koni/background/handlers';
+import { RequestSignatures, TransportRequestMessage, TransportResponseMessage } from '@soul-wallet/extension-base/background/types';
+import { ID_PREFIX, PORT_CONTENT, PORT_EXTENSION, PORT_MOBILE } from '@soul-wallet/extension-base/defaults';
+import handlers from '@soul-wallet/extension-base/koni/background/handlers';
 
 export interface CustomResponse<T> {
   id: string,

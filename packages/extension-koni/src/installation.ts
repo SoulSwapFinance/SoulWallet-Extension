@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { withErrorLog } from '@subwallet/extension-base/background/handlers/helpers';
+import { withErrorLog } from '@soul-wallet/extension-base/background/handlers/helpers';
 
 chrome.runtime.onInstalled.addListener(function (details) {
   if (details.reason === 'install') {

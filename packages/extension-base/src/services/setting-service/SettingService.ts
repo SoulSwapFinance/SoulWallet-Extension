@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { LanguageType, PassPhishing, RequestSettingsType, UiSettings } from '@subwallet/extension-base/background/KoniTypes';
-import { LANGUAGE } from '@subwallet/extension-base/constants';
-import PassPhishingStore from '@subwallet/extension-base/stores/PassPhishingStore';
-import SettingsStore from '@subwallet/extension-base/stores/Settings';
+import { LanguageType, PassPhishing, RequestSettingsType, UiSettings } from '@soul-wallet/extension-base/background/KoniTypes';
+import { LANGUAGE } from '@soul-wallet/extension-base/constants';
+import PassPhishingStore from '@soul-wallet/extension-base/stores/PassPhishingStore';
+import SettingsStore from '@soul-wallet/extension-base/stores/Settings';
 import { Subject } from 'rxjs';
 
 import i18n from './i18n/i18n';

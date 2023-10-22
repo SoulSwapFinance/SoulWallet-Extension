@@ -5,11 +5,11 @@ import type { MetadataDef, ProviderMeta } from '@soul-wallet/extension-inject/ty
 import type { JsonRpcResponse, ProviderInterface, ProviderInterfaceCallback } from '@polkadot/rpc-provider/types';
 import type { AccountAuthType, AccountJson, AuthorizeRequest, MetadataRequest, RequestAuthorizeTab, RequestRpcSend, RequestRpcSubscribe, RequestRpcUnsubscribe, RequestSign, ResponseRpcListProviders, ResponseSigning, SigningRequest } from '../types';
 
-import { RequestSettingsType } from '@subwallet/extension-base/background/KoniTypes';
-import { DEFAULT_SETTING } from '@subwallet/extension-base/services/setting-service/constants';
-import SettingsStore from '@subwallet/extension-base/stores/Settings';
-import { stripUrl } from '@subwallet/extension-base/utils';
-import { getId } from '@subwallet/extension-base/utils/getId';
+import { RequestSettingsType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { DEFAULT_SETTING } from '@soul-wallet/extension-base/services/setting-service/constants';
+import SettingsStore from '@soul-wallet/extension-base/stores/Settings';
+import { stripUrl } from '@soul-wallet/extension-base/utils';
+import { getId } from '@soul-wallet/extension-base/utils/getId';
 import { addMetadata, knownMetadata } from '@soul-wallet/extension-chains';
 import { BehaviorSubject } from 'rxjs';
 

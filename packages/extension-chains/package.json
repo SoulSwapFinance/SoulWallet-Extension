@@ -17,8 +17,11 @@
     "./detectPackage.js",
     "./detectPackage.cjs"
   ],
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "type": "module",
-  "main": "index.js",
+  "main": "./src/index.ts",
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@polkadot/networks": "^12.3.2",

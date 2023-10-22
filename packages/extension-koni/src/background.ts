@@ -4,13 +4,13 @@
 // Runs in the extension background, handling all keyring access
 import '@soul-wallet/extension-inject/crossenv';
 
-import type { RequestSignatures, TransportRequestMessage } from '@subwallet/extension-base/background/types';
+import type { RequestSignatures, TransportRequestMessage } from '@soul-wallet/extension-base/background/types';
 
-import { withErrorLog } from '@subwallet/extension-base/background/handlers/helpers';
-import { PORT_CONTENT, PORT_EXTENSION } from '@subwallet/extension-base/defaults';
-import handlers, { state as koniState } from '@subwallet/extension-base/koni/background/handlers';
-import { AccountsStore } from '@subwallet/extension-base/stores';
-import KeyringStore from '@subwallet/extension-base/stores/Keyring';
+import { withErrorLog } from '@soul-wallet/extension-base/background/handlers/helpers';
+import { PORT_CONTENT, PORT_EXTENSION } from '@soul-wallet/extension-base/defaults';
+import handlers, { state as koniState } from '@soul-wallet/extension-base/koni/background/handlers';
+import { AccountsStore } from '@soul-wallet/extension-base/stores';
+import KeyringStore from '@soul-wallet/extension-base/stores/Keyring';
 import keyring from '@subwallet/ui-keyring';
 
 import { assert } from '@polkadot/util';

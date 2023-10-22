@@ -1,12 +1,12 @@
 // Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { MetadataRequest, Resolver } from '@subwallet/extension-base/background/types';
-import RequestService from '@subwallet/extension-base/services/request-service';
-import { extractMetadata } from '@subwallet/extension-base/services/request-service/helper';
-import { MetaRequest } from '@subwallet/extension-base/services/request-service/types';
-import { MetadataStore } from '@subwallet/extension-base/stores';
-import { getId } from '@subwallet/extension-base/utils/getId';
+import { MetadataRequest, Resolver } from '@soul-wallet/extension-base/background/types';
+import RequestService from '@soul-wallet/extension-base/services/request-service';
+import { extractMetadata } from '@soul-wallet/extension-base/services/request-service/helper';
+import { MetaRequest } from '@soul-wallet/extension-base/services/request-service/types';
+import { MetadataStore } from '@soul-wallet/extension-base/stores';
+import { getId } from '@soul-wallet/extension-base/utils/getId';
 import { addMetadata, knownMetadata } from '@soul-wallet/extension-chains';
 import { MetadataDef } from '@soul-wallet/extension-inject/types';
 import { BehaviorSubject } from 'rxjs';

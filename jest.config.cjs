@@ -9,8 +9,8 @@ module.exports = {
     ...config.modulePathIgnorePatterns
   ],
   moduleNameMapper: {
-    '@soul-wallet/extension-(dapp|inject)(.*)$': '<rootDir>/packages/extension-$1/src/$2',
-    '@subwallet/extension-(base|chains|compat-metamask|mocks|koni-base|koni-ui)(.*)$': '<rootDir>/packages/extension-$1/src/$2',
+    '@soul-wallet/extension-(compat-metamask|dapp|inject|chains)(.*)$': '<rootDir>/packages/extension-$1/src/$2',
+    '@subwallet/extension-(base||mocks|koni-base|koni-ui)(.*)$': '<rootDir>/packages/extension-$1/src/$2',
     // eslint-disable-next-line sort-keys
     '@subwallet/extension-koni(.*)$': '<rootDir>/packages/extension-koni/src/$1',
     '\\.(css|less)$': 'empty/object',

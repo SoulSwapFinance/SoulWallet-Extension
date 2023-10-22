@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
-import { AssetSetting } from '@subwallet/extension-base/background/KoniTypes';
+import { AssetSetting } from '@soul-wallet/extension-base/background/KoniTypes';
 import useNotification from '@subwallet/extension-koni-ui/hooks/common/useNotification';
 import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
 import { updateAssetSetting } from '@subwallet/extension-koni-ui/messaging';

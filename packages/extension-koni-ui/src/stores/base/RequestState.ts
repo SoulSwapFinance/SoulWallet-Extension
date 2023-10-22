@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { ConfirmationsQueue } from '@subwallet/extension-base/background/KoniTypes';
-import { AuthorizeRequest, ConfirmationRequestBase, MetadataRequest, SigningRequest } from '@subwallet/extension-base/background/types';
-import { SWTransactionResult } from '@subwallet/extension-base/services/transaction-service/types';
-import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
+import { ConfirmationsQueue } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AuthorizeRequest, ConfirmationRequestBase, MetadataRequest, SigningRequest } from '@soul-wallet/extension-base/background/types';
+import { SWTransactionResult } from '@soul-wallet/extension-base/services/transaction-service/types';
+import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
 import { ReduxStatus, RequestState } from '@subwallet/extension-koni-ui/stores/types';
 
 const initialState: RequestState = {

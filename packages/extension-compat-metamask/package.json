@@ -16,7 +16,10 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "main": "index.js",
+  "main": "./src/index.ts",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@metamask/detect-provider": "^1.2.0",

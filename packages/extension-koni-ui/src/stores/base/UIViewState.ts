@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { UIViewState } from '@subwallet/extension-base/background/KoniTypes';
+import { UIViewState } from '@soul-wallet/extension-base/background/KoniTypes';
 import { ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
 
 const initialState: UIViewState = {

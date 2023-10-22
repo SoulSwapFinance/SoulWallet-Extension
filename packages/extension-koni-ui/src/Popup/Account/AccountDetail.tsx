@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { MantaPayEnableMessage } from '@subwallet/extension-base/background/KoniTypes';
-import { detectTranslate } from '@subwallet/extension-base/utils';
+import { MantaPayEnableMessage } from '@soul-wallet/extension-base/background/KoniTypes';
+import { detectTranslate } from '@soul-wallet/extension-base/utils';
 import { CloseIcon, Layout, PageWrapper, ZkModeFooter } from '@subwallet/extension-koni-ui/components';
 import AccountAvatar from '@subwallet/extension-koni-ui/components/Account/AccountAvatar';
 import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';

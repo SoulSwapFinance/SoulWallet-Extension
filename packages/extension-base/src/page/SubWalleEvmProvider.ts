@@ -4,8 +4,8 @@
 import type { EvmProvider } from '@soul-wallet/extension-inject/types';
 
 import SafeEventEmitter from '@metamask/safe-event-emitter';
-import { EvmProviderError } from '@subwallet/extension-base/background/errors/EvmProviderError';
-import { SendRequest } from '@subwallet/extension-base/page/types';
+import { EvmProviderError } from '@soul-wallet/extension-base/background/errors/EvmProviderError';
+import { SendRequest } from '@soul-wallet/extension-base/page/types';
 import { JsonRpcRequest, JsonRpcResponse, JsonRpcSuccess } from 'json-rpc-engine';
 import { RequestArguments } from 'web3-core';
 
@@ -16,7 +16,7 @@ export interface SendSyncJsonRpcRequest extends JsonRpcRequest<unknown> {
 let subscribeFlag = false;
 
 export class SubWalletEvmProvider extends SafeEventEmitter implements EvmProvider {
-  public readonly isSubWallet = true;
+  public readonly isSoulWallet = true;
   public readonly isMetaMask = false;
   public readonly version;
   protected sendMessage: SendRequest;

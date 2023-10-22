@@ -81,7 +81,7 @@ const external = [
 
 const entries = ['extension-base', 'extension-chains', 'extension-inject'].reduce((all, p) => ({
   ...all,
-  [`@subwallet/${p}`]: path.resolve(process.cwd(), `packages/${p}/build`)
+  [`@soul-wallet/${p}`]: path.resolve(process.cwd(), `packages/${p}/build`)
 }), {});
 
 const overrides = {};

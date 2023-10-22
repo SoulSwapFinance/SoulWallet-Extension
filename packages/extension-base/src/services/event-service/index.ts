@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Stateless service handle runtime event on background
-import { EventItem, EventRegistry, EventType } from '@subwallet/extension-base/services/event-service/types';
+import { EventItem, EventRegistry, EventType } from '@soul-wallet/extension-base/services/event-service/types';
 import EventEmitter from 'eventemitter3';
 
 export class EventService extends EventEmitter<EventRegistry> {

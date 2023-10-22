@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { NominationInfo, NominatorMetadata, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus } from '@subwallet/extension-base/background/KoniTypes';
-import { getAstarWithdrawable } from '@subwallet/extension-base/koni/api/staking/bonding/astar';
-import { _KNOWN_CHAIN_INFLATION_PARAMS, _STAKING_CHAIN_GROUP, _SUBSTRATE_DEFAULT_INFLATION_PARAMS, _SubstrateInflationParams } from '@subwallet/extension-base/services/chain-service/constants';
-import { _getChainNativeTokenBasicInfo } from '@subwallet/extension-base/services/chain-service/utils';
-import { detectTranslate, parseRawNumber, reformatAddress } from '@subwallet/extension-base/utils';
-import { balanceFormatter, formatNumber } from '@subwallet/extension-base/utils/number';
+import { NominationInfo, NominatorMetadata, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus } from '@soul-wallet/extension-base/background/KoniTypes';
+import { getAstarWithdrawable } from '@soul-wallet/extension-base/koni/api/staking/bonding/astar';
+import { _KNOWN_CHAIN_INFLATION_PARAMS, _STAKING_CHAIN_GROUP, _SUBSTRATE_DEFAULT_INFLATION_PARAMS, _SubstrateInflationParams } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { detectTranslate, parseRawNumber, reformatAddress } from '@soul-wallet/extension-base/utils';
+import { balanceFormatter, formatNumber } from '@soul-wallet/extension-base/utils/number';
 import { t } from 'i18next';
 
 import { ApiPromise } from '@polkadot/api';

@@ -5,13 +5,13 @@ import '@polkadot/types-augment';
 
 import { options as acalaOptions } from '@acala-network/api';
 import { rpc as oakRpc, types as oakTypes } from '@oak-foundation/types';
-import { MetadataItem } from '@subwallet/extension-base/background/KoniTypes';
-import { _API_OPTIONS_CHAIN_GROUP, API_AUTO_CONNECT_MS, API_CONNECT_TIMEOUT } from '@subwallet/extension-base/services/chain-service/constants';
-import { getSubstrateConnectProvider } from '@subwallet/extension-base/services/chain-service/handler/light-client';
-import { DEFAULT_AUX } from '@subwallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
-import { _ApiOptions } from '@subwallet/extension-base/services/chain-service/handler/types';
-import { _ChainConnectionStatus, _SubstrateApi, _SubstrateDefaultFormatBalance } from '@subwallet/extension-base/services/chain-service/types';
-import { createPromiseHandler, PromiseHandler } from '@subwallet/extension-base/utils/promise';
+import { MetadataItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _API_OPTIONS_CHAIN_GROUP, API_AUTO_CONNECT_MS, API_CONNECT_TIMEOUT } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { getSubstrateConnectProvider } from '@soul-wallet/extension-base/services/chain-service/handler/light-client';
+import { DEFAULT_AUX } from '@soul-wallet/extension-base/services/chain-service/handler/SubstrateChainHandler';
+import { _ApiOptions } from '@soul-wallet/extension-base/services/chain-service/handler/types';
+import { _ChainConnectionStatus, _SubstrateApi, _SubstrateDefaultFormatBalance } from '@soul-wallet/extension-base/services/chain-service/types';
+import { createPromiseHandler, PromiseHandler } from '@soul-wallet/extension-base/utils/promise';
 import { spec as availSpec } from 'avail-js-sdk';
 import { BehaviorSubject } from 'rxjs';
 

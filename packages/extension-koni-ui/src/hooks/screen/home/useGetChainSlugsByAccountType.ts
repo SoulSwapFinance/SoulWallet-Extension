@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { AccountJson } from '@subwallet/extension-base/background/types';
-import { _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
+import { AccountJson } from '@soul-wallet/extension-base/background/types';
+import { _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
 import { RootState } from '@subwallet/extension-koni-ui/stores';
 import { AccountType } from '@subwallet/extension-koni-ui/types';
 import { findAccountByAddress } from '@subwallet/extension-koni-ui/utils/account/account';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { DonateInfo } from '@subwallet/extension-base/background/KoniTypes';
+import { DonateInfo } from '@soul-wallet/extension-base/background/KoniTypes';
 
 const DONATEINFOS: Record<string, DonateInfo> = {
   ukraine: {

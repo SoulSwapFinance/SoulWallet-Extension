@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetRef, _AssetType, _ChainAsset, _ChainInfo, _MultiChainAsset } from '@soul-wallet/chain-list/types';
-import { AssetSetting, ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountJson } from '@subwallet/extension-base/background/types';
-import { _getAssetDecimals, _getOriginChainOfAsset, _isAssetFungibleToken, _isChainEvmCompatible, _isMantaZkAsset, _isTokenTransferredByEvm } from '@subwallet/extension-base/services/chain-service/utils';
-import { SWTransactionResponse } from '@subwallet/extension-base/services/transaction-service/types';
-import { detectTranslate, isSameAddress } from '@subwallet/extension-base/utils';
+import { AssetSetting, ExtrinsicType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountJson } from '@soul-wallet/extension-base/background/types';
+import { _getAssetDecimals, _getOriginChainOfAsset, _isAssetFungibleToken, _isChainEvmCompatible, _isMantaZkAsset, _isTokenTransferredByEvm } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { SWTransactionResponse } from '@soul-wallet/extension-base/services/transaction-service/types';
+import { detectTranslate, isSameAddress } from '@soul-wallet/extension-base/utils';
 import { HiddenInput } from '@subwallet/extension-koni-ui/components';
 import { AccountSelector } from '@subwallet/extension-koni-ui/components/Field/AccountSelector';
 import { AddressInput } from '@subwallet/extension-koni-ui/components/Field/AddressInput';

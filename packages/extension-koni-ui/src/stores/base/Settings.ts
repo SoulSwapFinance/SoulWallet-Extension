@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit/dist';
-import { AuthUrlInfo } from '@subwallet/extension-base/background/handlers/State';
-import { ThemeNames, UiSettings } from '@subwallet/extension-base/background/KoniTypes';
-import { LANGUAGE } from '@subwallet/extension-base/constants';
-import { DEFAULT_SETTING } from '@subwallet/extension-base/services/setting-service/constants';
+import { AuthUrlInfo } from '@soul-wallet/extension-base/background/handlers/State';
+import { ThemeNames, UiSettings } from '@soul-wallet/extension-base/background/KoniTypes';
+import { LANGUAGE } from '@soul-wallet/extension-base/constants';
+import { DEFAULT_SETTING } from '@soul-wallet/extension-base/services/setting-service/constants';
 import { AppSettings, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
 
 import settings from '@polkadot/ui-settings';
