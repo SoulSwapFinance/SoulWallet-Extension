@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/extension-base
+// Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
 import { CurrentAccountInfo, KeyringState } from '@subwallet/extension-base/background/KoniTypes';

@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/extension-base
+// Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
 import { getWasmContractGasLimit } from '@subwallet/extension-base/koni/api/tokens/wasm/utils';

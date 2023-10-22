@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/extension-koni authors & contributors
+// Copyright 2023 @soul-wallet/extension-koni authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import { ChainInfoMap } from '@soul-wallet/chain-list';

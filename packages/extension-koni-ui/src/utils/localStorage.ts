@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/extension-ui authors & contributors
+// Copyright 2023 @soul-wallet/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 export function getLocalStorage<T> (key: string, defaultValue: T): T {

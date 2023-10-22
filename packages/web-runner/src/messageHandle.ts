@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/web-runner authors & contributors
+// Copyright 2023 @soul-wallet/web-runner authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import { RequestSignatures, TransportRequestMessage, TransportResponseMessage } from '@subwallet/extension-base/background/types';

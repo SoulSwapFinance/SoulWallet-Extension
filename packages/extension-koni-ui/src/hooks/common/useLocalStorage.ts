@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/sub-connect authors & contributors
+// Copyright 2023 @soul-wallet/sub-connect authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import { getLocalStorage, setLocalStorage } from '@subwallet/extension-koni-ui/utils/localStorage';

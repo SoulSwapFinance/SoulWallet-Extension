@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/extension-base
+// Copyright 2023 @soul-wallet/extension-base
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetRef, _AssetRefPath, _AssetType, _ChainAsset, _ChainInfo, _MultiChainAsset, _SubstrateChainType } from '@soul-wallet/chain-list/src/types';

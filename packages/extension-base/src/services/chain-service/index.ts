@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/extension-base authors & contributors
+// Copyright 2023 @soul-wallet/extension-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import { AssetLogoMap, AssetRefMap, ChainAssetMap, ChainInfoMap, ChainLogoMap, MultiChainAssetMap } from '@soul-wallet/chain-list';
