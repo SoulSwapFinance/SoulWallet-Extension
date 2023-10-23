@@ -1,7 +1,7 @@
 {
   "name": "@soul-wallet/extension-base",
   "author": "Buns Enchantress <buns@soulswap.finance>",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Functions, classes and other utilities used in @soul-wallet/extension",
   "license": "Apache-2.0",
   "maintainers": [],

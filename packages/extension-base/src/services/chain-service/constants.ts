@@ -236,9 +236,9 @@ export const EVM_REFORMAT_DECIMALS = {
 // TODO: review
 const TARGET_BRANCH = 'master' // process.env.NODE_ENV !== 'production' ? 'koni-dev' : 'master';
 
-export const _CHAIN_INFO_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chain/${TARGET_BRANCH}/packages/chain-list/src/data/ChainInfo.json`;
-export const _CHAIN_ASSET_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chain/${TARGET_BRANCH}/packages/chain-list/src/data/ChainAsset.json`;
-export const _ASSET_REF_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chain/${TARGET_BRANCH}/packages/chain-list/src/data/AssetRef.json`;
-export const _MULTI_CHAIN_ASSET_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chain/${TARGET_BRANCH}/packages/chain-list/src/data/MultiChainAsset.json`;
-export const _CHAIN_LOGO_MAP_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chain/${TARGET_BRANCH}/packages/chain-list/src/data/ChainLogoMap.json`;
-export const _ASSET_LOGO_MAP_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chain/${TARGET_BRANCH}/packages/chain-list/src/data/AssetLogoMap.json`;
+export const _CHAIN_INFO_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-ChainList/${TARGET_BRANCH}/packages/chain-list/src/data/ChainInfo.json`;
+export const _CHAIN_ASSET_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-ChainList/${TARGET_BRANCH}/packages/chain-list/src/data/ChainAsset.json`;
+export const _ASSET_REF_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-ChainList/${TARGET_BRANCH}/packages/chain-list/src/data/AssetRef.json`;
+export const _MULTI_CHAIN_ASSET_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-ChainList/${TARGET_BRANCH}/packages/chain-list/src/data/MultiChainAsset.json`;
+export const _CHAIN_LOGO_MAP_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-ChainList/${TARGET_BRANCH}/packages/chain-list/src/data/ChainLogoMap.json`;
+export const _ASSET_LOGO_MAP_SRC = `https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-ChainList/${TARGET_BRANCH}/packages/chain-list/src/data/AssetLogoMap.json`;
