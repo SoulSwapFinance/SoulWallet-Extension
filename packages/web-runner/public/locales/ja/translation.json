@@ -241,7 +241,7 @@
   "Export successful": "エクスポートが成功",
   "Anyone with your key can use any assets held in your account.": "あなたのキーを持っている人は誰でもあなたのアカウントにある資産を使用できます",
   "Warning: Never disclose this key": "警告: この鍵を開示しないでください",
-  "Type your Subwallet password": "SoulWallet パスワードを入力",
+  "Type your SoulWallet password": "SoulWallet パスワードを入力",
   "Your json file": "あなたのJSONファイル",
   "Success!": "成功！",
   "You have successfully exported JSON file for this account": "このアカウントのJSONファイルのエクスポートに成功しました。",

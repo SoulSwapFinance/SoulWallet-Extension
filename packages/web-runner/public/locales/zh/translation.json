@@ -241,7 +241,7 @@
   "Export successful": "导出成功",
   "Anyone with your key can use any assets held in your account.": "你的私钥一旦泄露，其他人将能够使用你账户中的所有资产。",
   "Warning: Never disclose this key": "警告: 切勿泄露此私钥",
-  "Type your Subwallet password": "填充你的Subwallet密码",
+  "Type your SoulWallet password": "填充你的SoulWallet密码",
   "Your json file": "你的JSON文件",
   "Success!": "成功！",
   "You have successfully exported JSON file for this account": "为此账户导出JSON文件成功",

@@ -241,7 +241,7 @@
   "Export successful": "Xuất thành công",
   "Anyone with your key can use any assets held in your account.": "Bất cứ ai có seed phrase đều có thể kiểm soát toàn bộ tài sản trong tài khoản của bạn.",
   "Warning: Never disclose this key": "Cảnh báo: Không bao giờ tiết lộ seed phrase này.",
-  "Type your Subwallet password": "Nhập mật khẩu SoulWallet của bạn",
+  "Type your SoulWallet password": "Nhập mật khẩu SoulWallet của bạn",
   "Your json file": "Tệp JSON của bạn",
   "Success!": "Thành công!",
   "You have successfully exported JSON file for this account": "Bạn đã xuất thành công tệp JSON của tài khoản này",
