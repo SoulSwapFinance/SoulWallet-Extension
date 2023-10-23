@@ -5628,29 +5628,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@soul-wallet/chain-list@npm:1.0.5":
-  version: 1.0.5
-  resolution: "@soul-wallet/chain-list@npm:1.0.5"
+"@soul-wallet/chain-list@npm:1.0.7, @soul-wallet/chain-list@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "@soul-wallet/chain-list@npm:1.0.7"
   dependencies:
     "@polkadot/dev": 0.67.167
     "@polkadot/util": ^12.5.1
     eventemitter3: ^5.0.1
-  checksum: f92306f6ba5a3c6e187b8f3ddff0e703eb06ec74757669ce079a8d96385e814963ed565c393ac576912ddea3ed2fe472e5b72842867b58dc6027fbb7ca057d57
+  checksum: 43c313b7139b20dba9985e5a30735f58afa1fcc547bc1502e964e8dd644058e478fa46848b15b1af080df5b166cf3eeeea1da6e0f8ed708fe2ab73e71bae76a1
   languageName: node
   linkType: hard
 
-"@soul-wallet/chain-list@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "@soul-wallet/chain-list@npm:1.0.6"
-  dependencies:
-    "@polkadot/dev": 0.67.167
-    "@polkadot/util": ^12.5.1
-    eventemitter3: ^5.0.1
-  checksum: 8c46c408dd1a85cdc49cdab9d0c02d17bc7f9c815c92441d56ced87eb09554621f76d5a8aa55b0907fe9f43c7c80c89214efc7a6ac5f744e03b1ead9f7c2862f
-  languageName: node
-  linkType: hard
-
-"@soul-wallet/extension-base@*, @soul-wallet/extension-base@^1.0.8, @soul-wallet/extension-base@workspace:packages/extension-base":
+"@soul-wallet/extension-base@*, @soul-wallet/extension-base@^1.0.10, @soul-wallet/extension-base@workspace:packages/extension-base":
   version: 0.0.0-use.local
   resolution: "@soul-wallet/extension-base@workspace:packages/extension-base"
   dependencies:
@@ -5680,7 +5669,7 @@ __metadata:
     "@polkadot/util-crypto": ^12.3.2
     "@reduxjs/toolkit": ^1.9.1
     "@sora-substrate/type-definitions": ^1.17.7
-    "@soul-wallet/chain-list": 1.0.5
+    "@soul-wallet/chain-list": 1.0.7
     "@soul-wallet/extension-base": "*"
     "@soul-wallet/extension-chains": 1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
@@ -6166,8 +6155,8 @@ __metadata:
     "@polkadot/util-crypto": ^12.3.2
     "@ramonak/react-progress-bar": ^5.0.3
     "@reduxjs/toolkit": ^1.9.1
-    "@soul-wallet/chain-list": 1.0.5
-    "@soul-wallet/extension-base": ^1.0.8
+    "@soul-wallet/chain-list": 1.0.7
+    "@soul-wallet/extension-base": ^1.0.10
     "@soul-wallet/extension-chains": ^1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
     "@soul-wallet/extension-inject": ^1.0.1
@@ -6236,7 +6225,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.20.6
     "@polkadot/dev": ^0.65.23
-    "@soul-wallet/extension-base": ^1.0.8
+    "@soul-wallet/extension-base": ^1.0.10
     "@soul-wallet/extension-inject": ^1.0.1
     "@subwallet/extension-koni-ui": ^1.1.17-0
     assert: ^2.0.0
@@ -6388,7 +6377,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.20.6
     "@polkadot/dev": ^0.65.23
-    "@soul-wallet/extension-base": ^1.0.8
+    "@soul-wallet/extension-base": ^1.0.10
     "@soul-wallet/extension-inject": ^1.0.1
     "@subwallet/extension-koni-ui": ^1.1.17-0
     assert: ^2.0.0
@@ -22973,7 +22962,7 @@ __metadata:
     "@babel/cli": ^7.19.3
     "@babel/core": ^7.19.3
     "@polkadot/dev": ^0.65.23
-    "@soul-wallet/chain-list": ^1.0.6
+    "@soul-wallet/chain-list": ^1.0.7
     "@types/jest": ^29.5.0
     "@types/node": ^17.0.10
     axios: ^1.2.1

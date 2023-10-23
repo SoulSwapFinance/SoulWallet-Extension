@@ -17,11 +17,11 @@ const defaultErrorMap = {
     code: undefined
   },
   INVALID_PARAMS: {
-    message: detectTranslate('Undefined error. Please contact SubWallet support'),
+    message: detectTranslate('Undefined error. Please contact support'),
     code: undefined
   },
   INTERNAL_ERROR: {
-    message: detectTranslate('Undefined error. Please contact SubWallet support'),
+    message: detectTranslate('Undefined error. Please contact support'),
     code: undefined
   },
   DUPLICATE_TRANSACTION: {
