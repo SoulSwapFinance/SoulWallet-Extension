@@ -15,7 +15,7 @@ export interface SendSyncJsonRpcRequest extends JsonRpcRequest<unknown> {
 
 let subscribeFlag = false;
 
-export class SubWalletEvmProvider extends SafeEventEmitter implements EvmProvider {
+export class SoulWalletEvmProvider extends SafeEventEmitter implements EvmProvider {
   public readonly isSoulWallet = true;
   public readonly isMetaMask = false;
   public readonly version;

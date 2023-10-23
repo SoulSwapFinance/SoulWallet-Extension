@@ -62,7 +62,7 @@ script.src = chrome.extension.getURL('page.js');
 
 placeholderScript.textContent = `class SubWalletPlaceholder {
   provider = undefined;
-  isSubWallet = true;
+  isSoulWallet = true;
   connected = false;
   isConnected = () => false;
   __waitProvider = (async () => {
@@ -75,7 +75,7 @@ placeholderScript.textContent = `class SubWalletPlaceholder {
         const interval = setInterval(() => {
           if (++retry > 30) {
             clearInterval(interval);
-            reject(new Error("SubWallet provider not found"));
+            reject(new Error("SoulWallet provider not found"));
           }
           if (self.provider) {
             clearInterval(interval);

@@ -5,7 +5,7 @@ import type { MessageTypes, MessageTypesWithNoSubscriptions, MessageTypesWithNul
 
 import { ProviderError } from '@soul-wallet/extension-base/background/errors/ProviderError';
 import { ProviderErrorType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { SubWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
+import { SoulWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
 import { EvmProvider } from '@soul-wallet/extension-inject/types';
 
 import { MESSAGE_ORIGIN_PAGE } from '../defaults';
@@ -84,5 +84,5 @@ export function handleResponse<TMessageType extends MessageTypes> (data: Transpo
 }
 
 export function initEvmProvider (version: string): EvmProvider {
-  return new SubWalletEvmProvider(sendMessage, version);
+  return new SoulWalletEvmProvider(sendMessage, version);
 }

@@ -218,7 +218,7 @@ function Component ({ className = '' }: Props): React.ReactElement<Props> {
     },
     {
       key: 'about',
-      label: t('About SubWallet'),
+      label: t('About SoulWallet'),
       items: [
         {
           key: 'website',
@@ -330,7 +330,7 @@ function Component ({ className = '' }: Props): React.ReactElement<Props> {
           </Button>
 
           <div className={'__version'}>
-          SubWallet v {EXTENSION_VERSION}
+          SoulWallet v {EXTENSION_VERSION}
           </div>
         </div>
 

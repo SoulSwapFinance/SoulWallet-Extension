@@ -149,7 +149,7 @@ const Component: React.FC<Props> = (props: Props) => {
       >
         <div className={CN('container')}>
           <div className='sub-title'>
-            {t("Please make sure that you have granted SubWallet the access to your device's camera.")}
+            {t("Please make sure that you have granted SoulWallet the access to your device's camera.")}
           </div>
           <div className='logo'>
             <DualLogo

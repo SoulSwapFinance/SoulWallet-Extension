@@ -215,7 +215,7 @@ const Component: React.FC<Props> = ({ className }: Props) => {
           >
             <div className='instruction-container'>
               <AlertBox
-                description={t('For your wallet protection, SubWallet locks your wallet after 15 minutes of inactivity. You will need this password to unlock it.')}
+                description={t('For your wallet protection, SoulWallet locks your wallet after 15 minutes of inactivity. You will need this password to unlock it.')}
                 title={t('Why do I need to enter a password?')}
               />
               <AlertBox

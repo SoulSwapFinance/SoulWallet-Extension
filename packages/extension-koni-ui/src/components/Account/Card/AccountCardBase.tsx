@@ -77,7 +77,7 @@ function Component (props: _AccountCardProps): React.ReactElement<_AccountCardPr
           value: Eye
         };
       case AccountSignMode.INJECTED:
-        // if (source === 'SubWallet') {
+        // if (source === 'SoulWallet') {
         //   return {
         //     type: 'node',
         //     value: (

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SubWalletEvmProvider } from '@subwallet/extension-base/page/SubWalleEvmProvider';
+import { SoulWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
 import { addLazy } from '@subwallet/extension-base/utils';
 import { EvmProvider, Injected, InjectedAccountWithMeta, InjectedWindowProvider, Unsubcall } from '@soul-wallet/extension-inject/types';
 import { DisconnectExtensionModal } from '@subwallet/extension-koni-ui/components';
@@ -19,14 +19,14 @@ interface Props {
 export interface InjectedWindow extends This {
   injectedWeb3?: Record<string, InjectedWindowProvider>;
   ethereum?: EvmProvider;
-  SubWallet?: SubWalletEvmProvider;
+  SoulWallet?: SoulWalletEvmProvider;
 }
 
 interface InjectContextProps {
   disableInject: () => void;
   enableInject: (callback?: VoidFunction) => void;
   enabled: boolean;
-  evmWallet?: SubWalletEvmProvider;
+  evmWallet?: SoulWalletEvmProvider;
   initCallback: (callback?: VoidFunction) => void;
   initEnable: boolean;
   injected: boolean;
@@ -49,7 +49,7 @@ const evmConvertToInject = (address: string): InjectedAccountWithMeta => {
     address,
     type: 'ethereum',
     meta: {
-      source: 'SubWallet',
+      source: 'SoulWallet',
       name: toShort(address, 4, 4)
     }
   };
@@ -122,11 +122,11 @@ export const InjectContextProvider: React.FC<Props> = ({ children }: Props) => {
   const { t } = useTranslation();
 
   const injected = useMemo(() => {
-    return !!win.injectedWeb3?.['subwallet-js'] || !!win.SubWallet;
+    return !!win.injectedWeb3?.['subwallet-js'] || !!win.SoulWallet;
   }, []);
 
   const [substrateWallet, setSubstrateWallet] = useState<Injected | undefined>();
-  const [evmWallet, setEvmWallet] = useState<SubWalletEvmProvider | undefined>();
+  const [evmWallet, setEvmWallet] = useState<SoulWalletEvmProvider | undefined>();
   const [update, setUpdate] = useState({});
   const [storage, setStorage] = useLocalStorage<boolean>(ENABLE_INJECT, false);
   const [initEnable] = useState(storage);
@@ -214,7 +214,7 @@ export const InjectContextProvider: React.FC<Props> = ({ children }: Props) => {
   }, [enabled, update, checkLoading, handleConnectFail]);
 
   useEffect(() => {
-    const wallet = win.SubWallet;
+    const wallet = win.SoulWallet;
 
     if (wallet && enabled) {
       promiseMapRef.current = { ...promiseMapRef.current, SubWallet: 'PENDING' };
