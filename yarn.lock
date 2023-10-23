@@ -5650,7 +5650,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@soul-wallet/extension-base@*, @soul-wallet/extension-base@^1.0.7, @soul-wallet/extension-base@workspace:packages/extension-base":
+"@soul-wallet/extension-base@*, @soul-wallet/extension-base@^1.0.8, @soul-wallet/extension-base@workspace:packages/extension-base":
   version: 0.0.0-use.local
   resolution: "@soul-wallet/extension-base@workspace:packages/extension-base"
   dependencies:
@@ -6167,7 +6167,7 @@ __metadata:
     "@ramonak/react-progress-bar": ^5.0.3
     "@reduxjs/toolkit": ^1.9.1
     "@soul-wallet/chain-list": 1.0.5
-    "@soul-wallet/extension-base": ^1.0.7
+    "@soul-wallet/extension-base": ^1.0.8
     "@soul-wallet/extension-chains": ^1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
     "@soul-wallet/extension-inject": ^1.0.1
@@ -6236,7 +6236,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.20.6
     "@polkadot/dev": ^0.65.23
-    "@soul-wallet/extension-base": ^1.0.7
+    "@soul-wallet/extension-base": ^1.0.8
     "@soul-wallet/extension-inject": ^1.0.1
     "@subwallet/extension-koni-ui": ^1.1.17-0
     assert: ^2.0.0
@@ -6388,7 +6388,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.20.6
     "@polkadot/dev": ^0.65.23
-    "@soul-wallet/extension-base": ^1.0.7
+    "@soul-wallet/extension-base": ^1.0.8
     "@soul-wallet/extension-inject": ^1.0.1
     "@subwallet/extension-koni-ui": ^1.1.17-0
     assert: ^2.0.0

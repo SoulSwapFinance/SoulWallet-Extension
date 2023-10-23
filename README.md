@@ -141,4 +141,4 @@ Subwallet run test with [jest](https://jestjs.io/). Create new file with name `f
 1. [ **1.0.0** ] **extension-dapp** - A convenience wrapper to work with the injected objects, simplifying data extraction for any dapp that wishes to integrate the extension (or any extension that supports the interface).
 1. [ **1.0.0** ] **extension-chains** - Definitions for chains that are supported by this extension. It contains the bare definitions as well as a stripped-down (call-only) metadata format.
 1. [ **1.0.0** ] **extension-compat-metamask**: Compatable with Metamask
-2. [ **1.0.7** ] **extension-base** - Contain main features run in background, call api, persist data into chrome store and inject script.
+2. [ **1.0.8** ] **extension-base** - Contain main features run in background, call api, persist data into chrome store and inject script.
