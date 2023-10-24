@@ -1,12 +1,12 @@
 {
-  "author": "Koni Studio>",
+  "author": "Buns Enchantress",
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "contributors": [],
   "description": "A sample signer extension for the @polkadot/api",
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-koni-ui#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@subwallet/extension-koni-ui",
+  "name": "@soul-wallet/extension-koni-ui",
   "repository": {
     "directory": "packages/extension-koni-ui",
     "type": "git",
@@ -14,7 +14,7 @@
   },
   "sideEffects": true,
   "type": "module",
-  "version": "1.1.17-0",
+  "version": "1.0.0",
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@coinbase/cbpay-js": "^1.7.0",
@@ -39,7 +39,6 @@
     "@soul-wallet/extension-chains": "^1.0.0",
     "@soul-wallet/extension-dapp": "^1.0.0",
     "@soul-wallet/extension-inject": "^1.0.1",
-    "@subwallet/extension-base": "^1.1.1",
     "@subwallet/keyring": "^0.1.1",
     "@subwallet/react-ui": "5.1.2-b72",
     "@subwallet/ui-keyring": "^0.1.1",
@@ -81,7 +80,7 @@
     "usehooks-ts": "^2.9.1"
   },
   "devDependencies": {
-    "@subwallet/extension-mocks": "^1.1.17-0",
+    "@soul-wallet/extension-mocks": "^1.0.0",
     "@types/bn.js": "^5.1.1",
     "@types/enzyme": "^3.10.12",
     "@types/enzyme-adapter-react-16": "^1.0.6",

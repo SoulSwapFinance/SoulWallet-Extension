@@ -11,7 +11,7 @@ import path from 'path';
 import pluginCleanup from 'rollup-plugin-cleanup';
 
 function sanitizePkg (pkg) {
-  return pkg.replace('@subwallet/', '');
+  return pkg.replace('@soul-wallet/', '');
 }
 
 function createName (input) {

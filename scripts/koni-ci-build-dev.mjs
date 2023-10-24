@@ -7,7 +7,7 @@ import axios from 'axios';
 import fs from "fs";
 
 import execSync from '@polkadot/dev/scripts/execSync.mjs';
-import {Webhook} from "discord-webhook-node";
+// import {Webhook} from "discord-webhook-node";
 
 console.log('$ polkadot-ci-ghact-build', process.argv.slice(2).join(' '));
 

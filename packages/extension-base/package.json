@@ -88,7 +88,7 @@
     "web3-utils": "^1.10.0"
   },
   "devDependencies": {
-    "@subwallet/extension-mocks": "^1.1.17-0",
+    "@soul-wallet/extension-mocks": "^1.0.0",
     "@types/uuid": "^9.0.1"
   }
 }
