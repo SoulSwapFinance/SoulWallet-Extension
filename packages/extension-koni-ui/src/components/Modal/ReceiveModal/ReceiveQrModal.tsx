@@ -3,14 +3,14 @@
 
 import { _getChainSubstrateAddressPrefix } from '@subwallet/extension-base/services/chain-service/utils';
 import { getExplorerLink } from '@subwallet/extension-base/services/transaction-service/utils';
-import InfoIcon from '@subwallet/extension-koni-ui/components/Icon/InfoIcon';
-import { RECEIVE_QR_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import useNotification from '@subwallet/extension-koni-ui/hooks/common/useNotification';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useFetchChainInfo from '@subwallet/extension-koni-ui/hooks/screen/common/useFetchChainInfo';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { getScanExplorerAddressInfoUrl } from '@subwallet/extension-koni-ui/utils';
-import reformatAddress from '@subwallet/extension-koni-ui/utils/account/reformatAddress';
+import InfoIcon from '@soul-wallet/extension-koni-ui/components/Icon/InfoIcon';
+import { RECEIVE_QR_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import useNotification from '@soul-wallet/extension-koni-ui/hooks/common/useNotification';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useFetchChainInfo from '@soul-wallet/extension-koni-ui/hooks/screen/common/useFetchChainInfo';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { getScanExplorerAddressInfoUrl } from '@soul-wallet/extension-koni-ui/utils';
+import reformatAddress from '@soul-wallet/extension-koni-ui/utils/account/reformatAddress';
 import { Button, Icon, Logo, ModalContext, SwModal, SwQRCode } from '@subwallet/react-ui';
 import AccountItem from '@subwallet/react-ui/es/web3-block/account-item';
 import CN from 'classnames';

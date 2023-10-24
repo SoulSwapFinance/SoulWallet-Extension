@@ -4,12 +4,12 @@
 import { _AssetType, _ChainInfo } from '@soul-wallet/chain-list/types';
 import { _getNftTypesSupportedByChain, _isChainTestNet, _parseMetadataForSmartContractAsset } from '@subwallet/extension-base/services/chain-service/utils';
 import { isValidSubstrateAddress } from '@subwallet/extension-base/utils';
-import { AddressInput, ChainSelector, Layout, PageWrapper, TokenTypeSelector } from '@subwallet/extension-koni-ui/components';
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import { useChainChecker, useGetChainPrefixBySlug, useGetContractSupportedChains, useNotification, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { upsertCustomToken, validateCustomToken } from '@subwallet/extension-koni-ui/messaging';
-import { FormCallbacks, FormFieldData, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { convertFieldToError, convertFieldToObject, reformatAddress, simpleCheckForm } from '@subwallet/extension-koni-ui/utils';
+import { AddressInput, ChainSelector, Layout, PageWrapper, TokenTypeSelector } from '@soul-wallet/extension-koni-ui/components';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import { useChainChecker, useGetChainPrefixBySlug, useGetContractSupportedChains, useNotification, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { upsertCustomToken, validateCustomToken } from '@soul-wallet/extension-koni-ui/messaging';
+import { FormCallbacks, FormFieldData, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { convertFieldToError, convertFieldToObject, reformatAddress, simpleCheckForm } from '@soul-wallet/extension-koni-ui/utils';
 import { Form, Icon, Input } from '@subwallet/react-ui';
 import { PlusCircle } from 'phosphor-react';
 import { RuleObject } from 'rc-field-form/lib/interface';

@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { REQUEST_CAMERA_ACCESS_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { REQUEST_CAMERA_ACCESS_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, ModalContext, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { GearSix, Warning } from 'phosphor-react';

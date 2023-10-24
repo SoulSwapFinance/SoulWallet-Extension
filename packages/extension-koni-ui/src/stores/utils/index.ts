@@ -9,9 +9,9 @@ import { _ChainState } from '@subwallet/extension-base/services/chain-service/ty
 import { SWTransactionResult } from '@subwallet/extension-base/services/transaction-service/types';
 import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
 import { canDerive } from '@subwallet/extension-base/utils';
-import { lazySendMessage, lazySubscribeMessage } from '@subwallet/extension-koni-ui/messaging';
-import { store } from '@subwallet/extension-koni-ui/stores';
-import { buildHierarchy } from '@subwallet/extension-koni-ui/utils/account/buildHierarchy';
+import { lazySendMessage, lazySubscribeMessage } from '@soul-wallet/extension-koni-ui/messaging';
+import { store } from '@soul-wallet/extension-koni-ui/stores';
+import { buildHierarchy } from '@soul-wallet/extension-koni-ui/utils/account/buildHierarchy';
 import { SessionTypes } from '@walletconnect/types';
 
 // Setup redux stores

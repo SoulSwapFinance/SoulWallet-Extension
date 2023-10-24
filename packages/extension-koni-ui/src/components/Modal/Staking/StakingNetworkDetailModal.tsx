@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AmountData, StakingType } from '@subwallet/extension-base/background/KoniTypes';
-import InfoIcon from '@subwallet/extension-koni-ui/components/Icon/InfoIcon';
-import MetaInfo from '@subwallet/extension-koni-ui/components/MetaInfo/MetaInfo';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { getUnstakingPeriod } from '@subwallet/extension-koni-ui/Popup/Transaction/helper/staking/stakingHandler';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import InfoIcon from '@soul-wallet/extension-koni-ui/components/Icon/InfoIcon';
+import MetaInfo from '@soul-wallet/extension-koni-ui/components/MetaInfo/MetaInfo';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { getUnstakingPeriod } from '@soul-wallet/extension-koni-ui/Popup/Transaction/helper/staking/stakingHandler';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { ModalContext, Number, SwModal, SwNumberProps } from '@subwallet/react-ui';
 import { BigNumber } from 'bignumber.js';
 import React, { useCallback, useContext } from 'react';

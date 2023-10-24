@@ -1,10 +1,10 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TokenBalanceSelectionItem, TokenEmptyList } from '@subwallet/extension-koni-ui/components';
-import { useSelector, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { AccountBalanceHookType, ThemeProps, TokenBalanceItemType, TokenGroupHookType } from '@subwallet/extension-koni-ui/types';
-import { sortTokenByValue } from '@subwallet/extension-koni-ui/utils';
+import { TokenBalanceSelectionItem, TokenEmptyList } from '@soul-wallet/extension-koni-ui/components';
+import { useSelector, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { AccountBalanceHookType, ThemeProps, TokenBalanceItemType, TokenGroupHookType } from '@soul-wallet/extension-koni-ui/types';
+import { sortTokenByValue } from '@soul-wallet/extension-koni-ui/utils';
 import { SwList, SwModal } from '@subwallet/react-ui';
 import React, { useCallback, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { createFrames } from '@subwallet/extension-koni-ui/utils';
+import { createFrames } from '@soul-wallet/extension-koni-ui/utils';
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 import { objectSpread } from '@polkadot/util';

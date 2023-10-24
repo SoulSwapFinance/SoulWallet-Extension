@@ -2,14 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
-import { InfoIcon, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { StakingNetworkDetailModalId } from '@subwallet/extension-koni-ui/components/Modal/Staking/StakingNetworkDetailModal';
-import { DEFAULT_TRANSACTION_PARAMS, TRANSACTION_TITLE_MAP } from '@subwallet/extension-koni-ui/constants';
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import { TransactionContext } from '@subwallet/extension-koni-ui/contexts/TransactionContext';
-import { useChainChecker, useNavigateOnChangeAccount, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { Theme, ThemeProps, TransactionFormBaseProps } from '@subwallet/extension-koni-ui/types';
-import { detectTransactionPersistKey } from '@subwallet/extension-koni-ui/utils';
+import { InfoIcon, Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { StakingNetworkDetailModalId } from '@soul-wallet/extension-koni-ui/components/Modal/Staking/StakingNetworkDetailModal';
+import { DEFAULT_TRANSACTION_PARAMS, TRANSACTION_TITLE_MAP } from '@soul-wallet/extension-koni-ui/constants';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import { TransactionContext } from '@soul-wallet/extension-koni-ui/contexts/TransactionContext';
+import { useChainChecker, useNavigateOnChangeAccount, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { Theme, ThemeProps, TransactionFormBaseProps } from '@soul-wallet/extension-koni-ui/types';
+import { detectTransactionPersistKey } from '@soul-wallet/extension-koni-ui/utils';
 import { ButtonProps, ModalContext, SwSubHeader } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useCallback, useContext, useDeferredValue, useEffect, useMemo, useState } from 'react';

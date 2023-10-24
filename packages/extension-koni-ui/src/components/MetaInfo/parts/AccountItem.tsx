@@ -1,11 +1,11 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AvatarGroup } from '@subwallet/extension-koni-ui/components/Account';
-import { BaseAccountInfo } from '@subwallet/extension-koni-ui/components/Account/Info/AvatarGroup';
-import { Avatar } from '@subwallet/extension-koni-ui/components/Avatar';
-import { useGetAccountByAddress, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { findNetworkJsonByGenesisHash, isAccountAll, reformatAddress, toShort } from '@subwallet/extension-koni-ui/utils';
+import { AvatarGroup } from '@soul-wallet/extension-koni-ui/components/Account';
+import { BaseAccountInfo } from '@soul-wallet/extension-koni-ui/components/Account/Info/AvatarGroup';
+import { Avatar } from '@soul-wallet/extension-koni-ui/components/Avatar';
+import { useGetAccountByAddress, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { findNetworkJsonByGenesisHash, isAccountAll, reformatAddress, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import CN from 'classnames';
 import React, { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';

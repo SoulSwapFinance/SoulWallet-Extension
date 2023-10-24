@@ -3,10 +3,10 @@
 
 import type { ThemeProps } from '../types';
 
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import applyPreloadStyle from '@subwallet/extension-koni-ui/preloadStyle';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { generateTheme, SW_THEME_CONFIGS, SwThemeConfig } from '@subwallet/extension-koni-ui/themes';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import applyPreloadStyle from '@soul-wallet/extension-koni-ui/preloadStyle';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { generateTheme, SW_THEME_CONFIGS, SwThemeConfig } from '@soul-wallet/extension-koni-ui/themes';
 import { ConfigProvider, theme as reactUiTheme } from '@subwallet/react-ui';
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 import { useSelector } from 'react-redux';

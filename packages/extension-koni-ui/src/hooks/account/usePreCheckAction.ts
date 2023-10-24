@@ -4,10 +4,10 @@
 import { ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
 import { AccountJson } from '@subwallet/extension-base/background/types';
 import { detectTranslate } from '@subwallet/extension-base/utils';
-import { ALL_STAKING_ACTIONS } from '@subwallet/extension-koni-ui/constants';
-import { BLOCK_ACTION_LEDGER_NETWORKS, PredefinedLedgerNetwork } from '@subwallet/extension-koni-ui/constants/ledger';
-import { AccountSignMode } from '@subwallet/extension-koni-ui/types';
-import { getSignMode } from '@subwallet/extension-koni-ui/utils';
+import { ALL_STAKING_ACTIONS } from '@soul-wallet/extension-koni-ui/constants';
+import { BLOCK_ACTION_LEDGER_NETWORKS, PredefinedLedgerNetwork } from '@soul-wallet/extension-koni-ui/constants/ledger';
+import { AccountSignMode } from '@soul-wallet/extension-koni-ui/types';
+import { getSignMode } from '@soul-wallet/extension-koni-ui/utils';
 import { useCallback } from 'react';
 
 import { isEthereumAddress } from '@polkadot/util-crypto';

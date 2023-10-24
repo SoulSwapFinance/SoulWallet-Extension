@@ -3,7 +3,7 @@
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { _getSubstrateGenesisHash } from '@subwallet/extension-base/services/chain-service/utils';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 

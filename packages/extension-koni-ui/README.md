@@ -1,3 +1,3 @@
-# @subwallet/extension-koni-ui
+# @soul-wallet/extension-koni-ui
 
 UI for the `@subwallet/extension-koni`

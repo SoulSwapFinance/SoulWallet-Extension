@@ -3,13 +3,13 @@
 
 import { AccountJson } from '@subwallet/extension-base/background/types';
 import { ALL_ACCOUNT_KEY } from '@subwallet/extension-base/constants';
-import { CloseIcon, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { useDefaultNavigate, useDeleteAccount, useNotification } from '@subwallet/extension-koni-ui/hooks';
-import useUnlockChecker from '@subwallet/extension-koni-ui/hooks/common/useUnlockChecker';
-import { forgetAccount, keyringMigrateMasterPassword } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { FormCallbacks, FormFieldData, Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { simpleCheckForm, toShort } from '@subwallet/extension-koni-ui/utils';
+import { CloseIcon, Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { useDefaultNavigate, useDeleteAccount, useNotification } from '@soul-wallet/extension-koni-ui/hooks';
+import useUnlockChecker from '@soul-wallet/extension-koni-ui/hooks/common/useUnlockChecker';
+import { forgetAccount, keyringMigrateMasterPassword } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { FormCallbacks, FormFieldData, Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { simpleCheckForm, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, ButtonProps, Field, Form, Icon, Input } from '@subwallet/react-ui';
 import SwAvatar from '@subwallet/react-ui/es/sw-avatar';
 import CN from 'classnames';

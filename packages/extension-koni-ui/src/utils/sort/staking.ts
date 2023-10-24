@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BN_TEN } from '@subwallet/extension-koni-ui/constants';
-import { StakingDataType } from '@subwallet/extension-koni-ui/types';
+import { BN_TEN } from '@soul-wallet/extension-koni-ui/constants';
+import { StakingDataType } from '@soul-wallet/extension-koni-ui/types';
 import BigN from 'bignumber.js';
 
 interface ItemData extends StakingDataType {

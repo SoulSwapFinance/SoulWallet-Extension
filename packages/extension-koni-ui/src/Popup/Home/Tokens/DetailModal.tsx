@@ -1,9 +1,9 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { TokenBalanceItemType } from '@subwallet/extension-koni-ui/types/balance';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { TokenBalanceItemType } from '@soul-wallet/extension-koni-ui/types/balance';
 import { Number, SwModal } from '@subwallet/react-ui';
 import BigN from 'bignumber.js';
 import React from 'react';

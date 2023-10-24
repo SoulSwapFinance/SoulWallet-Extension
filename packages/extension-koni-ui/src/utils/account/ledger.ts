@@ -5,7 +5,7 @@ import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { LedgerNetwork } from '@subwallet/extension-base/background/KoniTypes';
 import { _ChainState } from '@subwallet/extension-base/services/chain-service/types';
 import { _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
-import { PredefinedLedgerNetwork } from '@subwallet/extension-koni-ui/constants/ledger';
+import { PredefinedLedgerNetwork } from '@soul-wallet/extension-koni-ui/constants/ledger';
 
 interface ChainItem extends _ChainState {
   isEthereum: boolean;

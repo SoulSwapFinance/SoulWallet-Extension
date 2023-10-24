@@ -3,8 +3,8 @@
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
 import { AssetSetting } from '@subwallet/extension-base/background/KoniTypes';
-import TokenItemFooter from '@subwallet/extension-koni-ui/Popup/Settings/Tokens/component/TokenItemFooter';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import TokenItemFooter from '@soul-wallet/extension-koni-ui/Popup/Settings/Tokens/component/TokenItemFooter';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import TokenItem from '@subwallet/react-ui/es/web3-block/token-item';
 import React, { useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';

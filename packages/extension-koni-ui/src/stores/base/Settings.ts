@@ -6,7 +6,7 @@ import { AuthUrlInfo } from '@subwallet/extension-base/background/handlers/State
 import { ThemeNames, UiSettings } from '@subwallet/extension-base/background/KoniTypes';
 import { LANGUAGE } from '@subwallet/extension-base/constants';
 import { DEFAULT_SETTING } from '@subwallet/extension-base/services/setting-service/constants';
-import { AppSettings, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
+import { AppSettings, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 import settings from '@polkadot/ui-settings';
 

@@ -1,11 +1,11 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import MetaInfo from '@subwallet/extension-koni-ui/components/MetaInfo/MetaInfo';
-import { StakingStatusType, StakingStatusUi } from '@subwallet/extension-koni-ui/constants/stakingStatusUi';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { NominationPoolDataType } from '@subwallet/extension-koni-ui/hooks/screen/staking/useGetValidatorList';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import MetaInfo from '@soul-wallet/extension-koni-ui/components/MetaInfo/MetaInfo';
+import { StakingStatusType, StakingStatusUi } from '@soul-wallet/extension-koni-ui/constants/stakingStatusUi';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { NominationPoolDataType } from '@soul-wallet/extension-koni-ui/hooks/screen/staking/useGetValidatorList';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { SwModal } from '@subwallet/react-ui';
 import React from 'react';
 import styled from 'styled-components';

@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BasicInputWrapper } from '@subwallet/extension-koni-ui/components';
-import { FormInstance, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { BasicInputWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { FormInstance, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Input, InputRef } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { ChangeEventHandler, ClipboardEventHandler, FocusEventHandler, ForwardedRef, forwardRef, useCallback, useState } from 'react';

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ResponseCheckPublicAndSecretKey, ResponsePrivateKeyValidateV2, ResponseSeedValidateV2 } from '@subwallet/extension-base/background/KoniTypes';
-import { sendMessage } from '@subwallet/extension-koni-ui/messaging/base';
+import { sendMessage } from '@soul-wallet/extension-koni-ui/messaging/base';
 
 import { KeypairType } from '@polkadot/util-crypto/types';
 

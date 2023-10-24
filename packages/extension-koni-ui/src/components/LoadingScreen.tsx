@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Theme } from '@subwallet/extension-koni-ui/themes';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { Theme } from '@soul-wallet/extension-koni-ui/themes';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import CN from 'classnames';
 import React, { Context, useContext } from 'react';
 import styled, { ThemeContext } from 'styled-components';

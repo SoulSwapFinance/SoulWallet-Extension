@@ -1,18 +1,18 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AlertBox, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import InfoIcon from '@subwallet/extension-koni-ui/components/Icon/InfoIcon';
-import { REQUEST_CREATE_PASSWORD_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import { DEFAULT_ROUTER_PATH } from '@subwallet/extension-koni-ui/constants/router';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useFocusFormItem from '@subwallet/extension-koni-ui/hooks/form/useFocusFormItem';
-import { keyringChangeMasterPassword } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { isNoAccount } from '@subwallet/extension-koni-ui/utils/account/account';
-import { simpleCheckForm } from '@subwallet/extension-koni-ui/utils/form/form';
-import { renderBaseConfirmPasswordRules, renderBasePasswordRules } from '@subwallet/extension-koni-ui/utils/form/validators/password';
+import { AlertBox, Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import InfoIcon from '@soul-wallet/extension-koni-ui/components/Icon/InfoIcon';
+import { REQUEST_CREATE_PASSWORD_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import { DEFAULT_ROUTER_PATH } from '@soul-wallet/extension-koni-ui/constants/router';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useFocusFormItem from '@soul-wallet/extension-koni-ui/hooks/form/useFocusFormItem';
+import { keyringChangeMasterPassword } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { isNoAccount } from '@soul-wallet/extension-koni-ui/utils/account/account';
+import { simpleCheckForm } from '@soul-wallet/extension-koni-ui/utils/form/form';
+import { renderBaseConfirmPasswordRules, renderBasePasswordRules } from '@soul-wallet/extension-koni-ui/utils/form/validators/password';
 import { Form, Icon, Input, ModalContext, PageIcon, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CaretLeft, CheckCircle, ShieldPlus } from 'phosphor-react';

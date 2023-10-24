@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Theme } from '@subwallet/extension-koni-ui/themes';
+import { Theme } from '@soul-wallet/extension-koni-ui/themes';
 import { Icon, SettingItem } from '@subwallet/react-ui';
 import { CheckCircle } from 'phosphor-react';
 import React from 'react';

@@ -4,12 +4,12 @@
 import { AbstractAddressJson } from '@subwallet/extension-base/background/types';
 import { CHAINS_SUPPORTED_DOMAIN, isAzeroDomain } from '@subwallet/extension-base/koni/api/dotsama/domain';
 import { reformatAddress } from '@subwallet/extension-base/utils';
-import { AddressBookModal } from '@subwallet/extension-koni-ui/components';
-import { useForwardInputRef, useOpenQrScanner, useSelector, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { resolveAddressToDomain, resolveDomainToAddress, saveRecentAccount } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { ScannerResult } from '@subwallet/extension-koni-ui/types/scanner';
-import { findContactByAddress, toShort } from '@subwallet/extension-koni-ui/utils';
+import { AddressBookModal } from '@soul-wallet/extension-koni-ui/components';
+import { useForwardInputRef, useOpenQrScanner, useSelector, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { resolveAddressToDomain, resolveDomainToAddress, saveRecentAccount } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { ScannerResult } from '@soul-wallet/extension-koni-ui/types/scanner';
+import { findContactByAddress, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Icon, Input, InputRef, ModalContext, SwQrScanner } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { Book, Scan } from 'phosphor-react';

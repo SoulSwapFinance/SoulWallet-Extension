@@ -1,9 +1,9 @@
 // Copyright 2017-2022 @polkadot/react-qr authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useCreateQrPayload } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { createImgSize } from '@subwallet/extension-koni-ui/utils';
+import { useCreateQrPayload } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { createImgSize } from '@soul-wallet/extension-koni-ui/utils';
 import { SwQRCode } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useMemo } from 'react';

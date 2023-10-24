@@ -4,7 +4,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { _AssetRef, _ChainAsset, _MultiChainAsset } from '@soul-wallet/chain-list/types';
 import { AssetSetting } from '@subwallet/extension-base/background/KoniTypes';
-import { AssetRegistryStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
+import { AssetRegistryStore, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState: AssetRegistryStore = {
   assetRegistry: {},

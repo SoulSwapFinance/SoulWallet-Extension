@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit/dist';
 import { CrowdloanItem } from '@subwallet/extension-base/background/KoniTypes';
-import { CrowdloanStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
+import { CrowdloanStore, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState: CrowdloanStore = {
   crowdloanMap: {},

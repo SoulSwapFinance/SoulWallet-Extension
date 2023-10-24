@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { UIViewState } from '@subwallet/extension-base/background/KoniTypes';
-import { ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
+import { ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState: UIViewState = {
   isUILocked: false

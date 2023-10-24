@@ -3,11 +3,11 @@
 
 import { AuthUrlInfo } from '@subwallet/extension-base/background/handlers/State';
 import { isAccountAll } from '@subwallet/extension-base/utils';
-import AccountItemWithName from '@subwallet/extension-koni-ui/components/Account/Item/AccountItemWithName';
-import ConfirmationGeneralInfo from '@subwallet/extension-koni-ui/components/Confirmation/ConfirmationGeneralInfo';
-import { changeAuthorizationBlock, changeAuthorizationPerSite } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import AccountItemWithName from '@soul-wallet/extension-koni-ui/components/Account/Item/AccountItemWithName';
+import ConfirmationGeneralInfo from '@soul-wallet/extension-koni-ui/components/Confirmation/ConfirmationGeneralInfo';
+import { changeAuthorizationBlock, changeAuthorizationPerSite } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle, GlobeHemisphereWest, ShieldCheck, ShieldSlash, XCircle } from 'phosphor-react';

@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AddressJson } from '@subwallet/extension-base/background/types';
-import { AccountItemBase, AccountItemWithName, AddContactModal, BackIcon, EditContactModal, FilterModal, GeneralEmptyList, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { ADD_ADDRESS_BOOK_MODAL, EDIT_ADDRESS_BOOK_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { useFilterModal, useFormatAddress, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { funcSortByName, reformatAddress } from '@subwallet/extension-koni-ui/utils';
+import { AccountItemBase, AccountItemWithName, AddContactModal, BackIcon, EditContactModal, FilterModal, GeneralEmptyList, Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { ADD_ADDRESS_BOOK_MODAL, EDIT_ADDRESS_BOOK_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { useFilterModal, useFormatAddress, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { funcSortByName, reformatAddress } from '@soul-wallet/extension-koni-ui/utils';
 import { Badge, ButtonProps, Icon, ModalContext, SwList } from '@subwallet/react-ui';
 import { SwListSectionRef } from '@subwallet/react-ui/es/sw-list';
 import CN from 'classnames';

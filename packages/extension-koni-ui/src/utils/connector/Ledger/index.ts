@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ConvertLedgerError } from '@subwallet/extension-koni-ui/types';
+import { ConvertLedgerError } from '@soul-wallet/extension-koni-ui/types';
 import { TFunction } from 'i18next';
 
 export const convertLedgerError = (err: Error, t: TFunction, network: string, expandError = true): ConvertLedgerError => {

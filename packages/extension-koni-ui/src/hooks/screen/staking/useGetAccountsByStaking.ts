@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { StakingType } from '@subwallet/extension-base/background/KoniTypes';
-import { BaseAccountInfo } from '@subwallet/extension-koni-ui/components/Account/Info/AvatarGroup';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { findAccountByAddress } from '@subwallet/extension-koni-ui/utils';
+import { BaseAccountInfo } from '@soul-wallet/extension-koni-ui/components/Account/Info/AvatarGroup';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { findAccountByAddress } from '@soul-wallet/extension-koni-ui/utils';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 

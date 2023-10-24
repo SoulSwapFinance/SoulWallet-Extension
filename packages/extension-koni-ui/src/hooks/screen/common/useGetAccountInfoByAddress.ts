@@ -3,7 +3,7 @@
 
 import { AccountJson } from '@subwallet/extension-base/background/types';
 import { reformatAddress } from '@subwallet/extension-base/utils';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { useSelector } from 'react-redux';
 
 import { isEthereumAddress } from '@polkadot/util-crypto';

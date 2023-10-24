@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Ledger } from '@subwallet/extension-koni-ui/types';
+import { Ledger } from '@soul-wallet/extension-koni-ui/types';
 
 import { Ledger as ZondaxLedger } from '@polkadot/hw-ledger';
 import { AccountOptions, LedgerSignature } from '@polkadot/hw-ledger/types';

@@ -7,8 +7,8 @@ import { createRegistry } from '@subwallet/extension-base/utils';
 import { metadataExpand } from '@soul-wallet/extension-chains';
 import { Chain } from '@soul-wallet/extension-chains/types';
 import { MetadataDef } from '@soul-wallet/extension-inject/types';
-import { sendMessage } from '@subwallet/extension-koni-ui/messaging/base';
-import { _getKnownHashes, _getKnownNetworks, findChainInfoByGenesisHash } from '@subwallet/extension-koni-ui/utils';
+import { sendMessage } from '@soul-wallet/extension-koni-ui/messaging/base';
+import { _getKnownHashes, _getKnownNetworks, findChainInfoByGenesisHash } from '@soul-wallet/extension-koni-ui/utils';
 
 import { HexString } from '@polkadot/util/types';
 

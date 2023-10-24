@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { getOS } from '@subwallet/extension-base/utils';
-import { useForwardInputRef } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { useForwardInputRef } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Input, InputRef } from '@subwallet/react-ui';
 import BigN from 'bignumber.js';
 import React, { ChangeEventHandler, ClipboardEventHandler, ForwardedRef, forwardRef, SyntheticEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';

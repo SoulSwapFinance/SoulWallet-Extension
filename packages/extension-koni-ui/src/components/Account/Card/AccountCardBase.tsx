@@ -1,12 +1,12 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import useAccountAvatarInfo from '@subwallet/extension-koni-ui/hooks/account/useAccountAvatarInfo';
-import useAccountAvatarTheme from '@subwallet/extension-koni-ui/hooks/account/useAccountAvatarTheme';
-import useGetAccountSignModeByAddress from '@subwallet/extension-koni-ui/hooks/account/useGetAccountSignModeByAddress';
-import { useIsMantaPayEnabled } from '@subwallet/extension-koni-ui/hooks/account/useIsMantaPayEnabled';
-import { PhosphorIcon, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { AccountSignMode } from '@subwallet/extension-koni-ui/types/account';
+import useAccountAvatarInfo from '@soul-wallet/extension-koni-ui/hooks/account/useAccountAvatarInfo';
+import useAccountAvatarTheme from '@soul-wallet/extension-koni-ui/hooks/account/useAccountAvatarTheme';
+import useGetAccountSignModeByAddress from '@soul-wallet/extension-koni-ui/hooks/account/useGetAccountSignModeByAddress';
+import { useIsMantaPayEnabled } from '@soul-wallet/extension-koni-ui/hooks/account/useIsMantaPayEnabled';
+import { PhosphorIcon, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { AccountSignMode } from '@soul-wallet/extension-koni-ui/types/account';
 import { Button, Icon } from '@subwallet/react-ui';
 import AccountCard, { AccountCardProps } from '@subwallet/react-ui/es/web3-block/account-card';
 import { Eye, PencilSimpleLine, PuzzlePiece, QrCode, ShieldCheck, Swatches } from 'phosphor-react';

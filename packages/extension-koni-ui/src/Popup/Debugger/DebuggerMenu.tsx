@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { PHISHING_PAGE_REDIRECT } from '@subwallet/extension-base/defaults';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';

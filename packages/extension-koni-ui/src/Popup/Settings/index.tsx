@@ -1,16 +1,16 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { PageWrapper, WalletConnect } from '@subwallet/extension-koni-ui/components';
-import { DISCORD_URL, EXTENSION_VERSION, PRIVACY_AND_POLICY_URL, TELEGRAM_URL, TERMS_OF_SERVICE_URL, TWITTER_URL, WEBSITE_URL, WIKI_URL } from '@subwallet/extension-koni-ui/constants/common';
-import useNotification from '@subwallet/extension-koni-ui/hooks/common/useNotification';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useUILock from '@subwallet/extension-koni-ui/hooks/common/useUILock';
-import useIsPopup from '@subwallet/extension-koni-ui/hooks/dom/useIsPopup';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { windowOpen } from '@subwallet/extension-koni-ui/messaging';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { openInNewTab } from '@subwallet/extension-koni-ui/utils';
+import { PageWrapper, WalletConnect } from '@soul-wallet/extension-koni-ui/components';
+import { DISCORD_URL, EXTENSION_VERSION, PRIVACY_AND_POLICY_URL, TELEGRAM_URL, TERMS_OF_SERVICE_URL, TWITTER_URL, WEBSITE_URL, WIKI_URL } from '@soul-wallet/extension-koni-ui/constants/common';
+import useNotification from '@soul-wallet/extension-koni-ui/hooks/common/useNotification';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useUILock from '@soul-wallet/extension-koni-ui/hooks/common/useUILock';
+import useIsPopup from '@soul-wallet/extension-koni-ui/hooks/dom/useIsPopup';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { windowOpen } from '@soul-wallet/extension-koni-ui/messaging';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { openInNewTab } from '@soul-wallet/extension-koni-ui/utils';
 import { BackgroundIcon, Button, ButtonProps, Icon, SettingItem, SwHeader, SwIconProps } from '@subwallet/react-ui';
 import { ArrowsOut, ArrowSquareOut, Book, BookBookmark, BookOpen, CaretRight, Coin, DiscordLogo, FrameCorners, GlobeHemisphereEast, Lock, ShareNetwork, ShieldCheck, TelegramLogo, TwitterLogo, X } from 'phosphor-react';
 import React, { useCallback, useMemo, useState } from 'react';

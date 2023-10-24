@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { FormRule } from '@subwallet/extension-koni-ui/types';
+import { FormRule } from '@soul-wallet/extension-koni-ui/types';
 import BigN from 'bignumber.js';
 
 export const validateMinValue = (value: number | string | BigN, name?: string): FormRule => {

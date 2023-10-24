@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { detectTranslate } from '@subwallet/extension-base/utils';
-import { InfoItemBase } from '@subwallet/extension-koni-ui/components/MetaInfo/parts/types';
-import { PhosphorIcon } from '@subwallet/extension-koni-ui/types';
+import { InfoItemBase } from '@soul-wallet/extension-koni-ui/components/MetaInfo/parts/types';
+import { PhosphorIcon } from '@soul-wallet/extension-koni-ui/types';
 import { CheckCircle, ListChecks, XCircle } from 'phosphor-react';
 
 export type StakingStatusType = 'active' | 'inactive' | 'partialEarning' | 'waiting';

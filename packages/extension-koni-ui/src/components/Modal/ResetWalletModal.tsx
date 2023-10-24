@@ -1,11 +1,11 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { RESET_WALLET_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { InjectContext } from '@subwallet/extension-koni-ui/contexts/InjectContext';
-import useUILock from '@subwallet/extension-koni-ui/hooks/common/useUILock';
-import { resetWallet } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { RESET_WALLET_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { InjectContext } from '@soul-wallet/extension-koni-ui/contexts/InjectContext';
+import useUILock from '@soul-wallet/extension-koni-ui/hooks/common/useUILock';
+import { resetWallet } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, ModalContext, PageIcon, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { ArrowCounterClockwise, Trash, WarningCircle } from 'phosphor-react';

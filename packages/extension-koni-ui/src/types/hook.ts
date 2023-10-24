@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { PriceChangeStatus, TokenBalanceItemType } from '@subwallet/extension-koni-ui/types/balance';
+import { PriceChangeStatus, TokenBalanceItemType } from '@soul-wallet/extension-koni-ui/types/balance';
 import BigN from 'bignumber.js';
 
 export type TokenGroupHookType = {

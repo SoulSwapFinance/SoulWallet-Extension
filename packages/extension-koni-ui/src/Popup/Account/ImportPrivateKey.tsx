@@ -1,12 +1,12 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { CloseIcon, Layout, PageWrapper, PrivateKeyInput } from '@subwallet/extension-koni-ui/components';
-import { EVM_ACCOUNT_TYPE } from '@subwallet/extension-koni-ui/constants/account';
-import { IMPORT_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import { useAutoNavigateToCreatePassword, useCompleteCreateAccount, useDefaultNavigate, useFocusFormItem, useGetDefaultAccountName, useGoBackFromCreateAccount, useTranslation, useUnlockChecker } from '@subwallet/extension-koni-ui/hooks';
-import { createAccountSuriV2, validateMetamaskPrivateKeyV2 } from '@subwallet/extension-koni-ui/messaging';
-import { FormCallbacks, ThemeProps, ValidateState } from '@subwallet/extension-koni-ui/types';
+import { CloseIcon, Layout, PageWrapper, PrivateKeyInput } from '@soul-wallet/extension-koni-ui/components';
+import { EVM_ACCOUNT_TYPE } from '@soul-wallet/extension-koni-ui/constants/account';
+import { IMPORT_ACCOUNT_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import { useAutoNavigateToCreatePassword, useCompleteCreateAccount, useDefaultNavigate, useFocusFormItem, useGetDefaultAccountName, useGoBackFromCreateAccount, useTranslation, useUnlockChecker } from '@soul-wallet/extension-koni-ui/hooks';
+import { createAccountSuriV2, validateMetamaskPrivateKeyV2 } from '@soul-wallet/extension-koni-ui/messaging';
+import { FormCallbacks, ThemeProps, ValidateState } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Form, Icon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { Eye, EyeSlash, FileArrowDown } from 'phosphor-react';

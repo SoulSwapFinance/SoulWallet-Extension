@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BuyServiceInfo, SupportService } from '@subwallet/extension-koni-ui/types';
+import { BuyServiceInfo, SupportService } from '@soul-wallet/extension-koni-ui/types';
 
 export const BUY_SERVICE_CONTACTS: Record<SupportService, BuyServiceInfo> = {
   transak: {

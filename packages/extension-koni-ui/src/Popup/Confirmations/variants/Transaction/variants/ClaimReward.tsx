@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { RequestStakeClaimReward } from '@subwallet/extension-base/background/KoniTypes';
-import { CommonTransactionInfo, MetaInfo } from '@subwallet/extension-koni-ui/components';
-import { useGetNativeTokenBasicInfo } from '@subwallet/extension-koni-ui/hooks';
+import { CommonTransactionInfo, MetaInfo } from '@soul-wallet/extension-koni-ui/components';
+import { useGetNativeTokenBasicInfo } from '@soul-wallet/extension-koni-ui/hooks';
 import CN from 'classnames';
 import React from 'react';
 import { useTranslation } from 'react-i18next';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { DEFAULT_ACCOUNT_TYPES, SEED_PREVENT_MODAL, SELECTED_ACCOUNT_TYPE } from '@subwallet/extension-koni-ui/constants';
+import { DEFAULT_ACCOUNT_TYPES, SEED_PREVENT_MODAL, SELECTED_ACCOUNT_TYPE } from '@soul-wallet/extension-koni-ui/constants';
 import { useCallback } from 'react';
 import { useLocalStorage } from 'usehooks-ts';
 

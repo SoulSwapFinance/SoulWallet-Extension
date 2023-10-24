@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import useAccountAvatarInfo from '@subwallet/extension-koni-ui/hooks/account/useAccountAvatarInfo';
-import useAccountAvatarTheme from '@subwallet/extension-koni-ui/hooks/account/useAccountAvatarTheme';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import useAccountAvatarInfo from '@soul-wallet/extension-koni-ui/hooks/account/useAccountAvatarInfo';
+import useAccountAvatarTheme from '@soul-wallet/extension-koni-ui/hooks/account/useAccountAvatarTheme';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Icon } from '@subwallet/react-ui';
 import AccountItem, { AccountItemProps } from '@subwallet/react-ui/es/web3-block/account-item';
 import { CheckCircle } from 'phosphor-react';

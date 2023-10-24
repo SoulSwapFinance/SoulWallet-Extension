@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { NftCollection, NftItem } from '@subwallet/extension-base/background/KoniTypes';
-import { NftStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
+import { NftStore, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState: NftStore = {
   nftItems: [],

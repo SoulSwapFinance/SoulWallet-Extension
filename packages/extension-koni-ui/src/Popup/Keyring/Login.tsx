@@ -1,15 +1,15 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Layout, PageWrapper, ResetWalletModal } from '@subwallet/extension-koni-ui/components';
-import { RESET_WALLET_MODAL } from '@subwallet/extension-koni-ui/constants';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useUILock from '@subwallet/extension-koni-ui/hooks/common/useUILock';
-import useFocusById from '@subwallet/extension-koni-ui/hooks/form/useFocusById';
-import { keyringUnlock } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { FormCallbacks, FormFieldData } from '@subwallet/extension-koni-ui/types/form';
-import { simpleCheckForm } from '@subwallet/extension-koni-ui/utils/form/form';
+import { Layout, PageWrapper, ResetWalletModal } from '@soul-wallet/extension-koni-ui/components';
+import { RESET_WALLET_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useUILock from '@soul-wallet/extension-koni-ui/hooks/common/useUILock';
+import useFocusById from '@soul-wallet/extension-koni-ui/hooks/form/useFocusById';
+import { keyringUnlock } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { FormCallbacks, FormFieldData } from '@soul-wallet/extension-koni-ui/types/form';
+import { simpleCheckForm } from '@soul-wallet/extension-koni-ui/utils/form/form';
 import { Button, Form, Image, Input, ModalContext } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useCallback, useContext, useState } from 'react';

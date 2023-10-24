@@ -4,8 +4,8 @@
 import type { SwScreenLayoutProps } from '@subwallet/react-ui';
 
 import { LanguageType } from '@subwallet/extension-base/background/KoniTypes';
-import { useDefaultNavigate, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { useDefaultNavigate, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { SwScreenLayout } from '@subwallet/react-ui';
 import { SwTabBarItem } from '@subwallet/react-ui/es/sw-tab-bar';
 import CN from 'classnames';

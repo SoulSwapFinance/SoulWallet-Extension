@@ -2,21 +2,21 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { detectTranslate } from '@subwallet/extension-base/utils';
-import { Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import CloseIcon from '@subwallet/extension-koni-ui/components/Icon/CloseIcon';
-import DualLogo from '@subwallet/extension-koni-ui/components/Logo/DualLogo';
-import QrScannerErrorNotice from '@subwallet/extension-koni-ui/components/Qr/Scanner/ErrorNotice';
-import { ATTACH_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import useCompleteCreateAccount from '@subwallet/extension-koni-ui/hooks/account/useCompleteCreateAccount';
-import useGetDefaultAccountName from '@subwallet/extension-koni-ui/hooks/account/useGetDefaultAccountName';
-import useGoBackFromCreateAccount from '@subwallet/extension-koni-ui/hooks/account/useGoBackFromCreateAccount';
-import useScanAccountQr from '@subwallet/extension-koni-ui/hooks/qr/useScanAccountQr';
-import useAutoNavigateToCreatePassword from '@subwallet/extension-koni-ui/hooks/router/useAutoNavigateToCreatePassword';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { createAccountExternalV2 } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps, ValidateState } from '@subwallet/extension-koni-ui/types';
-import { QrAccount } from '@subwallet/extension-koni-ui/types/scanner';
-import { qrSignerScan } from '@subwallet/extension-koni-ui/utils/scanner/attach';
+import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import CloseIcon from '@soul-wallet/extension-koni-ui/components/Icon/CloseIcon';
+import DualLogo from '@soul-wallet/extension-koni-ui/components/Logo/DualLogo';
+import QrScannerErrorNotice from '@soul-wallet/extension-koni-ui/components/Qr/Scanner/ErrorNotice';
+import { ATTACH_ACCOUNT_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import useCompleteCreateAccount from '@soul-wallet/extension-koni-ui/hooks/account/useCompleteCreateAccount';
+import useGetDefaultAccountName from '@soul-wallet/extension-koni-ui/hooks/account/useGetDefaultAccountName';
+import useGoBackFromCreateAccount from '@soul-wallet/extension-koni-ui/hooks/account/useGoBackFromCreateAccount';
+import useScanAccountQr from '@soul-wallet/extension-koni-ui/hooks/qr/useScanAccountQr';
+import useAutoNavigateToCreatePassword from '@soul-wallet/extension-koni-ui/hooks/router/useAutoNavigateToCreatePassword';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { createAccountExternalV2 } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps, ValidateState } from '@soul-wallet/extension-koni-ui/types';
+import { QrAccount } from '@soul-wallet/extension-koni-ui/types/scanner';
+import { qrSignerScan } from '@soul-wallet/extension-koni-ui/utils/scanner/attach';
 import { Icon, Image, ModalContext, SwQrScanner } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { QrCode, XCircle } from 'phosphor-react';

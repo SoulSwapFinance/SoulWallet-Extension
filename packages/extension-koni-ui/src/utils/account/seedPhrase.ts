@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { WordItem } from '@subwallet/extension-koni-ui/types/account';
+import { WordItem } from '@soul-wallet/extension-koni-ui/types/account';
 
 export const convertToWords = (seedPhrase: string): Array<WordItem> => {
   const raw = seedPhrase.split(' ');

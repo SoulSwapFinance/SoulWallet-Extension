@@ -3,16 +3,16 @@
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
 import { _getContractAddressOfToken, _isCustomAsset, _isSmartContractToken } from '@subwallet/extension-base/services/chain-service/utils';
-import { Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import useNotification from '@subwallet/extension-koni-ui/hooks/common/useNotification';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useConfirmModal from '@subwallet/extension-koni-ui/hooks/modal/useConfirmModal';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import useFetchChainInfo from '@subwallet/extension-koni-ui/hooks/screen/common/useFetchChainInfo';
-import useGetChainAssetInfo from '@subwallet/extension-koni-ui/hooks/screen/common/useGetChainAssetInfo';
-import { deleteCustomAssets, upsertCustomToken } from '@subwallet/extension-koni-ui/messaging';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import useNotification from '@soul-wallet/extension-koni-ui/hooks/common/useNotification';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useConfirmModal from '@soul-wallet/extension-koni-ui/hooks/modal/useConfirmModal';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import useFetchChainInfo from '@soul-wallet/extension-koni-ui/hooks/screen/common/useFetchChainInfo';
+import useGetChainAssetInfo from '@soul-wallet/extension-koni-ui/hooks/screen/common/useGetChainAssetInfo';
+import { deleteCustomAssets, upsertCustomToken } from '@soul-wallet/extension-koni-ui/messaging';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, ButtonProps, Col, Field, Icon, Input, Logo, Row, Tooltip } from '@subwallet/react-ui';
 import SwAvatar from '@subwallet/react-ui/es/sw-avatar';
 import { CheckCircle, Copy, Trash } from 'phosphor-react';

@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit/dist';
 import { MantaPayConfig, MantaPaySyncState } from '@subwallet/extension-base/background/KoniTypes';
-import { MantaPayStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
+import { MantaPayStore, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState: MantaPayStore = {
   configs: [],

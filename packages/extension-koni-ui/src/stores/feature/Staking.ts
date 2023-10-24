@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { ChainStakingMetadata, NominatorMetadata, StakingItem, StakingRewardItem } from '@subwallet/extension-base/background/KoniTypes';
-import { ReduxStatus, StakingStore } from '@subwallet/extension-koni-ui/stores/types';
+import { ReduxStatus, StakingStore } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState = {
   reduxStatus: ReduxStatus.INIT,

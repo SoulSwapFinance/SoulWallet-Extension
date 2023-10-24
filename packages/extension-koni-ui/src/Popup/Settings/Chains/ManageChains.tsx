@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _isChainEvmCompatible, _isCustomChain, _isSubstrateChain } from '@subwallet/extension-base/services/chain-service/utils';
-import { FilterModal, Layout, NetworkEmptyList, NetworkToggleItem, OptionType, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import { ChainInfoWithState, useChainInfoWithState, useFilterModal, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { FilterModal, Layout, NetworkEmptyList, NetworkToggleItem, OptionType, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import { ChainInfoWithState, useChainInfoWithState, useFilterModal, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { ButtonProps, Icon, ModalContext, SwList } from '@subwallet/react-ui';
 import { FadersHorizontal, Plus } from 'phosphor-react';
 import React, { SyntheticEvent, useCallback, useContext, useMemo } from 'react';

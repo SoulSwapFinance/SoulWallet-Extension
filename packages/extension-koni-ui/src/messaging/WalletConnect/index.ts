@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { RequestApproveConnectWalletSession, RequestApproveWalletConnectNotSupport, RequestConnectWalletConnect, RequestRejectConnectWalletSession, RequestRejectWalletConnectNotSupport } from '@subwallet/extension-base/background/KoniTypes';
-import { sendMessage } from '@subwallet/extension-koni-ui/messaging';
+import { sendMessage } from '@soul-wallet/extension-koni-ui/messaging';
 
 export async function addConnection (request: RequestConnectWalletConnect): Promise<boolean> {
   return sendMessage('pri(walletConnect.connect)', request);

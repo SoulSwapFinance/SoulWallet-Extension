@@ -1,10 +1,10 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { DataContextProvider } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import { InjectContextProvider } from '@subwallet/extension-koni-ui/contexts/InjectContext';
-import { ScannerContextProvider } from '@subwallet/extension-koni-ui/contexts/ScannerContext';
-import { ThemeProvider } from '@subwallet/extension-koni-ui/contexts/ThemeContext';
+import { DataContextProvider } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import { InjectContextProvider } from '@soul-wallet/extension-koni-ui/contexts/InjectContext';
+import { ScannerContextProvider } from '@soul-wallet/extension-koni-ui/contexts/ScannerContext';
+import { ThemeProvider } from '@soul-wallet/extension-koni-ui/contexts/ThemeContext';
 import { ModalContextProvider } from '@subwallet/react-ui';
 import NotificationProvider from '@subwallet/react-ui/es/notification/NotificationProvider';
 import React from 'react';

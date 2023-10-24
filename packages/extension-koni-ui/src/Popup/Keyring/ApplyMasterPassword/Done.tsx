@@ -3,8 +3,8 @@
 
 import { AccountJson } from '@subwallet/extension-base/background/types';
 import { detectTranslate } from '@subwallet/extension-base/utils';
-import AccountItemWithName from '@subwallet/extension-koni-ui/components/Account/Item/AccountItemWithName';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import AccountItemWithName from '@soul-wallet/extension-koni-ui/components/Account/Item/AccountItemWithName';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { PageIcon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle } from 'phosphor-react';

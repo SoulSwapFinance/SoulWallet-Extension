@@ -1,18 +1,18 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import AlertBox from '@subwallet/extension-koni-ui/components/Alert';
-import CloseIcon from '@subwallet/extension-koni-ui/components/Icon/CloseIcon';
-import WordPhrase from '@subwallet/extension-koni-ui/components/WordPhrase';
-import { DEFAULT_ROUTER_PATH } from '@subwallet/extension-koni-ui/constants/router';
-import useGetAccountByAddress from '@subwallet/extension-koni-ui/hooks/account/useGetAccountByAddress';
-import useCopy from '@subwallet/extension-koni-ui/hooks/common/useCopy';
-import useFocusFormItem from '@subwallet/extension-koni-ui/hooks/form/useFocusFormItem';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { exportAccount, exportAccountPrivateKey, keyringExportMnemonic } from '@subwallet/extension-koni-ui/messaging';
-import { PhosphorIcon, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { FormCallbacks, FormFieldData } from '@subwallet/extension-koni-ui/types/form';
+import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import AlertBox from '@soul-wallet/extension-koni-ui/components/Alert';
+import CloseIcon from '@soul-wallet/extension-koni-ui/components/Icon/CloseIcon';
+import WordPhrase from '@soul-wallet/extension-koni-ui/components/WordPhrase';
+import { DEFAULT_ROUTER_PATH } from '@soul-wallet/extension-koni-ui/constants/router';
+import useGetAccountByAddress from '@soul-wallet/extension-koni-ui/hooks/account/useGetAccountByAddress';
+import useCopy from '@soul-wallet/extension-koni-ui/hooks/common/useCopy';
+import useFocusFormItem from '@soul-wallet/extension-koni-ui/hooks/form/useFocusFormItem';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { exportAccount, exportAccountPrivateKey, keyringExportMnemonic } from '@soul-wallet/extension-koni-ui/messaging';
+import { PhosphorIcon, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { FormCallbacks, FormFieldData } from '@soul-wallet/extension-koni-ui/types/form';
 import { KeyringPair$Json } from '@subwallet/keyring/types';
 import { BackgroundIcon, Button, Field, Form, Icon, Input, PageIcon, SettingItem, SwQRCode } from '@subwallet/react-ui';
 import CN from 'classnames';

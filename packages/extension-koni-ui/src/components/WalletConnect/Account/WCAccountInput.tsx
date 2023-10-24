@@ -3,8 +3,8 @@
 
 import { AccountJson } from '@subwallet/extension-base/background/types';
 import { isSameAddress } from '@subwallet/extension-base/utils';
-import { useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Icon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { DotsThree } from 'phosphor-react';

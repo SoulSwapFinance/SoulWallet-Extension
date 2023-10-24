@@ -3,14 +3,14 @@
 
 import { AuthUrlInfo } from '@subwallet/extension-base/background/handlers/State';
 import { AccountJson } from '@subwallet/extension-base/background/types';
-import { AccountItemWithName, EmptyList, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { ActionItemType, ActionModal } from '@subwallet/extension-koni-ui/components/Modal/ActionModal';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { changeAuthorization, changeAuthorizationPerAccount, forgetSite, toggleAuthorization } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { updateAuthUrls } from '@subwallet/extension-koni-ui/stores/utils';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { ManageWebsiteAccessDetailParam } from '@subwallet/extension-koni-ui/types/navigation';
+import { AccountItemWithName, EmptyList, Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { ActionItemType, ActionModal } from '@soul-wallet/extension-koni-ui/components/Modal/ActionModal';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { changeAuthorization, changeAuthorizationPerAccount, forgetSite, toggleAuthorization } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { updateAuthUrls } from '@soul-wallet/extension-koni-ui/stores/utils';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { ManageWebsiteAccessDetailParam } from '@soul-wallet/extension-koni-ui/types/navigation';
 import { Icon, ModalContext, Switch, SwList } from '@subwallet/react-ui';
 import { GearSix, MagnifyingGlass, Plugs, PlugsConnected, ShieldCheck, ShieldSlash, X } from 'phosphor-react';
 import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react';

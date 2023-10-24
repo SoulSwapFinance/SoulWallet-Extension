@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { MessageTypesWithSubscriptions } from '@subwallet/extension-base/background/types';
-import { subscribeMessage } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { subscribeMessage } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Form, Input, Select } from '@subwallet/react-ui';
 import { FormInstance } from '@subwallet/react-ui/es/form/hooks/useForm';
 import { RuleObject } from 'rc-field-form/lib/interface';

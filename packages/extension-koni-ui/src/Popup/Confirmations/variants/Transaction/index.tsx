@@ -4,9 +4,9 @@
 import { ConfirmationDefinitions, ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
 import { SigningRequest } from '@subwallet/extension-base/background/types';
 import { SWTransactionResult } from '@subwallet/extension-base/services/transaction-service/types';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ConfirmationQueueItem } from '@subwallet/extension-koni-ui/stores/base/RequestState';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ConfirmationQueueItem } from '@soul-wallet/extension-koni-ui/stores/base/RequestState';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import CN from 'classnames';
 import React, { useCallback, useMemo } from 'react';
 import { useSelector } from 'react-redux';

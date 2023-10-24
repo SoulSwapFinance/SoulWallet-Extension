@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainConnectionStatus } from '@subwallet/extension-base/services/chain-service/types';
-import ChainItemFooter from '@subwallet/extension-koni-ui/components/ChainItemFooter';
-import { ChainInfoWithState } from '@subwallet/extension-koni-ui/hooks/chain/useChainInfoWithState';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import ChainItemFooter from '@soul-wallet/extension-koni-ui/components/ChainItemFooter';
+import { ChainInfoWithState } from '@soul-wallet/extension-koni-ui/hooks/chain/useChainInfoWithState';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { NetworkItem } from '@subwallet/react-ui';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';

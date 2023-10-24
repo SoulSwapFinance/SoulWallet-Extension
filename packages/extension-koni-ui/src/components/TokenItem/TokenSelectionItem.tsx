@@ -3,11 +3,11 @@
 
 import { _MANTA_ZK_CHAIN_GROUP, _ZK_ASSET_PREFIX } from '@subwallet/extension-base/services/chain-service/constants';
 import { _getChainSubstrateAddressPrefix } from '@subwallet/extension-base/services/chain-service/utils';
-import useNotification from '@subwallet/extension-koni-ui/hooks/common/useNotification';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useFetchChainInfo from '@subwallet/extension-koni-ui/hooks/screen/common/useFetchChainInfo';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import reformatAddress from '@subwallet/extension-koni-ui/utils/account/reformatAddress';
+import useNotification from '@soul-wallet/extension-koni-ui/hooks/common/useNotification';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useFetchChainInfo from '@soul-wallet/extension-koni-ui/hooks/screen/common/useFetchChainInfo';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import reformatAddress from '@soul-wallet/extension-koni-ui/utils/account/reformatAddress';
 import { Button, Icon } from '@subwallet/react-ui';
 import TokenItem, { TokenItemProps } from '@subwallet/react-ui/es/web3-block/token-item';
 import classNames from 'classnames';

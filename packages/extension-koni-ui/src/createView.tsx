@@ -3,7 +3,7 @@
 
 import './i18n/i18n';
 
-import applyPreloadStyle from '@subwallet/extension-koni-ui/preloadStyle';
+import applyPreloadStyle from '@soul-wallet/extension-koni-ui/preloadStyle';
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 

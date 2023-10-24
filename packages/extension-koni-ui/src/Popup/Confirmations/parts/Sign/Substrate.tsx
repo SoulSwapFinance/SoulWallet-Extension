@@ -3,15 +3,15 @@
 
 import { ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
 import { AccountJson, RequestSign } from '@subwallet/extension-base/background/types';
-import { CONFIRMATION_QR_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import { InjectContext } from '@subwallet/extension-koni-ui/contexts/InjectContext';
-import { useGetChainInfoByGenesisHash, useNotification, useParseSubstrateRequestPayload, useUnlockChecker } from '@subwallet/extension-koni-ui/hooks';
-import { useLedger } from '@subwallet/extension-koni-ui/hooks/ledger/useLedger';
-import { approveSignPasswordV2, approveSignSignature, cancelSignRequest } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { AccountSignMode, PhosphorIcon, SigData, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { isSubstrateMessage, removeTransactionPersist } from '@subwallet/extension-koni-ui/utils';
-import { getSignMode } from '@subwallet/extension-koni-ui/utils/account/account';
+import { CONFIRMATION_QR_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import { InjectContext } from '@soul-wallet/extension-koni-ui/contexts/InjectContext';
+import { useGetChainInfoByGenesisHash, useNotification, useParseSubstrateRequestPayload, useUnlockChecker } from '@soul-wallet/extension-koni-ui/hooks';
+import { useLedger } from '@soul-wallet/extension-koni-ui/hooks/ledger/useLedger';
+import { approveSignPasswordV2, approveSignSignature, cancelSignRequest } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { AccountSignMode, PhosphorIcon, SigData, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { isSubstrateMessage, removeTransactionPersist } from '@soul-wallet/extension-koni-ui/utils';
+import { getSignMode } from '@soul-wallet/extension-koni-ui/utils/account/account';
 import { Button, Icon, ModalContext } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle, QrCode, Swatches, Wallet, XCircle } from 'phosphor-react';

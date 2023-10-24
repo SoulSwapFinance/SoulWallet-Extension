@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { CURRENT_PAGE } from '@subwallet/extension-koni-ui/constants/localStorage';
+import { CURRENT_PAGE } from '@soul-wallet/extension-koni-ui/constants/localStorage';
 import { useEffect } from 'react';
 import { useLocalStorage } from 'usehooks-ts';
 

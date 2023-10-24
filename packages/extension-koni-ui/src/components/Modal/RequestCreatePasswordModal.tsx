@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { REQUEST_CREATE_PASSWORD_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { REQUEST_CREATE_PASSWORD_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, ModalContext, PageIcon, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { ShieldPlus, ShieldStar } from 'phosphor-react';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import AccountCardBase, { _AccountCardProps } from '@subwallet/extension-koni-ui/components/Account/Card/AccountCardBase';
+import AccountCardBase, { _AccountCardProps } from '@soul-wallet/extension-koni-ui/components/Account/Card/AccountCardBase';
 import React from 'react';
 import styled from 'styled-components';
 

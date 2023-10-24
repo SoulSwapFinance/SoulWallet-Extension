@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { FormFieldData } from '@subwallet/extension-koni-ui/types/form';
+import { FormFieldData } from '@soul-wallet/extension-koni-ui/types/form';
 import { FieldData } from 'rc-field-form/lib/interface';
 
 import { isArray } from '@polkadot/util';

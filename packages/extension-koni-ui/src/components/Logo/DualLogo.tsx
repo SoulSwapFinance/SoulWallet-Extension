@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Icon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { ArrowsLeftRight } from 'phosphor-react';

@@ -4,11 +4,11 @@
 import { SoulWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
 import { addLazy } from '@subwallet/extension-base/utils';
 import { EvmProvider, Injected, InjectedAccountWithMeta, InjectedWindowProvider, Unsubcall } from '@soul-wallet/extension-inject/types';
-import { DisconnectExtensionModal } from '@subwallet/extension-koni-ui/components';
-import { ENABLE_INJECT } from '@subwallet/extension-koni-ui/constants';
-import { useNotification, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { addInjects, removeInjects } from '@subwallet/extension-koni-ui/messaging';
-import { noop, toShort } from '@subwallet/extension-koni-ui/utils';
+import { DisconnectExtensionModal } from '@soul-wallet/extension-koni-ui/components';
+import { ENABLE_INJECT } from '@soul-wallet/extension-koni-ui/constants';
+import { useNotification, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { addInjects, removeInjects } from '@soul-wallet/extension-koni-ui/messaging';
+import { noop, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocalStorage } from 'usehooks-ts';
 

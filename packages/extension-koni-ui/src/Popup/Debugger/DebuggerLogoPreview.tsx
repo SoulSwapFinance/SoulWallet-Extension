@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AssetLogoMap, ChainLogoMap } from '@soul-wallet/chain-list';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Logo, SwList } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useCallback, useMemo, useState } from 'react';

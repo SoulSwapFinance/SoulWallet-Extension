@@ -3,7 +3,7 @@
 
 import { PayloadAction } from '@reduxjs/toolkit';
 import { createSlice } from '@reduxjs/toolkit/dist';
-import { BondingStore, ChainNominationPoolParams, ChainValidatorParams, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
+import { BondingStore, ChainNominationPoolParams, ChainValidatorParams, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState = {
   validatorInfoMap: {},

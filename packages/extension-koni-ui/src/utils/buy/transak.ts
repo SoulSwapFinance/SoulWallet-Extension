@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TRANSAK_API_KEY, TRANSAK_URL } from '@subwallet/extension-koni-ui/constants';
-import { CreateBuyOrderFunction } from '@subwallet/extension-koni-ui/types';
+import { TRANSAK_API_KEY, TRANSAK_URL } from '@soul-wallet/extension-koni-ui/constants';
+import { CreateBuyOrderFunction } from '@soul-wallet/extension-koni-ui/types';
 import qs from 'querystring';
 
 export const createTransakOrder: CreateBuyOrderFunction = (symbol, address, network) => {

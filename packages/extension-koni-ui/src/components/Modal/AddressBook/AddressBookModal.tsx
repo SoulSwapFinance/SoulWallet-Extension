@@ -3,10 +3,10 @@
 
 import { AbstractAddressJson, AccountJson } from '@subwallet/extension-base/background/types';
 import { isSameAddress } from '@subwallet/extension-base/utils';
-import { BackIcon } from '@subwallet/extension-koni-ui/components';
-import { useFilterModal, useFormatAddress, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { funcSortByName, isAccountAll, reformatAddress, toShort } from '@subwallet/extension-koni-ui/utils';
+import { BackIcon } from '@soul-wallet/extension-koni-ui/components';
+import { useFilterModal, useFormatAddress, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { funcSortByName, isAccountAll, reformatAddress, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { Badge, Icon, ModalContext, SwList, SwModal } from '@subwallet/react-ui';
 import { SwListSectionRef } from '@subwallet/react-ui/es/sw-list';
 import CN from 'classnames';

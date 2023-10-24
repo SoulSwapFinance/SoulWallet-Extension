@@ -3,9 +3,9 @@
 
 import { ConfirmationDefinitions, ConfirmationResult } from '@subwallet/extension-base/background/KoniTypes';
 import { _CHAIN_VALIDATION_ERROR } from '@subwallet/extension-base/services/chain-service/handler/types';
-import { ConfirmationGeneralInfo } from '@subwallet/extension-koni-ui/components';
-import { completeConfirmation } from '@subwallet/extension-koni-ui/messaging';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ConfirmationGeneralInfo } from '@soul-wallet/extension-koni-ui/components';
+import { completeConfirmation } from '@soul-wallet/extension-koni-ui/messaging';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { ActivityIndicator, Button, Col, Field, Icon, Row } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle, Globe, ShareNetwork, WifiHigh, WifiSlash, XCircle } from 'phosphor-react';

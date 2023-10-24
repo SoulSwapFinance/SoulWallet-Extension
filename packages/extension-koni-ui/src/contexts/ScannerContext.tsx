@@ -4,12 +4,12 @@
 import { ResponseParseTransactionSubstrate, ResponseQrParseRLP, SignerDataType } from '@subwallet/extension-base/background/KoniTypes';
 import { _isChainEnabled } from '@subwallet/extension-base/services/chain-service/utils';
 import { createTransactionFromRLP, Transaction } from '@subwallet/extension-base/utils/eth';
-import { MULTIPART, SCANNER_QR_STEP } from '@subwallet/extension-koni-ui/constants';
-import { useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { parseEVMTransaction, parseSubstrateTransaction, qrSignEvm, qrSignSubstrate } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { CompletedParsedData, EthereumParsedData, MessageQRInfo, MultiFramesInfo, QrInfo, SubstrateCompletedParsedData, SubstrateMessageParsedData, SubstrateTransactionParsedData, TxQRInfo } from '@subwallet/extension-koni-ui/types/scanner';
-import { constructDataFromBytes, encodeNumber, findAccountByAddress, getNetworkJsonByInfo, isEthereumCompletedParsedData, isSubstrateMessageParsedData } from '@subwallet/extension-koni-ui/utils';
+import { MULTIPART, SCANNER_QR_STEP } from '@soul-wallet/extension-koni-ui/constants';
+import { useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { parseEVMTransaction, parseSubstrateTransaction, qrSignEvm, qrSignSubstrate } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { CompletedParsedData, EthereumParsedData, MessageQRInfo, MultiFramesInfo, QrInfo, SubstrateCompletedParsedData, SubstrateMessageParsedData, SubstrateTransactionParsedData, TxQRInfo } from '@soul-wallet/extension-koni-ui/types/scanner';
+import { constructDataFromBytes, encodeNumber, findAccountByAddress, getNetworkJsonByInfo, isEthereumCompletedParsedData, isSubstrateMessageParsedData } from '@soul-wallet/extension-koni-ui/utils';
 import BigN from 'bignumber.js';
 import React, { useCallback, useReducer } from 'react';
 import { useSelector } from 'react-redux';

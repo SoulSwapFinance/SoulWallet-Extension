@@ -4,7 +4,7 @@
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { AbstractAddressJson, AccountJson } from '@subwallet/extension-base/background/types';
 import { findChainInfoByChainId, findChainInfoByHalfGenesisHash } from '@subwallet/extension-base/services/chain-service/utils';
-import { WalletConnectChainInfo } from '@subwallet/extension-koni-ui/types';
+import { WalletConnectChainInfo } from '@soul-wallet/extension-koni-ui/types';
 import { SessionTypes } from '@walletconnect/types';
 
 import { findAccountByAddress } from '../account';

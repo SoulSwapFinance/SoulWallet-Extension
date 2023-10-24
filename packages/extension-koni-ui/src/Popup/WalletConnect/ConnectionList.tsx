@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { stripUrl } from '@subwallet/extension-base/utils';
-import { ConnectionItem, EmptyList, Layout, PageWrapper, WalletConnect } from '@subwallet/extension-koni-ui/components';
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import { useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ConnectionItem, EmptyList, Layout, PageWrapper, WalletConnect } from '@soul-wallet/extension-koni-ui/components';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import { useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Icon, SwList } from '@subwallet/react-ui';
 import { SessionTypes } from '@walletconnect/types';
 import CN from 'classnames';

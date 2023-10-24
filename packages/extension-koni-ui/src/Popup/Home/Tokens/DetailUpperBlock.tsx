@@ -1,9 +1,9 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, Number } from '@subwallet/react-ui';
 import { SwNumberProps } from '@subwallet/react-ui/es/number';
 import { CaretLeft, CopySimple, PaperPlaneTilt, ShoppingCartSimple } from 'phosphor-react';

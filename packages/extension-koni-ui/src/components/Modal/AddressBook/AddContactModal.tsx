@@ -1,12 +1,12 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Avatar } from '@subwallet/extension-koni-ui/components';
-import { ADD_ADDRESS_BOOK_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { useNotification, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { editContactAddress } from '@subwallet/extension-koni-ui/messaging';
-import { FormCallbacks, FormFieldData, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { simpleCheckForm, toShort } from '@subwallet/extension-koni-ui/utils';
+import { Avatar } from '@soul-wallet/extension-koni-ui/components';
+import { ADD_ADDRESS_BOOK_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { useNotification, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { editContactAddress } from '@soul-wallet/extension-koni-ui/messaging';
+import { FormCallbacks, FormFieldData, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { simpleCheckForm, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Form, Icon, Input, ModalContext, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { PlusCircle } from 'phosphor-react';

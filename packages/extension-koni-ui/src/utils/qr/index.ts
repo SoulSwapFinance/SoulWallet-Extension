@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { MULTIPART, STANDARD_FRAME_SIZE } from '@subwallet/extension-koni-ui/constants';
+import { MULTIPART, STANDARD_FRAME_SIZE } from '@soul-wallet/extension-koni-ui/constants';
 
 import { isString, u8aConcat } from '@polkadot/util';
 

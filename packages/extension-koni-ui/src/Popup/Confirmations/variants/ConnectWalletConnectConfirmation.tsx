@@ -3,11 +3,11 @@
 
 import { WALLET_CONNECT_EIP155_NAMESPACE, WALLET_CONNECT_POLKADOT_NAMESPACE } from '@subwallet/extension-base/services/wallet-connect-service/constants';
 import { WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
-import { AlertBox, ConfirmationGeneralInfo, WCAccountSelect, WCNetworkSelected, WCNetworkSupported } from '@subwallet/extension-koni-ui/components';
-import { useNotification, useSelectWalletConnectAccount, useSetSelectedAccountTypes } from '@subwallet/extension-koni-ui/hooks';
-import { approveWalletConnectSession, rejectWalletConnectSession } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { convertKeyTypes, isAccountAll } from '@subwallet/extension-koni-ui/utils';
+import { AlertBox, ConfirmationGeneralInfo, WCAccountSelect, WCNetworkSelected, WCNetworkSupported } from '@soul-wallet/extension-koni-ui/components';
+import { useNotification, useSelectWalletConnectAccount, useSetSelectedAccountTypes } from '@soul-wallet/extension-koni-ui/hooks';
+import { approveWalletConnectSession, rejectWalletConnectSession } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { convertKeyTypes, isAccountAll } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Icon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle, PlusCircle, XCircle } from 'phosphor-react';

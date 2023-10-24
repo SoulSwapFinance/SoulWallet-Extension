@@ -3,13 +3,13 @@
 
 import { AbstractAddressJson, AccountJson } from '@subwallet/extension-base/background/types';
 import { stripUrl } from '@subwallet/extension-base/utils';
-import { AccountItemWithName, EmptyList, GeneralEmptyList, Layout, MetaInfo, PageWrapper, WCNetworkAvatarGroup } from '@subwallet/extension-koni-ui/components';
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import { useConfirmModal, useNotification, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { disconnectWalletConnectConnection } from '@subwallet/extension-koni-ui/messaging';
-import { ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
-import { Theme, ThemeProps, WalletConnectChainInfo } from '@subwallet/extension-koni-ui/types';
-import { chainsToWalletConnectChainInfos, getWCAccountList, noop } from '@subwallet/extension-koni-ui/utils';
+import { AccountItemWithName, EmptyList, GeneralEmptyList, Layout, MetaInfo, PageWrapper, WCNetworkAvatarGroup } from '@soul-wallet/extension-koni-ui/components';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import { useConfirmModal, useNotification, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { disconnectWalletConnectConnection } from '@soul-wallet/extension-koni-ui/messaging';
+import { ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
+import { Theme, ThemeProps, WalletConnectChainInfo } from '@soul-wallet/extension-koni-ui/types';
+import { chainsToWalletConnectChainInfos, getWCAccountList, noop } from '@soul-wallet/extension-koni-ui/utils';
 import { Icon, Image, ModalContext, NetworkItem, SwList, SwModal, SwModalFuncProps } from '@subwallet/react-ui';
 import { SessionTypes } from '@walletconnect/types';
 import CN from 'classnames';

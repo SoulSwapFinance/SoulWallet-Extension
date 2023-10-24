@@ -6,7 +6,7 @@ import { ConfirmationsQueue } from '@subwallet/extension-base/background/KoniTyp
 import { AuthorizeRequest, ConfirmationRequestBase, MetadataRequest, SigningRequest } from '@subwallet/extension-base/background/types';
 import { SWTransactionResult } from '@subwallet/extension-base/services/transaction-service/types';
 import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
-import { ReduxStatus, RequestState } from '@subwallet/extension-koni-ui/stores/types';
+import { ReduxStatus, RequestState } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState: RequestState = {
   authorizeRequest: {},

@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useSelector } from '@subwallet/extension-koni-ui/hooks';
+import { useSelector } from '@soul-wallet/extension-koni-ui/hooks';
 import { useMemo } from 'react';
 
 const useGetChainPrefixBySlug = (chain?: string): number => {

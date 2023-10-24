@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { BrowserConfirmationType, LanguageType, RequestSettingsType, RequestSubscribeBalancesVisibility, ThemeNames, UiSettings, WalletUnlockType } from '@subwallet/extension-base/background/KoniTypes';
-import { sendMessage } from '@subwallet/extension-koni-ui/messaging';
+import { sendMessage } from '@soul-wallet/extension-koni-ui/messaging';
 
 export async function toggleBalancesVisibility (): Promise<boolean> {
   return sendMessage('pri(settings.changeBalancesVisibility)', null);

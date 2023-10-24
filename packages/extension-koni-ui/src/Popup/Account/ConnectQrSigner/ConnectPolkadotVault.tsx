@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import DefaultLogosMap from '@subwallet/extension-koni-ui/assets/logo';
-import ConnectQrSigner from '@subwallet/extension-koni-ui/Popup/Account/ConnectQrSigner/index';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import DefaultLogosMap from '@soul-wallet/extension-koni-ui/assets/logo';
+import ConnectQrSigner from '@soul-wallet/extension-koni-ui/Popup/Account/ConnectQrSigner/index';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';

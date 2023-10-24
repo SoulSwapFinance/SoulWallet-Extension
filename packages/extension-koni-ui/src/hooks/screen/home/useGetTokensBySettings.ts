@@ -3,8 +3,8 @@
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
 import { _isAssetFungibleToken } from '@subwallet/extension-base/services/chain-service/utils';
-import { useGetChainSlugsByAccountType } from '@subwallet/extension-koni-ui/hooks/screen/home/useGetChainSlugsByAccountType';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
+import { useGetChainSlugsByAccountType } from '@soul-wallet/extension-koni-ui/hooks/screen/home/useGetChainSlugsByAccountType';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { sendMessage } from '@subwallet/extension-koni-ui/messaging/base';
+import { sendMessage } from '@soul-wallet/extension-koni-ui/messaging/base';
 import { KeyringAddress } from '@subwallet/ui-keyring/types';
 
 export async function saveRecentAccount (accountId: string): Promise<KeyringAddress> {

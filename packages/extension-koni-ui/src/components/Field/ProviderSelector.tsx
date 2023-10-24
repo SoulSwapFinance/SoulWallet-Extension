@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { BasicInputWrapper } from '@subwallet/extension-koni-ui/components/Field/Base';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { useSelectModalInputHelper } from '@subwallet/extension-koni-ui/hooks/form/useSelectModalInputHelper';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { BasicInputWrapper } from '@soul-wallet/extension-koni-ui/components/Field/Base';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { useSelectModalInputHelper } from '@soul-wallet/extension-koni-ui/hooks/form/useSelectModalInputHelper';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { BackgroundIcon, Button, Icon, InputRef, ModalContext, SelectModal, SettingItem } from '@subwallet/react-ui';
 import { CheckCircle, PlusCircle, ShareNetwork } from 'phosphor-react';
 import React, { ForwardedRef, forwardRef, useCallback, useContext } from 'react';

@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useGetAccountSignModeByAddress } from '@subwallet/extension-koni-ui/hooks';
-import { AccountSignMode } from '@subwallet/extension-koni-ui/types';
+import { useGetAccountSignModeByAddress } from '@soul-wallet/extension-koni-ui/hooks';
+import { AccountSignMode } from '@soul-wallet/extension-koni-ui/types';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 

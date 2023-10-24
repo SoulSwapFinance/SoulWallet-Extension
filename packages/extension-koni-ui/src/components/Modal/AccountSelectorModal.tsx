@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AccountJson } from '@subwallet/extension-base/background/types';
-import AccountItemWithName from '@subwallet/extension-koni-ui/components/Account/Item/AccountItemWithName';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import AccountItemWithName from '@soul-wallet/extension-koni-ui/components/Account/Item/AccountItemWithName';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { ModalContext, SwList, SwModal } from '@subwallet/react-ui';
 import { SwListSectionRef } from '@subwallet/react-ui/es/sw-list';
 import React, { useCallback, useContext, useEffect, useRef } from 'react';

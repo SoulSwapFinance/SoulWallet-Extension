@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { NotificationType } from '@subwallet/extension-base/background/KoniTypes';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { initSyncMantaPay, windowOpen } from '@subwallet/extension-koni-ui/messaging';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { initSyncMantaPay, windowOpen } from '@soul-wallet/extension-koni-ui/messaging';
 import { Button } from '@subwallet/react-ui';
 import React, { useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { BackgroundIcon } from '@subwallet/react-ui';
 import { getAlphaColor } from '@subwallet/react-ui/lib/theme/themes/default/colorAlgorithm';
 import CN from 'classnames';

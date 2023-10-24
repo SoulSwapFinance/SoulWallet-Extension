@@ -1,9 +1,9 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { keyringLock } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { updateUIViewState } from '@subwallet/extension-koni-ui/stores/base/UIViewState';
+import { keyringLock } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { updateUIViewState } from '@soul-wallet/extension-koni-ui/stores/base/UIViewState';
 import { useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';

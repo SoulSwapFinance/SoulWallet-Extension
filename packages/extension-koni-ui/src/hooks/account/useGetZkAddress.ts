@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { RootState } from '@subwallet/extension-koni-ui/stores';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { useSelector } from 'react-redux';
 
 export const useGetZkAddress = (address?: string) => {

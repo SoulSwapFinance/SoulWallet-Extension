@@ -3,9 +3,9 @@
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
 import { _MANTA_ZK_CHAIN_GROUP, _ZK_ASSET_PREFIX } from '@subwallet/extension-base/services/chain-service/constants';
-import { RECEIVE_QR_MODAL, RECEIVE_TOKEN_SELECTOR_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { useGetZkAddress, useSelector, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { RECEIVE_QR_MODAL, RECEIVE_TOKEN_SELECTOR_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { useGetZkAddress, useSelector, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { ModalContext, SwList, SwModal } from '@subwallet/react-ui';
 import { SwListSectionRef } from '@subwallet/react-ui/es/sw-list';
 import React, { useCallback, useContext, useEffect, useRef } from 'react';

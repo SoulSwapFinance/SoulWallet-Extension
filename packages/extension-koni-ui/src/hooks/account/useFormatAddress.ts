@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AbstractAddressJson } from '@subwallet/extension-base/background/types';
-import { findNetworkJsonByGenesisHash, reformatAddress } from '@subwallet/extension-koni-ui/utils';
+import { findNetworkJsonByGenesisHash, reformatAddress } from '@soul-wallet/extension-koni-ui/utils';
 import { useCallback } from 'react';
 
 import { useSelector } from '../common';

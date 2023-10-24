@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ConfirmationRequestBase } from '@subwallet/extension-base/background/types';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ConfirmationQueueItem, CONFIRMATIONS_FIELDS } from '@subwallet/extension-koni-ui/stores/base/RequestState';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ConfirmationQueueItem, CONFIRMATIONS_FIELDS } from '@soul-wallet/extension-koni-ui/stores/base/RequestState';
 import { useSelector } from 'react-redux';
 
 export default function useConfirmationsInfo () {

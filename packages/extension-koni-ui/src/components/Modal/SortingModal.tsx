@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SettingItemSelection } from '@subwallet/extension-koni-ui/components/Setting/SettingItemSelection';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { SettingItemSelection } from '@soul-wallet/extension-koni-ui/components/Setting/SettingItemSelection';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { BackgroundIcon, Button, Icon, ModalContext, SwModal } from '@subwallet/react-ui';
 import { ArrowsClockwise, SortAscending, SortDescending } from 'phosphor-react';
 import React, { useCallback, useContext } from 'react';

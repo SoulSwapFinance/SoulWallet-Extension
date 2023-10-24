@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { DISCONNECT_EXTENSION_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { InjectContext } from '@subwallet/extension-koni-ui/contexts/InjectContext';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { DISCONNECT_EXTENSION_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { InjectContext } from '@soul-wallet/extension-koni-ui/contexts/InjectContext';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, ModalContext, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useCallback, useContext } from 'react';

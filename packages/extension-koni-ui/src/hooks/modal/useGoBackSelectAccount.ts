@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SELECT_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import useSwitchModal from '@subwallet/extension-koni-ui/hooks/modal/useSwitchModal';
+import { SELECT_ACCOUNT_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import useSwitchModal from '@soul-wallet/extension-koni-ui/hooks/modal/useSwitchModal';
 import { ModalContext } from '@subwallet/react-ui';
 import { useCallback, useContext, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';

@@ -4,11 +4,11 @@
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { LedgerNetwork } from '@subwallet/extension-base/background/KoniTypes';
 import { _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
-import { EVMLedger, SubstrateLedger } from '@subwallet/extension-koni-ui/connector';
-import { useSelector } from '@subwallet/extension-koni-ui/hooks';
-import useGetSupportedLedger from '@subwallet/extension-koni-ui/hooks/ledger/useGetSupportedLedger';
-import { Ledger } from '@subwallet/extension-koni-ui/types';
-import { convertLedgerError } from '@subwallet/extension-koni-ui/utils';
+import { EVMLedger, SubstrateLedger } from '@soul-wallet/extension-koni-ui/connector';
+import { useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import useGetSupportedLedger from '@soul-wallet/extension-koni-ui/hooks/ledger/useGetSupportedLedger';
+import { Ledger } from '@soul-wallet/extension-koni-ui/types';
+import { convertLedgerError } from '@soul-wallet/extension-koni-ui/utils';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import { AccountOptions, LedgerAddress, LedgerSignature } from '@polkadot/hw-ledger/types';

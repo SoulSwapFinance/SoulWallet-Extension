@@ -3,12 +3,12 @@
 
 import { BrowserConfirmationType, LanguageType, ThemeNames } from '@subwallet/extension-base/background/KoniTypes';
 import { ENABLE_LANGUAGES, languageOptions } from '@subwallet/extension-base/constants/i18n';
-import { Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { saveBrowserConfirmationType, saveLanguage, saveTheme } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { noop } from '@subwallet/extension-koni-ui/utils';
+import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { saveBrowserConfirmationType, saveLanguage, saveTheme } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { noop } from '@soul-wallet/extension-koni-ui/utils';
 import { BackgroundIcon, Icon, SelectModal, SettingItem, SwIconProps } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { ArrowSquareUpRight, BellSimpleRinging, CaretRight, CheckCircle, CornersOut, GlobeHemisphereEast, Image, Layout as LayoutIcon, MoonStars, Sun } from 'phosphor-react';

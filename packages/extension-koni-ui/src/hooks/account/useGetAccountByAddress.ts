@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AccountJson } from '@subwallet/extension-base/background/types';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { findAccountByAddress } from '@subwallet/extension-koni-ui/utils/account/account';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { findAccountByAddress } from '@soul-wallet/extension-koni-ui/utils/account/account';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 

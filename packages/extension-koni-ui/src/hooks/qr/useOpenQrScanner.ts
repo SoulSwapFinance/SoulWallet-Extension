@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { REQUEST_CAMERA_ACCESS_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
+import { REQUEST_CAMERA_ACCESS_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { ModalContext } from '@subwallet/react-ui';
 import { useCallback, useContext } from 'react';
 import { useSelector } from 'react-redux';

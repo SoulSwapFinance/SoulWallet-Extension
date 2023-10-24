@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { EthereumParsedData, MultiFramesInfo, NetworkParsedData, ParsedData, SubstrateCompletedParsedData, SubstrateMessageParsedData, SubstrateMultiParsedData } from '@subwallet/extension-koni-ui/types/scanner';
+import { EthereumParsedData, MultiFramesInfo, NetworkParsedData, ParsedData, SubstrateCompletedParsedData, SubstrateMessageParsedData, SubstrateMultiParsedData } from '@soul-wallet/extension-koni-ui/types/scanner';
 
 export const unwrapMessage = (message: string) => {
   const prefix = '<Bytes>';

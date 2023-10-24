@@ -4,7 +4,7 @@
 import type { AccountOptions, LedgerAddress, LedgerSignature, LedgerVersion } from '@polkadot/hw-ledger/types';
 
 import EthApp from '@ledgerhq/hw-app-eth';
-import { Ledger, LedgerTypes } from '@subwallet/extension-koni-ui/types';
+import { Ledger, LedgerTypes } from '@soul-wallet/extension-koni-ui/types';
 
 import { transports } from '@polkadot/hw-ledger-transports';
 import { hexStripPrefix, u8aToHex } from '@polkadot/util';

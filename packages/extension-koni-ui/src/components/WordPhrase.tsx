@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useCopy } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps, WordItem } from '@subwallet/extension-koni-ui/types';
-import { convertToWords } from '@subwallet/extension-koni-ui/utils';
+import { useCopy } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps, WordItem } from '@soul-wallet/extension-koni-ui/types';
+import { convertToWords } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Icon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { saveAs } from 'file-saver';

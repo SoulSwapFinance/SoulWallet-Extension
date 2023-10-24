@@ -3,10 +3,10 @@
 
 import { ExtrinsicType, TransactionAdditionalInfo } from '@subwallet/extension-base/background/KoniTypes';
 import { getExplorerLink } from '@subwallet/extension-base/services/transaction-service/utils';
-import { InfoItemBase } from '@subwallet/extension-koni-ui/components';
-import { HISTORY_DETAIL_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ThemeProps, TransactionHistoryDisplayItem } from '@subwallet/extension-koni-ui/types';
+import { InfoItemBase } from '@soul-wallet/extension-koni-ui/components';
+import { HISTORY_DETAIL_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ThemeProps, TransactionHistoryDisplayItem } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, SwIconProps, SwModal } from '@subwallet/react-ui';
 import { ArrowSquareUpRight } from 'phosphor-react';
 import React, { useCallback, useMemo } from 'react';

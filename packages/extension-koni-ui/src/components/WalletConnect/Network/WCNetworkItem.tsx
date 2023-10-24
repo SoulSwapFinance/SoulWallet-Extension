@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ThemeProps, WalletConnectChainInfo } from '@subwallet/extension-koni-ui/types';
+import { ThemeProps, WalletConnectChainInfo } from '@soul-wallet/extension-koni-ui/types';
 import { Icon, NetworkItem } from '@subwallet/react-ui';
 import { Info } from 'phosphor-react';
 import React from 'react';

@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { isAccountAll } from '@subwallet/extension-koni-ui/utils/account/accountAll';
+import { isAccountAll } from '@soul-wallet/extension-koni-ui/utils/account/accountAll';
 
 import { decodeAddress, encodeAddress, ethereumEncode, isAddress, isEthereumAddress } from '@polkadot/util-crypto';
 

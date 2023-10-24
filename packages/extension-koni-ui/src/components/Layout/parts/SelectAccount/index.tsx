@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AccountJson, CurrentAccountInfo } from '@subwallet/extension-base/background/types';
-import { DISCONNECT_EXTENSION_MODAL, SELECT_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { useDefaultNavigate, useGetCurrentAuth, useGetCurrentTab, useIsPopup, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { saveCurrentAccountAddress } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { Theme } from '@subwallet/extension-koni-ui/themes';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { findAccountByAddress, funcSortByName, isAccountAll, searchAccountFunction } from '@subwallet/extension-koni-ui/utils';
+import { DISCONNECT_EXTENSION_MODAL, SELECT_ACCOUNT_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { useDefaultNavigate, useGetCurrentAuth, useGetCurrentTab, useIsPopup, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { saveCurrentAccountAddress } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { Theme } from '@soul-wallet/extension-koni-ui/themes';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { findAccountByAddress, funcSortByName, isAccountAll, searchAccountFunction } from '@soul-wallet/extension-koni-ui/utils';
 import { BackgroundIcon, Logo, ModalContext, SelectModal, Tooltip } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { Plug, Plugs, PlugsConnected, SignOut } from 'phosphor-react';

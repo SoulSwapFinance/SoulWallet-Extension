@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AccountJson } from '@subwallet/extension-base/background/types';
-import AvatarGroup from '@subwallet/extension-koni-ui/components/Account/Info/AvatarGroup';
-import useChainInfo from '@subwallet/extension-koni-ui/hooks/chain/useChainInfo';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { isAccountAll } from '@subwallet/extension-koni-ui/utils';
-import { formatAccountAddress } from '@subwallet/extension-koni-ui/utils/account/account';
+import AvatarGroup from '@soul-wallet/extension-koni-ui/components/Account/Info/AvatarGroup';
+import useChainInfo from '@soul-wallet/extension-koni-ui/hooks/chain/useChainInfo';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { isAccountAll } from '@soul-wallet/extension-koni-ui/utils';
+import { formatAccountAddress } from '@soul-wallet/extension-koni-ui/utils/account/account';
 import { Typography } from '@subwallet/react-ui';
 import React, { useMemo } from 'react';
 import styled from 'styled-components';

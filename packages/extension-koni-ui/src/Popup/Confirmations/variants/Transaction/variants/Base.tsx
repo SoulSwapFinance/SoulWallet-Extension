@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { SWTransactionResult } from '@subwallet/extension-base/services/transaction-service/types';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import CN from 'classnames';
 import React from 'react';
 import styled from 'styled-components';

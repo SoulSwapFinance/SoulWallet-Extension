@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Skeleton, Web3Block } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React from 'react';

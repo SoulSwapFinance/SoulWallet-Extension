@@ -1,9 +1,9 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useGetBalance } from '@subwallet/extension-koni-ui/hooks';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { useGetBalance } from '@soul-wallet/extension-koni-ui/hooks';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { ActivityIndicator, Number, Typography } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useEffect } from 'react';

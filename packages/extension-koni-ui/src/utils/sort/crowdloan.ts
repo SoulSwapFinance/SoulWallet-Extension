@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { CrowdloanItemType } from '@subwallet/extension-koni-ui/types';
+import { CrowdloanItemType } from '@soul-wallet/extension-koni-ui/types';
 import BigN from 'bignumber.js';
 
 export const sortCrowdloanByValue = (a: CrowdloanItemType, b: CrowdloanItemType): number => {

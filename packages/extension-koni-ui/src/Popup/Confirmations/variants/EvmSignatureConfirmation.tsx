@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ConfirmationsQueueItem, EvmSignatureRequest } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountItemWithName, ConfirmationGeneralInfo, ViewDetailIcon } from '@subwallet/extension-koni-ui/components';
-import { useOpenDetailModal } from '@subwallet/extension-koni-ui/hooks';
-import { EvmSignatureSupportType, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { AccountItemWithName, ConfirmationGeneralInfo, ViewDetailIcon } from '@soul-wallet/extension-koni-ui/components';
+import { useOpenDetailModal } from '@soul-wallet/extension-koni-ui/hooks';
+import { EvmSignatureSupportType, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React from 'react';

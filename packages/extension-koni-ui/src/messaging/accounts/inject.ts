@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { InjectedAccountWithMeta } from '@soul-wallet/extension-inject/types';
-import { sendMessage } from '@subwallet/extension-koni-ui/messaging/base';
+import { sendMessage } from '@soul-wallet/extension-koni-ui/messaging/base';
 
 export async function addInjects (accounts: InjectedAccountWithMeta[]): Promise<boolean> {
   return sendMessage('pri(accounts.inject.add)', { accounts });

@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { TransactionHistoryItem } from '@subwallet/extension-base/background/KoniTypes';
-import { TransactionHistoryReducerType } from '@subwallet/extension-koni-ui/stores/types';
+import { TransactionHistoryReducerType } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState = { historyList: [] } as TransactionHistoryReducerType;
 

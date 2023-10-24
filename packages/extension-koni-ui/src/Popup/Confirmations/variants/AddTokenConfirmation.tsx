@@ -3,12 +3,12 @@
 
 import { ChainLogoMap } from '@soul-wallet/chain-list';
 import { ConfirmationDefinitions, ConfirmationResult } from '@subwallet/extension-base/background/KoniTypes';
-import { ConfirmationGeneralInfo } from '@subwallet/extension-koni-ui/components';
-import { useCopy } from '@subwallet/extension-koni-ui/hooks';
-import { completeConfirmation } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { detectThemeAvatar, toShort } from '@subwallet/extension-koni-ui/utils';
+import { ConfirmationGeneralInfo } from '@soul-wallet/extension-koni-ui/components';
+import { useCopy } from '@soul-wallet/extension-koni-ui/hooks';
+import { completeConfirmation } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { detectThemeAvatar, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { ActivityIndicator, Button, Col, Field, Icon, Image, Row } from '@subwallet/react-ui';
 import SwAvatar from '@subwallet/react-ui/es/sw-avatar';
 import CN from 'classnames';

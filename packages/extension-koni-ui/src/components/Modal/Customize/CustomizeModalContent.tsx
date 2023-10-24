@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { NetworkEmptyList } from '@subwallet/extension-koni-ui/components';
-import ChainItemFooter from '@subwallet/extension-koni-ui/components/ChainItemFooter';
-import { CUSTOMIZE_MODAL } from '@subwallet/extension-koni-ui/constants';
-import useChainInfoWithState, { ChainInfoWithState } from '@subwallet/extension-koni-ui/hooks/chain/useChainInfoWithState';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { NetworkEmptyList } from '@soul-wallet/extension-koni-ui/components';
+import ChainItemFooter from '@soul-wallet/extension-koni-ui/components/ChainItemFooter';
+import { CUSTOMIZE_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import useChainInfoWithState, { ChainInfoWithState } from '@soul-wallet/extension-koni-ui/hooks/chain/useChainInfoWithState';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { NetworkItem, SwList } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useCallback } from 'react';

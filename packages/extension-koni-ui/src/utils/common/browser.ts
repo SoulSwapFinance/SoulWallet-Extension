@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SELECTED_ACCOUNT_TYPE } from '@subwallet/extension-koni-ui/constants';
+import { SELECTED_ACCOUNT_TYPE } from '@soul-wallet/extension-koni-ui/constants';
 import Bowser from 'bowser';
 
 import { KeypairType } from '@polkadot/util-crypto/types';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BuyService, BuyTokenInfo, SupportService } from '@subwallet/extension-koni-ui/types';
+import { BuyService, BuyTokenInfo, SupportService } from '@soul-wallet/extension-koni-ui/types';
 
 const DEFAULT_BUY_SERVICE: BuyService = { symbol: '', network: '' };
 

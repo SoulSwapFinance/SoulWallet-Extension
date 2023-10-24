@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit/dist';
 import { PriceJson } from '@subwallet/extension-base/background/KoniTypes';
-import { PriceStore } from '@subwallet/extension-koni-ui/stores/types';
+import { PriceStore } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState = {
   currency: 'usd',

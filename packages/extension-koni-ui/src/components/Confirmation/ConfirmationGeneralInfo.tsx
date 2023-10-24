@@ -4,7 +4,7 @@
 import { ConfirmationRequestBase } from '@subwallet/extension-base/background/types';
 import { isWalletConnectRequest } from '@subwallet/extension-base/services/wallet-connect-service/helpers';
 import { getDomainFromUrl } from '@subwallet/extension-base/utils';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Icon, Image, Logo, Typography } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useMemo } from 'react';

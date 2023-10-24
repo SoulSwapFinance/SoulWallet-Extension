@@ -1,16 +1,16 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Layout } from '@subwallet/extension-koni-ui/components';
-import { GlobalSearchTokenModal } from '@subwallet/extension-koni-ui/components/Modal/GlobalSearchTokenModal';
-import { HomeContext } from '@subwallet/extension-koni-ui/contexts/screen/HomeContext';
-import { useGetMantaPayConfig } from '@subwallet/extension-koni-ui/hooks/account/useGetMantaPayConfig';
-import useHandleMantaPaySync from '@subwallet/extension-koni-ui/hooks/account/useHandleMantaPaySync';
-import useAccountBalance from '@subwallet/extension-koni-ui/hooks/screen/home/useAccountBalance';
-import { useGetChainSlugsByAccountType } from '@subwallet/extension-koni-ui/hooks/screen/home/useGetChainSlugsByAccountType';
-import useTokenGroup from '@subwallet/extension-koni-ui/hooks/screen/home/useTokenGroup';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { Layout } from '@soul-wallet/extension-koni-ui/components';
+import { GlobalSearchTokenModal } from '@soul-wallet/extension-koni-ui/components/Modal/GlobalSearchTokenModal';
+import { HomeContext } from '@soul-wallet/extension-koni-ui/contexts/screen/HomeContext';
+import { useGetMantaPayConfig } from '@soul-wallet/extension-koni-ui/hooks/account/useGetMantaPayConfig';
+import useHandleMantaPaySync from '@soul-wallet/extension-koni-ui/hooks/account/useHandleMantaPaySync';
+import useAccountBalance from '@soul-wallet/extension-koni-ui/hooks/screen/home/useAccountBalance';
+import { useGetChainSlugsByAccountType } from '@soul-wallet/extension-koni-ui/hooks/screen/home/useGetChainSlugsByAccountType';
+import useTokenGroup from '@soul-wallet/extension-koni-ui/hooks/screen/home/useTokenGroup';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { ModalContext } from '@subwallet/react-ui';
 import React, { useCallback, useContext, useEffect } from 'react';
 import { useSelector } from 'react-redux';

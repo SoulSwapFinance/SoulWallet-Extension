@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { NominationInfo } from '@subwallet/extension-base/background/KoniTypes';
-import { useGetNativeTokenBasicInfo } from '@subwallet/extension-koni-ui/hooks';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { formatBalance, toShort } from '@subwallet/extension-koni-ui/utils';
+import { useGetNativeTokenBasicInfo } from '@soul-wallet/extension-koni-ui/hooks';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { formatBalance, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { Icon, Web3Block } from '@subwallet/react-ui';
 import SwAvatar from '@subwallet/react-ui/es/sw-avatar';
 import CN from 'classnames';

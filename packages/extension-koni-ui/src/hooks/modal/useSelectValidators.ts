@@ -3,8 +3,8 @@
 
 import { getValidatorLabel } from '@subwallet/extension-base/koni/api/staking/bonding/utils';
 import { detectTranslate } from '@subwallet/extension-base/utils';
-import { BasicOnChangeFunction } from '@subwallet/extension-koni-ui/components/Field/Base';
-import { useNotification, useTranslation } from '@subwallet/extension-koni-ui/hooks/common';
+import { BasicOnChangeFunction } from '@soul-wallet/extension-koni-ui/components/Field/Base';
+import { useNotification, useTranslation } from '@soul-wallet/extension-koni-ui/hooks/common';
 import { ModalContext } from '@subwallet/react-ui';
 import { useCallback, useContext, useMemo, useState } from 'react';
 

@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { DEFAULT_ROUTER_PATH } from '@subwallet/extension-koni-ui/constants/router';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { isNoAccount } from '@subwallet/extension-koni-ui/utils/account/account';
+import { DEFAULT_ROUTER_PATH } from '@soul-wallet/extension-koni-ui/constants/router';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { isNoAccount } from '@soul-wallet/extension-koni-ui/utils/account/account';
 import { useCallback, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';

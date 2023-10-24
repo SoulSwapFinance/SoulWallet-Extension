@@ -3,10 +3,10 @@
 
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
 import { AssetSetting } from '@subwallet/extension-base/background/KoniTypes';
-import useNotification from '@subwallet/extension-koni-ui/hooks/common/useNotification';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { updateAssetSetting } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import useNotification from '@soul-wallet/extension-koni-ui/hooks/common/useNotification';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { updateAssetSetting } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, Switch } from '@subwallet/react-ui';
 import { PencilSimpleLine } from 'phosphor-react';
 import React, { useCallback, useState } from 'react';

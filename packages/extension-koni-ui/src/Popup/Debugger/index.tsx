@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import DebuggerLogoPreview from '@subwallet/extension-koni-ui/Popup/Debugger/DebuggerLogoPreview';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import DebuggerLogoPreview from '@soul-wallet/extension-koni-ui/Popup/Debugger/DebuggerLogoPreview';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button } from '@subwallet/react-ui';
 import React, { useState } from 'react';
 import styled from 'styled-components';

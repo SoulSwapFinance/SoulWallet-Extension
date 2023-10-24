@@ -3,7 +3,7 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit/dist';
 import { BalanceItem } from '@subwallet/extension-base/background/KoniTypes';
-import { BalanceStore, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
+import { BalanceStore, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState: BalanceStore = {
   balanceMap: {},

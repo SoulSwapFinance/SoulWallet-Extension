@@ -3,8 +3,8 @@
 
 import { LanguageType } from '@subwallet/extension-base/background/KoniTypes';
 import { detectTranslate } from '@subwallet/extension-base/utils';
-import { useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Icon as SwIcon, Image, SwIconProps } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { PushPinSimple, PuzzlePiece } from 'phosphor-react';

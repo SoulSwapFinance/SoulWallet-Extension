@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BasicInputWrapper } from '@subwallet/extension-koni-ui/components/Field/Base';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { useSelectModalInputHelper } from '@subwallet/extension-koni-ui/hooks/form/useSelectModalInputHelper';
-import { ThemeProps, TokenTypeItem } from '@subwallet/extension-koni-ui/types';
+import { BasicInputWrapper } from '@soul-wallet/extension-koni-ui/components/Field/Base';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { useSelectModalInputHelper } from '@soul-wallet/extension-koni-ui/hooks/form/useSelectModalInputHelper';
+import { ThemeProps, TokenTypeItem } from '@soul-wallet/extension-koni-ui/types';
 import { BackgroundIcon, Icon, InputRef, SelectModal, SettingItem } from '@subwallet/react-ui';
 import { CheckCircle, Coin } from 'phosphor-react';
 import React, { ForwardedRef, forwardRef, useCallback } from 'react';

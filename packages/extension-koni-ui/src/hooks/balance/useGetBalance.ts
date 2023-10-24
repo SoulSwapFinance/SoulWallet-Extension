@@ -4,8 +4,8 @@
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { AmountData } from '@subwallet/extension-base/background/KoniTypes';
 import { _getChainNativeTokenSlug } from '@subwallet/extension-base/services/chain-service/utils';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { getFreeBalance, updateAssetSetting } from '@subwallet/extension-koni-ui/messaging';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { getFreeBalance, updateAssetSetting } from '@soul-wallet/extension-koni-ui/messaging';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { useSelector } from '../common';

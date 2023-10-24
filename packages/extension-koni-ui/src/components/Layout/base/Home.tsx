@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Layout } from '@subwallet/extension-koni-ui/components';
-import { CUSTOMIZE_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
+import { Layout } from '@soul-wallet/extension-koni-ui/components';
+import { CUSTOMIZE_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
 import { ButtonProps, Icon, ModalContext } from '@subwallet/react-ui';
 import { FadersHorizontal, MagnifyingGlass } from 'phosphor-react';
 import React, { useCallback, useContext, useMemo } from 'react';

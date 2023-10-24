@@ -4,9 +4,9 @@
 import { APIItemState, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType } from '@subwallet/extension-base/background/KoniTypes';
 import { ALL_ACCOUNT_KEY } from '@subwallet/extension-base/constants';
 import { _getChainNativeTokenBasicInfo, _getChainNativeTokenSlug } from '@subwallet/extension-base/services/chain-service/utils';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { StakingData, StakingDataType } from '@subwallet/extension-koni-ui/types/staking';
-import { isAccountAll } from '@subwallet/extension-koni-ui/utils';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { StakingData, StakingDataType } from '@soul-wallet/extension-koni-ui/types/staking';
+import { isAccountAll } from '@soul-wallet/extension-koni-ui/utils';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 

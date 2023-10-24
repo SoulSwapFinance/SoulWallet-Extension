@@ -3,11 +3,11 @@
 
 import { ConfirmationResult } from '@subwallet/extension-base/background/KoniTypes';
 import { AccountJson, ConfirmationRequestBase } from '@subwallet/extension-base/background/types';
-import { AccountItemWithName, ConfirmationGeneralInfo } from '@subwallet/extension-koni-ui/components';
-import { NEED_SIGN_CONFIRMATION } from '@subwallet/extension-koni-ui/constants';
-import { useGetAccountTitleByAddress } from '@subwallet/extension-koni-ui/hooks';
-import { cancelSignRequest, completeConfirmation } from '@subwallet/extension-koni-ui/messaging';
-import { EvmSignatureSupportType, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { AccountItemWithName, ConfirmationGeneralInfo } from '@soul-wallet/extension-koni-ui/components';
+import { NEED_SIGN_CONFIRMATION } from '@soul-wallet/extension-koni-ui/constants';
+import { useGetAccountTitleByAddress } from '@soul-wallet/extension-koni-ui/hooks';
+import { cancelSignRequest, completeConfirmation } from '@soul-wallet/extension-koni-ui/messaging';
+import { EvmSignatureSupportType, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useCallback, useState } from 'react';

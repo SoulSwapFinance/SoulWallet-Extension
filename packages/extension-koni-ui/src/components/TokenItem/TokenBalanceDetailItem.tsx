@@ -1,10 +1,10 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { TokenBalanceItemType } from '@subwallet/extension-koni-ui/types/balance';
+import { useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { TokenBalanceItemType } from '@soul-wallet/extension-koni-ui/types/balance';
 import { ActivityIndicator, BalanceItem, BalanceItemProps, Icon, Number } from '@subwallet/react-ui';
 import classNames from 'classnames';
 import { CaretRight } from 'phosphor-react';

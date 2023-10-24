@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createPromiseHandler } from '@subwallet/extension-base/utils/promise';
-import { UNLOCK_MODAL_ID } from '@subwallet/extension-koni-ui/components/Modal/UnlockModal';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
+import { UNLOCK_MODAL_ID } from '@soul-wallet/extension-koni-ui/components/Modal/UnlockModal';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { ModalContext } from '@subwallet/react-ui';
 import { useCallback, useContext, useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';

@@ -1,11 +1,11 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BackgroundExpandView, Layout } from '@subwallet/extension-koni-ui/components';
-import { useDefaultNavigate, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { passPhishingPage } from '@subwallet/extension-koni-ui/messaging';
-import { Theme } from '@subwallet/extension-koni-ui/themes';
-import { noop } from '@subwallet/extension-koni-ui/utils';
+import { BackgroundExpandView, Layout } from '@soul-wallet/extension-koni-ui/components';
+import { useDefaultNavigate, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { passPhishingPage } from '@soul-wallet/extension-koni-ui/messaging';
+import { Theme } from '@soul-wallet/extension-koni-ui/themes';
+import { noop } from '@soul-wallet/extension-koni-ui/utils';
 import { ButtonProps, Icon, PageIcon, Typography } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { ShieldSlash, XCircle } from 'phosphor-react';

@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { NftCollection, NftItem } from '@subwallet/extension-base/background/KoniTypes';
-import { EmptyList, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import { useGetNftByAccount, useNotification, useSetCurrentPage, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { reloadCron } from '@subwallet/extension-koni-ui/messaging';
-import { NftGalleryWrapper } from '@subwallet/extension-koni-ui/Popup/Home/Nfts/component/NftGalleryWrapper';
-import { INftCollectionDetail } from '@subwallet/extension-koni-ui/Popup/Home/Nfts/utils';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { EmptyList, Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import { useGetNftByAccount, useNotification, useSetCurrentPage, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { reloadCron } from '@soul-wallet/extension-koni-ui/messaging';
+import { NftGalleryWrapper } from '@soul-wallet/extension-koni-ui/Popup/Home/Nfts/component/NftGalleryWrapper';
+import { INftCollectionDetail } from '@soul-wallet/extension-koni-ui/Popup/Home/Nfts/utils';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { ActivityIndicator, ButtonProps, Icon, SwList } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { ArrowClockwise, Image, Plus, PlusCircle } from 'phosphor-react';

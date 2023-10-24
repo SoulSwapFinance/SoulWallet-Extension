@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { ReduxStatus, WalletConnectStore } from '@subwallet/extension-koni-ui/stores/types';
+import { ReduxStatus, WalletConnectStore } from '@soul-wallet/extension-koni-ui/stores/types';
 import { SessionTypes } from '@walletconnect/types';
 
 const initialState: WalletConnectStore = {

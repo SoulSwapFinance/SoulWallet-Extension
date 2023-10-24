@@ -4,8 +4,8 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { AddressBookInfo, KeyringState } from '@subwallet/extension-base/background/KoniTypes';
 import { AccountJson, AccountsContext } from '@subwallet/extension-base/background/types';
-import { AccountState, ReduxStatus } from '@subwallet/extension-koni-ui/stores/types';
-import { isAccountAll } from '@subwallet/extension-koni-ui/utils';
+import { AccountState, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
+import { isAccountAll } from '@soul-wallet/extension-koni-ui/utils';
 
 const initialState: AccountState = {
   // CurrentAccount

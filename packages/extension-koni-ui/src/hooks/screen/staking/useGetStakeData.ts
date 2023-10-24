@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ChainStakingMetadata, NominatorMetadata } from '@subwallet/extension-base/background/KoniTypes';
-import useGetStakingList from '@subwallet/extension-koni-ui/hooks/screen/staking/useGetStakingList';
+import useGetStakingList from '@soul-wallet/extension-koni-ui/hooks/screen/staking/useGetStakingList';
 import { useMemo } from 'react';
 
 export const useGetStakeData = (address: string, type: string, defaultChainStakingMetadata?: ChainStakingMetadata, defaultNominatorMetadata?: NominatorMetadata, slug?: string) => {

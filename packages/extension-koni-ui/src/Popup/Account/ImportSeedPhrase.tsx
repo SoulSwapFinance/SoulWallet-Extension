@@ -1,12 +1,12 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { CloseIcon, Layout, PageWrapper, PhraseNumberSelector, SeedPhraseInput } from '@subwallet/extension-koni-ui/components';
-import { DEFAULT_ACCOUNT_TYPES, IMPORT_SEED_MODAL, SELECTED_ACCOUNT_TYPE } from '@subwallet/extension-koni-ui/constants';
-import { useAutoNavigateToCreatePassword, useCompleteCreateAccount, useDefaultNavigate, useFocusFormItem, useGetDefaultAccountName, useGoBackFromCreateAccount, useNotification, useTranslation, useUnlockChecker } from '@subwallet/extension-koni-ui/hooks';
-import { createAccountSuriV2, validateSeedV2 } from '@subwallet/extension-koni-ui/messaging';
-import { FormCallbacks, FormFieldData, FormRule, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { convertFieldToObject, noop, simpleCheckForm } from '@subwallet/extension-koni-ui/utils';
+import { CloseIcon, Layout, PageWrapper, PhraseNumberSelector, SeedPhraseInput } from '@soul-wallet/extension-koni-ui/components';
+import { DEFAULT_ACCOUNT_TYPES, IMPORT_SEED_MODAL, SELECTED_ACCOUNT_TYPE } from '@soul-wallet/extension-koni-ui/constants';
+import { useAutoNavigateToCreatePassword, useCompleteCreateAccount, useDefaultNavigate, useFocusFormItem, useGetDefaultAccountName, useGoBackFromCreateAccount, useNotification, useTranslation, useUnlockChecker } from '@soul-wallet/extension-koni-ui/hooks';
+import { createAccountSuriV2, validateSeedV2 } from '@soul-wallet/extension-koni-ui/messaging';
+import { FormCallbacks, FormFieldData, FormRule, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { convertFieldToObject, noop, simpleCheckForm } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Form, Icon, Input } from '@subwallet/react-ui';
 import { wordlists } from 'bip39';
 import CN from 'classnames';

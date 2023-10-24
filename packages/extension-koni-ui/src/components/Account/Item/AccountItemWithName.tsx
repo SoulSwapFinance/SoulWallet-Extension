@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AbstractAddressJson } from '@subwallet/extension-base/background/types';
-import AvatarGroup from '@subwallet/extension-koni-ui/components/Account/Info/AvatarGroup';
-import AccountItemBase, { AccountItemBaseProps } from '@subwallet/extension-koni-ui/components/Account/Item/AccountItemBase';
-import { isAccountAll, toShort } from '@subwallet/extension-koni-ui/utils';
+import AvatarGroup from '@soul-wallet/extension-koni-ui/components/Account/Info/AvatarGroup';
+import AccountItemBase, { AccountItemBaseProps } from '@soul-wallet/extension-koni-ui/components/Account/Item/AccountItemBase';
+import { isAccountAll, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import CN from 'classnames';
 import React from 'react';
 import { useTranslation } from 'react-i18next';

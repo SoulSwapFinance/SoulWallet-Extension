@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Icon, PageIcon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { ArrowCircleRight, CheckCircle, X } from 'phosphor-react';

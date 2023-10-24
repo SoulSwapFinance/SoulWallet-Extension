@@ -2,18 +2,18 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { canDerive } from '@subwallet/extension-base/utils';
-import BackIcon from '@subwallet/extension-koni-ui/components/Icon/BackIcon';
-import CloseIcon from '@subwallet/extension-koni-ui/components/Icon/CloseIcon';
-import { SettingItemSelection } from '@subwallet/extension-koni-ui/components/Setting/SettingItemSelection';
-import { EVM_ACCOUNT_TYPE } from '@subwallet/extension-koni-ui/constants/account';
-import { CREATE_ACCOUNT_MODAL, DERIVE_ACCOUNT_MODAL, NEW_SEED_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useClickOutSide from '@subwallet/extension-koni-ui/hooks/dom/useClickOutSide';
-import useGoBackSelectAccount from '@subwallet/extension-koni-ui/hooks/modal/useGoBackSelectAccount';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { Theme } from '@subwallet/extension-koni-ui/themes';
-import { PhosphorIcon, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { renderModalSelector } from '@subwallet/extension-koni-ui/utils/common/dom';
+import BackIcon from '@soul-wallet/extension-koni-ui/components/Icon/BackIcon';
+import CloseIcon from '@soul-wallet/extension-koni-ui/components/Icon/CloseIcon';
+import { SettingItemSelection } from '@soul-wallet/extension-koni-ui/components/Setting/SettingItemSelection';
+import { EVM_ACCOUNT_TYPE } from '@soul-wallet/extension-koni-ui/constants/account';
+import { CREATE_ACCOUNT_MODAL, DERIVE_ACCOUNT_MODAL, NEW_SEED_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useClickOutSide from '@soul-wallet/extension-koni-ui/hooks/dom/useClickOutSide';
+import useGoBackSelectAccount from '@soul-wallet/extension-koni-ui/hooks/modal/useGoBackSelectAccount';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { Theme } from '@soul-wallet/extension-koni-ui/themes';
+import { PhosphorIcon, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { renderModalSelector } from '@soul-wallet/extension-koni-ui/utils/common/dom';
 import { BackgroundIcon, ModalContext, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { Leaf, ShareNetwork } from 'phosphor-react';

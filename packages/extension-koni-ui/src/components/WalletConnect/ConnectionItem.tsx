@@ -3,9 +3,9 @@
 
 import { AbstractAddressJson } from '@subwallet/extension-base/background/types';
 import { stripUrl } from '@subwallet/extension-base/utils';
-import { useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { getWCAccountList } from '@subwallet/extension-koni-ui/utils';
+import { useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { getWCAccountList } from '@soul-wallet/extension-koni-ui/utils';
 import { Icon, Image, Web3Block } from '@subwallet/react-ui';
 import { SessionTypes } from '@walletconnect/types';
 import CN from 'classnames';

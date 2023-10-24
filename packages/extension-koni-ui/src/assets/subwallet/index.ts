@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { DefaultLogosMap } from '@subwallet/extension-koni-ui/assets/logo';
+import { DefaultLogosMap } from '@soul-wallet/extension-koni-ui/assets/logo';
 
 const SwLogosMap: Record<string, string> = {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment

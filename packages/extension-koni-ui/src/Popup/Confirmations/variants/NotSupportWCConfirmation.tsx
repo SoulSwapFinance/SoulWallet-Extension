@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { WalletConnectNotSupportRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
-import { AlertBox, ConfirmationGeneralInfo } from '@subwallet/extension-koni-ui/components';
-import { rejectWalletConnectNotSupport } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { AlertBox, ConfirmationGeneralInfo } from '@soul-wallet/extension-koni-ui/components';
+import { rejectWalletConnectNotSupport } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button } from '@subwallet/react-ui';
 import CN from 'classnames';
 import React, { useCallback, useState } from 'react';

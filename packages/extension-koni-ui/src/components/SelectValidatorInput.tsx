@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { getValidatorLabel } from '@subwallet/extension-base/koni/api/staking/bonding/utils';
-import AvatarGroup, { BaseAccountInfo } from '@subwallet/extension-koni-ui/components/Account/Info/AvatarGroup';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { toShort } from '@subwallet/extension-koni-ui/utils';
+import AvatarGroup, { BaseAccountInfo } from '@soul-wallet/extension-koni-ui/components/Account/Info/AvatarGroup';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { ActivityIndicator, Button, Icon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { Book, Lightning } from 'phosphor-react';

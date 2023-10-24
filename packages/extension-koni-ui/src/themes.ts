@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ThemeNames } from '@subwallet/extension-base/background/KoniTypes';
-import defaultImagePlaceholder from '@subwallet/extension-koni-ui/assets/default-image-placeholder.png';
-import { IconMap } from '@subwallet/extension-koni-ui/assets/logo';
-import subWalletLogo from '@subwallet/extension-koni-ui/assets/sub-wallet-logo.svg';
-import SwLogosMap from '@subwallet/extension-koni-ui/assets/subwallet';
+import defaultImagePlaceholder from '@soul-wallet/extension-koni-ui/assets/default-image-placeholder.png';
+import { IconMap } from '@soul-wallet/extension-koni-ui/assets/logo';
+import subWalletLogo from '@soul-wallet/extension-koni-ui/assets/sub-wallet-logo.svg';
+import SwLogosMap from '@soul-wallet/extension-koni-ui/assets/subwallet';
 import { theme as SwReactUI } from '@subwallet/react-ui';
 import { ThemeConfig as _ThemeConfig, Web3LogoMap } from '@subwallet/react-ui/es/config-provider/context';
 import { AliasToken as _AliasToken, GlobalToken as _GlobalToken } from '@subwallet/react-ui/es/theme/interface';

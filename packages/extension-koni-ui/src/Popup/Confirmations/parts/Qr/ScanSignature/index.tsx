@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import QrScannerErrorNotice from '@subwallet/extension-koni-ui/components/Qr/Scanner/ErrorNotice';
-import { CONFIRMATION_SCAN_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import { SigData, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { ScannerResult } from '@subwallet/extension-koni-ui/types/scanner';
+import QrScannerErrorNotice from '@soul-wallet/extension-koni-ui/components/Qr/Scanner/ErrorNotice';
+import { CONFIRMATION_SCAN_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import { SigData, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { ScannerResult } from '@soul-wallet/extension-koni-ui/types/scanner';
 import { ModalContext, SwQrScanner } from '@subwallet/react-ui';
 import React, { useCallback, useContext, useState } from 'react';
 import { useTranslation } from 'react-i18next';

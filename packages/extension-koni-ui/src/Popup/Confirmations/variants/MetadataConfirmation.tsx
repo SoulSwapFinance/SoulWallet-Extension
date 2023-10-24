@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { MetadataRequest } from '@subwallet/extension-base/background/types';
-import { ConfirmationGeneralInfo } from '@subwallet/extension-koni-ui/components';
-import { approveMetaRequest, rejectMetaRequest } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ConfirmationGeneralInfo } from '@soul-wallet/extension-koni-ui/components';
+import { approveMetaRequest, rejectMetaRequest } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, Typography } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle, XCircle } from 'phosphor-react';

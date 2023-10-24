@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { StakingType } from '@subwallet/extension-base/background/KoniTypes';
-import { useSelector, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { getBalanceValue, getConvertedBalanceValue } from '@subwallet/extension-koni-ui/hooks/screen/home/useAccountBalance';
-import { PhosphorIcon, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { StakingDataType } from '@subwallet/extension-koni-ui/types/staking';
+import { useSelector, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { getBalanceValue, getConvertedBalanceValue } from '@soul-wallet/extension-koni-ui/hooks/screen/home/useAccountBalance';
+import { PhosphorIcon, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { StakingDataType } from '@soul-wallet/extension-koni-ui/types/staking';
 import { Icon, StakingItem, Tag } from '@subwallet/react-ui';
 import capitalize from '@subwallet/react-ui/es/_util/capitalize';
 import { User, Users } from 'phosphor-react';

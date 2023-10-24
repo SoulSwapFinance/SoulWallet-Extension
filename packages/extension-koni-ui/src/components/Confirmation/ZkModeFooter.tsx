@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { FormCallbacks, FormFieldData, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { simpleCheckForm } from '@subwallet/extension-koni-ui/utils';
+import { FormCallbacks, FormFieldData, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { simpleCheckForm } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Form, Icon, Input } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle, XCircle } from 'phosphor-react';

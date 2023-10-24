@@ -5,8 +5,8 @@ import { AccountAuthType, AccountJson } from '@subwallet/extension-base/backgrou
 import { WALLET_CONNECT_EIP155_NAMESPACE, WALLET_CONNECT_SUPPORT_NAMESPACES } from '@subwallet/extension-base/services/wallet-connect-service/constants';
 import { isProposalExpired, isSupportWalletConnectChain, isSupportWalletConnectNamespace } from '@subwallet/extension-base/services/wallet-connect-service/helpers';
 import { isSameAddress, uniqueStringArray } from '@subwallet/extension-base/utils';
-import { WalletConnectChainInfo } from '@subwallet/extension-koni-ui/types';
-import { chainsToWalletConnectChainInfos, isAccountAll, reformatAddress } from '@subwallet/extension-koni-ui/utils';
+import { WalletConnectChainInfo } from '@soul-wallet/extension-koni-ui/types';
+import { chainsToWalletConnectChainInfos, isAccountAll, reformatAddress } from '@soul-wallet/extension-koni-ui/utils';
 import { ProposalTypes } from '@walletconnect/types';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 

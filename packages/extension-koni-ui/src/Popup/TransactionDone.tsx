@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { CloseIcon, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { useDefaultNavigate } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { CloseIcon, Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { useDefaultNavigate } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { PageIcon } from '@subwallet/react-ui';
 import { CheckCircle } from 'phosphor-react';
 import React, { useCallback } from 'react';

@@ -3,12 +3,12 @@
 
 import { NominationInfo } from '@subwallet/extension-base/background/KoniTypes';
 import { getValidatorLabel } from '@subwallet/extension-base/koni/api/staking/bonding/utils';
-import { StakingNominationItem } from '@subwallet/extension-koni-ui/components';
-import { Avatar } from '@subwallet/extension-koni-ui/components/Avatar';
-import { BasicInputWrapper } from '@subwallet/extension-koni-ui/components/Field/Base';
-import { useSelectModalInputHelper } from '@subwallet/extension-koni-ui/hooks/form/useSelectModalInputHelper';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { toShort } from '@subwallet/extension-koni-ui/utils';
+import { StakingNominationItem } from '@soul-wallet/extension-koni-ui/components';
+import { Avatar } from '@soul-wallet/extension-koni-ui/components/Avatar';
+import { BasicInputWrapper } from '@soul-wallet/extension-koni-ui/components/Field/Base';
+import { useSelectModalInputHelper } from '@soul-wallet/extension-koni-ui/hooks/form/useSelectModalInputHelper';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { InputRef, SelectModal } from '@subwallet/react-ui';
 import BigN from 'bignumber.js';
 import CN from 'classnames';

@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import useOpenQrScanner from '@subwallet/extension-koni-ui/hooks/qr/useOpenQrScanner';
-import { ValidateState } from '@subwallet/extension-koni-ui/types';
-import { QrAccount, ScannerResult } from '@subwallet/extension-koni-ui/types/scanner';
+import useOpenQrScanner from '@soul-wallet/extension-koni-ui/hooks/qr/useOpenQrScanner';
+import { ValidateState } from '@soul-wallet/extension-koni-ui/types';
+import { QrAccount, ScannerResult } from '@soul-wallet/extension-koni-ui/types/scanner';
 import { useCallback, useMemo } from 'react';
 
 import { useTranslation } from '../common';

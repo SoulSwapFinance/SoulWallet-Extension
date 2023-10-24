@@ -3,7 +3,7 @@
 
 import { ExtrinsicStatus, ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
 import { detectTranslate } from '@subwallet/extension-base/utils';
-import { StatusType } from '@subwallet/extension-koni-ui/Popup/Home/History/Detail';
+import { StatusType } from '@soul-wallet/extension-koni-ui/Popup/Home/History/Detail';
 import { CheckCircle, PaperPlaneTilt, ProhibitInset, Queue, Spinner, StopCircle } from 'phosphor-react';
 
 export const TxTypeNameMap: Record<string, string> = {

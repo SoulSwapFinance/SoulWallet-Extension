@@ -1,11 +1,11 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { CUSTOMIZE_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import { saveShowZeroBalance } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { CUSTOMIZE_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import { saveShowZeroBalance } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { BackgroundIcon, ModalContext, SettingItem, Switch, SwModal } from '@subwallet/react-ui';
 import { Wallet } from 'phosphor-react';
 import React, { useCallback, useContext } from 'react';

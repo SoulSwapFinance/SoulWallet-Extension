@@ -2,19 +2,19 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ResponseJsonGetAccountInfo } from '@subwallet/extension-base/background/types';
-import { Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import AvatarGroup from '@subwallet/extension-koni-ui/components/Account/Info/AvatarGroup';
-import CloseIcon from '@subwallet/extension-koni-ui/components/Icon/CloseIcon';
-import { IMPORT_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import useCompleteCreateAccount from '@subwallet/extension-koni-ui/hooks/account/useCompleteCreateAccount';
-import useGoBackFromCreateAccount from '@subwallet/extension-koni-ui/hooks/account/useGoBackFromCreateAccount';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useUnlockChecker from '@subwallet/extension-koni-ui/hooks/common/useUnlockChecker';
-import useAutoNavigateToCreatePassword from '@subwallet/extension-koni-ui/hooks/router/useAutoNavigateToCreatePassword';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { batchRestoreV2, jsonGetAccountInfo, jsonRestoreV2 } from '@subwallet/extension-koni-ui/messaging';
-import { ThemeProps, ValidateState } from '@subwallet/extension-koni-ui/types';
-import { isKeyringPairs$Json } from '@subwallet/extension-koni-ui/utils/account/typeGuards';
+import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import AvatarGroup from '@soul-wallet/extension-koni-ui/components/Account/Info/AvatarGroup';
+import CloseIcon from '@soul-wallet/extension-koni-ui/components/Icon/CloseIcon';
+import { IMPORT_ACCOUNT_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import useCompleteCreateAccount from '@soul-wallet/extension-koni-ui/hooks/account/useCompleteCreateAccount';
+import useGoBackFromCreateAccount from '@soul-wallet/extension-koni-ui/hooks/account/useGoBackFromCreateAccount';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useUnlockChecker from '@soul-wallet/extension-koni-ui/hooks/common/useUnlockChecker';
+import useAutoNavigateToCreatePassword from '@soul-wallet/extension-koni-ui/hooks/router/useAutoNavigateToCreatePassword';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { batchRestoreV2, jsonGetAccountInfo, jsonRestoreV2 } from '@soul-wallet/extension-koni-ui/messaging';
+import { ThemeProps, ValidateState } from '@soul-wallet/extension-koni-ui/types';
+import { isKeyringPairs$Json } from '@soul-wallet/extension-koni-ui/utils/account/typeGuards';
 import { KeyringPair$Json } from '@subwallet/keyring/types';
 import { Form, Icon, Input, ModalContext, SettingItem, SwList, SwModal, Upload } from '@subwallet/react-ui';
 import { UploadChangeParam, UploadFile } from '@subwallet/react-ui/es/upload/interface';

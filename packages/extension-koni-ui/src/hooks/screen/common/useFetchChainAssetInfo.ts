@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { RootState } from '@subwallet/extension-koni-ui/stores';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 

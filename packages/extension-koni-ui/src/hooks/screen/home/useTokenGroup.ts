@@ -4,11 +4,11 @@
 import { _ChainAsset } from '@soul-wallet/chain-list/types';
 import { _MANTA_ZK_CHAIN_GROUP, _ZK_ASSET_PREFIX } from '@subwallet/extension-base/services/chain-service/constants';
 import { _getMultiChainAsset, _isNativeTokenBySlug } from '@subwallet/extension-base/services/chain-service/utils';
-import { useIsMantaPayEnabled } from '@subwallet/extension-koni-ui/hooks/account/useIsMantaPayEnabled';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { AssetRegistryStore } from '@subwallet/extension-koni-ui/stores/types';
-import { TokenGroupHookType } from '@subwallet/extension-koni-ui/types/hook';
-import { isTokenAvailable } from '@subwallet/extension-koni-ui/utils/chain/chainAndAsset';
+import { useIsMantaPayEnabled } from '@soul-wallet/extension-koni-ui/hooks/account/useIsMantaPayEnabled';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { AssetRegistryStore } from '@soul-wallet/extension-koni-ui/stores/types';
+import { TokenGroupHookType } from '@soul-wallet/extension-koni-ui/types/hook';
+import { isTokenAvailable } from '@soul-wallet/extension-koni-ui/utils/chain/chainAndAsset';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 

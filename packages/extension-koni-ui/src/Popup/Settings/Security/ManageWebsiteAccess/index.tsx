@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AuthUrlInfo } from '@subwallet/extension-base/background/handlers/State';
-import { ActionItemType, ActionModal, EmptyList, FilterModal, PageWrapper, WebsiteAccessItem } from '@subwallet/extension-koni-ui/components';
-import { useDefaultNavigate, useFilterModal } from '@subwallet/extension-koni-ui/hooks';
-import { changeAuthorizationAll, forgetAllSite } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { updateAuthUrls } from '@subwallet/extension-koni-ui/stores/utils';
-import { ManageWebsiteAccessDetailParam, Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ActionItemType, ActionModal, EmptyList, FilterModal, PageWrapper, WebsiteAccessItem } from '@soul-wallet/extension-koni-ui/components';
+import { useDefaultNavigate, useFilterModal } from '@soul-wallet/extension-koni-ui/hooks';
+import { changeAuthorizationAll, forgetAllSite } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { updateAuthUrls } from '@soul-wallet/extension-koni-ui/stores/utils';
+import { ManageWebsiteAccessDetailParam, Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Icon, ModalContext, SwList, SwSubHeader } from '@subwallet/react-ui';
 import { FadersHorizontal, GearSix, GlobeHemisphereWest, Plugs, PlugsConnected, X } from 'phosphor-react';
 import React, { useCallback, useContext, useMemo } from 'react';

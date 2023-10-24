@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { HomeContextType } from '@subwallet/extension-koni-ui/types/context';
+import { HomeContextType } from '@soul-wallet/extension-koni-ui/types/context';
 import BigN from 'bignumber.js';
 import React from 'react';
 

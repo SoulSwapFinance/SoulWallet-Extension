@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { TransactionDirection } from '@subwallet/extension-base/background/KoniTypes';
-import { useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { ThemeProps, TransactionHistoryDisplayItem } from '@subwallet/extension-koni-ui/types';
+import { useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { ThemeProps, TransactionHistoryDisplayItem } from '@soul-wallet/extension-koni-ui/types';
 import { Icon, Logo, Number, Web3Block } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CaretRight } from 'phosphor-react';

@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AddressJson } from '@subwallet/extension-base/background/types';
-import { Avatar } from '@subwallet/extension-koni-ui/components';
-import { DELETE_ADDRESS_BOOK_MODAL, EDIT_ADDRESS_BOOK_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { useCopy, useNotification, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { editContactAddress, removeContactAddress } from '@subwallet/extension-koni-ui/messaging';
-import { FormCallbacks, FormFieldData, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { noop, simpleCheckForm, toShort } from '@subwallet/extension-koni-ui/utils';
+import { Avatar } from '@soul-wallet/extension-koni-ui/components';
+import { DELETE_ADDRESS_BOOK_MODAL, EDIT_ADDRESS_BOOK_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { useCopy, useNotification, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { editContactAddress, removeContactAddress } from '@soul-wallet/extension-koni-ui/messaging';
+import { FormCallbacks, FormFieldData, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { noop, simpleCheckForm, toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Field, Form, Icon, Input, ModalContext, SwModal, SwModalFuncProps, useExcludeModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CopySimple, Trash } from 'phosphor-react';

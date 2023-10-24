@@ -1,11 +1,11 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { keyringUnlock } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { FormCallbacks, FormFieldData, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { simpleCheckForm } from '@subwallet/extension-koni-ui/utils';
+import { useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { keyringUnlock } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { FormCallbacks, FormFieldData, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { simpleCheckForm } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Form, Input, ModalContext, SwIconProps, SwModal } from '@subwallet/react-ui';
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';

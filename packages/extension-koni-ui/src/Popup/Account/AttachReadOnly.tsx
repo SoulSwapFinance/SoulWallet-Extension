@@ -1,21 +1,21 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { AddressInput } from '@subwallet/extension-koni-ui/components/Field/AddressInput';
-import CloseIcon from '@subwallet/extension-koni-ui/components/Icon/CloseIcon';
-import { ATTACH_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import useCompleteCreateAccount from '@subwallet/extension-koni-ui/hooks/account/useCompleteCreateAccount';
-import useGetDefaultAccountName from '@subwallet/extension-koni-ui/hooks/account/useGetDefaultAccountName';
-import useGoBackFromCreateAccount from '@subwallet/extension-koni-ui/hooks/account/useGoBackFromCreateAccount';
-import useFocusById from '@subwallet/extension-koni-ui/hooks/form/useFocusById';
-import useAutoNavigateToCreatePassword from '@subwallet/extension-koni-ui/hooks/router/useAutoNavigateToCreatePassword';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { createAccountExternalV2 } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { convertFieldToObject, simpleCheckForm } from '@subwallet/extension-koni-ui/utils/form/form';
-import { readOnlyScan } from '@subwallet/extension-koni-ui/utils/scanner/attach';
+import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { AddressInput } from '@soul-wallet/extension-koni-ui/components/Field/AddressInput';
+import CloseIcon from '@soul-wallet/extension-koni-ui/components/Icon/CloseIcon';
+import { ATTACH_ACCOUNT_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import useCompleteCreateAccount from '@soul-wallet/extension-koni-ui/hooks/account/useCompleteCreateAccount';
+import useGetDefaultAccountName from '@soul-wallet/extension-koni-ui/hooks/account/useGetDefaultAccountName';
+import useGoBackFromCreateAccount from '@soul-wallet/extension-koni-ui/hooks/account/useGoBackFromCreateAccount';
+import useFocusById from '@soul-wallet/extension-koni-ui/hooks/form/useFocusById';
+import useAutoNavigateToCreatePassword from '@soul-wallet/extension-koni-ui/hooks/router/useAutoNavigateToCreatePassword';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { createAccountExternalV2 } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { convertFieldToObject, simpleCheckForm } from '@soul-wallet/extension-koni-ui/utils/form/form';
+import { readOnlyScan } from '@soul-wallet/extension-koni-ui/utils/scanner/attach';
 import { Form, Icon, PageIcon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { Eye } from 'phosphor-react';

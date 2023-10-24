@@ -1,10 +1,10 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { PageWrapper } from '@subwallet/extension-koni-ui/components';
-import useTranslation from '@subwallet/extension-koni-ui/hooks/common/useTranslation';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { Theme, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { Theme, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, Icon, PageIcon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { House, Robot } from 'phosphor-react';

@@ -3,6 +3,6 @@
 
 import '@soul-wallet/extension-inject/src/crossenv';
 
-import { createView, Popup } from '@subwallet/extension-koni-ui';
+import { createView, Popup } from '@soul-wallet/extension-koni-ui';
 
 createView(Popup);

@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { DISCORD_URL, TELEGRAM_URL, TWITTER_URL } from '@subwallet/extension-koni-ui/constants';
-import { PhosphorIcon, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { openInNewTab } from '@subwallet/extension-koni-ui/utils';
+import { DISCORD_URL, TELEGRAM_URL, TWITTER_URL } from '@soul-wallet/extension-koni-ui/constants';
+import { PhosphorIcon, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { openInNewTab } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Icon } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { DiscordLogo, PaperPlaneTilt, TwitterLogo } from 'phosphor-react';

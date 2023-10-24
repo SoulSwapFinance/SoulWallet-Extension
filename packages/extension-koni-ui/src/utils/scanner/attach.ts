@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ETHEREUM_PREFIX, SCAN_TYPE, SECRET_PREFIX, SUBSTRATE_PREFIX } from '@subwallet/extension-koni-ui/constants/qr';
-import { QrAccount } from '@subwallet/extension-koni-ui/types/scanner';
+import { ETHEREUM_PREFIX, SCAN_TYPE, SECRET_PREFIX, SUBSTRATE_PREFIX } from '@soul-wallet/extension-koni-ui/constants/qr';
+import { QrAccount } from '@soul-wallet/extension-koni-ui/types/scanner';
 
 import { isHex } from '@polkadot/util';
 import { decodeAddress, encodeAddress, isEthereumAddress } from '@polkadot/util-crypto';

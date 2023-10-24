@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BasicInputWrapper } from '@subwallet/extension-koni-ui/components/Field/Base';
+import { BasicInputWrapper } from '@soul-wallet/extension-koni-ui/components/Field/Base';
 import { InputRef, ModalContext, SelectModalProps } from '@subwallet/react-ui';
 import { InputFocusOptions } from 'rc-input/es/utils/commonUtils';
 import { ForwardedRef, useCallback, useContext, useEffect, useState } from 'react';

@@ -5,8 +5,8 @@ import { _ChainInfo } from '@soul-wallet/chain-list/types';
 import { StakingType } from '@subwallet/extension-base/background/KoniTypes';
 import { AccountJson } from '@subwallet/extension-base/background/types';
 import { _getSubstrateGenesisHash, _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
-import { ALL_KEY } from '@subwallet/extension-koni-ui/constants/common';
-import { isAccountAll } from '@subwallet/extension-koni-ui/utils';
+import { ALL_KEY } from '@soul-wallet/extension-koni-ui/constants/common';
+import { isAccountAll } from '@soul-wallet/extension-koni-ui/utils';
 
 import { isEthereumAddress } from '@polkadot/util-crypto';
 

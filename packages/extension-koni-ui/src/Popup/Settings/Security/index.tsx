@@ -2,16 +2,16 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { WalletUnlockType } from '@subwallet/extension-base/background/KoniTypes';
-import { Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { EDIT_AUTO_LOCK_TIME_MODAL, EDIT_UNLOCK_TYPE_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { DEFAULT_ROUTER_PATH } from '@subwallet/extension-koni-ui/constants/router';
-import useIsPopup from '@subwallet/extension-koni-ui/hooks/dom/useIsPopup';
-import useDefaultNavigate from '@subwallet/extension-koni-ui/hooks/router/useDefaultNavigate';
-import { saveAutoLockTime, saveCameraSetting, saveEnableChainPatrol, saveUnlockType, windowOpen } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { PhosphorIcon, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { noop } from '@subwallet/extension-koni-ui/utils';
-import { isNoAccount } from '@subwallet/extension-koni-ui/utils/account/account';
+import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { EDIT_AUTO_LOCK_TIME_MODAL, EDIT_UNLOCK_TYPE_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { DEFAULT_ROUTER_PATH } from '@soul-wallet/extension-koni-ui/constants/router';
+import useIsPopup from '@soul-wallet/extension-koni-ui/hooks/dom/useIsPopup';
+import useDefaultNavigate from '@soul-wallet/extension-koni-ui/hooks/router/useDefaultNavigate';
+import { saveAutoLockTime, saveCameraSetting, saveEnableChainPatrol, saveUnlockType, windowOpen } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { PhosphorIcon, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { noop } from '@soul-wallet/extension-koni-ui/utils';
+import { isNoAccount } from '@soul-wallet/extension-koni-ui/utils/account/account';
 import { BackgroundIcon, Icon, ModalContext, SettingItem, Switch, SwModal } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { Camera, CaretRight, CheckCircle, GlobeHemisphereEast, Key, LockKeyOpen, LockLaminated, ShieldStar } from 'phosphor-react';

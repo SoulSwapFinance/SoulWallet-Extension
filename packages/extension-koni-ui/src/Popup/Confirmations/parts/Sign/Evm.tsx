@@ -2,15 +2,15 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ConfirmationDefinitions, ConfirmationResult, EvmSendTransactionRequest, ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
-import { CONFIRMATION_QR_MODAL } from '@subwallet/extension-koni-ui/constants/modal';
-import { InjectContext } from '@subwallet/extension-koni-ui/contexts/InjectContext';
-import { useGetChainInfoByChainId, useLedger, useNotification } from '@subwallet/extension-koni-ui/hooks';
-import useUnlockChecker from '@subwallet/extension-koni-ui/hooks/common/useUnlockChecker';
-import { completeConfirmation } from '@subwallet/extension-koni-ui/messaging';
-import { PhosphorIcon, SigData, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { AccountSignMode } from '@subwallet/extension-koni-ui/types/account';
-import { EvmSignatureSupportType } from '@subwallet/extension-koni-ui/types/confirmation';
-import { getSignMode, isEvmMessage, removeTransactionPersist } from '@subwallet/extension-koni-ui/utils';
+import { CONFIRMATION_QR_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
+import { InjectContext } from '@soul-wallet/extension-koni-ui/contexts/InjectContext';
+import { useGetChainInfoByChainId, useLedger, useNotification } from '@soul-wallet/extension-koni-ui/hooks';
+import useUnlockChecker from '@soul-wallet/extension-koni-ui/hooks/common/useUnlockChecker';
+import { completeConfirmation } from '@soul-wallet/extension-koni-ui/messaging';
+import { PhosphorIcon, SigData, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { AccountSignMode } from '@soul-wallet/extension-koni-ui/types/account';
+import { EvmSignatureSupportType } from '@soul-wallet/extension-koni-ui/types/confirmation';
+import { getSignMode, isEvmMessage, removeTransactionPersist } from '@soul-wallet/extension-koni-ui/utils';
 import { Button, Icon, ModalContext } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle, QrCode, Swatches, Wallet, XCircle } from 'phosphor-react';

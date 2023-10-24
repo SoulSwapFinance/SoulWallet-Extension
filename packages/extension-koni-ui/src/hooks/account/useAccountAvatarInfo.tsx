@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import useAccountRecoded from '@subwallet/extension-koni-ui/hooks/account/useAccountRecoded';
+import useAccountRecoded from '@soul-wallet/extension-koni-ui/hooks/account/useAccountRecoded';
 import { useMemo } from 'react';
 
 import { KeypairType } from '@polkadot/util-crypto/types';

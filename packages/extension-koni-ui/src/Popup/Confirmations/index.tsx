@@ -5,11 +5,11 @@ import { ConfirmationDefinitions, ExtrinsicType } from '@subwallet/extension-bas
 import { AccountJson, AuthorizeRequest, MetadataRequest, SigningRequest } from '@subwallet/extension-base/background/types';
 import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
 import { detectTranslate } from '@subwallet/extension-base/utils';
-import { NEED_SIGN_CONFIRMATION } from '@subwallet/extension-koni-ui/constants';
-import { useConfirmationsInfo, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { ConfirmationType } from '@subwallet/extension-koni-ui/stores/base/RequestState';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { isRawPayload } from '@subwallet/extension-koni-ui/utils';
+import { NEED_SIGN_CONFIRMATION } from '@soul-wallet/extension-koni-ui/constants';
+import { useConfirmationsInfo, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { ConfirmationType } from '@soul-wallet/extension-koni-ui/stores/base/RequestState';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { isRawPayload } from '@soul-wallet/extension-koni-ui/utils';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';

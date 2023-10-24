@@ -3,7 +3,7 @@
 
 import type { Chain } from '@soul-wallet/extension-chains/types';
 
-import { getMetadata, getMetadataRaw } from '@subwallet/extension-koni-ui/messaging';
+import { getMetadata, getMetadataRaw } from '@soul-wallet/extension-koni-ui/messaging';
 import { useEffect, useState } from 'react';
 
 import { useSelector } from '../../common';

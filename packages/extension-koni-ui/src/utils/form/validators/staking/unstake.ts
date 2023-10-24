@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BN_ZERO } from '@subwallet/extension-koni-ui/constants';
-import { FormRule } from '@subwallet/extension-koni-ui/types';
-import { formatBalance } from '@subwallet/extension-koni-ui/utils';
+import { BN_ZERO } from '@soul-wallet/extension-koni-ui/constants';
+import { FormRule } from '@soul-wallet/extension-koni-ui/types';
+import { formatBalance } from '@soul-wallet/extension-koni-ui/utils';
 import BigN from 'bignumber.js';
 import { TFunction } from 'i18next';
 

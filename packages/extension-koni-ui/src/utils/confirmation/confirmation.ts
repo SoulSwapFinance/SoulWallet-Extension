@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ConfirmationDefinitions } from '@subwallet/extension-base/background/KoniTypes';
-import { EvmSignatureSupportType } from '@subwallet/extension-koni-ui/types/confirmation';
+import { EvmSignatureSupportType } from '@soul-wallet/extension-koni-ui/types/confirmation';
 
 import { ExtrinsicPayload } from '@polkadot/types/interfaces';
 

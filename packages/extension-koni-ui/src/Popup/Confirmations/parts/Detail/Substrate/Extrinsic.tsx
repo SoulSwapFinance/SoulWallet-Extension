@@ -6,11 +6,11 @@ import type { Call, ExtrinsicEra, ExtrinsicPayload } from '@polkadot/types/inter
 import type { AnyJson, SignerPayloadJSON } from '@polkadot/types/types';
 
 import { AccountJson } from '@subwallet/extension-base/background/types';
-import MetaInfo from '@subwallet/extension-koni-ui/components/MetaInfo/MetaInfo';
-import useGetChainInfoByGenesisHash from '@subwallet/extension-koni-ui/hooks/chain/useGetChainInfoByGenesisHash';
-import useMetadata from '@subwallet/extension-koni-ui/hooks/transaction/confirmation/useMetadata';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { toShort } from '@subwallet/extension-koni-ui/utils';
+import MetaInfo from '@soul-wallet/extension-koni-ui/components/MetaInfo/MetaInfo';
+import useGetChainInfoByGenesisHash from '@soul-wallet/extension-koni-ui/hooks/chain/useGetChainInfoByGenesisHash';
+import useMetadata from '@soul-wallet/extension-koni-ui/hooks/transaction/confirmation/useMetadata';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { toShort } from '@soul-wallet/extension-koni-ui/utils';
 import { TFunction } from 'i18next';
 import React, { useMemo, useRef } from 'react';
 import { useTranslation } from 'react-i18next';

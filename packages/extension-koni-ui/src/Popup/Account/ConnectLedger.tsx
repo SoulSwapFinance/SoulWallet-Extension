@@ -3,12 +3,12 @@
 
 import { LedgerNetwork } from '@subwallet/extension-base/background/KoniTypes';
 import { reformatAddress } from '@subwallet/extension-base/utils';
-import { AccountItemWithName, AccountWithNameSkeleton, BasicOnChangeFunction, ChainSelector, CloseIcon, DualLogo, Layout, PageWrapper } from '@subwallet/extension-koni-ui/components';
-import { ATTACH_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { useAutoNavigateToCreatePassword, useCompleteCreateAccount, useDefaultNavigate, useGetSupportedLedger, useGoBackFromCreateAccount, useLedger } from '@subwallet/extension-koni-ui/hooks';
-import { createAccountHardwareMultiple } from '@subwallet/extension-koni-ui/messaging';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { ChainItemType, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { AccountItemWithName, AccountWithNameSkeleton, BasicOnChangeFunction, ChainSelector, CloseIcon, DualLogo, Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
+import { ATTACH_ACCOUNT_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { useAutoNavigateToCreatePassword, useCompleteCreateAccount, useDefaultNavigate, useGetSupportedLedger, useGoBackFromCreateAccount, useLedger } from '@soul-wallet/extension-koni-ui/hooks';
+import { createAccountHardwareMultiple } from '@soul-wallet/extension-koni-ui/messaging';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { ChainItemType, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { BackgroundIcon, Button, Icon, Image, SwList } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { CheckCircle, CircleNotch, Swatches } from 'phosphor-react';

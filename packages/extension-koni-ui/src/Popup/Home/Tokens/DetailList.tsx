@@ -1,21 +1,21 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import PageWrapper from '@subwallet/extension-koni-ui/components/Layout/PageWrapper';
-import { AccountSelectorModal } from '@subwallet/extension-koni-ui/components/Modal/AccountSelectorModal';
-import ReceiveQrModal from '@subwallet/extension-koni-ui/components/Modal/ReceiveModal/ReceiveQrModal';
-import { TokensSelectorModal } from '@subwallet/extension-koni-ui/components/Modal/ReceiveModal/TokensSelectorModal';
-import { TokenBalanceDetailItem } from '@subwallet/extension-koni-ui/components/TokenItem/TokenBalanceDetailItem';
-import { DEFAULT_TRANSFER_PARAMS, MAP_PREDEFINED_BUY_TOKEN, TRANSFER_TRANSACTION } from '@subwallet/extension-koni-ui/constants';
-import { DataContext } from '@subwallet/extension-koni-ui/contexts/DataContext';
-import { HomeContext } from '@subwallet/extension-koni-ui/contexts/screen/HomeContext';
-import { useDefaultNavigate, useNavigateOnChangeAccount, useNotification, useReceiveQR, useSelector } from '@subwallet/extension-koni-ui/hooks';
-import { DetailModal } from '@subwallet/extension-koni-ui/Popup/Home/Tokens/DetailModal';
-import { DetailUpperBlock } from '@subwallet/extension-koni-ui/Popup/Home/Tokens/DetailUpperBlock';
-import { RootState } from '@subwallet/extension-koni-ui/stores';
-import { BuyTokenInfo, ThemeProps } from '@subwallet/extension-koni-ui/types';
-import { TokenBalanceItemType } from '@subwallet/extension-koni-ui/types/balance';
-import { getAccountType, isAccountAll, sortTokenByValue } from '@subwallet/extension-koni-ui/utils';
+import PageWrapper from '@soul-wallet/extension-koni-ui/components/Layout/PageWrapper';
+import { AccountSelectorModal } from '@soul-wallet/extension-koni-ui/components/Modal/AccountSelectorModal';
+import ReceiveQrModal from '@soul-wallet/extension-koni-ui/components/Modal/ReceiveModal/ReceiveQrModal';
+import { TokensSelectorModal } from '@soul-wallet/extension-koni-ui/components/Modal/ReceiveModal/TokensSelectorModal';
+import { TokenBalanceDetailItem } from '@soul-wallet/extension-koni-ui/components/TokenItem/TokenBalanceDetailItem';
+import { DEFAULT_TRANSFER_PARAMS, MAP_PREDEFINED_BUY_TOKEN, TRANSFER_TRANSACTION } from '@soul-wallet/extension-koni-ui/constants';
+import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
+import { HomeContext } from '@soul-wallet/extension-koni-ui/contexts/screen/HomeContext';
+import { useDefaultNavigate, useNavigateOnChangeAccount, useNotification, useReceiveQR, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
+import { DetailModal } from '@soul-wallet/extension-koni-ui/Popup/Home/Tokens/DetailModal';
+import { DetailUpperBlock } from '@soul-wallet/extension-koni-ui/Popup/Home/Tokens/DetailUpperBlock';
+import { RootState } from '@soul-wallet/extension-koni-ui/stores';
+import { BuyTokenInfo, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
+import { TokenBalanceItemType } from '@soul-wallet/extension-koni-ui/types/balance';
+import { getAccountType, isAccountAll, sortTokenByValue } from '@soul-wallet/extension-koni-ui/utils';
 import { ModalContext } from '@subwallet/react-ui';
 import { SwNumberProps } from '@subwallet/react-ui/es/number';
 import classNames from 'classnames';

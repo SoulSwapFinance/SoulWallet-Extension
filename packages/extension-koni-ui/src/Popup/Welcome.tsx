@@ -1,10 +1,10 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Layout } from '@subwallet/extension-koni-ui/components';
-import { ATTACH_ACCOUNT_MODAL, CREATE_ACCOUNT_MODAL, DEFAULT_ACCOUNT_TYPES, IMPORT_ACCOUNT_MODAL, SELECT_ACCOUNT_MODAL } from '@subwallet/extension-koni-ui/constants';
-import { useSetSelectedAccountTypes, useTranslation } from '@subwallet/extension-koni-ui/hooks';
-import { PhosphorIcon, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { Layout } from '@soul-wallet/extension-koni-ui/components';
+import { ATTACH_ACCOUNT_MODAL, CREATE_ACCOUNT_MODAL, DEFAULT_ACCOUNT_TYPES, IMPORT_ACCOUNT_MODAL, SELECT_ACCOUNT_MODAL } from '@soul-wallet/extension-koni-ui/constants';
+import { useSetSelectedAccountTypes, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
+import { PhosphorIcon, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button, ButtonProps, Icon, Image, ModalContext } from '@subwallet/react-ui';
 import CN from 'classnames';
 import { FileArrowDown, PlusCircle, Swatches } from 'phosphor-react';

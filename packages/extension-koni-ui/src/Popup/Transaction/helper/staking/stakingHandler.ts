@@ -3,9 +3,9 @@
 
 import { StakingType, UnstakingStatus } from '@subwallet/extension-base/background/KoniTypes';
 import { _STAKING_CHAIN_GROUP } from '@subwallet/extension-base/services/chain-service/constants';
-import { ALL_KEY } from '@subwallet/extension-koni-ui/constants/common';
-import { getBondingOptions, getNominationPoolOptions } from '@subwallet/extension-koni-ui/messaging';
-import { store } from '@subwallet/extension-koni-ui/stores';
+import { ALL_KEY } from '@soul-wallet/extension-koni-ui/constants/common';
+import { getBondingOptions, getNominationPoolOptions } from '@soul-wallet/extension-koni-ui/messaging';
+import { store } from '@soul-wallet/extension-koni-ui/stores';
 import moment from 'moment';
 import { TFunction } from 'react-i18next';
 

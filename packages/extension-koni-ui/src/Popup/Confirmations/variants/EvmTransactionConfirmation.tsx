@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ConfirmationsQueueItem, EvmSendTransactionRequest } from '@subwallet/extension-base/background/KoniTypes';
-import { ConfirmationGeneralInfo, MetaInfo, ViewDetailIcon } from '@subwallet/extension-koni-ui/components';
-import { useGetAccountByAddress, useGetChainInfoByChainId, useOpenDetailModal } from '@subwallet/extension-koni-ui/hooks';
-import { EvmSignatureSupportType, ThemeProps } from '@subwallet/extension-koni-ui/types';
+import { ConfirmationGeneralInfo, MetaInfo, ViewDetailIcon } from '@soul-wallet/extension-koni-ui/components';
+import { useGetAccountByAddress, useGetChainInfoByChainId, useOpenDetailModal } from '@soul-wallet/extension-koni-ui/hooks';
+import { EvmSignatureSupportType, ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { Button } from '@subwallet/react-ui';
 import BigN from 'bignumber.js';
 import CN from 'classnames';

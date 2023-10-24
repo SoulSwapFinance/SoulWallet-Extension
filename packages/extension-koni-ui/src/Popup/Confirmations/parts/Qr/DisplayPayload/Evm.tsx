@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import DisplayPayload from '@subwallet/extension-koni-ui/components/Qr/Display/DisplayPayload';
-import { ThemeProps } from '@subwallet/extension-koni-ui/types';
+import DisplayPayload from '@soul-wallet/extension-koni-ui/components/Qr/Display/DisplayPayload';
+import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import React, { useMemo } from 'react';
 import styled from 'styled-components';
 

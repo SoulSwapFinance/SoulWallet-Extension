@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TransactionFormBaseProps } from '@subwallet/extension-koni-ui/types';
+import { TransactionFormBaseProps } from '@soul-wallet/extension-koni-ui/types';
 import { Form, FormInstance } from '@subwallet/react-ui';
 import { useIsFirstRender } from 'usehooks-ts';
 
