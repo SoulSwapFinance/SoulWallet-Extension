@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicType, StakingType } from '@subwallet/extension-base/background/KoniTypes';
+import { ExtrinsicType, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
 import { EmptyList, FilterModal, Layout, PageWrapper, SwStakingItem } from '@soul-wallet/extension-koni-ui/components';
 import { DEFAULT_STAKE_PARAMS, STAKE_TRANSACTION } from '@soul-wallet/extension-koni-ui/constants';
 import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';

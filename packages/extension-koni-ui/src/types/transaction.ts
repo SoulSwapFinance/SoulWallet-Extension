@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { StakingType } from '@subwallet/extension-base/background/KoniTypes';
+import { StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
 
 export interface TransactionFormBaseProps {
   from: string,

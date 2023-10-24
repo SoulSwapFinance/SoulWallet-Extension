@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { WalletUnlockType } from '@subwallet/extension-base/background/KoniTypes';
+import { WalletUnlockType } from '@soul-wallet/extension-base/background/KoniTypes';
 import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
 import { EDIT_AUTO_LOCK_TIME_MODAL, EDIT_UNLOCK_TYPE_MODAL } from '@soul-wallet/extension-koni-ui/constants';
 import { DEFAULT_ROUTER_PATH } from '@soul-wallet/extension-koni-ui/constants/router';

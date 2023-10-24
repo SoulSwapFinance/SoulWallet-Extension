@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AccountJson, AccountWithChildren } from '@subwallet/extension-base/background/types';
+import type { AccountJson, AccountWithChildren } from '@soul-wallet/extension-base/background/types';
 
 import { isAccountAll } from '@soul-wallet/extension-koni-ui/utils/account/accountAll';
 

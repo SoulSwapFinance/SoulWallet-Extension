@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AccountJson } from '@subwallet/extension-base/background/types';
-import { reformatAddress } from '@subwallet/extension-base/utils';
+import { AccountJson } from '@soul-wallet/extension-base/background/types';
+import { reformatAddress } from '@soul-wallet/extension-base/utils';
 import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { useSelector } from 'react-redux';
 

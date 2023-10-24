@@ -1,9 +1,9 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { WalletUnlockType } from '@subwallet/extension-base/background/KoniTypes';
-import { ALL_ACCOUNT_KEY } from '@subwallet/extension-base/constants';
-import { isSameAddress } from '@subwallet/extension-base/utils';
+import { WalletUnlockType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ALL_ACCOUNT_KEY } from '@soul-wallet/extension-base/constants';
+import { isSameAddress } from '@soul-wallet/extension-base/utils';
 import { BackgroundExpandView } from '@soul-wallet/extension-koni-ui/components';
 import { Logo2D } from '@soul-wallet/extension-koni-ui/components/Logo';
 import { TRANSACTION_STORAGES } from '@soul-wallet/extension-koni-ui/constants';

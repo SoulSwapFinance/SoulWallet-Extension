@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ChainInfoMap } from '@soul-wallet/chain-list';
-import { ExtrinsicType, LedgerNetwork } from '@subwallet/extension-base/background/KoniTypes';
+import { ExtrinsicType, LedgerNetwork } from '@soul-wallet/extension-base/background/KoniTypes';
 
 export const PredefinedLedgerNetwork: LedgerNetwork[] = [
   {

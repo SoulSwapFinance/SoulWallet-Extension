@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { _getChainNativeTokenBasicInfo } from '@subwallet/extension-base/services/chain-service/utils';
-import { createRegistry } from '@subwallet/extension-base/utils';
+import { _getChainNativeTokenBasicInfo } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { createRegistry } from '@soul-wallet/extension-base/utils';
 import { metadataExpand } from '@soul-wallet/extension-chains';
 import { Chain } from '@soul-wallet/extension-chains/types';
 import { MetadataDef } from '@soul-wallet/extension-inject/types';

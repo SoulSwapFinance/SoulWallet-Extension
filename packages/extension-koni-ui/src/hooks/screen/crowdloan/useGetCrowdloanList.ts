@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { APIItemState, CrowdloanItem } from '@subwallet/extension-base/background/KoniTypes';
-import { _getChainNativeTokenBasicInfo, _getCrowdloanUrlFromChain, _getSubstrateParaId, _getSubstrateRelayParent } from '@subwallet/extension-base/services/chain-service/utils';
+import { APIItemState, CrowdloanItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _getChainNativeTokenBasicInfo, _getCrowdloanUrlFromChain, _getSubstrateParaId, _getSubstrateRelayParent } from '@soul-wallet/extension-base/services/chain-service/utils';
 import { BN_ZERO } from '@soul-wallet/extension-koni-ui/constants/number';
 import { getBalanceValue, getConvertedBalanceValue } from '@soul-wallet/extension-koni-ui/hooks/screen/home/useAccountBalance';
 import { RootState } from '@soul-wallet/extension-koni-ui/stores';

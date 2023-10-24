@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AuthUrlInfo } from '@subwallet/extension-base/background/handlers/State';
+import { AuthUrlInfo } from '@soul-wallet/extension-base/background/handlers/State';
 import { ActionItemType, ActionModal, EmptyList, FilterModal, PageWrapper, WebsiteAccessItem } from '@soul-wallet/extension-koni-ui/components';
 import { useDefaultNavigate, useFilterModal } from '@soul-wallet/extension-koni-ui/hooks';
 import { changeAuthorizationAll, forgetAllSite } from '@soul-wallet/extension-koni-ui/messaging';

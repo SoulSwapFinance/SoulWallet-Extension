@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { AddressBookInfo, KeyringState } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountJson, AccountsContext } from '@subwallet/extension-base/background/types';
+import { AddressBookInfo, KeyringState } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountJson, AccountsContext } from '@soul-wallet/extension-base/background/types';
 import { AccountState, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 import { isAccountAll } from '@soul-wallet/extension-koni-ui/utils';
 

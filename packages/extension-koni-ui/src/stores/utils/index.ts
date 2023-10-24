@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _AssetRef, _ChainAsset, _ChainInfo, _MultiChainAsset } from '@soul-wallet/chain-list/types';
-import { AuthUrls } from '@subwallet/extension-base/background/handlers/State';
-import { AccountsWithCurrentAddress, AddressBookInfo, AllLogoMap, AssetSetting, BalanceJson, ChainStakingMetadata, ConfirmationsQueue, CrowdloanJson, KeyringState, MantaPayConfig, MantaPaySyncState, NftCollection, NftJson, NominatorMetadata, PriceJson, StakingJson, StakingRewardJson, TransactionHistoryItem, UiSettings } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountJson, AccountsContext, AuthorizeRequest, ConfirmationRequestBase, MetadataRequest, SigningRequest } from '@subwallet/extension-base/background/types';
-import { _ChainState } from '@subwallet/extension-base/services/chain-service/types';
-import { SWTransactionResult } from '@subwallet/extension-base/services/transaction-service/types';
-import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
-import { canDerive } from '@subwallet/extension-base/utils';
+import { AuthUrls } from '@soul-wallet/extension-base/background/handlers/State';
+import { AccountsWithCurrentAddress, AddressBookInfo, AllLogoMap, AssetSetting, BalanceJson, ChainStakingMetadata, ConfirmationsQueue, CrowdloanJson, KeyringState, MantaPayConfig, MantaPaySyncState, NftCollection, NftJson, NominatorMetadata, PriceJson, StakingJson, StakingRewardJson, TransactionHistoryItem, UiSettings } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountJson, AccountsContext, AuthorizeRequest, ConfirmationRequestBase, MetadataRequest, SigningRequest } from '@soul-wallet/extension-base/background/types';
+import { _ChainState } from '@soul-wallet/extension-base/services/chain-service/types';
+import { SWTransactionResult } from '@soul-wallet/extension-base/services/transaction-service/types';
+import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { canDerive } from '@soul-wallet/extension-base/utils';
 import { lazySendMessage, lazySubscribeMessage } from '@soul-wallet/extension-koni-ui/messaging';
 import { store } from '@soul-wallet/extension-koni-ui/stores';
 import { buildHierarchy } from '@soul-wallet/extension-koni-ui/utils/account/buildHierarchy';

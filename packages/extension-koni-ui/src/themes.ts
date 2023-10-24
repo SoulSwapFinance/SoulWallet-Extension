@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ThemeNames } from '@subwallet/extension-base/background/KoniTypes';
+import { ThemeNames } from '@soul-wallet/extension-base/background/KoniTypes';
 import defaultImagePlaceholder from '@soul-wallet/extension-koni-ui/assets/default-image-placeholder.png';
 import { IconMap } from '@soul-wallet/extension-koni-ui/assets/logo';
 import subWalletLogo from '@soul-wallet/extension-koni-ui/assets/sub-wallet-logo.svg';

@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AmountData, StakingType } from '@subwallet/extension-base/background/KoniTypes';
+import { AmountData, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
 import InfoIcon from '@soul-wallet/extension-koni-ui/components/Icon/InfoIcon';
 import MetaInfo from '@soul-wallet/extension-koni-ui/components/MetaInfo/MetaInfo';
 import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';

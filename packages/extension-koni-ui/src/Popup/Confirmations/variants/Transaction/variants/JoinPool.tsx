@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { RequestStakePoolingBonding } from '@subwallet/extension-base/background/KoniTypes';
+import { RequestStakePoolingBonding } from '@soul-wallet/extension-base/background/KoniTypes';
 import CommonTransactionInfo from '@soul-wallet/extension-koni-ui/components/Confirmation/CommonTransactionInfo';
 import MetaInfo from '@soul-wallet/extension-koni-ui/components/MetaInfo/MetaInfo';
 import useGetNativeTokenBasicInfo from '@soul-wallet/extension-koni-ui/hooks/common/useGetNativeTokenBasicInfo';

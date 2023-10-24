@@ -1,10 +1,10 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ConfirmationDefinitions, ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountJson, AuthorizeRequest, MetadataRequest, SigningRequest } from '@subwallet/extension-base/background/types';
-import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@subwallet/extension-base/services/wallet-connect-service/types';
-import { detectTranslate } from '@subwallet/extension-base/utils';
+import { ConfirmationDefinitions, ExtrinsicType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountJson, AuthorizeRequest, MetadataRequest, SigningRequest } from '@soul-wallet/extension-base/background/types';
+import { WalletConnectNotSupportRequest, WalletConnectSessionRequest } from '@soul-wallet/extension-base/services/wallet-connect-service/types';
+import { detectTranslate } from '@soul-wallet/extension-base/utils';
 import { NEED_SIGN_CONFIRMATION } from '@soul-wallet/extension-koni-ui/constants';
 import { useConfirmationsInfo, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
 import { ConfirmationType } from '@soul-wallet/extension-koni-ui/stores/base/RequestState';

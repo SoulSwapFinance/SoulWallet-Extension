@@ -1,11 +1,11 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicType, NominationPoolInfo, NominatorMetadata, StakingType, ValidatorInfo } from '@subwallet/extension-base/background/KoniTypes';
-import { _STAKING_CHAIN_GROUP } from '@subwallet/extension-base/services/chain-service/constants';
-import { _getOriginChainOfAsset } from '@subwallet/extension-base/services/chain-service/utils';
-import { SWTransactionResponse } from '@subwallet/extension-base/services/transaction-service/types';
-import { isSameAddress } from '@subwallet/extension-base/utils';
+import { ExtrinsicType, NominationPoolInfo, NominatorMetadata, StakingType, ValidatorInfo } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _STAKING_CHAIN_GROUP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _getOriginChainOfAsset } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { SWTransactionResponse } from '@soul-wallet/extension-base/services/transaction-service/types';
+import { isSameAddress } from '@soul-wallet/extension-base/utils';
 import { AccountSelector, AmountInput, HiddenInput, MetaInfo, MultiValidatorSelector, PageWrapper, PoolSelector, RadioGroup, StakingNetworkDetailModal, TokenSelector } from '@soul-wallet/extension-koni-ui/components';
 import { ALL_KEY } from '@soul-wallet/extension-koni-ui/constants';
 import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';

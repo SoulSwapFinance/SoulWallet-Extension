@@ -5,7 +5,7 @@ import type { Chain } from '@soul-wallet/extension-chains/types';
 import type { Call, ExtrinsicEra, ExtrinsicPayload } from '@polkadot/types/interfaces';
 import type { AnyJson, SignerPayloadJSON } from '@polkadot/types/types';
 
-import { AccountJson } from '@subwallet/extension-base/background/types';
+import { AccountJson } from '@soul-wallet/extension-base/background/types';
 import MetaInfo from '@soul-wallet/extension-koni-ui/components/MetaInfo/MetaInfo';
 import useGetChainInfoByGenesisHash from '@soul-wallet/extension-koni-ui/hooks/chain/useGetChainInfoByGenesisHash';
 import useMetadata from '@soul-wallet/extension-koni-ui/hooks/transaction/confirmation/useMetadata';

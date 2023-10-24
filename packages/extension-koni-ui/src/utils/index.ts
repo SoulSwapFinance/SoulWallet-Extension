@@ -3,10 +3,10 @@
 
 import { ChainLogoMap } from '@soul-wallet/chain-list';
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { NetworkJson } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountJson, AccountWithChildren } from '@subwallet/extension-base/background/types';
-import { ALL_ACCOUNT_KEY } from '@subwallet/extension-base/constants';
-import { _getChainSubstrateAddressPrefix, _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
+import { NetworkJson } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountJson, AccountWithChildren } from '@soul-wallet/extension-base/background/types';
+import { ALL_ACCOUNT_KEY } from '@soul-wallet/extension-base/constants';
+import { _getChainSubstrateAddressPrefix, _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
 import { Recoded } from '@soul-wallet/extension-koni-ui/types';
 import { isAccountAll } from '@soul-wallet/extension-koni-ui/utils/account/accountAll';
 import reformatAddress from '@soul-wallet/extension-koni-ui/utils/account/reformatAddress';

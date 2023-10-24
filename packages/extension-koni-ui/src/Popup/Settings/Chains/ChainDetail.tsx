@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _NetworkUpsertParams } from '@subwallet/extension-base/services/chain-service/types';
-import { _getBlockExplorerFromChain, _getChainNativeTokenBasicInfo, _getChainSubstrateAddressPrefix, _getCrowdloanUrlFromChain, _getEvmChainId, _getSubstrateParaId, _isChainEvmCompatible, _isCustomChain, _isPureEvmChain, _isSubstrateChain } from '@subwallet/extension-base/services/chain-service/utils';
-import { isUrl } from '@subwallet/extension-base/utils';
+import { _NetworkUpsertParams } from '@soul-wallet/extension-base/services/chain-service/types';
+import { _getBlockExplorerFromChain, _getChainNativeTokenBasicInfo, _getChainSubstrateAddressPrefix, _getCrowdloanUrlFromChain, _getEvmChainId, _getSubstrateParaId, _isChainEvmCompatible, _isCustomChain, _isPureEvmChain, _isSubstrateChain } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { isUrl } from '@soul-wallet/extension-base/utils';
 import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
 import { ProviderSelector } from '@soul-wallet/extension-koni-ui/components/Field/ProviderSelector';
 import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';

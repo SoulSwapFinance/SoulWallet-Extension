@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { NftCollection, NftItem } from '@subwallet/extension-base/background/KoniTypes';
+import { NftCollection, NftItem } from '@soul-wallet/extension-base/background/KoniTypes';
 import { NftStore, ReduxStatus } from '@soul-wallet/extension-koni-ui/stores/types';
 
 const initialState: NftStore = {

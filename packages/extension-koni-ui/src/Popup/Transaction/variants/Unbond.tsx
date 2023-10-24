@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { _ChainInfo } from '@soul-wallet/chain-list/types';
-import { ExtrinsicType, NominationInfo, NominatorMetadata, RequestStakePoolingUnbonding, RequestUnbondingSubmit, StakingType } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountJson } from '@subwallet/extension-base/background/types';
-import { getValidatorLabel, isActionFromValidator } from '@subwallet/extension-base/koni/api/staking/bonding/utils';
-import { SWTransactionResponse } from '@subwallet/extension-base/services/transaction-service/types';
+import { ExtrinsicType, NominationInfo, NominatorMetadata, RequestStakePoolingUnbonding, RequestUnbondingSubmit, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountJson } from '@soul-wallet/extension-base/background/types';
+import { getValidatorLabel, isActionFromValidator } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
+import { SWTransactionResponse } from '@soul-wallet/extension-base/services/transaction-service/types';
 import { AccountSelector, AmountInput, HiddenInput, NominationSelector, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
 import { BN_ZERO } from '@soul-wallet/extension-koni-ui/constants';
 import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';

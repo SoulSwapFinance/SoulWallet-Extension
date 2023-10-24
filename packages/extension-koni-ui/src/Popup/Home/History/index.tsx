@@ -1,9 +1,9 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicStatus, ExtrinsicType, TransactionDirection, TransactionHistoryItem } from '@subwallet/extension-base/background/KoniTypes';
-import { isAccountAll } from '@subwallet/extension-base/utils';
-import { quickFormatAddressToCompare } from '@subwallet/extension-base/utils/address';
+import { ExtrinsicStatus, ExtrinsicType, TransactionDirection, TransactionHistoryItem } from '@soul-wallet/extension-base/background/KoniTypes';
+import { isAccountAll } from '@soul-wallet/extension-base/utils';
+import { quickFormatAddressToCompare } from '@soul-wallet/extension-base/utils/address';
 import { EmptyList, FilterModal, HistoryItem, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
 import { HISTORY_DETAIL_MODAL } from '@soul-wallet/extension-koni-ui/constants';
 import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';

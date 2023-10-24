@@ -1,12 +1,12 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ChainStakingMetadata, ExtrinsicType, NominationInfo, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus } from '@subwallet/extension-base/background/KoniTypes';
-import { ALL_ACCOUNT_KEY } from '@subwallet/extension-base/constants';
-import { getValidatorLabel, isShowNominationByValidator } from '@subwallet/extension-base/koni/api/staking/bonding/utils';
-import { _STAKING_CHAIN_GROUP } from '@subwallet/extension-base/services/chain-service/constants';
-import { _getChainNativeTokenBasicInfo, _getChainSubstrateAddressPrefix } from '@subwallet/extension-base/services/chain-service/utils';
-import { detectTranslate } from '@subwallet/extension-base/utils';
+import { ChainStakingMetadata, ExtrinsicType, NominationInfo, NominatorMetadata, StakingItem, StakingRewardItem, StakingStatus, StakingType, UnstakingInfo, UnstakingStatus } from '@soul-wallet/extension-base/background/KoniTypes';
+import { ALL_ACCOUNT_KEY } from '@soul-wallet/extension-base/constants';
+import { getValidatorLabel, isShowNominationByValidator } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
+import { _STAKING_CHAIN_GROUP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _getChainNativeTokenBasicInfo, _getChainSubstrateAddressPrefix } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { detectTranslate } from '@soul-wallet/extension-base/utils';
 import MetaInfo from '@soul-wallet/extension-koni-ui/components/MetaInfo/MetaInfo';
 import AccountItem from '@soul-wallet/extension-koni-ui/components/MetaInfo/parts/AccountItem';
 import { DEFAULT_STAKE_PARAMS, DEFAULT_UN_STAKE_PARAMS, STAKE_TRANSACTION, UN_STAKE_TRANSACTION } from '@soul-wallet/extension-koni-ui/constants';

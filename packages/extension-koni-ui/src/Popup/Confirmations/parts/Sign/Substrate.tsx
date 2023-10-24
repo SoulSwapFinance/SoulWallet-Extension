@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountJson, RequestSign } from '@subwallet/extension-base/background/types';
+import { ExtrinsicType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountJson, RequestSign } from '@soul-wallet/extension-base/background/types';
 import { CONFIRMATION_QR_MODAL } from '@soul-wallet/extension-koni-ui/constants/modal';
 import { InjectContext } from '@soul-wallet/extension-koni-ui/contexts/InjectContext';
 import { useGetChainInfoByGenesisHash, useNotification, useParseSubstrateRequestPayload, useUnlockChecker } from '@soul-wallet/extension-koni-ui/hooks';

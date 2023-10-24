@@ -615,7 +615,7 @@ async function main () {
   for (const dir of dirs) {
     const { name } = JSON.parse(fs.readFileSync(path.join(process.cwd(), dir, './package.json'), 'utf-8'));
 
-    if (name.startsWith('@subwallet/')) {
+    if (name.startsWith('@soul-wallet/')) {
       locals.push([dir, name]);
     }
   }

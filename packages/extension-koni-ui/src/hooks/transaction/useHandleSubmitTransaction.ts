@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SWTransactionResponse } from '@subwallet/extension-base/services/transaction-service/types';
+import { SWTransactionResponse } from '@soul-wallet/extension-base/services/transaction-service/types';
 import { useCallback, useMemo } from 'react';
 
 import { useNotification, useTranslation } from '../common';

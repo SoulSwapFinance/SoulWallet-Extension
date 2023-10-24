@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicStatus, ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
-import { detectTranslate } from '@subwallet/extension-base/utils';
+import { ExtrinsicStatus, ExtrinsicType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { detectTranslate } from '@soul-wallet/extension-base/utils';
 import { StatusType } from '@soul-wallet/extension-koni-ui/Popup/Home/History/Detail';
 import { CheckCircle, PaperPlaneTilt, ProhibitInset, Queue, Spinner, StopCircle } from 'phosphor-react';
 

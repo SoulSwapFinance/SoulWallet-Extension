@@ -3,7 +3,7 @@
 
 import type { SwScreenLayoutProps } from '@subwallet/react-ui';
 
-import { LanguageType } from '@subwallet/extension-base/background/KoniTypes';
+import { LanguageType } from '@soul-wallet/extension-base/background/KoniTypes';
 import { useDefaultNavigate, useSelector } from '@soul-wallet/extension-koni-ui/hooks';
 import { ThemeProps } from '@soul-wallet/extension-koni-ui/types';
 import { SwScreenLayout } from '@subwallet/react-ui';

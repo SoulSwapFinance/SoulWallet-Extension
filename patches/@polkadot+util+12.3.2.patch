@@ -7,7 +7,7 @@ index 501f104..9173933 100644
   */
  function detectPackage({ name, path, type, version }, pathOrFn, deps = []) {
 -    if (!name.startsWith('@polkadot')) {
-+    if (!name.startsWith('@polkadot') && !name.startsWith('@subwallet')) {
++    if (!name.startsWith('@polkadot') && !name.startsWith('@soul-wallet')) {
          throw new Error(`Invalid package descriptor ${name}`);
      }
      const entry = getEntry(name);
@@ -20,7 +20,7 @@ index b76c020..a6d1bed 100644
   */
  export function detectPackage({ name, path, type, version }, pathOrFn, deps = []) {
 -    if (!name.startsWith('@polkadot')) {
-+    if (!name.startsWith('@polkadot') && !name.startsWith('@subwallet')) {
++    if (!name.startsWith('@polkadot') && !name.startsWith('@soul-wallet')) {
          throw new Error(`Invalid package descriptor ${name}`);
      }
      const entry = getEntry(name);

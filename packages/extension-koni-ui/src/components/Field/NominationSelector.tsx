@@ -1,8 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { NominationInfo } from '@subwallet/extension-base/background/KoniTypes';
-import { getValidatorLabel } from '@subwallet/extension-base/koni/api/staking/bonding/utils';
+import { NominationInfo } from '@soul-wallet/extension-base/background/KoniTypes';
+import { getValidatorLabel } from '@soul-wallet/extension-base/koni/api/staking/bonding/utils';
 import { StakingNominationItem } from '@soul-wallet/extension-koni-ui/components';
 import { Avatar } from '@soul-wallet/extension-koni-ui/components/Avatar';
 import { BasicInputWrapper } from '@soul-wallet/extension-koni-ui/components/Field/Base';

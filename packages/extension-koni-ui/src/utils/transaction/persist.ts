@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicType } from '@subwallet/extension-base/background/KoniTypes';
+import { ExtrinsicType } from '@soul-wallet/extension-base/background/KoniTypes';
 import { CANCEL_UN_STAKE_TRANSACTION, CLAIM_REWARD_TRANSACTION, CURRENT_PAGE, NFT_TRANSACTION, STAKE_TRANSACTION, TRANSFER_TRANSACTION, UN_STAKE_TRANSACTION, WITHDRAW_TRANSACTION } from '@soul-wallet/extension-koni-ui/constants';
 
 import { removeStorage } from '../common';

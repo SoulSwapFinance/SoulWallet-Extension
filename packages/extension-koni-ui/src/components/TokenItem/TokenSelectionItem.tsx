@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _MANTA_ZK_CHAIN_GROUP, _ZK_ASSET_PREFIX } from '@subwallet/extension-base/services/chain-service/constants';
-import { _getChainSubstrateAddressPrefix } from '@subwallet/extension-base/services/chain-service/utils';
+import { _MANTA_ZK_CHAIN_GROUP, _ZK_ASSET_PREFIX } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _getChainSubstrateAddressPrefix } from '@soul-wallet/extension-base/services/chain-service/utils';
 import useNotification from '@soul-wallet/extension-koni-ui/hooks/common/useNotification';
 import useTranslation from '@soul-wallet/extension-koni-ui/hooks/common/useTranslation';
 import useFetchChainInfo from '@soul-wallet/extension-koni-ui/hooks/screen/common/useFetchChainInfo';

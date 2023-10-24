@@ -1,11 +1,11 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ExtrinsicType, StakingRewardItem, StakingType } from '@subwallet/extension-base/background/KoniTypes';
-import { AccountJson } from '@subwallet/extension-base/background/types';
-import { _STAKING_CHAIN_GROUP } from '@subwallet/extension-base/services/chain-service/constants';
-import { _getSubstrateGenesisHash, _isChainEvmCompatible } from '@subwallet/extension-base/services/chain-service/utils';
-import { isSameAddress } from '@subwallet/extension-base/utils';
+import { ExtrinsicType, StakingRewardItem, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { AccountJson } from '@soul-wallet/extension-base/background/types';
+import { _STAKING_CHAIN_GROUP } from '@soul-wallet/extension-base/services/chain-service/constants';
+import { _getSubstrateGenesisHash, _isChainEvmCompatible } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { isSameAddress } from '@soul-wallet/extension-base/utils';
 import { AccountSelector, HiddenInput, MetaInfo, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
 import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
 import { useGetNativeTokenBasicInfo, useGetNominatorInfo, useHandleSubmitTransaction, useInitValidateTransaction, usePreCheckAction, useRestoreTransaction, useSelector, useSetCurrentPage, useTransactionContext, useWatchTransaction } from '@soul-wallet/extension-koni-ui/hooks';

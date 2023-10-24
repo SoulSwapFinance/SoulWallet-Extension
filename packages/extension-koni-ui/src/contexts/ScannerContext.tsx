@@ -1,9 +1,9 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ResponseParseTransactionSubstrate, ResponseQrParseRLP, SignerDataType } from '@subwallet/extension-base/background/KoniTypes';
-import { _isChainEnabled } from '@subwallet/extension-base/services/chain-service/utils';
-import { createTransactionFromRLP, Transaction } from '@subwallet/extension-base/utils/eth';
+import { ResponseParseTransactionSubstrate, ResponseQrParseRLP, SignerDataType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { _isChainEnabled } from '@soul-wallet/extension-base/services/chain-service/utils';
+import { createTransactionFromRLP, Transaction } from '@soul-wallet/extension-base/utils/eth';
 import { MULTIPART, SCANNER_QR_STEP } from '@soul-wallet/extension-koni-ui/constants';
 import { useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
 import { parseEVMTransaction, parseSubstrateTransaction, qrSignEvm, qrSignSubstrate } from '@soul-wallet/extension-koni-ui/messaging';

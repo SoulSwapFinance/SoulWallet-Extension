@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { _getChainNativeTokenSlug } from '@subwallet/extension-base/services/chain-service/utils';
+import { _getChainNativeTokenSlug } from '@soul-wallet/extension-base/services/chain-service/utils';
 import { ALL_KEY } from '@soul-wallet/extension-koni-ui/constants/common';
 import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { useMemo } from 'react';

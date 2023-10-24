@@ -1,4 +1,4 @@
-// Copyright 2023 @subwallet/extension-base-ui authors & contributors
+// Copyright 2023 @soul-wallet/extension-base-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 export * from './chain';

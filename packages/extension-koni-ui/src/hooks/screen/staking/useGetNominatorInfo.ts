@@ -1,8 +1,8 @@
 // Copyright 2019-2022 @polkadot/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { NominatorMetadata, StakingType } from '@subwallet/extension-base/background/KoniTypes';
-import { isSameAddress } from '@subwallet/extension-base/utils';
+import { NominatorMetadata, StakingType } from '@soul-wallet/extension-base/background/KoniTypes';
+import { isSameAddress } from '@soul-wallet/extension-base/utils';
 import { RootState } from '@soul-wallet/extension-koni-ui/stores';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';

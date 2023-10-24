@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { SoulWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
-import { addLazy } from '@subwallet/extension-base/utils';
+import { addLazy } from '@soul-wallet/extension-base/utils';
 import { EvmProvider, Injected, InjectedAccountWithMeta, InjectedWindowProvider, Unsubcall } from '@soul-wallet/extension-inject/types';
 import { DisconnectExtensionModal } from '@soul-wallet/extension-koni-ui/components';
 import { ENABLE_INJECT } from '@soul-wallet/extension-koni-ui/constants';

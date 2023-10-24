@@ -1,7 +1,7 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { getExplorerLink } from '@subwallet/extension-base/services/transaction-service/utils';
+import { getExplorerLink } from '@soul-wallet/extension-base/services/transaction-service/utils';
 import { Layout, PageWrapper } from '@soul-wallet/extension-koni-ui/components';
 import { CAMERA_CONTROLS_MODEL_VIEWER_PROPS, DEFAULT_MODEL_VIEWER_PROPS, DEFAULT_NFT_PARAMS, NFT_TRANSACTION, SHOW_3D_MODELS_CHAIN } from '@soul-wallet/extension-koni-ui/constants';
 import { DataContext } from '@soul-wallet/extension-koni-ui/contexts/DataContext';
