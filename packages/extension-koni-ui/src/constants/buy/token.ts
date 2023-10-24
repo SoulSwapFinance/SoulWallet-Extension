@@ -30,6 +30,27 @@ export const MAP_PREDEFINED_BUY_TOKEN: Record<string, BuyTokenInfo> = {
       'transak'
     ]
   },
+  'avalanche-NATIVE-AVAX': {
+    serviceInfo: {
+      ...DEFAULT_SERVICE_INFO,
+      transak: {
+        network: 'avaxcchain',
+        symbol: 'AVAX'
+      },
+      coinbase: {
+        network: 'avalanche-c-chain',
+        symbol: 'AVAX'
+      }
+    },
+    network: 'avalanche',
+    slug: 'avalanche-NATIVE-AVAX',
+    symbol: 'AVAX',
+    support: 'ETHEREUM',
+    services: [
+      'transak',
+      'coinbase'
+    ]
+  },
   'avalanche_c-NATIVE-AVAX': {
     serviceInfo: {
       ...DEFAULT_SERVICE_INFO,

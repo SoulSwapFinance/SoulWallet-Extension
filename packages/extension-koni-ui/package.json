@@ -14,10 +14,10 @@
   },
   "sideEffects": true,
   "type": "module",
+  "version": "1.0.0",
   "scripts": {
     "publish": "npm publish --access public"
   },
-  "version": "1.0.0",
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@coinbase/cbpay-js": "^1.7.0",
@@ -38,7 +38,7 @@
     "@ramonak/react-progress-bar": "^5.0.3",
     "@reduxjs/toolkit": "^1.9.1",
     "@soul-wallet/chain-list": "^1.0.8",
-    "@soul-wallet/extension-base": "^1.0.11",
+    "@soul-wallet/extension-base": "^1.0.12",
     "@soul-wallet/extension-chains": "^1.0.0",
     "@soul-wallet/extension-dapp": "^1.0.0",
     "@soul-wallet/extension-inject": "^1.0.1",

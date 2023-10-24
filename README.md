@@ -142,6 +142,6 @@ SoulWallet run test with [jest](https://jestjs.io/). Create new file with name `
 1. [ **1.0.0** ] **extension-dapp** - A convenience wrapper to work with the injected objects, simplifying data extraction for any dapp that wishes to integrate the extension (or any extension that supports the interface).
 1. [ **1.0.0** ] **extension-chains** - Definitions for chains that are supported by this extension. It contains the bare definitions as well as a stripped-down (call-only) metadata format.
 1. [ **1.0.0** ] **extension-compat-metamask**: Compatable with Metamask
-2. [ **1.0.11** ] **extension-base** - Contain main features run in background, call api, persist data into chrome store and inject script.
+2. [ **1.0.12** ] **extension-base** - Contain main features run in background, call api, persist data into chrome store and inject script.
 3. [ **1.0.0** ] **extension-koni-ui** *(replace extension-ui)*: The UI components for the extension, to build up the popup
 4. [ **1.0.0** ] **extension-koni** *(replace extension)*: All the injection and background processing logic (the main entry)
