@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @polkadot/extension authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import '@subwallet/extension-mocks/chrome';
+import '@soul-wallet/extension-mocks/chrome';
 
 import type { ResponseSigning } from '@soul-wallet/extension-base/background/types';
 import type { MetadataDef } from '@soul-wallet/extension-inject/types';

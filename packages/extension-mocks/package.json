@@ -6,7 +6,7 @@
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-mocks#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@subwallet/extension-mocks",
+  "name": "@soul-wallet/extension-mocks",
   "repository": {
     "directory": "packages/extension-mocks",
     "type": "git",

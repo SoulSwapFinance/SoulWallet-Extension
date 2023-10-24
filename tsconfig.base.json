@@ -12,7 +12,7 @@
         "@soul-wallet/extension-dapp/*": ["extension-dapp/src/*"],
         "@soul-wallet/extension-inject": ["extension-inject/src"],
         "@soul-wallet/extension-inject/*": ["extension-inject/src/*"],
-        "@subwallet/extension-mocks/*": ["extension-mocks/src/*"],
+        "@soul-wallet/extension-mocks/*": ["extension-mocks/src/*"],
         "@soul-wallet/extension-koni": ["extension-koni/src"],
         "@soul-wallet/extension-koni/*": ["extension-koni/src/*"],
         "@soul-wallet/extension-koni-ui": ["extension-koni-ui/src"],
