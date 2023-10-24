@@ -1,11 +1,10 @@
 {
-  "name": "@soul-wallet/extension-inject",
-  "version": "1.0.1",
   "author": "Buns Enchantress <buns@soulswap.finance>",
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "description": "A generic injector (usable to any extension), that populates the base exposed interfaces to be used by dapps.",
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-inject#readme",
   "license": "Apache-2.0",
+  "name": "@soul-wallet/extension-inject",
   "repository": {
     "directory": "packages/extension-inject",
     "type": "git",
@@ -13,6 +12,7 @@
   },
   "sideEffects": true,
   "type": "module",
+  "version": "1.0.1",
   "main": "./src/index.ts",
   "scripts": {
     "publish": "npm publish --access public"

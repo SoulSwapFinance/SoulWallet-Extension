@@ -1,11 +1,10 @@
 {
-  "name": "@soul-wallet/extension-dapp",
   "author": "Buns Enchantress <buns@soulswap.finance>",
-  "version": "1.0.0",
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "description": "Provides an interfaces around the injected globals for ease of access by dapp developers.",
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-dapp#readme",
   "license": "Apache-2.0",
+  "name": "@soul-wallet/extension-dapp",
   "repository": {
     "directory": "packages/extension-dapp",
     "type": "git",
@@ -16,6 +15,7 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
+  "version": "1.0.0",
   "main": "./src/index.ts",
   "scripts": {
     "publish": "npm publish --access public"

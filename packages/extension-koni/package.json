@@ -1,10 +1,10 @@
 {
-  "name": "@soul-wallet/extension-koni",
   "author": "Buns Enchantress",
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "description": "A sample signer extension for the @polkadot/api",
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-koni#readme",
   "license": "Apache-2.0",
+  "name": "@soul-wallet/extension-koni",
   "repository": {
     "directory": "packages/extension-koni",
     "type": "git",

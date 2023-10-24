@@ -1,11 +1,10 @@
 {
-  "name": "@soul-wallet/extension-compat-metamask",
-  "version": "1.0.0",
   "author": "Buns Enchantress <buns@soulswap.finance>",
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "description": "Metamask compatability layer",
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-compat-metamask#readme",
   "license": "Apache-2.0",
+  "name": "@soul-wallet/extension-compat-metamask",
   "repository": {
     "directory": "packages/extension-compat-metamask",
     "type": "git",
@@ -16,6 +15,7 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
+  "version": "1.0.0",
   "main": "./src/index.ts",
   "scripts": {
     "publish": "npm publish --access public"

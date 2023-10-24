@@ -3,7 +3,7 @@ Our SoulWallet is forked from polkadot-js/extension. We aim to adding more featu
 ## Main Concept
 ![Main Concept](https://github.com/Koniverse/Subwallet-V2/wiki/images/ExtensionConcept.png)
 The extension is compiled from folder `packages/extension-koni`
-- **Background environment**: The Background environment is compiled from `packages/extension-koni/src/background.ts`.
+- **Background Environment**: The Background environment is compiled from `packages/extension-koni/src/background.ts`.
   - The Background is use to handle message from Extensions pages and Chrome tabs via Chrome API Message Passing.
   - Save all state to store and persist to chrome storage.
   - Run cronjob.
@@ -65,13 +65,13 @@ Store is used to persist data into local storage. Stores is defined in folder `p
   }
   ```
 
-## Add a message handle
+## Add: New Message Handle
 SoulWallet extension use message passing concept via browser API to interact between Background - Extensions - Chrome Tabs.
 - Extension or Chrome Tabs send a message with id and type to Background
 - Background handle message by id and type and response data.
 - There are 2 message type:
-  - One time message: Extension Or Chrome Tabs will send message request and listen response. Listener will be deleted after receive response.
-  - Subscription message: Same as one time message but listener continue receive data util window close.
+  - **One time message**: Extension Or Chrome Tabs will send message request and listen response. Listener will be deleted after receive response.
+  - **Subscription message**: Same as one time message but listener continue receive data util window close.
 - Steps to add new message handle:
   - Add request type:
     - New request type must define in interface `KoniRequestSignatures`
@@ -92,7 +92,7 @@ SoulWallet extension use message passing concept via browser API to interact bet
   - Add caller (Extension, Chrome Tabs):
     - Add new function in file `messaging.ts` of package `extension-koni-ui` to send request and handle receive data.
 
-## Add a cron
+## Add: New Cronjob
 Cronjob is define in folder `packages/extension-koni-base/src/cron`.
 - Group of cron action should define in separate file in this folder.
 - Define new cronjob in method init of class `KoniCron`
@@ -113,7 +113,7 @@ Cronjob is define in folder `packages/extension-koni-base/src/cron`.
   - util: utilities methods.
   - messaging.ts: Send to background and handle return message.
 
-### Add new redux store
+### Add: New Redux Store
 - SoulWallet extension use [redux-tookit](https://redux-toolkit.js.org/) to generate store.
 - Define redux store reducers and state into separate file by method `createSlice` of redux toolkit.
 - Map reducer into root store in file index.ts
@@ -121,10 +121,10 @@ Cronjob is define in folder `packages/extension-koni-base/src/cron`.
 ### Add new message caller
 Read "Add a message handle"
 
-## Auto validate
+## Auto-Validate
 Extension auto validate code with eslint. Please setup eslint in editor and run `yarn lint` before commit code.
 
-## Write test
+## Write Test
 SoulWallet run test with [jest](https://jestjs.io/). Create new file with name `filename.spec.ts` to write test.
 
 ## Commit and Build
@@ -137,8 +137,11 @@ SoulWallet run test with [jest](https://jestjs.io/). Create new file with name `
     - Github Action will auto generate version file of each package.
 
 ## Deployment Order (Levels)
+0. [...] **extension-mocks** - Mock data for testing.
 0. [ **1.0.1** ] **extension-inject** - A convenience wrapper that allows extension developers to inject their extension for use by any dapp.
 1. [ **1.0.0** ] **extension-dapp** - A convenience wrapper to work with the injected objects, simplifying data extraction for any dapp that wishes to integrate the extension (or any extension that supports the interface).
 1. [ **1.0.0** ] **extension-chains** - Definitions for chains that are supported by this extension. It contains the bare definitions as well as a stripped-down (call-only) metadata format.
 1. [ **1.0.0** ] **extension-compat-metamask**: Compatable with Metamask
 2. [ **1.0.11** ] **extension-base** - Contain main features run in background, call api, persist data into chrome store and inject script.
+3. [...] **extension-koni-ui** *(replace extension-ui)*: The UI components for the extension, to build up the popup
+4. [...] **extension-koni** *(replace extension)*: All the injection and background processing logic (the main entry)

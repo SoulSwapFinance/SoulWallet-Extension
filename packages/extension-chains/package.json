@@ -1,6 +1,4 @@
 {
-  "name": "@soul-wallet/extension-chains",
-  "version": "1.0.0",
   "author": "Buns Enchantress <buns@soulswap.finance>",
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Extension/issues",
   "contributors": [],
@@ -8,6 +6,7 @@
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Extension/tree/master/packages/extension-chains#readme",
   "license": "Apache-2.0",
   "maintainers": [],
+  "name": "@soul-wallet/extension-chains",
   "repository": {
     "directory": "packages/extension-chains",
     "type": "git",
@@ -17,11 +16,12 @@
     "./detectPackage.js",
     "./detectPackage.cjs"
   ],
+  "type": "module",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
   "scripts": {
     "publish": "npm publish --access public"
   },
-  "type": "module",
-  "main": "./src/index.ts",
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@polkadot/networks": "^12.3.2",
