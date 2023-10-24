@@ -1,3 +1,3 @@
 # @soul-wallet/extension-koni-ui
 
-UI for the `@subwallet/extension-koni`
+UI for the `@soul-wallet/extension-koni`
