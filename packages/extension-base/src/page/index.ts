@@ -5,7 +5,7 @@ import type { MessageTypes, MessageTypesWithNoSubscriptions, MessageTypesWithNul
 
 import { ProviderError } from '@soul-wallet/extension-base/background/errors/ProviderError';
 import { ProviderErrorType } from '@soul-wallet/extension-base/background/KoniTypes';
-import { SoulWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
+import { SoulWalletEvmProvider } from '@soul-wallet/extension-base/page/SoulWalleEvmProvider';
 import { EvmProvider } from '@soul-wallet/extension-inject/types';
 
 import { MESSAGE_ORIGIN_PAGE } from '../defaults';
