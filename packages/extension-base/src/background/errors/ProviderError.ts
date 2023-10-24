@@ -11,11 +11,11 @@ const defaultErrorMap: Record<ProviderErrorType, { message: string, code?: numbe
     code: undefined
   },
   INVALID_PARAMS: {
-    message: detectTranslate('Undefined error. Please contact support'),
+    message: detectTranslate('Undefined error. Please contact SoulWallet support'),
     code: undefined
   },
   INTERNAL_ERROR: {
-    message: detectTranslate('Undefined error. Please contact support'),
+    message: detectTranslate('Undefined error. Please contact SoulWallet support'),
     code: undefined
   },
   USER_REJECT: {
