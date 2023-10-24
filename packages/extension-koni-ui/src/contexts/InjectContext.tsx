@@ -1,7 +1,8 @@
 // Copyright 2023 @soul-wallet/extension-koni-ui authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SoulWalletEvmProvider } from '@soul-wallet/extension-base/page/SubWalleEvmProvider';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { SoulWalletEvmProvider } from '@soul-wallet/extension-base/page/SoulWalleEvmProvider';
 import { addLazy } from '@soul-wallet/extension-base/utils';
 import { EvmProvider, Injected, InjectedAccountWithMeta, InjectedWindowProvider, Unsubcall } from '@soul-wallet/extension-inject/types';
 import { DisconnectExtensionModal } from '@soul-wallet/extension-koni-ui/components';
@@ -9,7 +10,6 @@ import { ENABLE_INJECT } from '@soul-wallet/extension-koni-ui/constants';
 import { useNotification, useTranslation } from '@soul-wallet/extension-koni-ui/hooks';
 import { addInjects, removeInjects } from '@soul-wallet/extension-koni-ui/messaging';
 import { noop, toShort } from '@soul-wallet/extension-koni-ui/utils';
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocalStorage } from 'usehooks-ts';
 
 interface Props {
