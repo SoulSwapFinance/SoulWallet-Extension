@@ -17,8 +17,8 @@
         "@soul-wallet/extension-koni/*": ["extension-koni/src/*"],
         "@soul-wallet/extension-koni-ui": ["extension-koni-ui/src"],
         "@soul-wallet/extension-koni-ui/*": ["extension-koni-ui/src/*"],
-        "@subwallet/web-runner": ["web-runner/src"],
-        "@subwallet/web-runner/*": ["web-runner/src/*"]
+        "@soul-wallet/web-runner": ["web-runner/src"],
+        "@soul-wallet/web-runner/*": ["web-runner/src/*"]
     },
     "skipLibCheck": true
 	}
