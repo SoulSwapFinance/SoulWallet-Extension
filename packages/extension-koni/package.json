@@ -13,6 +13,9 @@
   "sideEffects": false,
   "type": "module",
   "version": "1.0.0",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@soul-wallet/extension-base": "^1.0.11",

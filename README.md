@@ -118,8 +118,8 @@ Cronjob is define in folder `packages/extension-koni-base/src/cron`.
 - Define redux store reducers and state into separate file by method `createSlice` of redux toolkit.
 - Map reducer into root store in file index.ts
 
-### Add new message caller
-Read "Add a message handle"
+### Add: New Message Caller
+Read "Add: New Message Handle"
 
 ## Auto-Validate
 Extension auto validate code with eslint. Please setup eslint in editor and run `yarn lint` before commit code.
@@ -137,11 +137,11 @@ SoulWallet run test with [jest](https://jestjs.io/). Create new file with name `
     - Github Action will auto generate version file of each package.
 
 ## Deployment Order (Levels)
-0. [...] **extension-mocks** - Mock data for testing.
+0. [ **1.0.0**] **extension-mocks** - Mock data for testing.
 0. [ **1.0.1** ] **extension-inject** - A convenience wrapper that allows extension developers to inject their extension for use by any dapp.
 1. [ **1.0.0** ] **extension-dapp** - A convenience wrapper to work with the injected objects, simplifying data extraction for any dapp that wishes to integrate the extension (or any extension that supports the interface).
 1. [ **1.0.0** ] **extension-chains** - Definitions for chains that are supported by this extension. It contains the bare definitions as well as a stripped-down (call-only) metadata format.
 1. [ **1.0.0** ] **extension-compat-metamask**: Compatable with Metamask
 2. [ **1.0.11** ] **extension-base** - Contain main features run in background, call api, persist data into chrome store and inject script.
-3. [...] **extension-koni-ui** *(replace extension-ui)*: The UI components for the extension, to build up the popup
-4. [...] **extension-koni** *(replace extension)*: All the injection and background processing logic (the main entry)
+3. [ **1.0.0** ] **extension-koni-ui** *(replace extension-ui)*: The UI components for the extension, to build up the popup
+4. [ **1.0.0** ] **extension-koni** *(replace extension)*: All the injection and background processing logic (the main entry)
