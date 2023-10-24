@@ -5628,14 +5628,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@soul-wallet/chain-list@npm:1.0.7, @soul-wallet/chain-list@npm:^1.0.7":
-  version: 1.0.7
-  resolution: "@soul-wallet/chain-list@npm:1.0.7"
+"@soul-wallet/chain-list@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "@soul-wallet/chain-list@npm:1.0.8"
   dependencies:
     "@polkadot/dev": 0.67.167
     "@polkadot/util": ^12.5.1
     eventemitter3: ^5.0.1
-  checksum: 43c313b7139b20dba9985e5a30735f58afa1fcc547bc1502e964e8dd644058e478fa46848b15b1af080df5b166cf3eeeea1da6e0f8ed708fe2ab73e71bae76a1
+  checksum: c61214543b6e58f2e518e428177262c71849ec47475ae6c4121e3948ea6ceb9fb8d803ade678ded62fe243dc5e434af7c9ee3dcb999f849649cc9135e0295da2
   languageName: node
   linkType: hard
 
@@ -5669,7 +5669,7 @@ __metadata:
     "@polkadot/util-crypto": ^12.3.2
     "@reduxjs/toolkit": ^1.9.1
     "@sora-substrate/type-definitions": ^1.17.7
-    "@soul-wallet/chain-list": 1.0.7
+    "@soul-wallet/chain-list": ^1.0.8
     "@soul-wallet/extension-base": "*"
     "@soul-wallet/extension-chains": 1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
@@ -5800,7 +5800,7 @@ __metadata:
     "@polkadot/util-crypto": ^12.3.2
     "@ramonak/react-progress-bar": ^5.0.3
     "@reduxjs/toolkit": ^1.9.1
-    "@soul-wallet/chain-list": 1.0.7
+    "@soul-wallet/chain-list": ^1.0.8
     "@soul-wallet/extension-base": ^1.0.11
     "@soul-wallet/extension-chains": ^1.0.0
     "@soul-wallet/extension-dapp": ^1.0.0
@@ -22812,7 +22812,7 @@ __metadata:
     "@babel/cli": ^7.19.3
     "@babel/core": ^7.19.3
     "@polkadot/dev": ^0.65.23
-    "@soul-wallet/chain-list": ^1.0.7
+    "@soul-wallet/chain-list": ^1.0.8
     "@types/jest": ^29.5.0
     "@types/node": ^17.0.10
     axios: ^1.2.1

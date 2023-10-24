@@ -5,8 +5,8 @@ import { EIP155_SIGNING_METHODS, POLKADOT_SIGNING_METHODS, WalletConnectSigningM
 import { isMobile } from '../../utils';
 import { SignClientTypes } from '@walletconnect/types';
 
-export const PROJECT_ID_EXTENSION = '6da34c0b48164d27681924dd9a46d6be';
-export const PROJECT_ID_MOBILE = '6da34c0b48164d27681924dd9a46d6be';
+export const PROJECT_ID_EXTENSION = '9afead59d3361bb53853d2f2b0cd6a02'; // updated for SoulSwap
+export const PROJECT_ID_MOBILE = '9afead59d3361bb53853d2f2b0cd6a02'; // updated for SoulSwap
 export const RELAY_URL = 'wss://relay.walletconnect.com';
 
 export const DEFAULT_WALLET_CONNECT_OPTIONS: SignClientTypes.Options = {

@@ -23,7 +23,7 @@ export const _PREDEFINED_SINGLE_MODES: Record<string, SingleModeJson> = {
   }
 };
 
-export const _PURE_EVM_CHAINS = ['binance', 'binance_test', 'ethereum', 'ethereum_goerli', 'astarEvm', 'shidenEvm', 'shibuyaEvm', 'crabEvm', 'pangolinEvm', 'cloverEvm', 'boba_rinkeby', 'boba', 'bobabase', 'bobabeam', 'watr_network_evm'];
+export const _PURE_EVM_CHAINS = ['binance', 'binance_test', 'ethereum', 'fantom', 'avalanche', 'ethereum_goerli', 'astarEvm', 'shidenEvm', 'shibuyaEvm', 'crabEvm', 'pangolinEvm', 'cloverEvm', 'boba_rinkeby', 'boba', 'bobabase', 'bobabeam', 'watr_network_evm'];
 
 // Get balance----------------------------------------------------------------------------------------------------------
 
